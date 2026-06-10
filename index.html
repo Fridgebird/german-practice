@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>German Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🇩🇪 German Practice</h1>
+    <nav>
+      <button class="nav-btn active" data-section="flashcards">Flashcards</button>
+      <button class="nav-btn" data-section="wordorder">Word Order</button>
+      <button class="nav-btn" data-section="pasttense">Past Tense</button>
+      <button class="nav-btn" data-section="seinhaaben">Sein &amp; Haben</button>
+      <button class="nav-btn" data-section="reader">Reader</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== FLASHCARDS ===== -->
+    <section id="flashcards" class="section active">
+      <div class="section-header">
+        <h2>Flashcards</h2>
+        <div class="category-select">
+          <label for="cat-filter">Category:</label>
+          <select id="cat-filter">
+            <option value="all">All</option>
+            <option value="masculine-noun">Masculine nouns (der)</option>
+            <option value="feminine-noun">Feminine nouns (die)</option>
+            <option value="neuter-noun">Neuter nouns (das)</option>
+            <option value="verb">Verbs</option>
+            <option value="adjective">Adjectives</option>
+            <option value="conjunction">Conjunctions</option>
+            <option value="adverb">Adverbs</option>
+            <option value="preposition">Prepositions</option>
+          </select>
+          <label style="margin-left:1rem">
+            <input type="checkbox" id="weak-only"> Due / weak cards only
+          </label>
+        </div>
+      </div>
+
+      <div id="card-area">
+        <div id="flashcard" class="flashcard">
+          <div id="card-front" class="card-face">
+            <span id="card-german"></span>
+          </div>
+          <div id="card-back" class="card-face hidden">
+            <span id="card-english"></span>
+            <div class="card-category" id="card-cat"></div>
+          </div>
+        </div>
+        <div id="card-controls">
+          <button id="btn-show" class="btn-primary">Show answer</button>
+          <div id="btn-grade" class="hidden">
+            <button class="btn-wrong" id="btn-wrong">✗ Wrong</button>
+            <button class="btn-right" id="btn-right">✓ Correct</button>
+          </div>
+        </div>
+        <div id="card-progress"></div>
+      </div>
+
+      <details class="vocab-manager">
+        <summary>Manage vocabulary</summary>
+        <div class="vocab-form">
+          <input id="new-german" placeholder="German (e.g. der Hund)">
+          <input id="new-english" placeholder="English (e.g. the dog)">
+          <select id="new-category">
+            <option value="masculine-noun">Masculine noun</option>
+            <option value="feminine-noun">Feminine noun</option>
+            <option value="neuter-noun">Neuter noun</option>
+            <option value="verb">Verb</option>
+            <option value="adjective">Adjective</option>
+            <option value="conjunction">Conjunction</option>
+            <option value="adverb">Adverb</option>
+            <option value="preposition">Preposition</option>
+          </select>
+          <button id="btn-add-word" class="btn-primary">Add word</button>
+        </div>
+        <div id="vocab-list-container">
+          <button id="btn-show-list">Show full vocab list</button>
+          <div id="vocab-table-wrap" class="hidden"></div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ===== WORD ORDER ===== -->
+    <section id="wordorder" class="section">
+      <h2>Word Order</h2>
+      <p class="section-intro">Arrange the words into the correct German sentence.</p>
+      <div id="wo-category-tabs" class="tab-row"></div>
+      <div id="wo-exercise"></div>
+      <div id="wo-feedback" class="feedback-area"></div>
+      <button id="btn-wo-next" class="btn-primary" style="margin-top:1rem">Next sentence</button>
+    </section>
+
+    <!-- ===== PAST TENSE ===== -->
+    <section id="pasttense" class="section">
+      <h2>Past Tense Practice</h2>
+      <p class="section-intro">Fill in the correct past tense (Perfekt or Präteritum) form.</p>
+      <div id="pt-exercise"></div>
+      <div id="pt-feedback" class="feedback-area"></div>
+      <button id="btn-pt-next" class="btn-primary" style="margin-top:1rem">Next</button>
+    </section>
+
+    <!-- ===== SEIN & HABEN ===== -->
+    <section id="seinhaaben" class="section">
+      <h2>Sein &amp; Haben</h2>
+      <p class="section-intro">Choose whether the verb takes <em>sein</em> or <em>haben</em> in the Perfekt.</p>
+      <div id="sh-exercise"></div>
+      <div id="sh-feedback" class="feedback-area"></div>
+      <button id="btn-sh-next" class="btn-primary" style="margin-top:1rem">Next</button>
+    </section>
+
+    <!-- ===== READER ===== -->
+    <section id="reader" class="section">
+      <h2>Reader</h2>
+      <p class="section-intro">World history from 1000 AD — one new passage per day. Click any word or phrase for the translation. Click the ＋ button to add it to your flashcard deck.</p>
+      <div id="reader-list"></div>
+      <div id="reader-content" class="hidden">
+        <button id="btn-back-reader" class="btn-secondary">← Back to list</button>
+        <h3 id="reader-title"></h3>
+        <p id="reader-period" class="reader-period"></p>
+        <div id="reader-text"></div>
+      </div>
+      <!-- Translation popup -->
+      <div id="translation-popup" class="popup hidden">
+        <div class="popup-inner">
+          <span id="popup-german"></span>
+          <span id="popup-arrow">→</span>
+          <span id="popup-english"></span>
+          <button id="popup-add" title="Add to flashcards">＋ flashcard</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/vocab.js"></script>
+  <script src="data/readers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

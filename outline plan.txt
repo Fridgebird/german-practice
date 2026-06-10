@@ -1,0 +1,22 @@
+I want to create a webpage that will help me practice German. The assumption is that I am at about level 20 in Duolingo.
+
+All features of the website to be developed and iterated in conjunction with a github repository that you will guide me through setting up. 
+I will be able to add new features and new vocab as time goes along.
+
+There should be a feature a bit like Anki flashcards that will include a list of vocabulary words and will present them to me as flashcards, and each time a log on will tend to show me cards that I got wrong previously.
+I will be able to add to the vocab list. It should save my progress to the browser. 
+
+The flashcards feature will be split into sections like masculine nouns, feminine nouns, neuter nouns, verbs, conjunctions etc. 
+
+There will be a section on word order clozes, helping me to practice main formats ie subject-verb-object, subject-verb-adverb-object, adverb-verb-subject-object, question words, subordinate clauses etc.
+
+There will be a section to help me practice past tense verbs.
+
+There will be a section to help me practice sein and haben verbs.
+
+There should also be a "reader" feature similar to one we have discussed in another chat where you will provide a 500-1000 word reader in appropriate level German, and where each word or phrase will be a clickable link that pops up the translation in English. It will also give me the chance to add the clicked word to my flashcard vocab list.
+There will be 100 of these reader paragraphs on the topic of world history from the year 1000AD to the present where each paragraph takes the next 10 years and explains world events. I should not be offered the next reader until the following day, to encourage me to keep checking it every day for 100 days.
+
+
+
+

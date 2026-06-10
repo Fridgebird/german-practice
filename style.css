@@ -79,6 +79,24 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
   padding: 2rem;
   margin-bottom: 1.5rem;
   cursor: default;
+  border-top: 6px solid #ccc;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+/* Gender colour coding: blue = der, pink = die, green = das */
+.flashcard.gender-masc { border-top-color: #2980b9; background: #eef6fd; }
+.flashcard.gender-fem  { border-top-color: #c0396b; background: #fdeef4; }
+.flashcard.gender-neut { border-top-color: #27ae60; background: #eefaf3; }
+
+.gender-masc #card-german { color: #1a5f8a; }
+.gender-fem  #card-german { color: #8a1a40; }
+.gender-neut #card-german { color: #1a6b3c; }
+
+.card-plural {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+  font-style: italic;
 }
 
 .card-face { width: 100%; text-align: center; }
@@ -213,7 +231,28 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
   text-align: left;
 }
 #vocab-table-wrap th { background: #f0f0f0; font-weight: 600; }
+#vocab-table-wrap tr.row-masc td:first-child { border-left: 3px solid #2980b9; }
+#vocab-table-wrap tr.row-fem  td:first-child { border-left: 3px solid #c0396b; }
+#vocab-table-wrap tr.row-neut td:first-child { border-left: 3px solid #27ae60; }
 .delete-word { background: none; border: none; color: #c0392b; cursor: pointer; font-size: 1rem; }
+
+.gender-legend {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+}
+.legend-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.dot-masc { background: #2980b9; }
+.dot-fem  { background: #c0396b; }
+.dot-neut { background: #27ae60; }
 
 /* ---- Word order ---- */
 .tab-row { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1.2rem; }

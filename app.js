@@ -65,7 +65,16 @@ function buildDeck() {
   deckIndex = 0;
 }
 
+const GENDER_CLASS = {
+  'masculine-noun': 'gender-masc',
+  'feminine-noun':  'gender-fem',
+  'neuter-noun':    'gender-neut',
+};
+
 function showCard() {
+  const card = document.getElementById('flashcard');
+  card.classList.remove('gender-masc', 'gender-fem', 'gender-neut');
+
   if (deck.length === 0) {
     document.getElementById('card-german').textContent = 'No cards in this selection.';
     document.getElementById('card-back').classList.add('hidden');
@@ -76,9 +85,22 @@ function showCard() {
     return;
   }
   currentCard = deck[deckIndex % deck.length];
+
+  if (GENDER_CLASS[currentCard.category]) {
+    card.classList.add(GENDER_CLASS[currentCard.category]);
+  }
+
   document.getElementById('card-german').textContent = currentCard.german;
   document.getElementById('card-english').textContent = currentCard.english;
-  document.getElementById('card-cat').textContent = currentCard.category.replace('-', ' ');
+
+  // Plural line on back of card
+  let catLabel = currentCard.category.replace('-', ' ');
+  let pluralHtml = '';
+  if (currentCard.plural) {
+    pluralHtml = `<div class="card-plural">Plural: ${currentCard.plural}</div>`;
+  }
+  document.getElementById('card-cat').innerHTML = catLabel + pluralHtml;
+
   document.getElementById('card-front').classList.remove('hidden');
   document.getElementById('card-back').classList.add('hidden');
   document.getElementById('btn-show').classList.remove('hidden');
@@ -149,12 +171,15 @@ function renderVocabTable() {
   const wrap = document.getElementById('vocab-table-wrap');
   const custom = load('customVocab', []);
   const all = getFullVocab();
-  let html = `<table><thead><tr><th>German</th><th>English</th><th>Category</th><th>✓</th><th>✗</th><th></th></tr></thead><tbody>`;
+  let html = `<table><thead><tr><th>German</th><th>English</th><th>Plural</th><th>Category</th><th>✓</th><th>✗</th><th></th></tr></thead><tbody>`;
   all.forEach((w, i) => {
     const p = progress[w.german] || { right: 0, wrong: 0 };
     const isCustom = i >= VOCAB.length;
-    html += `<tr>
-      <td>${w.german}</td><td>${w.english}</td><td>${w.category.replace('-',' ')}</td>
+    const rowClass = GENDER_CLASS[w.category] ? `row-${GENDER_CLASS[w.category].split('-')[1]}` : '';
+    html += `<tr class="${rowClass}">
+      <td>${w.german}</td><td>${w.english}</td>
+      <td>${w.plural || ''}</td>
+      <td>${w.category.replace('-',' ')}</td>
       <td>${p.right}</td><td>${p.wrong}</td>
       <td>${isCustom ? `<button class="delete-word" data-idx="${i - VOCAB.length}">🗑</button>` : ''}</td>
     </tr>`;

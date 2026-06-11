@@ -32,6 +32,13 @@ If it reports missing words, add them (with correct English translations) to
 `data/dict_supplement.js`, then re-run until it prints "✅ Full coverage".
 Do not commit a new article until coverage is clean.
 
+A **git pre-commit hook** also enforces this automatically: any commit that
+touches `data/readers.js`, `data/vocab.js`, `data/dictionary.js`, or
+`data/dict_supplement.js` runs the coverage check and is blocked if it fails.
+The hook lives in `tools/hooks/pre-commit` (tracked) and is installed into
+`.git/hooks/` via `node tools/install-hooks.js`. After cloning the repo fresh,
+run that install command once. Emergency bypass: `git commit --no-verify`.
+
 The lookup logic in `tools/check-coverage.js` is a copy of the logic in
 `app.js` (`splitToken`, `dictFallback`, the lookup order). If you change the
 lookup logic in one, update the other to match.

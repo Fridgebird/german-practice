@@ -1,0 +1,21 @@
+#!/bin/sh
+# Pre-commit hook: block the commit if any reader word lacks a translation.
+#
+# Canonical copy lives in tools/hooks/pre-commit (tracked in git).
+# Install it with:  node tools/install-hooks.js
+#
+# Skip in an emergency with:  git commit --no-verify
+
+# Only run when reader/dictionary data is part of the commit.
+if git diff --cached --name-only | grep -Eq '^(data/readers\.js|data/vocab\.js|data/dictionary\.js|data/dict_supplement\.js)$'; then
+  echo "Running reader dictionary coverage check..."
+  node tools/check-coverage.js
+  if [ $? -ne 0 ]; then
+    echo ""
+    echo "✗ Commit blocked: some reader words have no translation (see above)."
+    echo "  Add them to data/dict_supplement.js, or bypass with: git commit --no-verify"
+    exit 1
+  fi
+fi
+
+exit 0

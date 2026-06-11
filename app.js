@@ -631,12 +631,21 @@ function annotateText(text, translations) {
       // 2. Fall back to the vocabulary list
       if (!trans) {
         const entry = getFullVocab().find(w => {
-          // Match "Hund" against "der Hund", or match bare infinitive, etc.
           const bare = w.german.replace(/^(der|die|das|ein|eine)\s+/i, '');
           return bare.toLowerCase() === clean.toLowerCase()
               || w.german.toLowerCase() === clean.toLowerCase();
         });
         if (entry) trans = entry.english;
+      }
+
+      // 3. Check the built-in dictionary (case-insensitive)
+      if (!trans) {
+        trans = DICT[clean.toLowerCase()] ?? null;
+      }
+
+      // 4. Suffix-stripping fallback for uninflected forms not in the dict
+      if (!trans) {
+        trans = dictFallback(clean.toLowerCase());
       }
 
       if (trans) {
@@ -695,6 +704,29 @@ function showPopup(e, r) {
 function dismissPopup(e) {
   const popup = document.getElementById('translation-popup');
   if (!popup.contains(e.target)) popup.classList.add('hidden');
+}
+
+// Simple suffix-stripping to find dictionary entries for inflected forms.
+// Tries common German endings in order; returns the first match found.
+function dictFallback(word) {
+  const suffixes = [
+    // Verb endings (longest first)
+    "enden", "eten", "ten", "sten", "test", "est", "end",
+    "ieren", "iert", "ierte", "ierten",
+    "en", "er", "em", "es", "et", "st", "te", "t", "e",
+  ];
+  for (const suf of suffixes) {
+    if (word.length > suf.length + 2 && word.endsWith(suf)) {
+      const stem = word.slice(0, word.length - suf.length);
+      // Try stem alone, stem + "en" (infinitive), stem + "e"
+      const candidates = [stem, stem + "en", stem + "e", stem + "n"];
+      for (const c of candidates) {
+        if (c.length < 3) continue;
+        if (DICT[c]) return DICT[c] + " ↩";
+      }
+    }
+  }
+  return null;
 }
 
 function escHtml(str) {

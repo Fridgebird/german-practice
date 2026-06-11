@@ -368,15 +368,22 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
   font-size: 1.05rem;
   margin-top: 1.5rem;
 }
-#reader-text .r-word {
+#reader-text .r-word,
+#reader-title .r-word {
   cursor: pointer;
   border-bottom: 1px dotted #aaa;
   transition: background 0.15s;
   border-radius: 3px;
   padding: 0 1px;
 }
-#reader-text .r-word:hover { background: #fff3cd; border-bottom-color: #f0a500; }
-#reader-text .r-word.has-translation { border-bottom-color: #2980b9; color: #1a3a5c; }
+#reader-text .r-word:hover,
+#reader-title .r-word:hover { background: #fff3cd; border-bottom-color: #f0a500; }
+#reader-text .r-word.has-translation,
+#reader-title .r-word.has-translation { border-bottom-color: #2980b9; }
+#reader-text .r-word.has-translation { color: #1a3a5c; }
+
+/* The title is already dark blue; keep it bold and just add the underline cue */
+#reader-title { line-height: 1.6; }
 
 .reader-period { font-size: 0.85rem; color: #888; margin-top: 0.3rem; }
 

@@ -1,5 +1,7 @@
-// Reader passages: 1000-1500 word texts in German (A2/B1 level)
-// World history from 1000 AD, one passage per ~10-year period
+// Reader passages: ~800-1000 word texts in German (A2/B1 level)
+// World history, one passage per 10-year period starting at 1000 AD.
+// Each passage takes a global view: politics, rulers, inventions, and the
+// daily life of ordinary people across all regions of the world.
 // translations: word/phrase -> English, used for popup tooltips
 // unlockDay: the day number (1-100) when this passage becomes available
 
@@ -7,7 +9,7 @@ const READERS = [
   {
     id: 1,
     unlockDay: 1,
-    period: "ca. 1000–1010 n. Chr.",
+    period: "1000–1010 n. Chr.",
     title: "Das Jahr 1000: Die Welt am Jahrtausendwechsel",
     text: `Um das Jahr 1000 lebten die meisten Menschen in Europa als Bauern auf dem Land. Die Städte waren klein und schmutzig. Eine große Stadt hatte vielleicht zwanzigtausend Einwohner. London, Paris und Köln waren solche Städte. Die meisten Dörfer hatten nur wenige hundert Menschen. Das Leben war hart und kurz. Viele Kinder starben, bevor sie erwachsen wurden. Wer vierzig Jahre alt wurde, galt als alter Mensch.
 
@@ -31,441 +33,318 @@ In Japan entwickelte sich eine elegante und verfeinerte Hofkultur. Am kaiserlich
 
 Indien war in viele kleine Königreiche aufgeteilt. Im Süden Indiens blühte die Chola-Dynastie und schickte Handelsschiffe bis nach Südostasien und China. Die Händler brachten Gewürze, Seide und andere wertvolle Waren über weite Entfernungen.
 
-Die Welt um das Jahr 1000 war also größer und vielfältiger als viele Europäer glaubten. Verschiedene Kulturen lebten parallel, manchmal in Kontakt miteinander, manchmal völlig getrennt. Die Seidenstraße verband Europa und China mit langen Karawanenreisen über Zentralasien. Gewürze aus Asien kamen nach Europa, europäisches Silber floss nach Osten. Ideen und Erfindungen reisten langsam, aber sie reisten. Die Welt war klein genug, dass eine Entdeckung in einem Land irgendwann das Leben der Menschen in einem anderen Land verändern konnte.`,
+Die Welt um das Jahr 1000 war also größer und vielfältiger als viele Europäer glaubten. Verschiedene Kulturen lebten parallel, manchmal in Kontakt miteinander, manchmal völlig getrennt. Die Seidenstraße verband Europa und China mit langen Karawanenreisen über Zentralasien. Gewürze aus Asien kamen nach Europa, europäisches Silber floss nach Osten. Ideen und Erfindungen reisten langsam, aber sie reisten.`,
     translations: {
       "die meisten": "most",
-      "als Bauern": "as farmers",
       "auf dem Land": "in the countryside",
       "schmutzig": "dirty",
-      "die Einwohner": "the inhabitants",
       "das Dorf": "the village",
-      "hart": "hard / tough",
       "bevor sie erwachsen wurden": "before they grew up",
       "galt als": "was considered",
       "von früh bis spät": "from dawn to dusk",
       "das Getreide": "the grain",
-      "ernteten": "harvested",
       "die Heizung": "heating",
-      "die Medikamente": "medicines",
       "ständiger Begleiter": "constant companion",
-      "mittelalterlich": "medieval",
-      "herrschte": "ruled",
       "das Heilige Römische Reich": "the Holy Roman Empire",
       "ein loses Netz": "a loose network",
-      "die Fürsten": "the princes",
-      "Herzögen": "dukes",
-      "Bischöfen": "bishops",
       "gehorchten": "obeyed",
-      "gebildet": "educated / learned",
       "träumte davon": "dreamed of",
-      "neu zu gründen": "to re-establish",
       "weltliche": "secular / worldly",
       "Klöster": "monasteries",
-      "Zentren des Wissens": "centres of knowledge",
       "Mönche": "monks",
-      "kopierten": "copied",
       "bewahrten": "preserved",
       "die Antike": "antiquity / the ancient world",
-      "für immer verloren gegangen": "lost forever",
       "das Ende der Welt": "the end of the world",
       "vernichten": "to destroy",
       "erleichtert": "relieved",
-      "dankbar": "grateful",
       "an der Macht": "in power",
       "fortschrittlichste": "most advanced",
-      "erfunden": "invented",
-      "Buchläden": "bookshops",
-      "öffentliche Bäder": "public baths",
-      "blühte die Wissenschaft": "science flourished",
+      "Buchdruck": "printing",
+      "Schießpulver": "gunpowder",
       "Gelehrte": "scholars",
       "übersetzten": "translated",
-      "Werke": "works",
-      "Philosophen": "philosophers",
-      "entwickelten": "developed",
-      "ebenfalls": "also / likewise",
-      "Traditionen": "traditions",
-      "Mosaike": "mosaics",
-      "Ikonen": "icons",
       "der Einfluss": "the influence",
       "die Slawen": "the Slavs",
       "bekehrt": "converted",
-      "erreichte": "reached",
       "die Küste": "the coast",
       "wilde Trauben": "wild grapes",
       "die Siedlung": "the settlement",
       "die einheimischen Menschen": "the native people",
       "zahlreich": "numerous",
-      "feindlich": "hostile",
-      "die Folgen": "the consequences",
-      "verfeinert": "refined / sophisticated",
       "die Hofkultur": "court culture",
-      "Prosawerke": "prose works",
       "die Weltliteratur": "world literature",
-      "aufgeteilt": "divided",
-      "blühte": "flourished",
-      "Gewürze": "spices",
-      "wertvolle Waren": "valuable goods",
-      "vielfältig": "diverse",
-      "parallel": "in parallel / simultaneously",
       "die Seidenstraße": "the Silk Road",
       "Karawanenreisen": "caravan journeys",
-      "floss": "flowed",
-      "langsam": "slowly",
-      "verändern": "to change",
     }
   },
   {
     id: 2,
     unlockDay: 2,
-    period: "ca. 1010–1050 n. Chr.",
-    title: "Wikinger, Normannen und das nordische Europa",
-    text: `In den ersten Jahrzehnten des 11. Jahrhunderts waren die Wikinger noch eine der bedeutendsten Kräfte in Europa. Sie kamen aus Skandinavien – aus Dänemark, Norwegen und Schweden – und hatten seit dem 8. Jahrhundert die Küsten Europas unsicher gemacht. Aber die Wikinger waren nicht nur die brutalen Krieger, als die man sie sich oft vorstellt. Sie waren auch hervorragende Seefahrer, kluge Händler und mutige Entdecker.
+    period: "1010–1020 n. Chr.",
+    title: "Mächtige Reiche von Ost bis West",
+    text: `Das zweite Jahrzehnt des 11. Jahrhunderts war eine Zeit großer und mächtiger Reiche. In vielen Teilen der Welt regierten starke Herrscher, und die einfachen Menschen mussten ihnen Steuern zahlen und gehorchen.
 
-Die Wikingerschiffe waren technische Meisterwerke. Flach und leicht, konnten sie sowohl auf dem offenen Meer als auch auf Flüssen fahren. Sie hatten keinen tiefen Kiel und brauchten keinen Hafen – sie konnten direkt an den Strand fahren. Mit diesen Schiffen erreichten die Wikinger Island, Grönland, Nordamerika, aber auch Konstantinopel und Bagdad. Auf den Flüssen Russlands paddelten sie von der Ostsee bis zum Schwarzen Meer.
+Im Osten Europas erreichte das Byzantinische Reich den Höhepunkt seiner Macht. Der Kaiser Basileios II. war ein harter und kluger Herrscher. Viele Jahre lang führte er Krieg gegen das benachbarte Bulgarien. Im Jahr 1014 gewann er eine entscheidende Schlacht. Nach dem Sieg ließ er Tausende von gefangenen bulgarischen Soldaten blenden – das heißt, er nahm ihnen das Augenlicht. Wegen dieser grausamen Tat nennt man ihn bis heute „den Bulgarentöter". Sein Reich war nun das stärkste in ganz Europa und reichte von Italien bis nach Syrien.
 
-In Frankreich hatten sich die Wikinger schon im 10. Jahrhundert dauerhaft niedergelassen. Der Frankenkönig Karl der Einfältige gab dem Wikingerführer Rollo im Jahr 911 ein großes Gebiet im Norden Frankreichs. Dieses Gebiet wurde die Normandie – der Name kommt von „Nordmänner". Rollos Nachkommen, die Normannen, lernten schnell Französisch, nahmen das Christentum an und wurden zu vollwertigen Mitgliedern der europäischen Feudalgesellschaft. Aber sie behielten ihren Ehrgeiz und ihre Energie.
+In England war die Lage ganz anders. Das Land litt seit Jahren unter den Angriffen der Wikinger aus Dänemark. Der englische König Æthelred war schwach und konnte sein Volk nicht schützen. Er versuchte, die Wikinger mit Geld zu bezahlen, aber sie kamen immer wieder zurück. Im Jahr 1013 eroberte der dänische König Sven Gabelbart fast ganz England. Drei Jahre später, im Jahr 1016, wurde sein Sohn Knut König von England. Knut wurde später ein mächtiger Herrscher über England, Dänemark und Norwegen zugleich.
 
-In England war die Lage in dieser Zeit besonders turbulent. Der englische König Æthelred, den man „den Unberatenen" nannte, konnte sein Reich nicht gegen die dänischen Angriffe verteidigen. Er versuchte, die Wikinger mit Geld zu bezahlen – diese Zahlungen nannte man „Danegeld". Aber das half nicht lange. Im Jahr 1013 eroberte der dänische König Sven Gabelbart England fast vollständig, und Æthelred musste fliehen.
+Weit im Osten, in China, herrschte weiterhin die Song-Dynastie. Wenige Jahre zuvor, im Jahr 1005, hatte China einen wichtigen Friedensvertrag mit dem Reich der Liao im Norden geschlossen. Dieser Vertrag brachte dem Land jahrzehntelangen Frieden. China bezahlte den Liao jedes Jahr Silber und Seide, aber dafür hörten die Kriege auf. Der Handel blühte, und die Wirtschaft wuchs. In dieser Zeit benutzten chinesische Kaufleute zum ersten Mal Papiergeld, weil das schwere Metallgeld für den großen Handel unpraktisch war.
 
-Nach Svens Tod übernahm sein Sohn Knut die Macht. Knut der Große – so nennt man ihn in der Geschichte – war ein außergewöhnlicher Herrscher. Er wurde König von England, Dänemark und Norwegen gleichzeitig und regierte ein riesiges nordisches Reich. In England regierte er weise und gerecht. Er respektierte die englischen Gesetze und die englische Kirche. Nach seinem Tod im Jahr 1035 zerfiel sein Reich wieder, aber seine Herrschaft zeigte, dass die Wikinger nicht nur zerstören, sondern auch aufbauen konnten.
+In Indien fielen die Armeen von Mahmud von Ghazni immer wieder in den Norden ein. Mahmud war ein muslimischer Herrscher aus dem heutigen Afghanistan. Fast jedes Jahr führte er einen Feldzug nach Indien, um die reichen Tempel zu plündern. Er nahm enorme Mengen Gold und kehrte dann in seine Hauptstadt zurück. Für die Menschen in Nordindien waren diese Angriffe eine ständige Bedrohung.
 
-Weit im Osten hatten die Wikinger ebenfalls tiefe Spuren hinterlassen. Die „Waräger", wie man die Wikinger in Osteuropa nannte, hatten im 9. Jahrhundert wichtige Handelswege entlang der russischen Flüsse aufgebaut. Sie gründeten Städte wie Nowgorod und Kiew. Der Staat „Kiewer Rus" – der Vorläufer des modernen Russland, der Ukraine und von Weißrussland – entstand aus diesen wikingischen Siedlungen. Die Waräger vermischten sich mit der slawischen Bevölkerung und übernahmen deren Sprache und Kultur, während sie gleichzeitig ihre eigenen Organisationsstrukturen einbrachten.
+In Japan stand die mächtige Familie Fujiwara auf dem Gipfel ihres Einflusses. Der Adlige Fujiwara no Michinaga kontrollierte den kaiserlichen Hof, obwohl er selbst nie Kaiser war. Er verheiratete seine Töchter mit den Kaisern und regierte durch sie. Am Hof in Kyoto schrieb man weiter wunderbare Gedichte und Romane. Es war ein goldenes Zeitalter der japanischen Literatur und Kunst.
 
-Im Mittelmeer kämpften normannische Abenteurer um neue Länder. Normannische Ritter kamen in kleinen Gruppen nach Süditalien und Sizilien. Dort fanden sie ein zerrissenes Land: Die Byzantiner, die Araber und verschiedene italienische Stadtstaaten stritten sich um die Kontrolle. Die Normannen nutzten diese Unordnung und kämpften mal für die einen, mal für die anderen – immer für Geld und Land. Langsam bauten sie ihre eigene Herrschaft auf. Bis Ende des Jahrhunderts würden normannische Fürsten ganz Süditalien und Sizilien regieren.
+Auf der anderen Seite der Welt, in Nordamerika, wuchs am Fluss Mississippi eine große Stadt. Wir nennen sie heute Cahokia. Dort lebten Tausende von Menschen. Sie bauten riesige Erdhügel, auf denen ihre Tempel und die Häuser ihrer Anführer standen. Der größte dieser Hügel war so groß wie eine ägyptische Pyramide am Boden. Cahokia war damals eine der größten Städte nördlich von Mexiko. Die Menschen dort bauten Mais an und handelten über weite Entfernungen.
 
-Das tägliche Leben in der Wikingerzeit war geprägt von harter Arbeit, aber auch von einer lebendigen Erzähltradition. In den langen Winterabenden saßen die Menschen in den großen Hallen zusammen und hörten Geschichten. Die Skalden – die Dichter der Wikinger – sangen von Helden, Göttern und großen Schlachten. Diese Geschichten wurden mündlich überliefert und viele Jahrhunderte später als „Sagas" aufgeschrieben.
+In Mittelamerika lebten die Maya. Ihre großen klassischen Städte waren zwar schon verlassen, aber im Norden, auf der Halbinsel Yucatán, blühten neue Maya-Städte. Die Maya kannten die Schrift, die Astronomie und einen genauen Kalender.
 
-Die Wikingergötter – Odin, Thor, Freya und die anderen – wurden langsam vom Christentum verdrängt. Dänemark wurde schon im 10. Jahrhundert offiziell christlich. Norwegen folgte um das Jahr 1000 unter König Olaf, der manchmal mit Gewalt missionierte. Schweden blieb am längsten heidnisch. Die Bekehrung war nicht immer freiwillig und nicht immer vollständig – viele Menschen verehrten heimlich weiterhin die alten Götter.
-
-Die Wikinger hinterließen ein kompliziertes Erbe. Auf der einen Seite waren sie für Plünderung, Sklaverei und Gewalt verantwortlich. Auf der anderen Seite schufen sie wichtige Handelsnetzwerke, gründeten Städte und trugen zur Entwicklung mehrerer europäischer Nationen bei. England, Frankreich, Russland und die skandinavischen Länder selbst – alle tragen heute noch Spuren der Wikingerzeit. Die englische Sprache hat viele Wörter aus dem Altnordischen übernommen, wie zum Beispiel „sky", „window" und „knife".
-
-Um die Mitte des 11. Jahrhunderts begann die Ära der Wikinger zu Ende zu gehen. Die skandinavischen Königreiche wurden stabiler und christlicher. Die wilden Überfälle wurden seltener. Die Nachkommen der Wikinger wurden zu Franzosen, Russen und Engländern. Aber die Energie, der Mut und die Abenteuerlust dieser außergewöhnlichen Seefahrer hatten Europa für immer verändert.`,
+Für die einfachen Menschen auf der ganzen Welt blieb das tägliche Leben ähnlich. Die meisten waren Bauern. Sie standen mit der Sonne auf und arbeiteten auf dem Feld. Sie aßen einfaches Essen: Brot, Reis oder Mais, je nach Region. Krankheiten waren gefährlich, und die Menschen vertrauten auf Religion und einfache Hausmittel. Trotzdem fanden sie auch Freude – in Festen, in der Musik und in ihren Familien. Die mächtigen Könige und ihre Kriege standen in den Geschichtsbüchern, aber das wahre Leben spielte sich in den Dörfern und auf den Feldern ab.`,
     translations: {
-      "die bedeutendsten Kräfte": "the most significant forces",
-      "unsicher gemacht": "made unsafe / terrorised",
-      "vorstellt": "imagines",
-      "hervorragende Seefahrer": "outstanding sailors / seafarers",
-      "Meisterwerke": "masterpieces",
-      "flach": "flat / shallow",
-      "der Kiel": "the keel",
-      "paddelten": "paddled",
-      "dauerhaft niedergelassen": "permanently settled",
-      "der Frankenkönig": "the Frankish king",
-      "Nachkommen": "descendants",
-      "vollwertigen Mitgliedern": "full members",
-      "die Feudalgesellschaft": "feudal society",
-      "behielten": "retained / kept",
-      "der Ehrgeiz": "ambition",
-      "turbulent": "turbulent",
-      "den Unberatenen": "the Unready (literally: the ill-advised)",
-      "verteidigen": "to defend",
-      "Angriffe": "attacks",
-      "Danegeld": "Danegeld (tribute paid to Vikings)",
-      "außergewöhnlicher Herrscher": "exceptional ruler",
-      "weise und gerecht": "wisely and justly",
-      "respektierte": "respected",
-      "zerfiel": "fell apart / disintegrated",
-      "aufbauen": "to build up",
-      "tiefe Spuren hinterlassen": "left deep marks",
-      "Handelswege": "trade routes",
-      "der Vorläufer": "the precursor / forerunner",
-      "vermischten sich": "mixed / intermingled",
-      "die Bevölkerung": "the population",
-      "einbrachten": "brought in / contributed",
-      "zerrissenes Land": "torn / divided land",
-      "Stadtstaaten": "city-states",
-      "die Kontrolle": "control",
-      "geprägt von": "shaped by / characterised by",
-      "lebendige Erzähltradition": "vibrant storytelling tradition",
-      "die Skalden": "the skalds (Viking poets)",
-      "mündlich überliefert": "passed on orally",
-      "aufgeschrieben": "written down",
-      "verdrängt": "displaced / pushed out",
-      "missionierte": "proselytised / converted by force",
-      "heidnisch": "pagan",
-      "verehrten": "worshipped",
-      "hinterließen": "left behind",
-      "Plünderung": "plundering / pillaging",
-      "Sklaverei": "slavery",
-      "Handelsnetzwerke": "trade networks",
-      "Spuren": "traces / marks",
-      "Altnordischen": "Old Norse",
-      "Überfälle": "raids / attacks",
-      "seltener": "less frequent / rarer",
-      "die Abenteuerlust": "the love of adventure",
+      "das Jahrzehnt": "the decade",
+      "Steuern zahlen": "to pay taxes",
+      "gehorchen": "to obey",
+      "der Höhepunkt": "the peak / climax",
+      "benachbarte": "neighbouring",
+      "entscheidende Schlacht": "decisive battle",
+      "der Sieg": "the victory",
+      "gefangenen": "captured",
+      "blenden": "to blind",
+      "das Augenlicht": "eyesight",
+      "grausame Tat": "cruel deed",
+      "der Bulgarentöter": "the Bulgar-slayer",
+      "litt unter": "suffered from",
+      "die Angriffe": "the attacks",
+      "schützen": "to protect",
+      "eroberte": "conquered",
+      "zugleich": "at the same time",
+      "Friedensvertrag": "peace treaty",
+      "geschlossen": "concluded / made",
+      "jahrzehntelangen": "lasting decades",
+      "die Wirtschaft": "the economy",
+      "Papiergeld": "paper money",
+      "unpraktisch": "impractical",
+      "fielen ein": "invaded",
+      "der Feldzug": "the military campaign",
+      "plündern": "to plunder / loot",
+      "enorme Mengen": "enormous quantities",
+      "ständige Bedrohung": "constant threat",
+      "der Gipfel": "the summit / peak",
+      "der Adlige": "the nobleman",
+      "verheiratete": "married off",
+      "goldenes Zeitalter": "golden age",
+      "Erdhügel": "earthen mounds",
+      "der Anführer": "the leader",
+      "Mais": "maize / corn",
+      "die Halbinsel": "the peninsula",
+      "verlassen": "abandoned",
+      "die Schrift": "writing / script",
+      "Hausmittel": "home remedies",
+      "vertrauten auf": "relied on / trusted in",
+      "spielte sich ab": "took place / unfolded",
     }
   },
   {
     id: 3,
     unlockDay: 3,
-    period: "ca. 1060–1100 n. Chr.",
-    title: "Die normannische Eroberung und der erste Kreuzzug",
-    text: `Die zweite Hälfte des 11. Jahrhunderts war eine Zeit großer Veränderungen in Europa. Zwei Ereignisse aus dieser Zeit sind besonders wichtig: die normannische Eroberung Englands im Jahr 1066 und der Beginn der Kreuzzüge im Jahr 1096.
+    period: "1020–1030 n. Chr.",
+    title: "Könige, Gold und neues Geld",
+    text: `In den 1020er Jahren regierten in vielen Ländern selbstbewusste Könige, und überall spielten Gold, Handel und Geld eine immer größere Rolle.
 
-Im Jahr 1066 starb der englische König Eduard der Bekenner ohne einen klaren Nachfolger. Mehrere Männer beanspruchten den englischen Thron. Harold Godwinson, der mächtigste englische Adlige, wurde sofort nach Eduards Tod zum König gekrönt. Aber Wilhelm, der Herzog der Normandie, behauptete, dass Eduard ihm den Thron versprochen hatte. Er überquerte mit einer großen Armee den Ärmelkanal.
+In Nordeuropa schuf der dänische König Knut der Große ein erstaunliches Reich. Er war gleichzeitig König von England, Dänemark und Norwegen. Man nennt dieses Reich oft das „Nordsee-Reich", weil alle seine Länder rund um die Nordsee lagen. Knut war nicht nur ein Krieger, sondern auch ein kluger Politiker. In England respektierte er die alten Gesetze und die Kirche. Er reiste sogar nach Rom, um den Papst zu treffen. Unter seiner Herrschaft hatte England eine seltene Zeit des Friedens.
 
-Die entscheidende Schlacht fand am 14. Oktober 1066 bei Hastings statt. Harold und seine Männer kämpften mutig, aber die normannischen Ritter zu Pferd und die normannischen Bogenschützen waren zu stark. Harold wurde getötet – nach einer bekannten Legende von einem Pfeil ins Auge. Wilhelm marschierte nach London und wurde am Weihnachtstag 1066 in der Westminster Abbey zum König von England gekrönt. Man nennt ihn seitdem „Wilhelm der Eroberer".
+Im Heiligen Römischen Reich begann im Jahr 1024 eine neue Herrscherfamilie, die Salier. Der erste König dieser Familie war Konrad II. Er war ein starker Herrscher, der die Macht des Königs gegenüber den Fürsten stärken wollte. Das Reich umfasste damals Deutschland, große Teile Italiens und das Königreich Burgund.
 
-Die Auswirkungen dieser Eroberung auf England waren enorm. Die Normannen sprachen Französisch, und Französisch wurde zur Sprache des Hofes, der Kirche und der Verwaltung. Die englische Sprache – damals Altenglisch – wurde zur Sprache der einfachen Leute. Aus dieser Mischung von Altenglisch und Normannisch entstand langsam das Mittelenglische, die Vorstufe des modernen Englisch. Viele englische Wörter haben heute zwei Versionen: die altenglische und die normannisch-französische. „Cow" kommt aus dem Altenglischen, „beef" vom Normannischen – das Tier hatte einen englischen Namen, das Fleisch auf dem Tisch des Adligen einen französischen.
+In China geschah in diesem Jahrzehnt etwas, das die Welt für immer verändern sollte, auch wenn es damals niemand bemerkte. Die Song-Regierung gab das erste offizielle Papiergeld der Weltgeschichte aus. Schon vorher hatten Kaufleute private Papierscheine benutzt, aber jetzt druckte der Staat selbst das Geld. Diese Erfindung war praktisch und gefährlich zugleich: Papier ist leicht zu tragen, aber wenn man zu viel davon druckt, verliert es seinen Wert. China lernte diese Lektion als erstes Land der Welt.
 
-Wilhelm ließ eine detaillierte Volkszählung durchführen, das sogenannte „Domesday Book" von 1086. Darin wurden alle Ländereien und ihre Besitzer verzeichnet. Es ist eines der wichtigsten historischen Dokumente Englands und zeigt, wie gründlich die Normannen das Land kontrollierten.
+In Indien führte Mahmud von Ghazni im Jahr 1025 seinen berühmtesten Feldzug. Er griff den reichen Tempel von Somnath an der Westküste Indiens an. Der Tempel war voll von Gold und Edelsteinen. Mahmuds Armee plünderte ihn und tötete viele Verteidiger. Für die Muslime war Mahmud ein großer Held, für die Hindus ein grausamer Zerstörer. Bis heute erinnern sich die Menschen in Indien an diesen Angriff.
 
-Während diese Veränderungen in England stattfanden, gab es auch in Deutschland großen Streit. Der sogenannte „Investiturstreit" spaltete Europa. Der Konflikt drehte sich um die Frage: Wer hatte das Recht, Bischöfe und Äbte zu ernennen – der Papst oder der Kaiser? Der deutsche Kaiser Heinrich IV. und Papst Gregor VII. stritten heftig darüber. Im Jahr 1076 exkommunizierte der Papst den Kaiser – das bedeutete, dass Heinrich aus der Kirche ausgestoßen wurde und seine Untertanen ihm nicht mehr gehorchen mussten. Um dieses Urteil rückgängig zu machen, musste Heinrich im Winter 1077 barfuß im Schnee vor der Burg in Canossa auf die Absolution des Papstes warten. Diese Szene ist eines der bekanntesten Bilder des Mittelalters und symbolisiert die Macht der Kirche über weltliche Herrscher.
+In Westafrika lag das mächtige Königreich Ghana. Es war reich, weil es den Handel zwischen Nord und Süd kontrollierte. Aus der Wüste im Norden kam Salz, aus dem Süden kam Gold. Die Karawanen zogen mit Kamelen durch die große Sahara. Das Gold aus Westafrika war so wichtig, dass es bis nach Europa und in die arabische Welt gelangte. Die Könige von Ghana waren berühmt für ihren Reichtum.
 
-Das andere große Ereignis dieser Zeit waren die Kreuzzüge. Im Jahr 1071 hatten die seldschukischen Türken Jerusalem und große Teile Kleinasiens erobert. Die christlichen Pilger, die nach Jerusalem reisen wollten, konnten das jetzt nicht mehr sicher tun. Der byzantinische Kaiser schrieb an Papst Urban II. und bat um Hilfe.
+In Mittelamerika beherrschten die Tolteken große Teile Mexikos. Ihre Hauptstadt Tula war ein wichtiges Zentrum. Die Tolteken waren bekannt für ihre Krieger und ihre Kunst. Spätere Völker wie die Azteken betrachteten die Tolteken als weise Vorfahren und Vorbilder.
 
-Im November 1095 hielt Papst Urban II. in der Stadt Clermont in Frankreich eine historische Rede. Er beschrieb die Leiden der Christen im Heiligen Land und rief die Ritter Europas auf, nach Jerusalem zu ziehen und die Stadt zu befreien. Dem Papst zufolge würden alle, die an diesem heiligen Krieg teilnähmen und dabei sterben würden, sofort in den Himmel kommen. Die Reaktion der Menge war überwältigend. Tausende riefen „Gott will es!" – auf Lateinisch „Deus vult".
+Im Südwesten Nordamerikas, im heutigen New Mexico, lebten die Ancestral Puebloans. In einem Tal namens Chaco Canyon bauten sie erstaunliche Häuser aus Stein. Manche dieser „großen Häuser" hatten Hunderte von Räumen und mehrere Stockwerke. Es waren die größten Gebäude in Nordamerika für viele Jahrhunderte. Die Menschen dort beobachteten den Himmel genau und richteten ihre Häuser nach der Sonne und dem Mond aus.
 
-Im Jahr 1096 machten sich mehrere große Armeen auf den Weg nach Jerusalem. Es war ein langer und gefährlicher Weg von mindestens dreitausend Kilometern. Unterwegs litten die Kreuzfahrer unter Hunger, Durst, Krankheiten und feindlichen Angriffen. Viele starben, noch bevor sie Kleinasien erreichten. Auf dem Weg durch Europa griffen manche Kreuzfahrer jüdische Gemeinden an – ein dunkles Kapitel der Kreuzzugsgeschichte.
-
-Trotz aller Schwierigkeiten erreichten die Hauptarmeen Kleinasien und dann Syrien. Im Juni 1099 standen sie vor Jerusalem. Die Stadt war gut befestigt und gut verteidigt. Die Belagerung dauerte fünf Wochen. Am 15. Juli 1099 brachen die Kreuzfahrer durch die Stadtmauern. Was folgte, war ein Massaker. Die Bewohner der Stadt – Muslime, Juden und sogar einige orientalische Christen – wurden getötet. Zeitgenössische Berichte beschreiben schreckliche Szenen.
-
-Die Kreuzfahrer gründeten in den eroberten Gebieten mehrere kleine Staaten, die man „Kreuzfahrerstaaten" nennt. Das wichtigste war das Königreich Jerusalem. Diese Staaten lagen mitten in einer feindlichen Umgebung und konnten sich nur durch ständige Unterstützung aus Europa halten. Die Kreuzzüge sollten noch Jahrhunderte weitergehen und die Beziehungen zwischen der christlichen und der muslimischen Welt dauerhaft prägen.`,
+Wie lebten die einfachen Menschen in dieser Zeit? In Europa arbeiteten die meisten als Bauern für einen Herrn. Sie durften das Land nicht verlassen und mussten einen Teil ihrer Ernte abgeben. In China gab es mehr freie Bauern und sogar Prüfungen, durch die kluge junge Männer Beamte werden konnten. In Afrika und Amerika lebten viele Menschen in Dörfern und folgten alten Traditionen. Überall aber war das Leben von harter Arbeit, von der Familie und vom Glauben bestimmt. Die Welt war voller verschiedener Kulturen, die sich gleichzeitig, aber meistens getrennt voneinander entwickelten.`,
     translations: {
-      "die Veränderungen": "the changes",
-      "Ereignisse": "events",
-      "der Nachfolger": "the successor",
-      "beanspruchten": "claimed",
-      "den Thron": "the throne",
-      "der Adlige": "the nobleman",
-      "gekrönt": "crowned",
-      "behauptete": "claimed / asserted",
-      "versprochen hatte": "had promised",
-      "überquerte": "crossed",
-      "der Ärmelkanal": "the English Channel",
-      "entscheidende": "decisive",
-      "die Schlacht": "the battle",
-      "Bogenschützen": "archers",
-      "die Legende": "the legend",
-      "marschierte": "marched",
-      "der Weihnachtstag": "Christmas Day",
-      "die Auswirkungen": "the effects / impact",
-      "enorm": "enormous",
-      "die Verwaltung": "the administration",
-      "Altenglisch": "Old English",
-      "die Vorstufe": "the precursor / early form",
-      "die Volkszählung": "the census",
-      "Ländereien": "lands / estates",
-      "verzeichnet": "recorded",
-      "gründlich": "thoroughly",
-      "der Investiturstreit": "the Investiture Controversy",
-      "spaltete": "divided / split",
-      "Äbte": "abbots",
-      "heftig": "fiercely",
-      "exkommunizierte": "excommunicated",
-      "ausgestoßen": "expelled / cast out",
-      "die Untertanen": "the subjects",
-      "rückgängig zu machen": "to reverse / undo",
-      "barfuß": "barefoot",
-      "die Absolution": "absolution",
-      "symbolisiert": "symbolises",
-      "weltliche Herrscher": "secular rulers",
-      "Pilger": "pilgrims",
-      "bat um Hilfe": "asked for help",
-      "die Leiden": "the sufferings",
-      "befreien": "to liberate / free",
-      "dem Papst zufolge": "according to the Pope",
-      "teilnähmen": "would take part",
-      "überwältigend": "overwhelming",
-      "auf dem Weg": "on the way",
-      "litten": "suffered",
-      "jüdische Gemeinden": "Jewish communities",
-      "ein dunkles Kapitel": "a dark chapter",
-      "befestigt": "fortified",
-      "die Belagerung": "the siege",
-      "die Stadtmauern": "the city walls",
-      "das Massaker": "the massacre",
-      "die Bewohner": "the inhabitants / residents",
-      "Zeitgenössische Berichte": "contemporary accounts",
-      "die Kreuzfahrerstaaten": "the Crusader states",
-      "feindlichen Umgebung": "hostile environment",
-      "ständige Unterstützung": "constant support",
-      "dauerhaft prägen": "to permanently shape",
+      "selbstbewusste": "self-confident",
+      "erstaunliches": "astonishing",
+      "gleichzeitig": "at the same time",
+      "das Nordsee-Reich": "the North Sea Empire",
+      "der Krieger": "the warrior",
+      "respektierte": "respected",
+      "die Gesetze": "the laws",
+      "die Herrschaft": "the rule / reign",
+      "seltene": "rare",
+      "die Herrscherfamilie": "ruling family",
+      "die Salier": "the Salian dynasty",
+      "gegenüber": "towards / compared to",
+      "stärken": "to strengthen",
+      "umfasste": "comprised / included",
+      "bemerkte": "noticed",
+      "gab... aus": "issued",
+      "Papierscheine": "paper notes",
+      "druckte": "printed",
+      "der Wert": "the value",
+      "die Lektion": "the lesson",
+      "griff an": "attacked",
+      "Edelsteinen": "precious stones / gems",
+      "die Verteidiger": "the defenders",
+      "der Zerstörer": "the destroyer",
+      "kontrollierte": "controlled",
+      "die Wüste": "the desert",
+      "das Salz": "salt",
+      "die Karawanen": "the caravans",
+      "Kamelen": "camels",
+      "gelangte": "reached / made its way",
+      "der Reichtum": "the wealth",
+      "beherrschten": "dominated / ruled",
+      "die Vorfahren": "the ancestors",
+      "Vorbilder": "role models",
+      "das Tal": "the valley",
+      "Stockwerke": "storeys / floors",
+      "die Gebäude": "the buildings",
+      "beobachteten": "observed",
+      "abgeben": "to hand over / give up",
+      "Prüfungen": "exams",
+      "Beamte": "officials",
+      "der Glauben": "faith / belief",
+      "getrennt voneinander": "separately from each other",
     }
   },
   {
     id: 4,
     unlockDay: 4,
-    period: "ca. 1200–1230 n. Chr.",
-    title: "Dschingis Khan und die Entstehung des Mongolischen Reiches",
-    text: `Am Anfang des 13. Jahrhunderts lebten die Mongolen als Nomaden in den weiten Steppen Zentralasiens. Sie waren in viele verschiedene Stämme aufgeteilt, die ständig miteinander kämpften. Es gab keine mongolische Nation, keine gemeinsame Regierung, keine Städte. Die Mongolen zogen mit ihren Herden von Pferden, Schafen und Rindern durch die Steppe und lebten in runden Zelten, den sogenannten „Jurten".
+    period: "1030–1040 n. Chr.",
+    title: "Reiche zerfallen, neue Mächte steigen auf",
+    text: `Das vierte Jahrzehnt des 11. Jahrhunderts zeigte eine wichtige Wahrheit der Geschichte: Kein Reich bleibt für immer mächtig. Während alte Reiche zerfielen, stiegen an anderen Orten neue Mächte auf.
 
-In diese Welt wurde Temüdschin geboren, wahrscheinlich um das Jahr 1162. Seine Kindheit war schwer. Als er etwa neun Jahre alt war, wurde sein Vater vergiftet. Die Familie verarmte und lebte in großer Not. Temüdschin wurde sogar eine Zeit lang versklavt. Aber er war klug, zäh und ein natürlicher Anführer. Er sammelte Gefolgsleute um sich und begann, seinen Einfluss auszubauen.
+In Nordeuropa endete das große Nordsee-Reich fast so schnell, wie es entstanden war. Im Jahr 1035 starb Knut der Große. Seine Söhne waren nicht so klug und stark wie ihr Vater. Schon nach wenigen Jahren zerfiel das Reich in seine einzelnen Teile. England, Dänemark und Norwegen gingen wieder eigene Wege. Dies zeigt, wie sehr ein mittelalterliches Reich von der Person eines einzigen starken Herrschers abhing.
 
-Durch eine Kombination aus militärischer Stärke, kluger Politik und strategischen Heiraten gelang es Temüdschin, einen Stamm nach dem anderen unter seine Kontrolle zu bringen. Im Jahr 1206 trafen sich alle Stammesführer der Mongolei bei einem großen Treffen, dem „Kuriltai". Sie erkannten Temüdschin als ihren obersten Herrscher an und gaben ihm den Titel „Dschingis Khan" – was so viel bedeutet wie „universeller Herrscher" oder „ozeanischer Herrscher". Von diesem Moment an hörten die Mongolen auf, untereinander zu kämpfen, und richteten ihre Energie nach außen.
+Im Süden Italiens erschienen neue Krieger: die Normannen. Sie waren Nachkommen der Wikinger, die sich in Frankreich niedergelassen hatten. In kleinen Gruppen kamen sie nach Italien, zuerst als Söldner, die für Geld kämpften. Bald aber begannen sie, eigenes Land zu erobern. Niemand ahnte damals, dass die Normannen einmal ganz Süditalien und Sizilien beherrschen würden.
 
-Die mongolische Armee war eine der effizientesten Kampfmaschinen, die die Welt je gesehen hatte. Jeder Krieger war ein erfahrener Reiter und Bogenschütze. Auf dem Pferd konnten mongolische Krieger in vollem Galopp rückwärts schießen – eine Fähigkeit, die ihre Feinde in Erstaunen versetzte. Die Armee war in Zehner-Einheiten organisiert: zehn Männer, hundert Männer, tausend Männer, zehntausend Männer. Diese Organisation ermöglichte schnelle und präzise Befehle auf dem Schlachtfeld.
+In der islamischen Welt verschob sich die Macht nach Osten. Ein neues Volk, die Seldschuken, wurde immer stärker. Die Seldschuken waren Türken aus Zentralasien, die den Islam angenommen hatten. Im Jahr 1040 besiegten sie in einer großen Schlacht das mächtige Reich der Ghaznawiden. Dieser Sieg öffnete ihnen den Weg nach Persien und in den Nahen Osten. Die Seldschuken sollten bald zu einer der wichtigsten Mächte der Region werden.
 
-Dschingis Khan war auch ein geschickter Stratege, der psychologische Kriegsführung einsetzte. Städten und Völkern, die sich friedlich ergaben, wurde Gnade gezeigt. Wer sich widersetzte, musste mit grausamer Vernichtung rechnen. Diese Politik funktionierte: viele Städte öffneten ihre Tore, ohne zu kämpfen, einfach weil sie Angst vor den Mongolen hatten.
+Im heutigen China und Tibet entstand ein neues Reich. Im Jahr 1038 erklärte ein Herrscher namens Li Yuanhao die Gründung des Reiches Westliche Xia. Sein Volk, die Tanguten, lebte im trockenen Nordwesten Chinas und kontrollierte einen Teil der wichtigen Handelswege. Die Song-Dynastie war nicht stark genug, um diese neue Macht zu besiegen, und musste mit ihr leben.
 
-Die ersten großen Feldzüge gingen nach China. Das nördliche China wurde damals von den Jurchen-Jin regiert. Dschingis Khan begann seinen Angriff auf China im Jahr 1211. Die Chinesische Mauer – die größte Befestigung der Welt – konnte die Mongolen nicht aufhalten. Sie fanden Wege um sie herum oder durch sie hindurch. Im Jahr 1215 fiel die Jin-Hauptstadt Zhongdu, das heutige Peking. Die Mongolen plünderten die Stadt und brannten Teile davon nieder.
+In Westafrika wuchs zur gleichen Zeit eine neue religiöse Bewegung. In der Wüste predigten muslimische Gelehrte einen strengen, reinen Glauben. Aus dieser Bewegung entstanden die Almoraviden. Sie sollten in den folgenden Jahrzehnten ein großes Reich aufbauen, das von Westafrika bis nach Spanien reichte. Doch in den 1030er Jahren waren sie noch klein und unbekannt.
 
-Gleichzeitig expandierten die Mongolen nach Westen. Das mächtige Khwarezmische Reich, das große Teile des heutigen Iran, Usbekistans und Afghanistans umfasste, machte den Fehler, mongolische Händler zu töten und mongolische Botschafter zu ermorden. Das war ein schwerer Fehler. Dschingis Khan sah das als persönliche Beleidigung und als Grund für Krieg. Er schickte eine riesige Armee nach Westen. Die Städte Samarkand, Buchara und andere Zentren der islamischen Hochkultur wurden zerstört. Hunderttausende Menschen starben.
+In dieser Zeit half das Klima den Menschen in Europa. Historiker nennen diese Periode die „mittelalterliche Warmzeit". Die Sommer waren wärmer als heute, und die Ernten waren oft gut. Mehr Essen bedeutete mehr Menschen. Die Bevölkerung Europas begann langsam zu wachsen. Bauern rodeten Wälder und legten neue Felder an. Neue Dörfer entstanden, und langsam wurden auch die Städte größer.
 
-Dschingis Khan sandte auch zwei Generäle – Jebe und Subutai – mit einer Armee auf eine Erkundungsexpedition weit nach Westen. Diese Armee durchquerte Persien, den Kaukasus und die russischen Steppen. Sie besiegten die Rus-Fürsten in einer großen Schlacht am Fluss Kalka im Jahr 1223. Dann zogen sie sich zurück, da sie nur erkunden und nicht erobern sollten. Aber die Nachrichten von ihren Siegen verbreiteten sich weit und ließen Europa zittern.
+Trotzdem war das Leben unsicher. Eine schlechte Ernte konnte sofort zu einer Hungersnot führen. Wenn der Regen zur falschen Zeit kam oder ausblieb, starben die Pflanzen, und die Menschen hungerten. Es gab keine Vorräte für schlechte Jahre und keine Hilfe von einem Staat. Die Menschen waren der Natur fast hilflos ausgeliefert.
 
-Im Jahr 1227 starb Dschingis Khan, wahrscheinlich nach einem Sturz vom Pferd oder wegen einer Krankheit. Er wurde in der Mongolei begraben, aber sein Grab wurde absichtlich geheim gehalten. Bis heute weiß niemand genau, wo er liegt. Vor seinem Tod hatte er sein riesiges Reich unter seinen Söhnen aufgeteilt. Diese Söhne und später seine Enkel setzten die Eroberungen fort und bauten das Reich weiter aus.
-
-Das Mongolische Reich hatte unter Dschingis Khan und seinen Nachfolgern tiefgreifende Auswirkungen auf die Welt. Auf der negativen Seite: die Zerstörung war enorm. Ganze Städte wurden dem Erdboden gleichgemacht. Blühende Landschaften wurden verwüstet. Bewässerungssysteme, die seit Jahrhunderten funktionierten, wurden zerstört und nie wieder aufgebaut. Manche Historiker schätzen, dass die Mongolen-Invasionen die Bevölkerung Asiens um Jahrzehnte zurückwarfen.
-
-Auf der positiven Seite: das vereinte Mongolische Reich ermöglichte die „Pax Mongolica" – den mongolischen Frieden. Innerhalb des riesigen Reiches konnten Händler, Diplomaten und Reisende relativ sicher von China nach Europa reisen. Die Seidenstraße erlebte eine neue Blütezeit. Marco Polo reiste später unter diesen Bedingungen. Ideen, Technologien und Krankheiten – darunter wahrscheinlich die Pest – reisten ebenfalls entlang dieser Routen.`,
+In Amerika lebten die Menschen weiter in ihren eigenen Welten, ohne Kontakt zu Europa, Afrika oder Asien. In Cahokia am Mississippi und in Chaco Canyon im Südwesten blühten die Kulturen. In den Anden in Südamerika bauten verschiedene Völker kunstvolle Textilien und bearbeiteten Metall. Sie wussten nichts von den Königen und Kriegen der anderen Halbkugel, und diese wussten nichts von ihnen. Erst viele Jahrhunderte später sollten sich diese getrennten Welten begegnen – mit gewaltigen Folgen für die ganze Menschheit.`,
     translations: {
-      "Nomaden": "nomads",
-      "die weiten Steppen": "the vast steppes",
-      "aufgeteilt": "divided",
-      "Stämme": "tribes",
-      "Herden": "herds",
-      "Jurten": "yurts",
-      "vergiftet": "poisoned",
-      "verarmte": "became impoverished",
-      "in großer Not": "in great hardship",
-      "versklavt": "enslaved",
-      "zäh": "tough / tenacious",
-      "natürlicher Anführer": "natural leader",
-      "Gefolgsleute": "followers",
-      "auszubauen": "to expand / build up",
-      "strategischen Heiraten": "strategic marriages",
-      "gelang es": "he succeeded in",
-      "Stammesführer": "tribal leaders",
-      "erkannten an": "recognised / acknowledged",
-      "obersten Herrscher": "supreme ruler",
-      "richteten ihre Energie nach außen": "directed their energy outward",
-      "erfahrener Reiter": "experienced rider",
-      "in vollem Galopp": "at full gallop",
-      "rückwärts": "backwards",
-      "die Fähigkeit": "the ability / skill",
-      "in Erstaunen versetzte": "astonished",
-      "präzise Befehle": "precise orders",
-      "das Schlachtfeld": "the battlefield",
-      "geschickter Stratege": "skilled strategist",
-      "psychologische Kriegsführung": "psychological warfare",
-      "sich ergaben": "surrendered",
-      "Gnade": "mercy",
-      "sich widersetzte": "resisted",
-      "grausamer Vernichtung": "brutal destruction",
-      "Feldzüge": "campaigns / military expeditions",
-      "die Befestigung": "the fortification",
-      "aufhalten": "to stop / halt",
-      "plünderten": "plundered / looted",
-      "niederbrannten": "burned down",
-      "expandierten": "expanded",
-      "umfasste": "encompassed / covered",
-      "die Beleidigung": "the insult",
-      "zerstört": "destroyed",
-      "Erkundungsexpedition": "reconnaissance expedition",
-      "durchquerte": "crossed / traversed",
+      "die Wahrheit": "the truth",
+      "zerfielen": "fell apart / disintegrated",
+      "stiegen auf": "rose / ascended",
+      "entstanden war": "had arisen",
+      "einzelnen Teile": "individual parts",
+      "eigene Wege": "their own ways",
+      "abhing": "depended (on)",
+      "erschienen": "appeared",
+      "Nachkommen": "descendants",
+      "niedergelassen": "settled",
+      "Söldner": "mercenaries",
+      "ahnte": "suspected / had any idea",
+      "verschob sich": "shifted",
+      "die Seldschuken": "the Seljuks",
+      "angenommen": "adopted",
       "besiegten": "defeated",
-      "zittern": "to tremble",
-      "absichtlich geheim gehalten": "deliberately kept secret",
-      "tiefgreifende Auswirkungen": "profound effects",
-      "dem Erdboden gleichgemacht": "razed to the ground",
-      "verwüstet": "devastated",
-      "Bewässerungssysteme": "irrigation systems",
-      "zurückwarfen": "set back",
-      "ermöglichte": "made possible",
-      "die Blütezeit": "the golden age / heyday",
-      "Bedingungen": "conditions",
+      "öffnete den Weg": "opened the way",
+      "der Nahe Osten": "the Middle East",
+      "erklärte": "declared",
+      "die Gründung": "the founding",
+      "trockenen": "dry / arid",
+      "Handelswege": "trade routes",
+      "die Bewegung": "the movement",
+      "predigten": "preached",
+      "strengen": "strict",
+      "reinen": "pure",
+      "die Almoraviden": "the Almoravids",
+      "das Klima": "the climate",
+      "die Warmzeit": "warm period",
+      "die Ernten": "the harvests",
+      "rodeten": "cleared (forest)",
+      "legten an": "laid out / created",
+      "unsicher": "uncertain / insecure",
+      "die Hungersnot": "the famine",
+      "ausblieb": "failed to come",
+      "hungerten": "went hungry",
+      "Vorräte": "supplies / stores",
+      "hilflos ausgeliefert": "helplessly at the mercy of",
+      "kunstvolle": "intricate / artful",
+      "bearbeiteten": "worked / processed",
+      "die Halbkugel": "the hemisphere",
+      "begegnen": "to meet / encounter",
+      "gewaltigen Folgen": "enormous consequences",
     }
   },
   {
     id: 5,
     unlockDay: 5,
-    period: "ca. 1347–1353 n. Chr.",
-    title: "Der Schwarze Tod: Die große Pest",
-    text: `In der Mitte des 14. Jahrhunderts erlebte Europa die schlimmste Katastrophe seiner Geschichte. Zwischen 1347 und 1353 tötete die Pest – der „Schwarze Tod" – zwischen einem Drittel und der Hälfte der gesamten europäischen Bevölkerung. Das waren ungefähr fünfundzwanzig Millionen Menschen. In manchen Städten und Regionen starb sogar die Mehrheit der Bewohner. Es war eine humanitäre Katastrophe, die keine Generation zuvor erlebt hatte und die das Leben in Europa für immer verändern sollte.
+    period: "1040–1050 n. Chr.",
+    title: "Erfindungen, Reformen und ferne Welten",
+    text: `Das fünfte Jahrzehnt des 11. Jahrhunderts war eine Zeit wichtiger Erfindungen und Reformen. In China, in Europa und in anderen Teilen der Welt veränderten neue Ideen langsam das Leben der Menschen.
 
-Die Pest war keine neue Krankheit. Sie hatte schon im 6. Jahrhundert unter Kaiser Justinian Europa heimgesucht. Aber die mittelalterliche Pest war besonders virulent. Die Krankheit wird durch das Bakterium Yersinia pestis verursacht. Sie lebt in Flöhen, die auf Ratten und anderen Nagetieren leben. Wenn die Ratten sterben, suchen die Flöhe neue Wirte – und das können Menschen sein. Ein Flohbiss reicht, um die Pest zu übertragen.
+In China machte ein einfacher Mann namens Bi Sheng eine geniale Erfindung. Um das Jahr 1040 entwickelte er den beweglichen Druck. Bisher musste man für jede Seite eines Buches eine ganze Holzplatte schnitzen. Bi Sheng aber stellte einzelne Zeichen aus Ton her. Diese Zeichen konnte man immer wieder neu zusammensetzen, um verschiedene Texte zu drucken. Es war dieselbe Idee, die in Europa erst vierhundert Jahre später von Gutenberg wiederentdeckt wurde. China war seiner Zeit weit voraus.
 
-Die Pest begann wahrscheinlich in Zentralasien und folgte den Handelswegen nach Westen. Im Jahr 1347 kamen infizierte Schiffe aus dem Schwarzen Meer in Sizilien und Genua an. Von dort verbreitete sie sich schnell durch Italien, Frankreich, Spanien und schließlich durch ganz Europa. Im Jahr 1349 erreichte sie Deutschland und England. 1350 traf sie Skandinavien. Kaum eine Region blieb verschont.
+In denselben Jahren schrieben chinesische Gelehrte auch ein wichtiges Buch über Militärtechnik. In diesem Buch stand zum ersten Mal in der Geschichte ein genaues Rezept für Schießpulver. Schießpulver sollte die Art, wie Menschen Krieg führen, für immer verändern – aber das geschah erst viel später.
 
-Die Symptome der Pest waren schrecklich und gut dokumentiert. Zuerst kam hohes Fieber mit Schüttelfrost. Der Körper wurde schwach. Dann bildeten sich die charakteristischen Beulen – geschwollene Lymphknoten – in der Leiste, unter den Armen und am Hals. Diese Beulen konnten so groß wie ein Apfel werden. Sie wurden schwarz und rochen übel. Danach kamen schwarze Flecken auf der Haut, verursacht durch innere Blutungen. Viele Kranke starben innerhalb von zwei bis fünf Tagen nach den ersten Symptomen. Die Überlebenschance war gering. Bei der besonders tödlichen Lungenpest, die durch die Luft übertragen wird, überlebte fast niemand.
+In Europa begann eine wichtige Reform der Kirche. Viele Menschen waren unzufrieden, weil manche Priester und Bischöfe nur an Geld und Macht dachten. Man kaufte und verkaufte sogar kirchliche Ämter. Der deutsche Kaiser Heinrich III. war ein frommer Mann und wollte die Kirche reinigen. Im Jahr 1046 reiste er nach Italien und setzte gleich drei streitende Päpste ab. Danach sorgte er für die Wahl eines neuen, ehrlichen Papstes. Diese Reform war der Anfang einer langen Bewegung, die die Kirche stärker und unabhängiger machen sollte.
 
-Die psychologische Wirkung auf die Überlebenden war kaum zu beschreiben. Man sah, wie Nachbarn, Freunde und Familienmitglieder innerhalb von Tagen starben. Es gab nicht genug Priester, um die Sterbenden zu begleiten. Es gab nicht genug Totengräber, um die Toten zu begraben. In manchen Städten wurden die Leichen einfach auf die Straße geworfen. Massengräber wurden gegraben, in die man Dutzende oder Hunderte von Leichen warf. In Florenz, einer der größten Städte Europas, starben innerhalb weniger Monate mindestens sechzigtausend Menschen – mehr als die Hälfte der Stadtbevölkerung.
+In England bestieg im Jahr 1042 ein neuer König den Thron: Eduard, den man später „den Bekenner" nannte. Er war ein frommer und ruhiger Herrscher. Eduard hatte einen großen Teil seines Lebens in der Normandie verbracht und brachte viele normannische Freunde nach England. Diese Verbindung zwischen England und der Normandie sollte später eine große Rolle spielen.
 
-Der florentinische Schriftsteller Giovanni Boccaccio erlebte die Pest und beschrieb sie in seiner Einleitung zum „Decameron". Er schrieb, wie die gesellschaftliche Ordnung zusammenbrach. Manche Menschen versuchten, die Kranken zu meiden und alle sozialen Kontakte zu vermeiden. Andere dachten, dass es sowieso keinen Sinn hatte und lebten in wilder Freude, als ob der nächste Tag ihr letzter sein könnte. Familien flohen und ließen ihre kranken Angehörigen zurück.
+Im Norden, in Schottland, regierte in dieser Zeit ein König namens Macbeth. Er kam im Jahr 1040 an die Macht. In Wirklichkeit war er kein böser Tyrann, sondern ein recht erfolgreicher Herrscher. Erst der englische Dichter Shakespeare machte ihn viele Jahrhunderte später zu einer dunklen Figur in einem berühmten Theaterstück.
 
-Die Kirche hatte keine Erklärung für die Pest und keine Heilung. Viele Menschen glaubten, dass Gott die Menschheit für ihre Sünden bestrafte. Priester flohen aus ihren Gemeinden oder starben selbst. Der Papst in Avignon blieb in seinem Zimmer, umgeben von brennenden Feuern, die angeblich die Luft reinigen sollten. Theologen stritten darüber, warum Gott so etwas zuließ.
+In Südindien stand das Reich der Chola auf dem Höhepunkt seiner Macht. Die Chola-Könige hatten eine starke Flotte und beherrschten das Meer. Wenige Jahre zuvor hatten sie sogar eine große Seereise unternommen und Teile von Südostasien angegriffen. Die Chola kontrollierten den Handel im Indischen Ozean. Gewürze, Stoffe und Edelsteine machten ihr Reich reich und berühmt.
 
-Manche Menschen reagierten mit religiösem Fanatismus. Die „Flagellanten" – Büßer, die sich selbst öffentlich geißelten – zogen in großen Gruppen durch die Städte. Sie glaubten, dass körperliche Selbstbestrafung Gott gnädig stimmen würde. Der Papst verbot schließlich die Flagellantenbewegung, aber sie hatte schon Hunderttausende von Menschen in ganz Europa bewegt.
+Im Nahen Osten wurden die Seldschuken immer mächtiger. Sie zogen weiter nach Westen und näherten sich den Grenzen des Byzantinischen Reiches. Bald sollten sie zu einer ernsten Gefahr für die Christen im Osten werden. Genau diese Gefahr würde später einer der Gründe für die Kreuzzüge sein.
 
-Eine der dunkelsten Folgen der Pest war die Verfolgung der jüdischen Bevölkerung. Juden wurden in vielen Städten beschuldigt, die Brunnen vergiftet zu haben. Das war völlig falsch und irrational – die Pest traf jüdische Gemeinden genauso hart wie christliche. Aber in Zeiten der Panik suchen Menschen nach Sündenböcken. In Straßburg, Basel und vielen anderen Städten wurden jüdische Gemeinden massakriert oder vertrieben. Diese Pogrome waren Teil einer langen Geschichte des Antisemitismus in Europa.
-
-Die Überlebenden mussten eine veränderte Welt aufbauen. Die wirtschaftlichen Auswirkungen der Pest waren tiefgreifend. Es gab plötzlich viel weniger Arbeiter, aber genauso viel Land. Die Bauern, die überlebt hatten, konnten jetzt höhere Löhne verlangen. Landlords, die vorher die Macht hatten, mussten jetzt Kompromisse machen. Das feudale System, das auf der Kontrolle der Landlords über die Bauern basierte, begann zu bröckeln. In England führte dieser Prozess schließlich zu einem Bauernaufstand im Jahr 1381.
-
-Die Pest kehrte in den folgenden Jahrhunderten immer wieder zurück – 1361, 1369, und weitere Male. Keine Epidemie war so schlimm wie die erste, aber die Pest blieb eine ständige Bedrohung bis ins 17. Jahrhundert. Europa erholte sich demografisch erst nach etwa hundert bis hundertfünfzig Jahren von der ersten Pest. Die Gesellschaft, die danach entstand, war in vielerlei Hinsicht anders: skeptischer gegenüber der Kirche, mehr auf das irdische Leben konzentriert und bereit, die alte Ordnung in Frage zu stellen. Manche Historiker sehen die Pest als einen der wichtigsten Auslöser für das Ende des Mittelalters und den Beginn der Neuzeit.`,
+Wie immer lebten die meisten Menschen auf der Welt als einfache Bauern. Doch das Jahrzehnt zeigte, dass die Welt nicht stillstand. Neue Erfindungen wie der bewegliche Druck und das Schießpulver entstanden im Osten. Neue Ideen über Religion und Macht entstanden im Westen. Ferne Reiche in Indien, Afrika und Amerika gingen ihre eigenen Wege. Die Menschen wussten nichts von einer „Weltgeschichte", aber rückblickend können wir sehen, wie all diese getrennten Geschichten zusammen den Lauf der Welt formten.`,
     translations: {
-      "erlebte": "experienced",
-      "die schlimmste": "the worst",
-      "ein Drittel": "one third",
-      "die Hälfte": "half",
-      "die gesamte Bevölkerung": "the entire population",
-      "ungefähr": "approximately",
-      "die Mehrheit": "the majority",
-      "humanitäre Katastrophe": "humanitarian catastrophe",
-      "heimgesucht": "afflicted / visited",
-      "das Bakterium": "the bacterium",
-      "verursacht": "caused",
-      "Flöhen": "fleas",
-      "Nagetieren": "rodents",
-      "Wirte": "hosts",
-      "der Flohbiss": "the flea bite",
-      "infizierte": "infected",
-      "verbreitete sich": "spread",
-      "schließlich": "finally / eventually",
-      "verschont": "spared",
-      "Schüttelfrost": "chills / shivering",
-      "charakteristischen Beulen": "characteristic buboes",
-      "geschwollene Lymphknoten": "swollen lymph nodes",
-      "die Leiste": "the groin",
-      "rochen übel": "smelled foul",
-      "innere Blutungen": "internal bleeding",
-      "die Überlebenschance": "the chance of survival",
-      "die Lungenpest": "pneumonic plague",
-      "die psychologische Wirkung": "the psychological effect",
-      "kaum zu beschreiben": "hard to describe",
-      "Familienmitglieder": "family members",
-      "Totengräber": "gravediggers",
-      "begraben": "to bury",
-      "Massengräber": "mass graves",
-      "Dutzende": "dozens",
-      "Leichen": "corpses",
-      "gesellschaftliche Ordnung": "social order",
-      "zusammenbrach": "collapsed",
-      "die Kranken": "the sick",
-      "meiden": "to avoid",
-      "als ob": "as if",
-      "die Angehörigen": "the relatives",
-      "Sünden": "sins",
-      "bestrafte": "punished",
-      "angeblich": "supposedly",
-      "zuließ": "allowed / permitted",
-      "Büßer": "penitents",
-      "geißelten": "flagellated / whipped",
-      "körperliche Selbstbestrafung": "physical self-punishment",
-      "gnädig stimmen": "to appease",
-      "Verfolgung": "persecution",
-      "beschuldigt": "accused",
-      "Brunnen vergiftet": "poisoned wells",
-      "völlig falsch": "completely wrong",
-      "Sündenböcke": "scapegoats",
-      "vertrieben": "expelled / driven out",
-      "Pogrome": "pogroms",
-      "tiefgreifend": "profound / far-reaching",
-      "Löhne verlangen": "to demand wages",
-      "Kompromisse": "compromises",
-      "basierte": "was based",
-      "bröckeln": "to crumble",
-      "der Bauernaufstand": "the Peasants' Revolt",
-      "kehrte zurück": "returned",
-      "die Bedrohung": "the threat",
-      "erholte sich": "recovered",
-      "demografisch": "demographically",
-      "in vielerlei Hinsicht": "in many respects",
-      "skeptischer": "more sceptical",
-      "irdische": "earthly / worldly",
-      "in Frage zu stellen": "to question",
-      "der Auslöser": "the trigger",
-      "die Neuzeit": "the modern age",
+      "die Erfindungen": "the inventions",
+      "die Reformen": "the reforms",
+      "geniale": "ingenious / brilliant",
+      "der bewegliche Druck": "movable-type printing",
+      "die Holzplatte": "wooden block / plate",
+      "schnitzen": "to carve",
+      "einzelne Zeichen": "individual characters",
+      "Ton": "clay",
+      "zusammensetzen": "to assemble / put together",
+      "wiederentdeckt": "rediscovered",
+      "seiner Zeit voraus": "ahead of its time",
+      "die Militärtechnik": "military technology",
+      "das Rezept": "the recipe / formula",
+      "unzufrieden": "dissatisfied",
+      "kirchliche Ämter": "church offices",
+      "fromm": "pious / devout",
+      "reinigen": "to clean / purify",
+      "setzte ab": "deposed / removed",
+      "streitende": "quarrelling",
+      "die Wahl": "the election / choice",
+      "ehrlichen": "honest",
+      "unabhängiger": "more independent",
+      "bestieg den Thron": "ascended the throne",
+      "der Bekenner": "the Confessor",
+      "verbracht": "spent (time)",
+      "die Verbindung": "the connection",
+      "der Tyrann": "the tyrant",
+      "recht erfolgreich": "quite successful",
+      "der Dichter": "the poet",
+      "das Theaterstück": "the play",
+      "die Flotte": "the fleet",
+      "die Seereise": "the sea voyage",
+      "unternommen": "undertaken",
+      "der Indische Ozean": "the Indian Ocean",
+      "Stoffe": "fabrics / cloth",
+      "näherten sich": "approached",
+      "die Grenzen": "the borders",
+      "ernste Gefahr": "serious danger",
+      "die Kreuzzüge": "the Crusades",
+      "stillstand": "stood still",
+      "rückblickend": "in retrospect",
+      "der Lauf der Welt": "the course of the world",
+      "formten": "shaped / formed",
     }
   },
 ];

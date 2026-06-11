@@ -523,7 +523,10 @@ function renderReaderList() {
     card.className = 'reader-card' + (unlocked ? '' : ' locked');
     card.innerHTML = `
       <div class="reader-card-info">
-        <h4>${r.title}</h4>
+        ${unlocked
+          ? `<h4 class="reader-title-link" data-id="${r.id}" style="cursor:pointer;color:#1a3a5c;text-decoration:underline">${r.title}</h4>`
+          : `<h4>${r.title}</h4>`
+        }
         <p>${r.period}</p>
       </div>
       ${unlocked
@@ -533,8 +536,8 @@ function renderReaderList() {
     `;
     list.appendChild(card);
   });
-  list.querySelectorAll('.open-reader').forEach(btn => {
-    btn.addEventListener('click', () => openReader(parseInt(btn.dataset.id)));
+  list.querySelectorAll('.open-reader, .reader-title-link').forEach(el => {
+    el.addEventListener('click', () => openReader(parseInt(el.dataset.id)));
   });
 }
 
@@ -556,52 +559,114 @@ document.getElementById('btn-back-reader').addEventListener('click', () => {
 
 function renderReaderText(r) {
   const container = document.getElementById('reader-text');
-  // Split text into tokens (words + punctuation)
-  const tokens = r.text.split(/(\s+)/);
-  let html = '';
-  tokens.forEach(token => {
-    if (/^\s+$/.test(token)) { html += token; return; }
-    // Check if this token (or nearby phrase) has a translation
-    const match = findTranslation(token, r.translations);
-    if (match) {
-      html += `<span class="r-word has-translation" data-phrase="${escHtml(match.phrase)}" data-trans="${escHtml(match.trans)}">${escHtml(token)}</span>`;
-    } else {
-      html += `<span class="r-word" data-word="${escHtml(token)}">${escHtml(token)}</span>`;
-    }
-  });
-  container.innerHTML = html;
-
+  // Split into paragraphs, render each as a <p>
+  const paragraphs = r.text.split(/\n\n+/);
+  container.innerHTML = paragraphs
+    .filter(p => p.trim())
+    .map(p => '<p>' + annotateText(p.trim(), r.translations) + '</p>')
+    .join('\n');
   container.querySelectorAll('.r-word').forEach(el => {
     el.addEventListener('click', (e) => showPopup(e, r));
   });
 }
 
-function findTranslation(token, translations) {
-  // Exact match (case-insensitive, strip trailing punctuation for lookup)
-  const clean = token.replace(/[.,!?;:"""']$/, '');
-  for (const phrase of Object.keys(translations)) {
-    if (phrase.toLowerCase() === clean.toLowerCase()) {
-      return { phrase: clean, trans: translations[phrase] };
+// Annotate a paragraph with clickable spans.
+// Multi-word phrases are matched greedily (longest first), then single words
+// fall back to the vocab list so common words are always translatable.
+function annotateText(text, translations) {
+  // Sort phrase keys: multi-word first (longest first), single words after
+  const phrases = Object.keys(translations).sort((a, b) => {
+    const wa = a.split(/\s+/).length, wb = b.split(/\s+/).length;
+    if (wb !== wa) return wb - wa;        // longer phrase first
+    return b.length - a.length;           // longer string first when same word count
+  });
+
+  // Tokenise: split into alternating [word, whitespace, word, whitespace, ...]
+  const tokens = text.split(/(\s+)/);
+  let i = 0;
+  let out = '';
+
+  while (i < tokens.length) {
+    const tok = tokens[i];
+
+    // Pass whitespace straight through
+    if (/^\s+$/.test(tok)) { out += tok; i++; continue; }
+
+    let matched = false;
+
+    // Try every phrase (multi-word ones come first due to sorting)
+    for (const phrase of phrases) {
+      const pw = phrase.split(/\s+/);
+
+      // Walk forward through tokens trying to match each word of the phrase,
+      // skipping over any whitespace tokens between words.
+      let ti = i, wi = 0, span = [];
+      while (wi < pw.length && ti < tokens.length) {
+        if (/^\s+$/.test(tokens[ti])) { span.push(tokens[ti]); ti++; continue; }
+        const clean = tokens[ti].replace(/[.,!?;:"""'']+$/, '');
+        if (clean.toLowerCase() === pw[wi].toLowerCase()) {
+          span.push(tokens[ti]); wi++; ti++;
+        } else { break; }
+      }
+
+      if (wi === pw.length) {
+        // Full phrase matched
+        const display = span.join('');
+        const trans = translations[phrase];
+        out += `<span class="r-word has-translation" data-phrase="${escHtml(phrase)}" data-trans="${escHtml(trans)}">${escHtml(display)}</span>`;
+        i = ti;
+        matched = true;
+        break;
+      }
+    }
+
+    if (!matched) {
+      // Single word — strip trailing punctuation and look up
+      const clean = tok.replace(/[.,!?;:"""'']+$/, '');
+      const punct = tok.slice(clean.length); // any trailing punctuation
+
+      // 1. Check reader translations (single-word keys)
+      let trans = translations[clean] ?? translations[clean.toLowerCase()];
+
+      // 2. Fall back to the vocabulary list
+      if (!trans) {
+        const entry = getFullVocab().find(w => {
+          // Match "Hund" against "der Hund", or match bare infinitive, etc.
+          const bare = w.german.replace(/^(der|die|das|ein|eine)\s+/i, '');
+          return bare.toLowerCase() === clean.toLowerCase()
+              || w.german.toLowerCase() === clean.toLowerCase();
+        });
+        if (entry) trans = entry.english;
+      }
+
+      if (trans) {
+        out += `<span class="r-word has-translation" data-phrase="${escHtml(clean)}" data-trans="${escHtml(trans)}">${escHtml(clean)}</span>${escHtml(punct)}`;
+      } else {
+        out += `<span class="r-word" data-word="${escHtml(clean)}">${escHtml(clean)}</span>${escHtml(punct)}`;
+      }
+      i++;
     }
   }
-  return null;
+  return out;
 }
 
 function showPopup(e, r) {
   const el = e.currentTarget;
   const popup = document.getElementById('translation-popup');
-  let phrase, trans;
 
-  if (el.dataset.phrase) {
-    phrase = el.dataset.phrase;
-    trans = el.dataset.trans;
-  } else {
-    const word = el.dataset.word || el.textContent;
-    const clean = word.replace(/[.,!?;:"""']$/, '');
-    // Try to find it in translations
-    const match = findTranslation(clean, r.translations);
-    if (match) { phrase = match.phrase; trans = match.trans; }
-    else { phrase = clean; trans = '(no translation stored)'; }
+  const phrase = el.dataset.phrase || (el.dataset.word || el.textContent.trim());
+  const trans  = el.dataset.trans  || null;
+
+  if (!trans) {
+    // Word has no translation — briefly flash the popup as grey
+    document.getElementById('popup-german').textContent = phrase;
+    document.getElementById('popup-english').textContent = '(not in vocabulary yet)';
+    const addBtn = document.getElementById('popup-add');
+    addBtn.disabled = true;
+    addBtn.textContent = '＋ flashcard';
+    popup.classList.remove('hidden');
+    setTimeout(() => { document.addEventListener('click', dismissPopup, { once: true }); }, 10);
+    return;
   }
 
   document.getElementById('popup-german').textContent = phrase;
@@ -612,9 +677,8 @@ function showPopup(e, r) {
   popup.classList.remove('hidden');
 
   addBtn.onclick = () => {
-    if (trans === '(no translation stored)') return;
     const custom = load('customVocab', []);
-    const already = getFullVocab().some(w => w.german === phrase);
+    const already = getFullVocab().some(w => w.german.toLowerCase() === phrase.toLowerCase());
     if (!already) {
       custom.push({ german: phrase, english: trans, category: 'verb' });
       save('customVocab', custom);
@@ -623,7 +687,6 @@ function showPopup(e, r) {
     addBtn.disabled = true;
   };
 
-  // Dismiss popup on outside click
   setTimeout(() => {
     document.addEventListener('click', dismissPopup, { once: true });
   }, 10);

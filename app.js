@@ -546,7 +546,11 @@ function openReader(id) {
   if (!r) return;
   document.getElementById('reader-list').classList.add('hidden');
   document.getElementById('reader-content').classList.remove('hidden');
-  document.getElementById('reader-title').textContent = r.title;
+  const titleEl = document.getElementById('reader-title');
+  titleEl.innerHTML = annotateText(r.title, r.translations);
+  titleEl.querySelectorAll('.r-word').forEach(el => {
+    el.addEventListener('click', (e) => showPopup(e, r));
+  });
   document.getElementById('reader-period').textContent = r.period;
   renderReaderText(r);
 }
@@ -568,6 +572,36 @@ function renderReaderText(r) {
   container.querySelectorAll('.r-word').forEach(el => {
     el.addEventListener('click', (e) => showPopup(e, r));
   });
+}
+
+// Split a token into leading punctuation, the core word, and trailing punctuation.
+// Uses Unicode letter/number detection so German quotes („ "), guillemets (» «),
+// dashes, parentheses etc. are all stripped from the lookup key but preserved
+// for display.
+function splitToken(tok) {
+  const m = tok.match(/^([^\p{L}\p{N}]*)([\p{L}\p{N}].*?[\p{L}\p{N}]|[\p{L}\p{N}])?([^\p{L}\p{N}]*)$/u);
+  if (!m) return { lead: '', core: tok, trail: '' };
+  return { lead: m[1] || '', core: m[2] || '', trail: m[3] || '' };
+}
+
+// Full lookup chain for a single cleaned word.
+function lookupWord(clean, translations) {
+  if (!clean) return null;
+  // 1. Reader-specific translations
+  let trans = translations[clean] ?? translations[clean.toLowerCase()];
+  if (trans) return trans;
+  // 2. Vocabulary list (with/without article)
+  const entry = getFullVocab().find(w => {
+    const bare = w.german.replace(/^(der|die|das|ein|eine)\s+/i, '');
+    return bare.toLowerCase() === clean.toLowerCase()
+        || w.german.toLowerCase() === clean.toLowerCase();
+  });
+  if (entry) return entry.english;
+  // 3. Built-in dictionary
+  trans = DICT[clean.toLowerCase()] ?? null;
+  if (trans) return trans;
+  // 4. Suffix-stripping fallback for inflected forms
+  return dictFallback(clean.toLowerCase());
 }
 
 // Annotate a paragraph with clickable spans.
@@ -603,7 +637,7 @@ function annotateText(text, translations) {
       let ti = i, wi = 0, span = [];
       while (wi < pw.length && ti < tokens.length) {
         if (/^\s+$/.test(tokens[ti])) { span.push(tokens[ti]); ti++; continue; }
-        const clean = tokens[ti].replace(/[.,!?;:"""'']+$/, '');
+        const clean = splitToken(tokens[ti]).core;
         if (clean.toLowerCase() === pw[wi].toLowerCase()) {
           span.push(tokens[ti]); wi++; ti++;
         } else { break; }
@@ -621,37 +655,19 @@ function annotateText(text, translations) {
     }
 
     if (!matched) {
-      // Single word — strip trailing punctuation and look up
-      const clean = tok.replace(/[.,!?;:"""'']+$/, '');
-      const punct = tok.slice(clean.length); // any trailing punctuation
+      // Single word — strip surrounding punctuation, look up the core
+      const { lead, core, trail } = splitToken(tok);
+      const clean = core;
+      const trans = lookupWord(clean, translations);
 
-      // 1. Check reader translations (single-word keys)
-      let trans = translations[clean] ?? translations[clean.toLowerCase()];
-
-      // 2. Fall back to the vocabulary list
-      if (!trans) {
-        const entry = getFullVocab().find(w => {
-          const bare = w.german.replace(/^(der|die|das|ein|eine)\s+/i, '');
-          return bare.toLowerCase() === clean.toLowerCase()
-              || w.german.toLowerCase() === clean.toLowerCase();
-        });
-        if (entry) trans = entry.english;
-      }
-
-      // 3. Check the built-in dictionary (case-insensitive)
-      if (!trans) {
-        trans = DICT[clean.toLowerCase()] ?? null;
-      }
-
-      // 4. Suffix-stripping fallback for uninflected forms not in the dict
-      if (!trans) {
-        trans = dictFallback(clean.toLowerCase());
-      }
-
-      if (trans) {
-        out += `<span class="r-word has-translation" data-phrase="${escHtml(clean)}" data-trans="${escHtml(trans)}">${escHtml(clean)}</span>${escHtml(punct)}`;
+      const leadHtml = escHtml(lead);
+      const trailHtml = escHtml(trail);
+      if (!clean) {
+        out += escHtml(tok);
+      } else if (trans) {
+        out += leadHtml + `<span class="r-word has-translation" data-phrase="${escHtml(clean)}" data-trans="${escHtml(trans)}">${escHtml(clean)}</span>` + trailHtml;
       } else {
-        out += `<span class="r-word" data-word="${escHtml(clean)}">${escHtml(clean)}</span>${escHtml(punct)}`;
+        out += leadHtml + `<span class="r-word" data-word="${escHtml(clean)}">${escHtml(clean)}</span>` + trailHtml;
       }
       i++;
     }
@@ -660,51 +676,68 @@ function annotateText(text, translations) {
 }
 
 function showPopup(e, r) {
+  // Stop this click from bubbling to the global dismiss handler,
+  // otherwise the popup we are about to open would be closed immediately.
+  e.stopPropagation();
+
   const el = e.currentTarget;
   const popup = document.getElementById('translation-popup');
 
   const phrase = el.dataset.phrase || (el.dataset.word || el.textContent.trim());
   const trans  = el.dataset.trans  || null;
+  const addBtn = document.getElementById('popup-add');
+
+  document.getElementById('popup-german').textContent = phrase;
 
   if (!trans) {
-    // Word has no translation — briefly flash the popup as grey
-    document.getElementById('popup-german').textContent = phrase;
-    document.getElementById('popup-english').textContent = '(not in vocabulary yet)';
-    const addBtn = document.getElementById('popup-add');
-    addBtn.disabled = true;
-    addBtn.textContent = '＋ flashcard';
+    document.getElementById('popup-english').textContent = '(not in dictionary — add your own below)';
+    addBtn.disabled = false;
+    addBtn.textContent = '＋ add with my own translation';
+    addBtn.onclick = () => {
+      const userTrans = prompt(`Enter your English translation for "${phrase}":`, '');
+      if (userTrans && userTrans.trim()) {
+        addToFlashcards(phrase, userTrans.trim(), addBtn);
+      }
+    };
     popup.classList.remove('hidden');
-    setTimeout(() => { document.addEventListener('click', dismissPopup, { once: true }); }, 10);
     return;
   }
 
-  document.getElementById('popup-german').textContent = phrase;
   document.getElementById('popup-english').textContent = trans;
-  const addBtn = document.getElementById('popup-add');
-  addBtn.disabled = false;
-  addBtn.textContent = '＋ flashcard';
-  popup.classList.remove('hidden');
 
-  addBtn.onclick = () => {
-    const custom = load('customVocab', []);
-    const already = getFullVocab().some(w => w.german.toLowerCase() === phrase.toLowerCase());
-    if (!already) {
-      custom.push({ german: phrase, english: trans, category: 'verb' });
-      save('customVocab', custom);
-    }
-    addBtn.textContent = already ? 'Already in deck' : '✓ Added!';
+  // Reflect existing-deck state immediately (fixes the "offers to add again" confusion)
+  const already = getFullVocab().some(w => w.german.toLowerCase() === phrase.toLowerCase());
+  if (already) {
     addBtn.disabled = true;
-  };
+    addBtn.textContent = '✓ Already in deck';
+  } else {
+    addBtn.disabled = false;
+    addBtn.textContent = '＋ flashcard';
+    addBtn.onclick = () => addToFlashcards(phrase, trans, addBtn);
+  }
 
-  setTimeout(() => {
-    document.addEventListener('click', dismissPopup, { once: true });
-  }, 10);
+  popup.classList.remove('hidden');
 }
 
-function dismissPopup(e) {
+function addToFlashcards(german, english, btn) {
+  const already = getFullVocab().some(w => w.german.toLowerCase() === german.toLowerCase());
+  if (!already) {
+    const custom = load('customVocab', []);
+    custom.push({ german, english, category: 'verb' });
+    save('customVocab', custom);
+  }
+  btn.textContent = already ? '✓ Already in deck' : '✓ Added!';
+  btn.disabled = true;
+}
+
+// Single persistent handler: any click outside the popup closes it.
+document.addEventListener('click', (e) => {
   const popup = document.getElementById('translation-popup');
+  if (popup.classList.contains('hidden')) return;
   if (!popup.contains(e.target)) popup.classList.add('hidden');
-}
+});
+// Clicks inside the popup should not bubble out and dismiss it.
+document.getElementById('translation-popup').addEventListener('click', (e) => e.stopPropagation());
 
 // Simple suffix-stripping to find dictionary entries for inflected forms.
 // Tries common German endings in order; returns the first match found.

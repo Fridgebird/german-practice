@@ -71,12 +71,30 @@ const GENDER_CLASS = {
   'neuter-noun':    'gender-neut',
 };
 
+// Direction: 'de-en' = German prompt, English answer; 'en-de' = the reverse.
+let cardDirection = load('cardDirection', 'de-en');
+
+// The German text shown on a card. For nouns with a plural, show
+// "der Vater / die Väter" so singular and plural sit together.
+function germanDisplay(card) {
+  if (card.plural && /-noun$/.test(card.category)) {
+    return `${card.german} / ${card.plural}`;
+  }
+  return card.german;
+}
+
 function showCard() {
   const card = document.getElementById('flashcard');
   card.classList.remove('gender-masc', 'gender-fem', 'gender-neut');
 
+  const frontPrimary = document.getElementById('front-primary');
+  const frontSub = document.getElementById('front-sub');
+  const backPrimary = document.getElementById('back-primary');
+  const backSub = document.getElementById('back-sub');
+
   if (deck.length === 0) {
-    document.getElementById('card-german').textContent = 'No cards in this selection.';
+    frontPrimary.textContent = 'No cards in this selection.';
+    frontSub.textContent = '';
     document.getElementById('card-back').classList.add('hidden');
     document.getElementById('card-front').classList.remove('hidden');
     document.getElementById('card-progress').textContent = '';
@@ -86,20 +104,31 @@ function showCard() {
   }
   currentCard = deck[deckIndex % deck.length];
 
-  if (GENDER_CLASS[currentCard.category]) {
-    card.classList.add(GENDER_CLASS[currentCard.category]);
+  const germanText = germanDisplay(currentCard);
+  const englishText = currentCard.english;
+  const catLabel = currentCard.category.replace('-', ' ');
+
+  const frontIsGerman = (cardDirection === 'de-en');
+
+  // Mark which face carries the German text (for colour styling).
+  frontPrimary.className = 'card-primary ' + (frontIsGerman ? 'is-german' : 'is-english');
+  backPrimary.className  = 'card-primary ' + (frontIsGerman ? 'is-english' : 'is-german');
+
+  if (frontIsGerman) {
+    frontPrimary.textContent = germanText;
+    frontSub.textContent = '';
+    backPrimary.textContent = englishText;
+    backSub.textContent = catLabel;
+  } else {
+    frontPrimary.textContent = englishText;
+    frontSub.textContent = '';
+    backPrimary.textContent = germanText;
+    backSub.textContent = catLabel;
   }
 
-  document.getElementById('card-german').textContent = currentCard.german;
-  document.getElementById('card-english').textContent = currentCard.english;
-
-  // Plural line on back of card
-  let catLabel = currentCard.category.replace('-', ' ');
-  let pluralHtml = '';
-  if (currentCard.plural) {
-    pluralHtml = `<div class="card-plural">Plural: ${currentCard.plural}</div>`;
-  }
-  document.getElementById('card-cat').innerHTML = catLabel + pluralHtml;
+  // Apply the gender colour only while the German face is visible, so in
+  // English→German mode the gender isn't given away before you answer.
+  applyGenderColour(frontIsGerman);
 
   document.getElementById('card-front').classList.remove('hidden');
   document.getElementById('card-back').classList.add('hidden');
@@ -112,11 +141,28 @@ function showCard() {
     `Card ${(deckIndex % deck.length) + 1} of ${deck.length}  •  ✓ ${r}  ✗ ${w}`;
 }
 
+// Add/remove the gender colour class based on whether the German face is showing.
+function applyGenderColour(showing) {
+  const card = document.getElementById('flashcard');
+  card.classList.remove('gender-masc', 'gender-fem', 'gender-neut');
+  if (showing && currentCard && GENDER_CLASS[currentCard.category]) {
+    card.classList.add(GENDER_CLASS[currentCard.category]);
+  }
+}
+
 document.getElementById('btn-show').addEventListener('click', () => {
   document.getElementById('card-front').classList.add('hidden');
   document.getElementById('card-back').classList.remove('hidden');
   document.getElementById('btn-show').classList.add('hidden');
   document.getElementById('btn-grade').classList.remove('hidden');
+  // If German is on the back (English→German mode), reveal the gender colour now.
+  if (cardDirection === 'en-de') applyGenderColour(true);
+});
+
+document.getElementById('direction').addEventListener('change', (e) => {
+  cardDirection = e.target.value;
+  save('cardDirection', cardDirection);
+  showCard();
 });
 
 document.getElementById('btn-right').addEventListener('click', () => {
@@ -215,6 +261,7 @@ function renderVocabTable() {
 }
 
 // Init flashcards
+document.getElementById('direction').value = cardDirection;
 buildDeck();
 showCard();
 

@@ -88,30 +88,20 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
 .flashcard.gender-fem  { border-top-color: #c0396b; background: #fdeef4; }
 .flashcard.gender-neut { border-top-color: #27ae60; background: #eefaf3; }
 
-.gender-masc #card-german { color: #1a5f8a; }
-.gender-fem  #card-german { color: #8a1a40; }
-.gender-neut #card-german { color: #1a6b3c; }
-
-.card-plural {
-  margin-top: 0.5rem;
-  font-size: 0.95rem;
-  color: #555;
-  font-style: italic;
-}
+.gender-masc .is-german { color: #1a5f8a; }
+.gender-fem  .is-german { color: #8a1a40; }
+.gender-neut .is-german { color: #1a6b3c; }
 
 .card-face { width: 100%; text-align: center; }
 .card-face.hidden { display: none; }
 
-#card-german {
+.card-primary {
   font-size: 2rem;
   font-weight: 600;
-  color: #1a3a5c;
 }
-#card-english {
-  font-size: 1.6rem;
-  color: #2c7a2c;
-}
-.card-category {
+.card-primary.is-german { color: #1a3a5c; }
+.card-primary.is-english { color: #2c7a2c; font-size: 1.6rem; font-weight: 500; }
+.card-sub {
   margin-top: 0.7rem;
   font-size: 0.8rem;
   color: #888;

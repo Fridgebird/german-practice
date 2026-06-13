@@ -40,6 +40,11 @@
           <label style="margin-left:1rem">
             <input type="checkbox" id="weak-only"> Due / weak cards only
           </label>
+          <label style="margin-left:1rem" for="direction">Direction:</label>
+          <select id="direction">
+            <option value="de-en">German → English</option>
+            <option value="en-de">English → German</option>
+          </select>
         </div>
       </div>
 
@@ -52,11 +57,12 @@
       <div id="card-area">
         <div id="flashcard" class="flashcard">
           <div id="card-front" class="card-face">
-            <span id="card-german"></span>
+            <span class="card-primary" id="front-primary"></span>
+            <div class="card-sub" id="front-sub"></div>
           </div>
           <div id="card-back" class="card-face hidden">
-            <span id="card-english"></span>
-            <div class="card-category" id="card-cat"></div>
+            <span class="card-primary" id="back-primary"></span>
+            <div class="card-sub" id="back-sub"></div>
           </div>
         </div>
         <div id="card-controls">

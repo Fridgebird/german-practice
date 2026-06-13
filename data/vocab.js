@@ -204,8 +204,8 @@ const VOCAB = [
 
   // === PREPOSITIONS ===
   { german: "in", english: "in / into", category: "preposition" },
-  { german: "an", english: "at / on (vertical)", category: "preposition" },
-  { german: "auf", english: "on (horizontal)", category: "preposition" },
+  { german: "an", english: "at / on (against an upright surface, e.g. on the wall)", category: "preposition" },
+  { german: "auf", english: "on (on top of a flat surface, e.g. on the table)", category: "preposition" },
   { german: "mit", english: "with", category: "preposition" },
   { german: "von", english: "from / of", category: "preposition" },
   { german: "zu", english: "to / at", category: "preposition" },

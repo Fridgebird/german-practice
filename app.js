@@ -172,16 +172,24 @@ function renderVocabTable() {
   const custom = load('customVocab', []);
   const all = getFullVocab();
   let html = `<table><thead><tr><th>German</th><th>English</th><th>Plural</th><th>Category</th><th>✓</th><th>✗</th><th></th></tr></thead><tbody>`;
+  const CATS = ['masculine-noun','feminine-noun','neuter-noun','verb','adjective','conjunction','adverb','preposition','reader'];
   all.forEach((w, i) => {
     const p = progress[w.german] || { right: 0, wrong: 0 };
     const isCustom = i >= VOCAB.length;
+    const customIdx = i - VOCAB.length;
     const rowClass = GENDER_CLASS[w.category] ? `row-${GENDER_CLASS[w.category].split('-')[1]}` : '';
+    // Custom words get an editable category dropdown; built-in words show plain text.
+    const categoryCell = isCustom
+      ? `<select class="cat-edit" data-idx="${customIdx}">` +
+        CATS.map(c => `<option value="${c}"${c === w.category ? ' selected' : ''}>${c.replace('-',' ')}</option>`).join('') +
+        `</select>`
+      : w.category.replace('-',' ');
     html += `<tr class="${rowClass}">
       <td>${w.german}</td><td>${w.english}</td>
       <td>${w.plural || ''}</td>
-      <td>${w.category.replace('-',' ')}</td>
+      <td>${categoryCell}</td>
       <td>${p.right}</td><td>${p.wrong}</td>
-      <td>${isCustom ? `<button class="delete-word" data-idx="${i - VOCAB.length}">🗑</button>` : ''}</td>
+      <td>${isCustom ? `<button class="delete-word" data-idx="${customIdx}">🗑</button>` : ''}</td>
     </tr>`;
   });
   html += '</tbody></table>';
@@ -190,6 +198,15 @@ function renderVocabTable() {
     btn.addEventListener('click', () => {
       const custom = load('customVocab', []);
       custom.splice(parseInt(btn.dataset.idx), 1);
+      save('customVocab', custom);
+      buildDeck(); showCard();
+      renderVocabTable();
+    });
+  });
+  wrap.querySelectorAll('.cat-edit').forEach(sel => {
+    sel.addEventListener('change', () => {
+      const custom = load('customVocab', []);
+      custom[parseInt(sel.dataset.idx)].category = sel.value;
       save('customVocab', custom);
       buildDeck(); showCard();
       renderVocabTable();
@@ -719,11 +736,26 @@ function showPopup(e, r) {
   popup.classList.remove('hidden');
 }
 
+// Guess a category for a word added from the reader.
+// We can reliably detect noun gender only when the word carries its article;
+// otherwise we file it under "reader" so it is clearly grouped (and the user
+// can re-pick the category in the vocab manager if they wish).
+function guessCategory(german) {
+  const m = german.trim().match(/^(der|die|das)\s+/i);
+  if (m) {
+    const art = m[1].toLowerCase();
+    if (art === 'der') return 'masculine-noun';
+    if (art === 'die') return 'feminine-noun';
+    if (art === 'das') return 'neuter-noun';
+  }
+  return 'reader';
+}
+
 function addToFlashcards(german, english, btn) {
   const already = getFullVocab().some(w => w.german.toLowerCase() === german.toLowerCase());
   if (!already) {
     const custom = load('customVocab', []);
-    custom.push({ german, english, category: 'verb' });
+    custom.push({ german, english, category: guessCategory(german) });
     save('customVocab', custom);
   }
   btn.textContent = already ? '✓ Already in deck' : '✓ Added!';

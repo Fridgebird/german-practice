@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>German Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Caveat:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,6 +17,7 @@
       <button class="nav-btn" data-section="wordorder">Word Order</button>
       <button class="nav-btn" data-section="pasttense">Past Tense</button>
       <button class="nav-btn" data-section="seinhaaben">Sein &amp; Haben</button>
+      <button class="nav-btn" data-section="gender">Gender</button>
       <button class="nav-btn" data-section="reader">Reader</button>
     </nav>
   </header>
@@ -126,6 +130,53 @@
       <div id="sh-exercise"></div>
       <div id="sh-feedback" class="feedback-area"></div>
       <button id="btn-sh-next" class="btn-primary" style="margin-top:1rem">Next</button>
+    </section>
+
+    <!-- ===== GENDER ===== -->
+    <section id="gender" class="section">
+      <h2>Gender Practice</h2>
+      <p class="section-intro">Train <em>der / die / das</em>. The three answers always sit in the same spots — left, middle, right — to build a spatial memory for each gender.</p>
+
+      <div class="tab-row" id="gender-tabs">
+        <button class="tab-btn active" data-gtab="drill">Noun drill</button>
+        <button class="tab-btn" data-gtab="rules">Rule quiz</button>
+      </div>
+
+      <label class="font-toggle">
+        <input type="checkbox" id="gender-fonts-toggle">
+        Gender fonts (masculine = gothic, feminine = handwriting)
+      </label>
+
+      <!-- Noun drill -->
+      <div id="gender-drill" class="gender-pane">
+        <div class="gender-drill-card" id="gd-card">
+          <span id="gd-word"></span>
+        </div>
+        <div class="gender-answer-row">
+          <button class="gbtn gbtn-der" data-g="masculine-noun">der</button>
+          <button class="gbtn gbtn-das" data-g="neuter-noun">das</button>
+          <button class="gbtn gbtn-die" data-g="feminine-noun">die</button>
+        </div>
+        <div id="gd-feedback" class="feedback-area"></div>
+        <div id="gd-progress"></div>
+      </div>
+
+      <!-- Rule quiz -->
+      <div id="gender-rules" class="gender-pane hidden">
+        <div class="gender-drill-card" id="gr-card">
+          <span id="gr-word"></span>
+        </div>
+        <div class="gender-answer-row">
+          <button class="gbtn gbtn-der" data-g="masculine-noun">der</button>
+          <button class="gbtn gbtn-das" data-g="neuter-noun">das</button>
+          <button class="gbtn gbtn-die" data-g="feminine-noun">die</button>
+        </div>
+        <div id="gr-feedback" class="feedback-area"></div>
+        <details class="rules-list">
+          <summary>Show all the gender rules</summary>
+          <div id="rules-reference"></div>
+        </details>
+      </div>
     </section>
 
     <!-- ===== READER ===== -->

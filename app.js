@@ -110,9 +110,10 @@ function showCard() {
 
   const frontIsGerman = (cardDirection === 'de-en');
 
-  // Mark which face carries the German text (for colour styling).
-  frontPrimary.className = 'card-primary ' + (frontIsGerman ? 'is-german' : 'is-english');
-  backPrimary.className  = 'card-primary ' + (frontIsGerman ? 'is-english' : 'is-german');
+  // Mark which face carries the German text (for colour + optional gender font).
+  const fontCls = genderFontClass(currentCard.category);
+  frontPrimary.className = 'card-primary ' + (frontIsGerman ? 'is-german ' + fontCls : 'is-english');
+  backPrimary.className  = 'card-primary ' + (frontIsGerman ? 'is-english' : 'is-german ' + fontCls);
 
   if (frontIsGerman) {
     frontPrimary.textContent = germanText;
@@ -555,6 +556,258 @@ document.getElementById('btn-sh-next').addEventListener('click', () => {
 });
 
 showSH();
+
+// ============================================================
+//  GENDER PRACTICE
+// ============================================================
+
+const GENDER_ANIM = {
+  'masculine-noun': 'anim-masc',
+  'feminine-noun':  'anim-fem',
+  'neuter-noun':    'anim-neut',
+};
+const GENDER_ARTICLE = {
+  'masculine-noun': 'der',
+  'feminine-noun':  'die',
+  'neuter-noun':    'das',
+};
+// Font class applied to a word based on its gender (used when "Gender fonts" is on).
+function genderFontClass(category) {
+  if (category === 'masculine-noun') return 'gfont-masc';
+  if (category === 'feminine-noun') return 'gfont-fem';
+  return '';
+}
+
+// ---- Gender fonts toggle (shared with flashcards) ----
+let genderFontsOn = load('genderFontsOn', false);
+function applyGenderFontsClass() {
+  document.body.classList.toggle('gender-fonts', genderFontsOn);
+}
+applyGenderFontsClass();
+const gfToggle = document.getElementById('gender-fonts-toggle');
+gfToggle.checked = genderFontsOn;
+gfToggle.addEventListener('change', () => {
+  genderFontsOn = gfToggle.checked;
+  save('genderFontsOn', genderFontsOn);
+  applyGenderFontsClass();
+  showCard(); // refresh flashcard font immediately
+});
+
+// ---- Tab switching ----
+document.querySelectorAll('#gender-tabs .tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#gender-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.gtab;
+    document.getElementById('gender-drill').classList.toggle('hidden', tab !== 'drill');
+    document.getElementById('gender-rules').classList.toggle('hidden', tab !== 'rules');
+  });
+});
+
+// ---- Noun drill: pick nouns from the vocab, ask der/die/das ----
+let genderProgress = load('genderProgress', {}); // { german: {right,wrong} }
+
+function nounPool() {
+  return getFullVocab().filter(w => /-noun$/.test(w.category));
+}
+
+let gdCurrent = null;
+
+function nextGenderDrill() {
+  const pool = nounPool();
+  if (pool.length === 0) return;
+  // Bias towards words answered wrong before
+  pool.sort((a, b) => {
+    const pa = genderProgress[a.german] || { right: 0, wrong: 0 };
+    const pb = genderProgress[b.german] || { right: 0, wrong: 0 };
+    return (pa.right - pa.wrong * 2) - (pb.right - pb.wrong * 2);
+  });
+  // Take from the weakest third at random so it's not fully deterministic
+  const slice = pool.slice(0, Math.max(5, Math.ceil(pool.length / 3)));
+  gdCurrent = slice[Math.floor(Math.random() * slice.length)];
+
+  // Show the noun WITHOUT its article
+  const bare = gdCurrent.german.replace(/^(der|die|das)\s+/i, '');
+  const wordEl = document.getElementById('gd-word');
+  wordEl.className = genderFontClass(gdCurrent.category);
+  wordEl.textContent = bare;
+  document.getElementById('gd-feedback').textContent = '';
+  document.getElementById('gd-feedback').className = 'feedback-area';
+  updateGenderProgressLabel();
+}
+
+function updateGenderProgressLabel() {
+  const totals = Object.values(genderProgress).reduce(
+    (acc, p) => { acc.r += p.right; acc.w += p.wrong; return acc; },
+    { r: 0, w: 0 }
+  );
+  document.getElementById('gd-progress').textContent =
+    `Correct so far: ✓ ${totals.r}   ✗ ${totals.w}`;
+}
+
+document.querySelectorAll('#gender-drill .gbtn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (!gdCurrent) return;
+    const chosen = btn.dataset.g;
+    const correct = gdCurrent.category;
+    const wordEl = document.getElementById('gd-word');
+    const fb = document.getElementById('gd-feedback');
+
+    const p = genderProgress[gdCurrent.german] || { right: 0, wrong: 0 };
+    if (chosen === correct) {
+      p.right++;
+      fb.textContent = `✓ Richtig! ${GENDER_ARTICLE[correct]} ${wordEl.textContent}`;
+      fb.className = 'feedback-area correct';
+    } else {
+      p.wrong++;
+      fb.innerHTML = `✗ It's <strong>${GENDER_ARTICLE[correct]} ${wordEl.textContent}</strong>` +
+        ruleHintFor(wordEl.textContent, correct);
+      fb.className = 'feedback-area wrong';
+    }
+    genderProgress[gdCurrent.german] = p;
+    save('genderProgress', genderProgress);
+    updateGenderProgressLabel();
+
+    // Vivid gender-specific animation, then advance
+    wordEl.classList.remove('anim-masc', 'anim-fem', 'anim-neut');
+    void wordEl.offsetWidth; // restart animation
+    wordEl.classList.add(GENDER_ANIM[correct]);
+    setTimeout(nextGenderDrill, 1300);
+  });
+});
+
+// Give a short rule explanation when one applies (helps learn the pattern).
+function ruleHintFor(word, category) {
+  const w = word.toLowerCase();
+  for (const rule of GENDER_RULES) {
+    if (rule.category === category && rule.test(w)) {
+      return `<div class="exercise-hint" style="margin-top:0.4rem">💡 ${rule.hint}</div>`;
+    }
+  }
+  return '';
+}
+
+// ---- Rule data: endings & meaning groups that predict gender ----
+const GENDER_RULES = [
+  // masculine
+  { category: 'masculine-noun', hint: "Nouns ending in -er (often a doer) are usually masculine.", test: w => /er$/.test(w) },
+  { category: 'masculine-noun', hint: "Nouns ending in -ling are masculine.", test: w => /ling$/.test(w) },
+  { category: 'masculine-noun', hint: "Nouns ending in -ismus, -or, -ant are masculine.", test: w => /(ismus|or|ant)$/.test(w) },
+  { category: 'masculine-noun', hint: "Days, months and seasons are masculine.", test: w => /(montag|dienstag|januar|februar|frühling|sommer|winter|herbst)$/.test(w) },
+  // feminine
+  { category: 'feminine-noun', hint: "About 90% of nouns ending in -e are feminine.", test: w => /e$/.test(w) },
+  { category: 'feminine-noun', hint: "Nouns ending in -ung, -heit, -keit, -schaft are feminine.", test: w => /(ung|heit|keit|schaft)$/.test(w) },
+  { category: 'feminine-noun', hint: "Nouns ending in -ion, -tät, -ik, -ur are feminine.", test: w => /(ion|tät|ik|ur)$/.test(w) },
+  { category: 'feminine-noun', hint: "The ending -in marks a female person, which is feminine.", test: w => /in$/.test(w) },
+  // neuter
+  { category: 'neuter-noun', hint: "Diminutives ending in -chen or -lein are ALWAYS neuter (even das Mädchen!).", test: w => /(chen|lein)$/.test(w) },
+  { category: 'neuter-noun', hint: "Nouns ending in -ment, -um, -ma are neuter.", test: w => /(ment|um|ma)$/.test(w) },
+];
+
+// ---- Rule quiz: present a word that follows a rule, ask the gender, explain ----
+const RULE_QUIZ = [
+  { word: "Freiheit", category: 'feminine-noun', rule: "-heit → feminine" },
+  { word: "Zeitung", category: 'feminine-noun', rule: "-ung → feminine" },
+  { word: "Möglichkeit", category: 'feminine-noun', rule: "-keit → feminine" },
+  { word: "Nation", category: 'feminine-noun', rule: "-ion → feminine" },
+  { word: "Universität", category: 'feminine-noun', rule: "-tät → feminine" },
+  { word: "Freundschaft", category: 'feminine-noun', rule: "-schaft → feminine" },
+  { word: "Blume", category: 'feminine-noun', rule: "-e → usually feminine" },
+  { word: "Lehrerin", category: 'feminine-noun', rule: "-in → female person, feminine" },
+  { word: "Natur", category: 'feminine-noun', rule: "-ur → feminine" },
+  { word: "Musik", category: 'feminine-noun', rule: "-ik → feminine" },
+
+  { word: "Lehrer", category: 'masculine-noun', rule: "-er (doer) → usually masculine" },
+  { word: "Frühling", category: 'masculine-noun', rule: "-ling → masculine" },
+  { word: "Motor", category: 'masculine-noun', rule: "-or → masculine" },
+  { word: "Kapitalismus", category: 'masculine-noun', rule: "-ismus → masculine" },
+  { word: "Montag", category: 'masculine-noun', rule: "days of the week → masculine" },
+  { word: "Januar", category: 'masculine-noun', rule: "months → masculine" },
+  { word: "Sommer", category: 'masculine-noun', rule: "seasons → masculine" },
+
+  { word: "Mädchen", category: 'neuter-noun', rule: "-chen → ALWAYS neuter (beats meaning!)" },
+  { word: "Brötchen", category: 'neuter-noun', rule: "-chen → always neuter" },
+  { word: "Dokument", category: 'neuter-noun', rule: "-ment → neuter" },
+  { word: "Datum", category: 'neuter-noun', rule: "-um → neuter" },
+  { word: "Thema", category: 'neuter-noun', rule: "-ma → neuter" },
+  { word: "Gold", category: 'neuter-noun', rule: "metals → usually neuter" },
+  { word: "Leben", category: 'neuter-noun', rule: "infinitive used as a noun → neuter" },
+];
+
+let grCurrent = null;
+let grOrder = [];
+let grIndex = 0;
+
+function nextRuleQuiz() {
+  if (grOrder.length === 0) {
+    grOrder = [...Array(RULE_QUIZ.length).keys()].sort(() => Math.random() - 0.5);
+    grIndex = 0;
+  }
+  grCurrent = RULE_QUIZ[grOrder[grIndex % grOrder.length]];
+  grIndex++;
+  const wordEl = document.getElementById('gr-word');
+  wordEl.className = genderFontClass(grCurrent.category);
+  wordEl.textContent = grCurrent.word;
+  document.getElementById('gr-feedback').textContent = '';
+  document.getElementById('gr-feedback').className = 'feedback-area';
+}
+
+document.querySelectorAll('#gender-rules .gbtn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (!grCurrent) return;
+    const chosen = btn.dataset.g;
+    const correct = grCurrent.category;
+    const wordEl = document.getElementById('gr-word');
+    const fb = document.getElementById('gr-feedback');
+
+    if (chosen === correct) {
+      fb.innerHTML = `✓ Richtig! <strong>${GENDER_ARTICLE[correct]} ${grCurrent.word}</strong> — ${grCurrent.rule}`;
+      fb.className = 'feedback-area correct';
+    } else {
+      fb.innerHTML = `✗ It's <strong>${GENDER_ARTICLE[correct]} ${grCurrent.word}</strong> — ${grCurrent.rule}`;
+      fb.className = 'feedback-area wrong';
+    }
+    wordEl.classList.remove('anim-masc', 'anim-fem', 'anim-neut');
+    void wordEl.offsetWidth;
+    wordEl.classList.add(GENDER_ANIM[correct]);
+    setTimeout(nextRuleQuiz, 1600);
+  });
+});
+
+// ---- Static rules reference (inside the collapsible) ----
+function renderRulesReference() {
+  const el = document.getElementById('rules-reference');
+  el.innerHTML = `
+    <h4 class="rule-masc">der — Masculine</h4>
+    <ul>
+      <li>Male people & animals: der Mann, der Hund</li>
+      <li>Days, months, seasons: der Montag, der Januar, der Sommer</li>
+      <li>Weather & compass points: der Regen, der Wind, der Norden</li>
+      <li>Endings: -er, -ling, -ismus, -or, -ant (der Lehrer, der Frühling, der Motor)</li>
+    </ul>
+    <h4 class="rule-fem">die — Feminine</h4>
+    <ul>
+      <li>Female people: die Frau, die Lehrerin (-in = female)</li>
+      <li>Most nouns ending in -e (~90%): die Blume, die Katze</li>
+      <li>Endings: -ung, -heit, -keit, -schaft (die Zeitung, die Freiheit)</li>
+      <li>Endings: -ion, -tät, -ik, -ur (die Nation, die Universität)</li>
+    </ul>
+    <h4 class="rule-neut">das — Neuter</h4>
+    <ul>
+      <li>Diminutives -chen, -lein: das Mädchen, das Brötchen (ALWAYS neuter)</li>
+      <li>Young beings: das Kind, das Baby</li>
+      <li>Infinitives used as nouns: das Leben, das Essen</li>
+      <li>Endings: -ment, -um, -ma (das Dokument, das Datum, das Thema)</li>
+      <li>Metals & colours: das Gold, das Silber, das Rot</li>
+    </ul>
+    <p style="font-size:0.85rem;color:#777">These rules cover most nouns, but there are exceptions — the drill helps with those.</p>
+  `;
+}
+
+// Init gender section
+nextGenderDrill();
+nextRuleQuiz();
+renderRulesReference();
 
 // ============================================================
 //  READER

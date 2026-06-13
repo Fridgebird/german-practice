@@ -342,6 +342,101 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
 #btn-sein:hover { background: #2471a3; }
 #btn-haben:hover { background: #7d3c98; }
 
+/* ---- Gender practice ---- */
+.font-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.gender-drill-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+#gd-word, #gr-word {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #1a3a5c;
+  display: inline-block;
+}
+
+/* Spatial answer row: der (left), das (middle), die (right) — always fixed */
+.gender-answer-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.gbtn {
+  padding: 0.8rem 0.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.1s, filter 0.15s;
+}
+.gbtn:hover { filter: brightness(1.1); }
+.gbtn:active { transform: scale(0.96); }
+.gbtn-der { background: #2980b9; }   /* blue   – left   */
+.gbtn-das { background: #27ae60; }   /* green  – middle */
+.gbtn-die { background: #c0396b; }   /* pink   – right  */
+
+/* Gender-specific reveal animations (the "vivid action" memory hook) */
+@keyframes fly-der {           /* masculine: shoots off to the LEFT */
+  0% { transform: translateX(0) rotate(0); }
+  60% { transform: translateX(-12px) rotate(-4deg); }
+  100% { transform: translateX(0) rotate(0); }
+}
+@keyframes fly-die {           /* feminine: floats up to the RIGHT */
+  0% { transform: translateX(0) translateY(0); }
+  60% { transform: translateX(12px) translateY(-8px); }
+  100% { transform: translateX(0) translateY(0); }
+}
+@keyframes fly-das {           /* neuter: drops & settles in the MIDDLE */
+  0% { transform: translateY(0); }
+  40% { transform: translateY(10px) scale(0.94); }
+  100% { transform: translateY(0) scale(1); }
+}
+.anim-masc { animation: fly-der 0.5s ease; color: #1a5f8a !important; }
+.anim-fem  { animation: fly-die 0.5s ease; color: #8a1a40 !important; }
+.anim-neut { animation: fly-das 0.5s ease; color: #1a6b3c !important; }
+
+#gd-progress { font-size: 0.85rem; color: #777; margin-top: 0.5rem; }
+
+.rules-list {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin-top: 1.5rem;
+}
+.rules-list summary { cursor: pointer; font-weight: 600; color: #1a3a5c; }
+#rules-reference { margin-top: 1rem; }
+#rules-reference h4 { margin: 1rem 0 0.4rem; }
+#rules-reference .rule-masc { color: #2980b9; }
+#rules-reference .rule-fem  { color: #c0396b; }
+#rules-reference .rule-neut { color: #27ae60; }
+#rules-reference ul { margin: 0 0 0.5rem 1.2rem; font-size: 0.9rem; line-height: 1.6; }
+
+/* Gender fonts (optional toggle): masculine = blackletter, feminine = handwriting */
+.gender-fonts .gfont-masc { font-family: 'UnifrakturMaguntia', serif; letter-spacing: 0.02em; }
+.gender-fonts .gfont-fem  { font-family: 'Caveat', cursive; font-size: 1.25em; }
+/* neuter and non-nouns keep the normal font */
+
 /* ---- Reader ---- */
 .reader-card {
   background: white;

@@ -375,6 +375,12 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
   font-size: 1.05rem;
   margin-top: 1.5rem;
 }
+#reader-text p {
+  margin-bottom: 1.6rem;
+}
+#reader-text p:last-child {
+  margin-bottom: 0;
+}
 #reader-text .r-word,
 #reader-title .r-word {
   cursor: pointer;

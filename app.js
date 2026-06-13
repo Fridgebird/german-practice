@@ -277,20 +277,34 @@ const WO_EXERCISES = {
     { words: ['Die', 'Frau', 'trinkt', 'Kaffee'], hint: 'Subject → Verb → Object' },
     { words: ['Das', 'Kind', 'spielt', 'Fußball'], hint: 'Subject → Verb → Object' },
     { words: ['Wir', 'lernen', 'Deutsch'], hint: 'Subject → Verb → Object' },
+    { words: ['Er', 'liebt', 'seine', 'Familie'], hint: 'Subject → Verb → Object' },
+    { words: ['Die', 'Kinder', 'essen', 'einen', 'Kuchen'], hint: 'Subject → Verb → Object' },
+    { words: ['Meine', 'Schwester', 'hat', 'einen', 'Hund'], hint: 'Subject → Verb → Object' },
     { words: ['Ich', 'gehe', 'heute', 'ins', 'Kino'], hint: 'Subject → Verb → Time → Place' },
     { words: ['Er', 'fährt', 'morgen', 'nach', 'Berlin'], hint: 'Subject → Verb → Time → Place' },
     { words: ['Wir', 'essen', 'abends', 'zusammen'], hint: 'Subject → Verb → Time → Manner' },
     { words: ['Sie', 'schreibt', 'jeden', 'Tag', 'einen', 'Brief'], hint: 'Subject → Verb → Time → Object' },
     { words: ['Er', 'liest', 'abends', 'ein', 'Buch'], hint: 'Subject → Verb → Time → Object' },
+    { words: ['Ich', 'trinke', 'morgens', 'einen', 'Kaffee'], hint: 'Subject → Verb → Time → Object' },
+    { words: ['Wir', 'fahren', 'im', 'Sommer', 'nach', 'Italien'], hint: 'Subject → Verb → Time → Place' },
+    { words: ['Der', 'Lehrer', 'gibt', 'den', 'Kindern', 'Hausaufgaben'], hint: 'Subject → Verb → Indirect object → Direct object' },
+    { words: ['Ich', 'schenke', 'meiner', 'Mutter', 'Blumen'], hint: 'Subject → Verb → Dative → Accusative' },
   ],
-  'Inverted (time first)': [
-    { words: ['Heute', 'gehe', 'ich', 'einkaufen'], hint: 'Time/adverb first → Verb stays 2nd → Subject shifts to 3rd' },
-    { words: ['Morgen', 'kommt', 'meine', 'Mutter'], hint: 'Time first → Verb 2nd → Subject 3rd' },
-    { words: ['Manchmal', 'lese', 'ich', 'ein', 'Buch'], hint: 'Adverb first → inversion' },
-    { words: ['Gestern', 'hat', 'er', 'gearbeitet'], hint: 'Time first → auxiliary 2nd (Perfekt)' },
-    { words: ['Im', 'Sommer', 'fahren', 'wir', 'ans', 'Meer'], hint: 'Time phrase first → inversion' },
-    { words: ['Abends', 'trinke', 'ich', 'Tee'], hint: 'Time adverb first → inversion' },
-    { words: ['Leider', 'kann', 'ich', 'nicht', 'kommen'], hint: 'Adverb first → modal verb 2nd' },
+  'Inverted (front element first)': [
+    { words: ['Heute', 'gehe', 'ich', 'ins', 'Kino'], hint: 'TIME first → Verb stays 2nd → Subject shifts after it' },
+    { words: ['Morgen', 'kommt', 'meine', 'Mutter'], hint: 'TIME first → Verb 2nd → Subject 3rd' },
+    { words: ['Gestern', 'hat', 'er', 'gearbeitet'], hint: 'TIME first → auxiliary 2nd (Perfekt)' },
+    { words: ['Manchmal', 'lese', 'ich', 'ein', 'Buch'], hint: 'ADVERB first → inversion' },
+    { words: ['Leider', 'kann', 'ich', 'nicht', 'kommen'], hint: 'ADVERB first → modal verb 2nd' },
+    { words: ['Deshalb', 'bleibe', 'ich', 'zu', 'Hause'], hint: 'ADVERB first → inversion' },
+    { words: ['In', 'Berlin', 'wohnt', 'meine', 'Mutter'], hint: 'PLACE first → Verb 2nd → Subject after it' },
+    { words: ['Mit', 'dem', 'Zug', 'fahren', 'wir', 'nach', 'Köln'], hint: 'PREPOSITIONAL phrase first → inversion' },
+    { words: ['Diesen', 'Film', 'habe', 'ich', 'schon', 'gesehen'], hint: 'OBJECT first (for emphasis) → Verb 2nd → Subject after it' },
+    { words: ['Am', 'Montag', 'beginnt', 'die', 'Schule'], hint: 'TIME phrase first → inversion' },
+    { words: ['Nach', 'der', 'Arbeit', 'gehe', 'ich', 'einkaufen'], hint: 'PREPOSITIONAL phrase first → inversion' },
+    { words: ['Jeden', 'Tag', 'trinkt', 'er', 'Kaffee'], hint: 'TIME phrase first → inversion' },
+    { words: ['Im', 'Sommer', 'fahren', 'wir', 'ans', 'Meer'], hint: 'TIME phrase first → inversion' },
+    { words: ['Heute', 'Abend', 'kochen', 'wir', 'zusammen'], hint: 'TIME phrase first → inversion' },
   ],
   'Yes/No questions': [
     { words: ['Kommst', 'du', 'heute', 'Abend?'], hint: 'Verb first → Subject → rest (no question word)' },
@@ -298,8 +312,13 @@ const WO_EXERCISES = {
     { words: ['Spricht', 'er', 'Deutsch?'], hint: 'Verb first → Subject → Object' },
     { words: ['Haben', 'Sie', 'ein', 'Zimmer', 'frei?'], hint: 'Verb first → Subject → Object' },
     { words: ['Fährst', 'du', 'morgen', 'nach', 'Hamburg?'], hint: 'Verb first → Subject → Time → Place' },
-    { words: ['Kannst', 'du', 'mir', 'helfen?'], hint: 'Modal verb first → Subject → infinitive at end' },
+    { words: ['Kannst', 'du', 'mir', 'helfen?'], hint: 'Modal first → Subject → infinitive at end' },
     { words: ['Ist', 'das', 'richtig?'], hint: 'Verb first → Subject' },
+    { words: ['Trinkst', 'du', 'einen', 'Kaffee?'], hint: 'Verb first → Subject → Object' },
+    { words: ['Wohnst', 'du', 'in', 'Berlin?'], hint: 'Verb first → Subject → Place' },
+    { words: ['Möchtest', 'du', 'mitkommen?'], hint: 'Modal first → Subject → infinitive at end' },
+    { words: ['Habt', 'ihr', 'das', 'Spiel', 'gesehen?'], hint: 'Auxiliary first → Subject → Object → Participle' },
+    { words: ['Darf', 'ich', 'hier', 'rauchen?'], hint: 'Modal first → Subject → infinitive at end' },
   ],
   'W-questions': [
     { words: ['Wo', 'wohnst', 'du?'], hint: 'W-word → Verb → Subject' },
@@ -310,26 +329,53 @@ const WO_EXERCISES = {
     { words: ['Wohin', 'fährst', 'du', 'im', 'Sommer?'], hint: 'W-word → Verb → Subject → Time' },
     { words: ['Wer', 'hat', 'das', 'gemacht?'], hint: 'W-word → Verb → Subject → Participle' },
     { words: ['Wie', 'viel', 'kostet', 'das?'], hint: 'W-phrase → Verb → Subject' },
+    { words: ['Woher', 'kommst', 'du?'], hint: 'W-word → Verb → Subject' },
+    { words: ['Wen', 'hast', 'du', 'gesehen?'], hint: 'W-word (object) → Verb → Subject → Participle' },
+    { words: ['Wann', 'stehst', 'du', 'auf?'], hint: 'W-word → Verb → Subject → separable prefix at end' },
+    { words: ['Mit', 'wem', 'gehst', 'du', 'ins', 'Kino?'], hint: 'W-phrase → Verb → Subject → Place' },
   ],
   'Subordinate clauses': [
-    { words: ['Ich', 'weiß,', 'dass', 'er', 'kommt'], hint: 'dass sends verb to the end' },
-    { words: ['Er', 'geht', 'nicht,', 'weil', 'er', 'krank', 'ist'], hint: 'weil sends verb to the end' },
+    { words: ['Ich', 'weiß,', 'dass', 'er', 'kommt'], hint: 'dass sends the verb to the end' },
+    { words: ['Er', 'geht', 'nicht,', 'weil', 'er', 'krank', 'ist'], hint: 'weil sends the verb to the end' },
     { words: ['Ich', 'glaube,', 'dass', 'das', 'richtig', 'ist'], hint: 'dass → verb at end' },
     { words: ['Sie', 'sagt,', 'dass', 'sie', 'Hunger', 'hat'], hint: 'dass → verb at end' },
     { words: ['Ich', 'komme', 'nicht,', 'obwohl', 'ich', 'Zeit', 'habe'], hint: 'obwohl → verb at end' },
-    { words: ['Er', 'ruft', 'an,', 'wenn', 'er', 'fertig', 'ist'], hint: 'wenn → verb at end' },
+    { words: ['Er', 'bleibt', 'zu', 'Hause,', 'wenn', 'es', 'regnet'], hint: 'wenn → verb at end' },
     { words: ['Ich', 'weiß', 'nicht,', 'ob', 'sie', 'kommt'], hint: 'ob → verb at end' },
     { words: ['Wir', 'warten,', 'bis', 'der', 'Zug', 'kommt'], hint: 'bis → verb at end' },
+    { words: ['Ich', 'lerne', 'Deutsch,', 'weil', 'es', 'mir', 'gefällt'], hint: 'weil → verb at end' },
+    { words: ['Sie', 'fragt,', 'wann', 'der', 'Film', 'beginnt'], hint: 'indirect question → verb at end' },
+    { words: ['Er', 'ist', 'müde,', 'weil', 'er', 'viel', 'gearbeitet', 'hat'], hint: 'weil → BOTH verbs at end (participle then auxiliary)' },
+    { words: ['Ich', 'hoffe,', 'dass', 'du', 'bald', 'kommen', 'kannst'], hint: 'dass → modal goes last, after the infinitive' },
   ],
   'Modal verbs': [
-    { words: ['Ich', 'kann', 'gut', 'schwimmen'], hint: 'Subject → Modal → ... → Infinitive at end' },
+    { words: ['Ich', 'kann', 'gut', 'schwimmen'], hint: 'Subject → Modal → … → Infinitive at end' },
     { words: ['Er', 'muss', 'heute', 'arbeiten'], hint: 'Subject → Modal → Time → Infinitive at end' },
-    { words: ['Wir', 'wollen', 'nach', 'Berlin', 'fahren'], hint: 'Subject → Modal → ... → Infinitive at end' },
+    { words: ['Wir', 'wollen', 'nach', 'Berlin', 'fahren'], hint: 'Subject → Modal → … → Infinitive at end' },
     { words: ['Du', 'sollst', 'das', 'nicht', 'machen'], hint: 'Subject → Modal → Object → Infinitive at end' },
-    { words: ['Sie', 'darf', 'hier', 'nicht', 'parken'], hint: 'Subject → Modal → ... → Infinitive at end' },
+    { words: ['Sie', 'darf', 'hier', 'nicht', 'parken'], hint: 'Subject → Modal → … → Infinitive at end' },
     { words: ['Ich', 'möchte', 'einen', 'Kaffee', 'bestellen'], hint: 'Subject → Modal → Object → Infinitive at end' },
     { words: ['Morgen', 'muss', 'ich', 'früh', 'aufstehen'], hint: 'Time first → Modal 2nd → Subject 3rd → Infinitive at end' },
-    { words: ['Kannst', 'du', 'mir', 'das', 'erklären?'], hint: 'Modal first (yes/no Q) → Subject → ... → Infinitive at end' },
+    { words: ['Kannst', 'du', 'mir', 'das', 'erklären?'], hint: 'Modal first (yes/no Q) → Subject → … → Infinitive at end' },
+    { words: ['Wir', 'können', 'heute', 'nicht', 'kommen'], hint: 'Subject → Modal → … → Infinitive at end' },
+    { words: ['Ich', 'will', 'dich', 'morgen', 'besuchen'], hint: 'Subject → Modal → Object → Time → Infinitive at end' },
+    { words: ['Man', 'darf', 'hier', 'nicht', 'rauchen'], hint: 'Subject → Modal → … → Infinitive at end' },
+    { words: ['Sie', 'muss', 'noch', 'viel', 'lernen'], hint: 'Subject → Modal → … → Infinitive at end' },
+  ],
+  'Separable verbs': [
+    { words: ['Ich', 'rufe', 'dich', 'später', 'an'], hint: 'anrufen → SPLITS: rufe … an (prefix to the end)' },
+    { words: ['Der', 'Zug', 'kommt', 'um', 'acht', 'an'], hint: 'ankommen → SPLITS: kommt … an' },
+    { words: ['Ich', 'stehe', 'jeden', 'Tag', 'früh', 'auf'], hint: 'aufstehen → SPLITS: stehe … auf' },
+    { words: ['Wir', 'kaufen', 'am', 'Samstag', 'ein'], hint: 'einkaufen → SPLITS: kaufen … ein' },
+    { words: ['Sie', 'sieht', 'gern', 'fern'], hint: 'fernsehen → SPLITS: sieht … fern' },
+    { words: ['Er', 'zieht', 'die', 'Jacke', 'an'], hint: 'anziehen → SPLITS: zieht … an' },
+    { words: ['Wir', 'fangen', 'jetzt', 'an'], hint: 'anfangen → SPLITS: fangen … an' },
+    { words: ['Ich', 'räume', 'mein', 'Zimmer', 'auf'], hint: 'aufräumen → SPLITS: räume … auf' },
+    { words: ['Kommst', 'du', 'heute', 'mit?'], hint: 'mitkommen → SPLITS in a question too: kommst … mit' },
+    { words: ['Ich', 'möchte', 'dich', 'anrufen'], hint: 'With a MODAL it stays together — infinitive at the end' },
+    { words: ['Ich', 'muss', 'früh', 'aufstehen'], hint: 'With a MODAL it stays together: …  aufstehen' },
+    { words: ['Er', 'sagt,', 'dass', 'er', 'mitkommt'], hint: 'In a SUBORDINATE clause it stays together at the end: … mitkommt' },
+    { words: ['Sie', 'bleibt,', 'weil', 'der', 'Film', 'anfängt'], hint: 'In a SUBORDINATE clause it stays together: … anfängt' },
   ],
 };
 
@@ -355,27 +401,40 @@ function initWOTabs() {
   });
 }
 
+// Strip sentence-final punctuation (? ! .) from a token so the last tile in
+// a question doesn't give itself away. Commas are kept (they mark clause
+// boundaries and appear mid-sentence).
+function stripEndPunct(w) {
+  return w.replace(/[?!.]+$/, '');
+}
+
 function nextWO() {
   const pool = WO_EXERCISES[woCategory];
   const ex = pool[Math.floor(Math.random() * pool.length)];
-  woCorrect = ex.words.join(' ');
+  const cleanWords = ex.words.map(stripEndPunct);
+  woCorrect = cleanWords.join(' ');
   woAnswer = [];
-  woTiles = [...ex.words].sort(() => Math.random() - 0.5);
+  woTiles = [...cleanWords].sort(() => Math.random() - 0.5);
 
   const area = document.getElementById('wo-exercise');
   area.innerHTML = `
     <div class="exercise-label">Arrange into a correct sentence:</div>
-    <div class="exercise-hint">${ex.hint}</div>
+    <div class="exercise-hint hidden" id="wo-hint">${ex.hint}</div>
     <div class="answer-slots" id="wo-slots"></div>
     <div class="word-tiles" id="wo-tiles"></div>
     <button class="btn-primary" id="btn-wo-check" style="margin-top:0.5rem">Check</button>
     <button class="btn-secondary" id="btn-wo-clear" style="margin-top:0.5rem;margin-left:0.5rem">Clear</button>
   `;
+  // Hint is off by default for each new sentence; reflect the checkbox state.
+  const hintBox = document.getElementById('wo-show-hint');
+  hintBox.checked = false;
+  document.getElementById('wo-hint').classList.add('hidden');
+
   renderWOTiles();
   document.getElementById('btn-wo-check').addEventListener('click', checkWO);
   document.getElementById('btn-wo-clear').addEventListener('click', () => {
     woAnswer = [];
-    woTiles = [...ex.words].sort(() => Math.random() - 0.5);
+    woTiles = [...cleanWords].sort(() => Math.random() - 0.5);
     renderWOTiles();
     document.getElementById('wo-feedback').textContent = '';
     document.getElementById('wo-feedback').className = 'feedback-area';
@@ -429,6 +488,12 @@ function checkWO() {
 }
 
 document.getElementById('btn-wo-next').addEventListener('click', nextWO);
+
+// Hint checkbox: shows/hides the hint for the current sentence only.
+document.getElementById('wo-show-hint').addEventListener('change', (e) => {
+  const hint = document.getElementById('wo-hint');
+  if (hint) hint.classList.toggle('hidden', !e.target.checked);
+});
 
 initWOTabs();
 nextWO();

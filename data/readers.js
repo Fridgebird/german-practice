@@ -347,4 +347,436 @@ Wie immer lebten die meisten Menschen auf der Welt als einfache Bauern. Doch das
       "formten": "shaped / formed",
     }
   },
+  {
+    id: 6,
+    unlockDay: 6,
+    period: "1050–1060 n. Chr.",
+    title: "Ein Riss in der Kirche und neue Herren in Bagdad",
+    text: `Das sechste Jahrzehnt des 11. Jahrhunderts brachte einen tiefen Riss in die christliche Welt und einen Machtwechsel im Herzen der islamischen Welt.
+
+Das wichtigste Ereignis für die Christen war das Schisma von 1054. Schon lange gab es Streit zwischen der Kirche in Rom im Westen und der Kirche in Konstantinopel im Osten. Sie stritten über religiöse Fragen, über die Macht des Papstes und sogar über die Frage, welches Brot man bei der Messe benutzen soll. Im Jahr 1054 schickte der Papst Gesandte nach Konstantinopel. Das Treffen ging schlecht aus. Am Ende verfluchten sich die beiden Seiten gegenseitig. Aus dieser Spaltung entstanden zwei getrennte Kirchen: die römisch-katholische Kirche im Westen und die orthodoxe Kirche im Osten. Diese Trennung besteht bis heute.
+
+Für die einfachen Gläubigen änderte sich zunächst wenig. Die meisten Bauern wussten gar nicht, was in den fernen Hauptstädten geschah. Aber langsam entwickelten sich die beiden Kirchen in verschiedene Richtungen, mit verschiedenen Sprachen, Bräuchen und Ideen.
+
+In der islamischen Welt geschah ein großer Machtwechsel. Im Jahr 1055 zogen die Seldschuken in Bagdad ein. Der Kalif, das geistliche Oberhaupt der Muslime, hatte schon lange keine echte Macht mehr. Der seldschukische Anführer Tughril Beg nahm den Titel „Sultan" an und wurde der eigentliche Herrscher. Der Kalif blieb als religiöse Figur, aber die politische und militärische Macht lag jetzt bei den Seldschuken. Sie waren strenge Sunniten und brachten neue Energie in die islamische Welt.
+
+In Süditalien wurden die Normannen immer stärker. Ein Mann namens Robert Guiscard führte die normannischen Krieger an. Sein Beiname „Guiscard" bedeutet „der Schlaue". Schritt für Schritt eroberte er Land von den Byzantinern und den Arabern. Bald sollte er einer der mächtigsten Männer im Mittelmeerraum werden.
+
+Im Heiligen Römischen Reich starb im Jahr 1056 der Kaiser Heinrich III. Sein Sohn Heinrich IV. war erst sechs Jahre alt. Deshalb regierten andere für ihn, und das Reich wurde schwächer. Mächtige Fürsten nutzten die Schwäche des Kindkaisers, um ihre eigene Macht zu vergrößern. Dieser schwache Start sollte später zu großen Konflikten führen.
+
+In Westafrika wuchs die Macht der Almoraviden. Diese strenge muslimische Bewegung kam aus der Wüste und eroberte ein großes Gebiet. Sie kontrollierten bald den wichtigen Goldhandel der Sahara. Das Gold aus Afrika war für die ganze bekannte Welt wertvoll.
+
+In China herrschte weiter die Song-Dynastie. Das Land war reich und gebildet, aber es gab auch Probleme. Die Beamten diskutierten über Reformen. Sollte der Staat mehr in die Wirtschaft eingreifen, um den armen Bauern zu helfen? Diese Frage spaltete die Regierung in zwei Lager. In den folgenden Jahren sollte daraus ein großer politischer Streit werden.
+
+In Amerika lebten die Menschen weiter ohne jeden Kontakt zur übrigen Welt. Cahokia am Mississippi war nahe seinem Höhepunkt. Tausende von Menschen lebten dort und bauten weiter an ihren großen Erdhügeln. Im Südwesten bauten die Ancestral Puebloans im Chaco Canyon ihre großen Steinhäuser. Diese amerikanischen Kulturen wussten nichts von Kaisern, Kalifen oder Päpsten – und diese wussten nichts von ihnen.
+
+So zeigt dieses Jahrzehnt eine geteilte Welt. Die Christenheit zerbrach in zwei Kirchen. Die islamische Welt bekam mit den Seldschuken neue Herren. Und überall lebten die einfachen Menschen ihr Leben weiter, meistens ohne zu wissen, welche großen Veränderungen in den Palästen und Kirchen der Mächtigen geschahen.`,
+    translations: {
+      "der Riss": "the rift / crack",
+      "der Machtwechsel": "the change of power",
+      "das Schisma": "the schism",
+      "die Messe": "the (church) mass",
+      "Gesandte": "envoys",
+      "ging schlecht aus": "ended badly",
+      "verfluchten": "cursed",
+      "gegenseitig": "mutually / each other",
+      "die Spaltung": "the split / division",
+      "römisch-katholische": "Roman Catholic",
+      "orthodoxe": "Orthodox",
+      "die Trennung": "the separation",
+      "besteht bis heute": "exists to this day",
+      "die Gläubigen": "the believers",
+      "Bräuchen": "customs",
+      "zog ein": "marched in / entered",
+      "der Kalif": "the caliph",
+      "geistliche Oberhaupt": "spiritual head",
+      "der Sultan": "the sultan",
+      "der eigentliche": "the actual / real",
+      "strenge": "strict",
+      "Sunniten": "Sunnis",
+      "der Beiname": "the nickname / epithet",
+      "der Schlaue": "the cunning one",
+      "Schritt für Schritt": "step by step",
+      "der Mittelmeerraum": "the Mediterranean region",
+      "der Kindkaiser": "the child emperor",
+      "die Schwäche": "the weakness",
+      "vergrößern": "to enlarge / increase",
+      "der Goldhandel": "the gold trade",
+      "eingreifen": "to intervene",
+      "spaltete": "divided / split",
+      "zwei Lager": "two camps",
+      "die übrige Welt": "the rest of the world",
+      "zerbrach": "broke apart",
+      "die Christenheit": "Christendom",
+      "die Paläste": "the palaces",
+    }
+  },
+  {
+    id: 7,
+    unlockDay: 7,
+    period: "1060–1070 n. Chr.",
+    title: "1066: Das Jahr, das England veränderte",
+    text: `Kein Jahr des Mittelalters ist in England so berühmt wie das Jahr 1066. In diesem Jahr fand die normannische Eroberung statt, ein Ereignis, das die englische Geschichte, Sprache und Kultur für immer veränderte.
+
+Alles begann mit dem Tod des englischen Königs Eduard des Bekenners im Januar 1066. Eduard hatte keine Kinder, und so stritten mehrere Männer um den Thron. Der englische Adlige Harold Godwinson wurde sofort zum König gekrönt. Aber zwei andere Männer erhoben ebenfalls Anspruch auf die Krone: Wilhelm, der Herzog der Normandie, und Harald Hardrada, der König von Norwegen.
+
+Im September 1066 landete zuerst Harald Hardrada mit einer Wikingerarmee im Norden Englands. König Harold marschierte schnell nach Norden und besiegte die Wikinger in der Schlacht von Stamford Bridge. Harald Hardrada fiel in dieser Schlacht. Viele Historiker sehen darin das symbolische Ende der Wikingerzeit.
+
+Aber Harold hatte kaum Zeit zu feiern. Nur wenige Tage später landete Wilhelm mit seiner normannischen Armee im Süden Englands. Harold musste mit seinen müden Soldaten sofort wieder nach Süden marschieren. Am 14. Oktober 1066 trafen die beiden Armeen bei Hastings aufeinander. Die Schlacht dauerte den ganzen Tag. Am Ende wurde Harold getötet, und Wilhelm gewann. Seitdem nennt man ihn „Wilhelm den Eroberer".
+
+Die Folgen für England waren enorm. Wilhelm brachte die normannische Sprache und Kultur nach England. Französisch wurde die Sprache des Hofes und der Mächtigen. Die einfachen Leute sprachen weiter Englisch. Aus dieser Mischung entstand über die Jahrhunderte das moderne Englisch, das viele französische Wörter enthält. Wilhelm baute auch viele Burgen, um das Land zu kontrollieren, darunter den berühmten Tower of London.
+
+Während diese Ereignisse in England geschahen, eroberten andere Normannen die Insel Sizilien. Dort hatten lange Zeit Araber geherrscht. Robert Guiscard und sein Bruder Roger kämpften viele Jahre, um die Insel zu erobern. Auf Sizilien entstand später eine erstaunliche Kultur, in der Christen, Muslime und Juden zusammenlebten und voneinander lernten.
+
+In China begann in diesem Jahrzehnt ein großes politisches Experiment. Im Jahr 1069 gab der Beamte Wang Anshi der Regierung neue Gesetze, die man die „Neuen Politiken" nannte. Wang Anshi wollte den Staat stärker machen und den armen Bauern helfen. Der Staat gab den Bauern zum Beispiel Kredite, damit sie nicht zu den reichen Geldverleihern gehen mussten. Diese Reformen waren sehr umstritten. Viele konservative Beamte waren dagegen, und es entstand ein langer, bitterer Streit am Hof.
+
+In der islamischen Welt waren die Seldschuken weiter auf dem Vormarsch. Ihr Reich wurde immer größer und reichte von Zentralasien bis fast an die Grenzen des Byzantinischen Reiches. Bald sollte es zu einem großen Zusammenstoß zwischen den Seldschuken und den Byzantinern kommen.
+
+In Amerika erreichte Cahokia ungefähr in dieser Zeit seine größte Bevölkerung. Die Stadt war ein wichtiges Zentrum für Handel und Religion. Die Menschen handelten mit Muscheln von der Küste, mit Kupfer aus dem Norden und mit anderen wertvollen Dingen über weite Strecken.
+
+Das Jahr 1066 zeigt, wie ein einziges Jahr die Geschichte verändern kann. Drei Männer wollten den englischen Thron, und am Ende gewann ein Herzog aus Frankreich. Die Folgen dieser Schlacht prägen England und die englische Sprache bis heute.`,
+    translations: {
+      "die Eroberung": "the conquest",
+      "fand statt": "took place",
+      "der Adlige": "the nobleman",
+      "gekrönt": "crowned",
+      "erhoben Anspruch": "laid claim",
+      "der Herzog": "the duke",
+      "landete": "landed",
+      "marschierte": "marched",
+      "besiegte": "defeated",
+      "fiel": "fell (in battle)",
+      "symbolische": "symbolic",
+      "kaum": "hardly / barely",
+      "feiern": "to celebrate",
+      "müden": "tired",
+      "trafen aufeinander": "met / clashed",
+      "getötet": "killed",
+      "der Eroberer": "the Conqueror",
+      "die Folgen": "the consequences",
+      "enthält": "contains",
+      "die Burgen": "the castles",
+      "zusammenlebten": "lived together",
+      "voneinander": "from one another",
+      "das Experiment": "the experiment",
+      "die Neuen Politiken": "the New Policies",
+      "Kredite": "loans / credit",
+      "Geldverleihern": "moneylenders",
+      "umstritten": "controversial",
+      "konservative": "conservative",
+      "dagegen": "against it",
+      "bitterer": "bitter",
+      "auf dem Vormarsch": "on the advance",
+      "der Zusammenstoß": "the clash / collision",
+      "Muscheln": "shells",
+      "Kupfer": "copper",
+      "über weite Strecken": "over long distances",
+      "ein einziges Jahr": "a single year",
+      "prägen": "shape / mark",
+    }
+  },
+  {
+    id: 8,
+    unlockDay: 8,
+    period: "1070–1080 n. Chr.",
+    title: "Manzikert, Canossa und der Streit um die Macht",
+    text: `Das Jahrzehnt der 1070er Jahre war voll von dramatischen Konflikten. In Kleinasien, in Italien und in Deutschland kämpften Herrscher um Macht, Land und um die Frage, wer eigentlich das Sagen hatte.
+
+Das vielleicht folgenreichste Ereignis war die Schlacht von Manzikert im Jahr 1071. Dort trafen die Armee des Byzantinischen Reiches und die Armee der Seldschuken aufeinander. Die Byzantiner erlitten eine schwere Niederlage, und der byzantinische Kaiser wurde sogar gefangen genommen. Nach dieser Schlacht konnten die Seldschuken und andere türkische Gruppen tief in Kleinasien eindringen. Dieses Gebiet, das heute die Türkei ist, war jahrhundertelang christlich und griechisch gewesen. Jetzt begann es langsam, türkisch und muslimisch zu werden. Die Schlacht von Manzikert veränderte die Landkarte für immer.
+
+Im selben Jahr, 1071, eroberten die Normannen die Stadt Bari in Süditalien. Das war die letzte Stadt, die den Byzantinern in Italien gehörte. Damit endete die byzantinische Herrschaft in Italien nach fünfhundert Jahren. Robert Guiscard und die Normannen kontrollierten nun fast den ganzen Süden Italiens.
+
+In Deutschland und Italien entstand ein großer Streit zwischen dem Kaiser und dem Papst. Dieser Konflikt heißt der Investiturstreit. Die zentrale Frage war: Wer hat das Recht, Bischöfe zu ernennen – der Kaiser oder der Papst? Beide wollten diese Macht, denn die Bischöfe waren reich und mächtig. Der junge Kaiser Heinrich IV. und der energische Papst Gregor VII. gerieten heftig aneinander.
+
+Im Jahr 1076 tat der Papst etwas Ungeheuerliches: Er exkommunizierte den Kaiser. Das bedeutete, dass Heinrich aus der Kirche ausgeschlossen war und seine Untertanen ihm nicht mehr gehorchen mussten. Plötzlich war Heinrichs Macht in großer Gefahr. Viele deutsche Fürsten wandten sich gegen ihn.
+
+Heinrich musste handeln. Im Winter 1077 reiste er über die kalten Alpen nach Italien, zur Burg Canossa, wo sich der Papst aufhielt. Dort, so erzählt man, stand Heinrich drei Tage lang barfuß im Schnee vor dem Tor und bat um Vergebung. Schließlich vergab ihm der Papst. Diese Szene – ein mächtiger Kaiser, der demütig vor dem Papst im Schnee steht – wurde zu einem berühmten Bild für die Macht der Kirche. Noch heute sagt man auf Deutsch „nach Canossa gehen", wenn jemand sich demütigen muss.
+
+In der islamischen Welt erreichte das Seldschukenreich seinen Höhepunkt. Der kluge Wesir Nizam al-Mulk regierte das Reich für den Sultan. Er gründete viele Schulen, die Madrasas, in denen junge Männer Religion und Wissenschaft lernten. Diese Schulen wurden zu wichtigen Zentren der Bildung in der islamischen Welt.
+
+In Westafrika eroberten die Almoraviden ungefähr in dieser Zeit die Hauptstadt des alten Königreichs Ghana. Sie gründeten auch ihre eigene Hauptstadt Marrakesch im heutigen Marokko. Ihr Reich reichte nun von Westafrika bis fast nach Spanien.
+
+In China ging der Streit um die Reformen von Wang Anshi weiter. Die einen lobten ihn, die anderen hassten ihn. Dieser Streit zwischen Reformern und Konservativen sollte die Politik der Song-Dynastie noch lange bestimmen.
+
+Und in Amerika lebten die Menschen weiter in ihren eigenen Welten, ohne etwas von Manzikert, Canossa oder Marrakesch zu wissen. Die großen Dramen der einen Welt blieben der anderen völlig unbekannt.`,
+    translations: {
+      "folgenreichste": "most consequential",
+      "erlitten": "suffered",
+      "eine Niederlage": "a defeat",
+      "gefangen genommen": "taken prisoner",
+      "eindringen": "to penetrate / push in",
+      "die Landkarte": "the map",
+      "die letzte Stadt": "the last city",
+      "die Herrschaft": "the rule / dominion",
+      "der Investiturstreit": "the Investiture Controversy",
+      "das Recht": "the right",
+      "ernennen": "to appoint",
+      "energische": "energetic / forceful",
+      "gerieten aneinander": "clashed",
+      "heftig": "fiercely",
+      "Ungeheuerliches": "something outrageous",
+      "exkommunizierte": "excommunicated",
+      "ausgeschlossen": "excluded / shut out",
+      "die Untertanen": "the subjects",
+      "wandten sich gegen": "turned against",
+      "handeln": "to act",
+      "die Alpen": "the Alps",
+      "sich aufhielt": "was staying",
+      "barfuß": "barefoot",
+      "bat um Vergebung": "begged for forgiveness",
+      "vergab": "forgave",
+      "demütig": "humble / humbly",
+      "sich demütigen": "to humble oneself",
+      "der Wesir": "the vizier",
+      "die Madrasas": "the madrasas (Islamic schools)",
+      "die Bildung": "education",
+      "lobten": "praised",
+      "hassten": "hated",
+      "die Reformer": "the reformers",
+      "bestimmen": "to determine / shape",
+      "unbekannt": "unknown",
+    }
+  },
+  {
+    id: 9,
+    unlockDay: 9,
+    period: "1080–1090 n. Chr.",
+    title: "Eroberer, Rebellen und kluge Köpfe",
+    text: `In den 1080er Jahren gab es überall auf der Welt mächtige Eroberer, mutige Rebellen und kluge Köpfe, die Erstaunliches schufen.
+
+In England regierte Wilhelm der Eroberer mit harter Hand. Im Jahr 1086 ließ er eine große Volkszählung durchführen. Seine Beamten reisten durch das ganze Land und schrieben auf, wem jedes Dorf, jedes Feld und jedes Tier gehörte. Das Ergebnis war ein dickes Buch, das man das „Domesday Book" nannte. Es ist eines der wichtigsten Dokumente der englischen Geschichte und zeigt, wie genau die Normannen das Land kontrollierten. Im Jahr 1087 starb Wilhelm, und seine Söhne stritten um das Erbe.
+
+In Spanien tobte der lange Kampf zwischen Christen und Muslimen, den man die Reconquista nennt. Die christlichen Königreiche im Norden versuchten, die muslimischen Gebiete im Süden zurückzuerobern. Eine berühmte Figur dieser Zeit war ein Ritter namens Rodrigo Díaz, besser bekannt als „El Cid". Er war ein außergewöhnlicher Krieger und kämpfte mal für christliche, mal für muslimische Herren. Die muslimischen Taifa-Königreiche waren schwach und riefen die Almoraviden aus Afrika um Hilfe. Im Jahr 1086 kamen die Almoraviden nach Spanien und besiegten die Christen in einer großen Schlacht. So wurde der Kampf um Spanien noch härter.
+
+Im Byzantinischen Reich kam im Jahr 1081 ein fähiger neuer Kaiser an die Macht: Alexios I. Komnenos. Er erbte ein Reich in großer Not, denn die Seldschuken bedrohten es von Osten und die Normannen von Westen. Robert Guiscard griff sogar das Byzantinische Reich von Italien aus an. Alexios war ein kluger Diplomat und Feldherr. Langsam stabilisierte er das Reich wieder.
+
+In der islamischen Welt entstand in dieser Zeit eine geheimnisvolle und gefürchtete Gruppe. Ein Mann namens Hasan-i Sabbah gründete eine religiöse Bewegung und nahm die Bergfestung Alamut in Persien ein. Seine Anhänger wurden berühmt – und berüchtigt – für ihre politischen Morde. Später nannte man sie die „Assassinen". Dieses Wort lebt heute in vielen Sprachen weiter und bedeutet „Mörder".
+
+In China schuf der geniale Gelehrte Su Song ein erstaunliches Wunderwerk der Technik. Um das Jahr 1088 baute er einen riesigen astronomischen Turm mit einer Uhr, die vom Wasser angetrieben wurde. Diese Uhr zeigte die Zeit und die Bewegung der Sterne. Sie hatte sogar eine Art automatischer Figuren, die zu jeder Stunde erschienen. Es war eine der fortschrittlichsten Maschinen der damaligen Welt, Jahrhunderte vor ähnlichen Uhren in Europa.
+
+In Amerika baute das Volk der Hohokam im heutigen Arizona ein erstaunliches System von Kanälen. Mit diesen Kanälen leiteten sie das Wasser der Flüsse auf ihre Felder und konnten so in der trockenen Wüste Landwirtschaft betreiben. Manche dieser Kanäle waren viele Kilometer lang. Es war eine bemerkenswerte technische Leistung.
+
+So zeigt dieses Jahrzehnt die ganze Vielfalt der menschlichen Geschichte. Während in England ein Eroberer sein Reich vermaß, baute ein Gelehrter in China eine Wunderuhr, und Bauern in Amerika gruben Kanäle durch die Wüste. Überall nutzten die Menschen ihre Klugheit, ihren Mut und ihre Arbeit, um in ihrer Welt zu bestehen.`,
+    translations: {
+      "die Eroberer": "the conquerors",
+      "die Rebellen": "the rebels",
+      "kluge Köpfe": "clever minds",
+      "Erstaunliches": "amazing things",
+      "mit harter Hand": "with a firm hand",
+      "die Volkszählung": "the census",
+      "durchführen": "to carry out",
+      "das Ergebnis": "the result",
+      "das Erbe": "the inheritance",
+      "tobte": "raged",
+      "zurückzuerobern": "to reconquer",
+      "der Ritter": "the knight",
+      "außergewöhnlicher": "exceptional",
+      "riefen um Hilfe": "called for help",
+      "fähiger": "capable",
+      "erbte": "inherited",
+      "in großer Not": "in great distress",
+      "bedrohten": "threatened",
+      "der Feldherr": "the military commander",
+      "stabilisierte": "stabilised",
+      "geheimnisvolle": "mysterious",
+      "gefürchtete": "feared",
+      "die Bergfestung": "the mountain fortress",
+      "nahm ein": "captured / took",
+      "die Anhänger": "the followers",
+      "berüchtigt": "notorious",
+      "Morde": "murders",
+      "die Assassinen": "the Assassins",
+      "der Mörder": "the murderer",
+      "das Wunderwerk": "the marvel",
+      "astronomischen": "astronomical",
+      "angetrieben": "driven / powered",
+      "die Bewegung": "the movement",
+      "fortschrittlichsten": "most advanced",
+      "die Kanäle": "the canals",
+      "leiteten": "channelled / directed",
+      "betreiben": "to carry out / operate",
+      "bemerkenswerte": "remarkable",
+      "die Leistung": "the achievement",
+      "die Vielfalt": "the diversity",
+      "vermaß": "measured / surveyed",
+      "bestehen": "to survive / hold one's own",
+    }
+  },
+  {
+    id: 10,
+    unlockDay: 10,
+    period: "1090–1100 n. Chr.",
+    title: "Der erste Kreuzzug",
+    text: `Das letzte Jahrzehnt des 11. Jahrhunderts brachte eines der folgenreichsten Ereignisse des Mittelalters: den ersten Kreuzzug. Tausende von Menschen aus Europa machten sich auf einen langen, gefährlichen Weg nach Jerusalem.
+
+Wie kam es dazu? Der byzantinische Kaiser Alexios I. brauchte Hilfe gegen die Seldschuken, die immer tiefer in sein Reich eindrangen. Er schickte einen Hilferuf an den Papst im Westen. Papst Urban II. sah darin eine große Gelegenheit. Im November 1095 hielt er in der französischen Stadt Clermont eine berühmte Rede. Er rief die Christen Europas auf, nach Osten zu ziehen und das Heilige Land – besonders die Stadt Jerusalem – von den Muslimen zu befreien. Er versprach, dass alle, die mitkämpften, von ihren Sünden befreit würden.
+
+Die Reaktion war überwältigend. „Gott will es!", riefen die Menschen. Tausende nahmen das Kreuz – daher der Name „Kreuzzug". Ritter, Bauern, Priester und sogar Frauen und Kinder machten sich auf den Weg. Es gab verschiedene Gruppen. Eine erste, schlecht organisierte Gruppe von einfachen Leuten, den sogenannten „Volkskreuzzug", wurde schon in Kleinasien fast vollständig vernichtet.
+
+Aber die Hauptarmee der Ritter war besser organisiert. Der Weg war trotzdem furchtbar schwer. Die Kreuzfahrer litten unter Hunger, Durst und Krankheiten. Sie kämpften gegen die türkischen Heere und gegeneinander. Viele starben unterwegs. Trotzdem kamen sie immer näher an ihr Ziel.
+
+Im Jahr 1098 eroberten die Kreuzfahrer nach einer langen Belagerung die wichtige Stadt Antiochia. Im Jahr 1099 erreichten sie endlich Jerusalem. Sie belagerten die Stadt und stürmten sie im Juli 1099. Was dann geschah, war schrecklich: Die Kreuzfahrer töteten viele Bewohner der Stadt – Muslime und Juden. Es war ein blutiges Ende einer langen Reise.
+
+Die Kreuzfahrer gründeten in den eroberten Gebieten mehrere christliche Staaten, die man die „Kreuzfahrerstaaten" nennt. Der wichtigste war das Königreich Jerusalem. Diese Staaten lagen mitten in einer feindlichen Umgebung und mussten ständig um ihr Überleben kämpfen.
+
+Was bedeutete der Kreuzzug für die Menschen? Für die Christen in Europa war es ein großes religiöses Abenteuer. Für die Muslime im Nahen Osten war es ein brutaler Angriff von fremden Eindringlingen. Für die byzantinischen Christen war das Ergebnis gemischt: Sie bekamen Hilfe, aber die wilden Kreuzfahrer aus dem Westen machten ihnen auch Angst.
+
+In anderen Teilen der Welt ging das Leben weiter. In China herrschte weiter die Song-Dynastie. In Indien blühten verschiedene Königreiche. In Afrika kontrollierten die Almoraviden den Goldhandel. Und in Amerika wussten die Menschen nichts von Jerusalem, von Kreuzen oder von heiligen Kriegen.
+
+Der erste Kreuzzug war ein Wendepunkt. Er brachte die christliche und die islamische Welt in einen direkten, oft gewaltsamen Kontakt. Die Folgen dieses Kontakts – sowohl die Kriege als auch der Austausch von Waren und Ideen – sollten die Geschichte für Jahrhunderte prägen.`,
+    translations: {
+      "folgenreichsten": "most consequential",
+      "der Kreuzzug": "the Crusade",
+      "machten sich auf den Weg": "set out / set off",
+      "wie kam es dazu": "how did it come about",
+      "eindrangen": "penetrated / pushed in",
+      "der Hilferuf": "the call for help",
+      "die Gelegenheit": "the opportunity",
+      "hielt eine Rede": "gave a speech",
+      "rief auf": "called upon",
+      "das Heilige Land": "the Holy Land",
+      "befreien": "to liberate",
+      "versprach": "promised",
+      "mitkämpften": "fought along",
+      "die Sünden": "the sins",
+      "überwältigend": "overwhelming",
+      "nahmen das Kreuz": "took the cross",
+      "der Volkskreuzzug": "the People's Crusade",
+      "vernichtet": "annihilated / destroyed",
+      "furchtbar": "terribly",
+      "litten": "suffered",
+      "die Heere": "the armies",
+      "unterwegs": "on the way",
+      "das Ziel": "the goal / destination",
+      "die Belagerung": "the siege",
+      "stürmten": "stormed",
+      "schrecklich": "terrible",
+      "blutiges": "bloody",
+      "die Kreuzfahrerstaaten": "the Crusader states",
+      "feindlichen Umgebung": "hostile environment",
+      "das Überleben": "survival",
+      "das Abenteuer": "the adventure",
+      "Eindringlingen": "intruders / invaders",
+      "gemischt": "mixed",
+      "der Wendepunkt": "the turning point",
+      "gewaltsamen": "violent",
+      "der Austausch": "the exchange",
+    }
+  },
+  {
+    id: 11,
+    unlockDay: 11,
+    period: "1100–1110 n. Chr.",
+    title: "Neue Reiche, Künstler und Krieger",
+    text: `Mit dem Beginn des 12. Jahrhunderts trat die Welt in eine neue Zeit ein. Die Kreuzfahrer richteten sich im Heiligen Land ein, in Europa wuchsen die Städte, und in Asien stiegen neue Künstler und Krieger auf.
+
+Im Heiligen Land mussten die Kreuzfahrer ihre neuen Staaten organisieren. Im Jahr 1100 wurde Balduin I. der erste richtige König von Jerusalem. Die Kreuzfahrerstaaten waren klein und von Feinden umgeben. Sie brauchten ständig neue Ritter und Geld aus Europa. Mit Hilfe der italienischen Städte Venedig, Genua und Pisa, die starke Flotten hatten, eroberten die Kreuzfahrer nach und nach die Hafenstädte an der Küste. Diese Häfen waren wichtig für den Handel und für den Nachschub aus Europa.
+
+In England bestieg im Jahr 1100 ein neuer König den Thron: Heinrich I., ein Sohn Wilhelms des Eroberers. Er war ein fähiger Herrscher, der die Gesetze stärkte und für Ordnung sorgte. In ganz Europa wuchsen in dieser Zeit die Städte. Mehr Menschen lebten vom Handel und vom Handwerk. Auf großen Märkten und Messen trafen sich Kaufleute aus vielen Ländern.
+
+In China kam im Jahr 1100 ein ungewöhnlicher Kaiser an die Macht: Huizong. Er war kein starker Politiker, aber ein außergewöhnlicher Künstler. Er malte wunderschöne Bilder von Vögeln und Blumen und förderte die Kunst in seinem Reich. Unter ihm erreichte die chinesische Malerei einen Höhepunkt. Leider vernachlässigte Huizong die Politik, und das sollte für China später schlimme Folgen haben.
+
+In Japan veränderte sich die Gesellschaft langsam. Die alte Macht des kaiserlichen Hofes schwand. Stattdessen stieg eine neue Klasse auf: die Krieger, die man später Samurai nannte. Außerdem gab es eine besondere Form der Herrschaft: Ein Kaiser dankte ab, zog sich in ein Kloster zurück und regierte trotzdem weiter im Hintergrund. Man nennt das die „Klosterherrschaft". Der mächtige Ex-Kaiser Shirakawa regierte auf diese Weise viele Jahre lang.
+
+In Afrika stand das Reich der Almoraviden auf seinem Höhepunkt. Es reichte von Spanien im Norden bis tief nach Westafrika im Süden. Die Almoraviden kontrollierten den Handel mit Gold und Salz durch die Sahara. Ihre Hauptstadt Marrakesch wurde eine reiche und wichtige Stadt.
+
+In Amerika erreichte die große Stadt Cahokia ungefähr in dieser Zeit ihre volle Größe. Der größte Erdhügel, den man heute „Monks Mound" nennt, war fertig. Er war das größte von Menschen gebaute Bauwerk in Nordamerika und blieb es für viele Jahrhunderte. Tausende von Menschen lebten in und um Cahokia. Doch schon bald sollte die Stadt aus Gründen, die wir bis heute nicht ganz verstehen, langsam zu schrumpfen beginnen.
+
+So zeigt dieses Jahrzehnt eine Welt im Wandel. Neue Könige, neue Künstler und neue Krieger traten auf die Bühne der Geschichte. In jeder Region der Welt entwickelten sich die Gesellschaften weiter, jede auf ihre eigene Weise.`,
+    translations: {
+      "trat ein": "entered",
+      "richteten sich ein": "settled in / established themselves",
+      "stiegen auf": "rose",
+      "umgeben": "surrounded",
+      "die Flotten": "the fleets",
+      "nach und nach": "gradually",
+      "die Hafenstädte": "the port cities",
+      "der Nachschub": "the supplies / reinforcements",
+      "bestieg den Thron": "ascended the throne",
+      "fähiger": "capable",
+      "sorgte für Ordnung": "ensured order",
+      "das Handwerk": "the craft / trade",
+      "Messen": "trade fairs",
+      "ungewöhnlicher": "unusual",
+      "malte": "painted",
+      "förderte": "promoted / fostered",
+      "die Malerei": "painting (art)",
+      "vernachlässigte": "neglected",
+      "schwand": "faded / dwindled",
+      "stattdessen": "instead",
+      "die Klasse": "the class",
+      "dankte ab": "abdicated",
+      "zog sich zurück": "withdrew",
+      "im Hintergrund": "in the background",
+      "die Klosterherrschaft": "cloistered rule",
+      "auf diese Weise": "in this way",
+      "das Bauwerk": "the structure / building",
+      "schrumpfen": "to shrink",
+      "im Wandel": "in transition / changing",
+      "auf die Bühne": "onto the stage",
+      "auf ihre eigene Weise": "in its own way",
+    }
+  },
+  {
+    id: 12,
+    unlockDay: 12,
+    period: "1110–1120 n. Chr.",
+    title: "Ritterorden, Gelehrte und ferne Bündnisse",
+    text: `Das zweite Jahrzehnt des 12. Jahrhunderts war eine Zeit neuer Ideen und neuer Organisationen. In Europa entstanden Schulen und Ritterorden, im Nahen Osten leisteten die Muslime ersten Widerstand gegen die Kreuzfahrer, und in Asien schmiedeten Reiche gefährliche Bündnisse.
+
+Im Heiligen Land brauchten die Kreuzfahrerstaaten dauernd Schutz. Die Pilger, die aus Europa nach Jerusalem reisten, wurden oft auf den Straßen überfallen und ausgeraubt. Um das Jahr 1119 gründeten einige Ritter eine besondere Gemeinschaft, um die Pilger zu beschützen: den Orden der Tempelritter. Diese Männer waren gleichzeitig Mönche und Krieger. Sie lebten nach strengen Regeln, kämpften aber auch im Krieg. Der Orden der Tempelritter sollte später sehr mächtig und sehr reich werden.
+
+Die Muslime im Nahen Osten begannen langsam, sich gegen die Kreuzfahrer zu organisieren. Im Jahr 1119 besiegte ein muslimischer Herrscher namens Ilghazi ein großes Kreuzfahrerheer in einer Schlacht, die man auf Latein „das Feld des Blutes" nannte. Es war eine schwere Niederlage für die Christen und ein erstes Zeichen, dass die Muslime zurückschlagen konnten.
+
+In Europa erlebte das Lernen einen neuen Aufschwung. In Städten wie Bologna und Paris kamen Studenten und Lehrer zusammen, um über Recht, Religion und Philosophie zu diskutieren. Diese Versammlungen waren die Anfänge der ersten Universitäten. Ein berühmter und umstrittener Lehrer in Paris war Peter Abaelard. Er war ein brillanter Denker, der die Logik liebte und seine Schüler lehrte, Fragen zu stellen und nicht alles einfach zu glauben. Seine traurige Liebesgeschichte mit der klugen Frau Heloise wurde später in ganz Europa berühmt.
+
+In dieser Zeit bauten die Menschen in Europa auch große Kirchen aus Stein im sogenannten romanischen Stil. Diese Kirchen hatten dicke Mauern, runde Bögen und kleine Fenster. Sie waren ein Zeichen für den wachsenden Reichtum und den starken Glauben der Zeit.
+
+Im Byzantinischen Reich kam im Jahr 1118 ein neuer Kaiser an die Macht: Johannes II. Komnenos. Er gilt als einer der besten byzantinischen Kaiser. Er war tapfer, klug und gerecht und arbeitete hart daran, das Reich wieder stark zu machen.
+
+In Ostasien geschah etwas, das schlimme Folgen haben sollte. Die chinesische Song-Dynastie wollte das alte Reich der Liao im Norden besiegen. Dafür schloss China ein Bündnis mit einem neuen, kriegerischen Volk: den Jurchen, die das Reich der Jin gründeten. Gemeinsam wollten sie die Liao zerstören. Aber dieses Bündnis war gefährlich. Die Jin wurden bald viel stärker, als die Chinesen erwartet hatten. Schon im nächsten Jahrzehnt sollten sich die Jin gegen ihre chinesischen Verbündeten wenden – mit furchtbaren Folgen für die Song-Dynastie.
+
+In Afrika und Amerika gingen die Entwicklungen weiter ihren eigenen Weg. In Südostafrika begannen Völker, mit Gold und Elfenbein zu handeln; aus diesen frühen Gemeinschaften sollte später die berühmte Kultur von Groß-Simbabwe entstehen. In Nordamerika begann die große Stadt Cahokia langsam, kleiner zu werden.
+
+So war dieses Jahrzehnt eine Zeit der Saat. Ritterorden, Universitäten und Bündnisse, die in diesen Jahren entstanden, sollten die Geschichte der folgenden Jahrhunderte tief prägen.`,
+    translations: {
+      "die Ritterorden": "the knightly orders",
+      "ferne Bündnisse": "distant alliances",
+      "leisteten Widerstand": "put up resistance",
+      "schmiedeten": "forged",
+      "der Schutz": "protection",
+      "die Pilger": "the pilgrims",
+      "überfallen": "ambushed / attacked",
+      "ausgeraubt": "robbed",
+      "die Gemeinschaft": "the community / brotherhood",
+      "beschützen": "to protect",
+      "der Orden": "the order (religious/military)",
+      "die Tempelritter": "the Knights Templar",
+      "strengen Regeln": "strict rules",
+      "besiegte": "defeated",
+      "das Feld des Blutes": "the Field of Blood",
+      "zurückschlagen": "to strike back",
+      "der Aufschwung": "the upswing / revival",
+      "die Versammlungen": "the gatherings / assemblies",
+      "umstrittener": "controversial",
+      "der Denker": "the thinker",
+      "die Logik": "logic",
+      "Fragen zu stellen": "to ask questions",
+      "die Liebesgeschichte": "the love story",
+      "romanischen Stil": "Romanesque style",
+      "die Bögen": "the arches",
+      "der Reichtum": "the wealth",
+      "gilt als": "is regarded as",
+      "tapfer": "brave",
+      "gerecht": "just / fair",
+      "schloss ein Bündnis": "formed an alliance",
+      "kriegerischen": "warlike",
+      "die Verbündeten": "the allies",
+      "sich wenden gegen": "to turn against",
+      "das Elfenbein": "ivory",
+      "Groß-Simbabwe": "Great Zimbabwe",
+      "die Saat": "the sowing / seed",
+      "die Entwicklungen": "the developments",
+    }
+  },
 ];

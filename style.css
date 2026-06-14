@@ -433,8 +433,8 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
 #rules-reference ul { margin: 0 0 0.5rem 1.2rem; font-size: 0.9rem; line-height: 1.6; }
 
 /* Gender fonts (optional toggle): masculine = blackletter, feminine = handwriting */
-.gender-fonts .gfont-masc { font-family: 'UnifrakturMaguntia', serif; letter-spacing: 0.02em; }
-.gender-fonts .gfont-fem  { font-family: 'Caveat', cursive; font-size: 1.25em; }
+.gender-fonts .gfont-masc { font-family: 'UnifrakturMaguntia', serif; font-size: 1.15em; letter-spacing: 0.02em; }
+.gender-fonts .gfont-fem  { font-family: 'Caveat', cursive; font-size: 1.35em; }
 /* neuter and non-nouns keep the normal font */
 
 /* ---- Reader ---- */

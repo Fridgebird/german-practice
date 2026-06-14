@@ -643,20 +643,23 @@ function genderFontClass(category) {
   return '';
 }
 
-// ---- Gender fonts toggle (shared with flashcards) ----
+// ---- Gender fonts toggle (shared between Flashcards and Gender sections) ----
 let genderFontsOn = load('genderFontsOn', false);
-function applyGenderFontsClass() {
-  document.body.classList.toggle('gender-fonts', genderFontsOn);
-}
-applyGenderFontsClass();
-const gfToggle = document.getElementById('gender-fonts-toggle');
-gfToggle.checked = genderFontsOn;
-gfToggle.addEventListener('change', () => {
-  genderFontsOn = gfToggle.checked;
+const gfToggle   = document.getElementById('gender-fonts-toggle');      // in Gender section
+const gfToggleFc = document.getElementById('gender-fonts-toggle-fc');   // in Flashcards header
+
+function setGenderFonts(on) {
+  genderFontsOn = on;
   save('genderFontsOn', genderFontsOn);
-  applyGenderFontsClass();
-  showCard(); // refresh flashcard font immediately
-});
+  document.body.classList.toggle('gender-fonts', genderFontsOn);
+  if (gfToggle)   gfToggle.checked = genderFontsOn;
+  if (gfToggleFc) gfToggleFc.checked = genderFontsOn;
+  showCard(); // refresh the flashcard so the font applies immediately
+}
+
+setGenderFonts(genderFontsOn); // apply saved preference on load
+if (gfToggle)   gfToggle.addEventListener('change', () => setGenderFonts(gfToggle.checked));
+if (gfToggleFc) gfToggleFc.addEventListener('change', () => setGenderFonts(gfToggleFc.checked));
 
 // ---- Tab switching ----
 document.querySelectorAll('#gender-tabs .tab-btn').forEach(btn => {

@@ -779,4 +779,433 @@ So war dieses Jahrzehnt eine Zeit der Saat. Ritterorden, Universitäten und Bün
       "die Entwicklungen": "the developments",
     }
   },
+  {
+    id: 13,
+    unlockDay: 13,
+    period: "1120–1130 n. Chr.",
+    title: "Ein Vertrag, ein Schiffbruch und der Fall einer Hauptstadt",
+    text: `Das Jahrzehnt der 1120er Jahre brachte das Ende eines langen Streits in Europa, eine Katastrophe für die englische Königsfamilie und den schweren Fall einer der größten Städte der Welt in China.
+
+In Europa endete endlich der lange Investiturstreit zwischen Kaiser und Papst. Im Jahr 1122 schlossen die beiden Seiten den Vertrag von Worms. Es war ein Kompromiss: Der Papst durfte die Bischöfe in ihr geistliches Amt einsetzen, der Kaiser hatte aber weiter Einfluss auf ihre weltliche Macht. Nach Jahrzehnten des Streits brachte dieser Vertrag endlich einen gewissen Frieden zwischen Kirche und Staat.
+
+In England geschah im Jahr 1120 eine Katastrophe. Das „Weiße Schiff" mit dem einzigen Sohn des Königs Heinrich I. sank im Meer. Der junge Thronerbe und viele Adlige ertranken. Heinrich hatte nun keinen männlichen Erben mehr. Er bestimmte seine Tochter Mathilde zur Nachfolgerin. Aber viele Adlige wollten keine Frau als Herrscherin. Dieser Schiffbruch sollte später zu einem langen Bürgerkrieg führen.
+
+Das vielleicht dramatischste Ereignis geschah in China. Die Song-Dynastie hatte ein Bündnis mit dem kriegerischen Volk der Jurchen geschlossen, um das alte Reich der Liao zu besiegen. Doch nach dem Sieg wandten sich die Jurchen gegen ihre chinesischen Verbündeten. Im Jahr 1127 eroberten sie die reiche Song-Hauptstadt Kaifeng. Sie nahmen den Kaiser und seinen Sohn gefangen und brachten sie als Gefangene in den Norden. Das war eine schreckliche Demütigung für China. Dieses Ereignis nennt man die „Jingkang-Katastrophe".
+
+Doch die Song-Dynastie ging nicht ganz unter. Ein Prinz floh nach Süden und gründete dort ein neues Reich, die „Südliche Song-Dynastie", mit der Hauptstadt Hangzhou. Der reiche Norden Chinas war nun in der Hand der Jurchen, die das Reich der Jin gründeten. China war in zwei Teile geteilt: den Norden unter den Jin und den Süden unter den Song.
+
+In der islamischen Welt entstand ein neuer mächtiger Anführer. Ein Mann namens Zengi wurde Herrscher der Stadt Mossul und begann, die muslimischen Gebiete in Syrien zu vereinen. Er war der erste muslimische Führer, der ernsthaft gegen die Kreuzfahrerstaaten kämpfte. Bisher hatten die Muslime uneinig und schwach gewirkt. Mit Zengi begann sich das zu ändern.
+
+In Nordafrika entstand ebenfalls eine neue religiöse Bewegung. Ein Prediger namens Ibn Tumart rief zu einem reineren Glauben auf. Seine Anhänger nannten sich die Almohaden. Sie sollten bald die alten Almoraviden besiegen und ein großes Reich in Nordafrika und Spanien aufbauen.
+
+In Europa wuchsen die religiösen Orden. Besonders die Zisterzienser, ein strenger Mönchsorden, breiteten sich schnell aus. Ihr berühmtester Vertreter war Bernhard von Clairvaux, ein kluger und einflussreicher Mönch. Die Zisterzienser rodeten Wälder, bauten Klöster und verbesserten die Landwirtschaft in vielen Teilen Europas.
+
+In Amerika begann die große Stadt Cahokia langsam zu schrumpfen. Die Menschen bauten eine hohe Holzmauer um das Zentrum der Stadt. Das deutet darauf hin, dass es Konflikte oder Gefahren gab. Die Gründe für den Niedergang von Cahokia sind bis heute nicht ganz klar.
+
+So zeigt dieses Jahrzehnt, wie schnell sich das Schicksal von Reichen und Familien ändern kann. Ein Vertrag brachte Frieden, ein Schiffbruch brachte eine Krise, und der Fall einer Hauptstadt veränderte ganz China.`,
+    translations: {
+      "der Schiffbruch": "the shipwreck",
+      "der Fall": "the fall",
+      "die Königsfamilie": "the royal family",
+      "schlossen": "concluded / made",
+      "der Vertrag": "the treaty",
+      "der Kompromiss": "the compromise",
+      "geistliches Amt": "spiritual office",
+      "einsetzen": "to install / appoint",
+      "weltliche": "secular / worldly",
+      "ein gewisser": "a certain",
+      "das Weiße Schiff": "the White Ship",
+      "sank": "sank",
+      "der Thronerbe": "the heir to the throne",
+      "ertranken": "drowned",
+      "der Erbe": "the heir",
+      "bestimmte": "designated / appointed",
+      "die Nachfolgerin": "the (female) successor",
+      "der Bürgerkrieg": "the civil war",
+      "das Bündnis": "the alliance",
+      "wandten sich gegen": "turned against",
+      "die Verbündeten": "the allies",
+      "gefangen": "captured",
+      "die Demütigung": "the humiliation",
+      "ging unter": "went down / perished",
+      "floh": "fled",
+      "die Südliche Song-Dynastie": "the Southern Song dynasty",
+      "geteilt": "divided",
+      "vereinen": "to unite",
+      "ernsthaft": "seriously",
+      "uneinig": "disunited / divided",
+      "der Prediger": "the preacher",
+      "rief auf": "called for / summoned",
+      "die Almohaden": "the Almohads",
+      "die Orden": "the (religious) orders",
+      "die Zisterzienser": "the Cistercians",
+      "der Mönchsorden": "the monastic order",
+      "breiteten sich aus": "spread out",
+      "einflussreicher": "influential",
+      "rodeten": "cleared (forest)",
+      "die Holzmauer": "the wooden wall",
+      "deutet darauf hin": "indicates / suggests",
+      "der Niedergang": "the decline",
+      "das Schicksal": "the fate",
+    }
+  },
+  {
+    id: 14,
+    unlockDay: 14,
+    period: "1130–1140 n. Chr.",
+    title: "Ein neues Königreich und ein Bürgerkrieg",
+    text: `In den 1130er Jahren entstand im Mittelmeer ein glänzendes neues Königreich, während England in einen langen Bürgerkrieg fiel.
+
+Auf der Insel Sizilien gründeten die Normannen ein neues Reich. Im Jahr 1130 wurde Roger II. zum König von Sizilien gekrönt. Sein Königreich war eines der reichsten und modernsten in ganz Europa. Das Besondere daran war, dass dort viele Kulturen zusammenlebten. Christen, Muslime und Juden arbeiteten am Hof des Königs zusammen. Roger ließ Bücher aus dem Arabischen, dem Griechischen und dem Lateinischen übersetzen. An seinem Hof trafen sich Gelehrte aus vielen Ländern. Sizilien wurde zu einer Brücke zwischen der islamischen und der christlichen Welt.
+
+In England begann dagegen eine schwere Zeit. Im Jahr 1135 starb König Heinrich I. Seine Tochter Mathilde sollte eigentlich Königin werden. Aber ihr Vetter Stephan ergriff schnell die Macht und ließ sich zum König krönen. Mathilde gab nicht auf, und so begann ein langer Bürgerkrieg um den Thron. Die Engländer nennen diese Zeit „die Anarchie". Viele Jahre lang herrschten Chaos und Gewalt im Land. Mächtige Adlige bauten ihre eigenen Burgen und kämpften gegeneinander. Für die einfachen Bauern war es eine furchtbare Zeit, denn die Soldaten plünderten die Dörfer.
+
+In der Religion gewann der Mönch Bernhard von Clairvaux immer mehr Einfluss. Er war einer der mächtigsten Männer der Kirche, obwohl er nur ein einfacher Mönch war. Seine Worte hatten großes Gewicht bei Päpsten und Königen.
+
+In dieser Zeit begann auch eine Revolution in der Architektur. In Frankreich baute der Abt Suger eine neue Art von Kirche. Bisher waren die Kirchen dunkel und schwer, im romanischen Stil. Suger aber wollte Licht in die Kirche bringen. Er ließ hohe Fenster und dünne Säulen bauen, sodass das Licht hereinströmen konnte. Dieser neue Stil heißt die Gotik. In den folgenden Jahrhunderten entstanden überall in Europa wunderschöne gotische Kathedralen mit hohen Türmen und bunten Glasfenstern.
+
+In China festigte sich die Südliche Song-Dynastie in ihrer neuen Hauptstadt Hangzhou. Ein berühmter General namens Yue Fei kämpfte tapfer gegen die Jin im Norden. Er wollte den verlorenen Norden zurückerobern. Yue Fei wurde zu einem Helden für das chinesische Volk. Doch am Hof gab es Politiker, die lieber Frieden mit den Jin schließen wollten.
+
+In Nordafrika wurden die Almohaden immer stärker. Sie kämpften gegen die alten Almoraviden und eroberten Schritt für Schritt deren Gebiete. Bald sollten sie ein großes Reich beherrschen, das von Marokko bis nach Spanien reichte.
+
+In Amerika ging der langsame Niedergang von Cahokia weiter. Immer mehr Menschen verließen die große Stadt. Vielleicht gab es Probleme mit dem Essen, mit dem Klima oder mit Konflikten. Die einst so große Stadt wurde langsam kleiner.
+
+So war dieses Jahrzehnt eine Zeit der Gegensätze. Während Sizilien als reiches, friedliches Königreich blühte, versank England im Chaos eines Bürgerkriegs. Und in Frankreich begann mit der Gotik eine neue Art, die Schönheit Gottes in Stein und Licht auszudrücken.`,
+    translations: {
+      "glänzendes": "glittering / splendid",
+      "gekrönt": "crowned",
+      "das Besondere": "the special thing",
+      "zusammenlebten": "lived together",
+      "übersetzen": "to translate",
+      "die Brücke": "the bridge",
+      "der Vetter": "the cousin",
+      "ergriff die Macht": "seized power",
+      "ließ sich krönen": "had himself crowned",
+      "gab nicht auf": "did not give up",
+      "der Bürgerkrieg": "the civil war",
+      "die Anarchie": "the Anarchy",
+      "die Gewalt": "violence",
+      "plünderten": "plundered / looted",
+      "das Gewicht": "weight / influence",
+      "die Architektur": "architecture",
+      "der Abt": "the abbot",
+      "romanischen Stil": "Romanesque style",
+      "die Säulen": "the columns / pillars",
+      "hereinströmen": "to stream in",
+      "die Gotik": "the Gothic (style)",
+      "die Kathedralen": "the cathedrals",
+      "die Glasfenster": "stained-glass windows",
+      "festigte sich": "consolidated / became established",
+      "tapfer": "bravely",
+      "zurückerobern": "to reconquer",
+      "der Held": "the hero",
+      "Frieden schließen": "to make peace",
+      "die Gebiete": "the territories",
+      "verließen": "left / abandoned",
+      "einst": "once / formerly",
+      "die Gegensätze": "the contrasts",
+      "versank": "sank / descended",
+      "die Schönheit": "the beauty",
+      "auszudrücken": "to express",
+    }
+  },
+  {
+    id: 15,
+    unlockDay: 15,
+    period: "1140–1150 n. Chr.",
+    title: "Der zweite Kreuzzug und das Licht der Gotik",
+    text: `In den 1140er Jahren zog wieder ein großes christliches Heer in den Osten, ein neues Königreich entstand im Westen Europas, und in Frankreich erstrahlte zum ersten Mal das Licht einer gotischen Kathedrale.
+
+Der Anlass für den zweiten Kreuzzug war eine schlechte Nachricht aus dem Osten. Im Jahr 1144 eroberte der muslimische Anführer Zengi die christliche Stadt Edessa. Es war der erste Kreuzfahrerstaat, der wieder verloren ging. In Europa löste diese Nachricht große Sorge aus. Der berühmte Mönch Bernhard von Clairvaux reiste durch das Land und predigte für einen neuen Kreuzzug. Viele Menschen waren begeistert.
+
+Diesmal zogen sogar Könige selbst mit: Konrad III. aus Deutschland und Ludwig VII. aus Frankreich. Doch der zweite Kreuzzug wurde ein großer Misserfolg. Die Heere litten unterwegs schwer, und der Angriff auf die Stadt Damaskus im Jahr 1148 scheiterte völlig. Die Kreuzfahrer mussten unverrichteter Dinge wieder nach Hause ziehen. Die Niederlage war eine große Enttäuschung für die Christen in Europa.
+
+Doch ein Teil des Kreuzzugs hatte Erfolg, allerdings weit weg vom Heiligen Land. Auf dem Weg nach Osten halfen einige Kreuzfahrer den Christen in Portugal. Im Jahr 1147 eroberten sie zusammen die Stadt Lissabon von den Muslimen. Kurz zuvor war Portugal ein eigenes Königreich geworden, mit Afonso Henriques als erstem König. So entstand am westlichen Rand Europas ein neues christliches Land.
+
+In Frankreich vollendete der Abt Suger im Jahr 1144 den neuen Chor der Kirche von Saint-Denis. Es war das erste richtige Beispiel der gotischen Architektur. Die Menschen staunten über das viele Licht, das durch die großen Fenster strömte. Es schien, als ob der Himmel selbst in die Kirche käme. Dieser neue Stil verbreitete sich bald in ganz Europa.
+
+In China schlossen die Südliche Song-Dynastie und das Reich der Jin im Jahr 1141 endlich Frieden. Im Vertrag von Shaoxing erkannte die Song-Dynastie die Herrschaft der Jin über den Norden an und zahlte ihnen Tribut. Der tapfere General Yue Fei, der weiterkämpfen wollte, wurde kurz darauf hingerichtet. Viele Chinesen waren empört über seinen Tod. Bis heute gilt Yue Fei als Held und Vorbild für Treue zum Vaterland.
+
+In der islamischen Welt starb der mächtige Zengi im Jahr 1146. Sein Sohn Nur ad-Din übernahm die Führung. Er war ein frommer und kluger Herrscher, der den Kampf gegen die Kreuzfahrer fortsetzte und die muslimischen Gebiete in Syrien weiter vereinte.
+
+In Spanien blühte in dieser Zeit eine wichtige geistige Bewegung. In der Stadt Toledo übersetzten Gelehrte aus vielen Ländern arabische und griechische Bücher ins Lateinische. So kam das alte Wissen der Antike und der islamischen Welt nach Europa. Diese Übersetzungen waren ein wichtiger Schritt für die Wissenschaft im mittelalterlichen Europa.
+
+So zeigt dieses Jahrzehnt das ganze Spektrum der Geschichte: einen gescheiterten Kreuzzug, die Geburt eines neuen Königreichs, das erste Leuchten der Gotik und den Tod eines chinesischen Helden.`,
+    translations: {
+      "das Heer": "the army",
+      "erstrahlte": "shone / radiated",
+      "der Anlass": "the occasion / trigger",
+      "die Nachricht": "the news",
+      "verloren ging": "was lost",
+      "löste Sorge aus": "caused concern",
+      "predigte": "preached",
+      "begeistert": "enthusiastic",
+      "zogen mit": "joined / went along",
+      "der Misserfolg": "the failure",
+      "litten": "suffered",
+      "scheiterte": "failed",
+      "unverrichteter Dinge": "having achieved nothing",
+      "die Enttäuschung": "the disappointment",
+      "allerdings": "however",
+      "am westlichen Rand": "on the western edge",
+      "vollendete": "completed",
+      "der Chor": "the choir (of a church)",
+      "staunten": "marvelled",
+      "strömte": "streamed",
+      "es schien": "it seemed",
+      "verbreitete sich": "spread",
+      "erkannte an": "recognised / acknowledged",
+      "der Tribut": "tribute",
+      "hingerichtet": "executed",
+      "empört": "outraged",
+      "die Treue": "loyalty",
+      "das Vaterland": "the homeland / fatherland",
+      "übernahm": "took over",
+      "die Führung": "the leadership",
+      "fromm": "pious",
+      "fortsetzte": "continued",
+      "geistige Bewegung": "intellectual movement",
+      "die Übersetzungen": "the translations",
+      "das Spektrum": "the spectrum / range",
+      "gescheiterten": "failed",
+      "die Geburt": "the birth",
+      "das Leuchten": "the glow / shining",
+    }
+  },
+  {
+    id: 16,
+    unlockDay: 16,
+    period: "1150–1160 n. Chr.",
+    title: "Mächtige Herrscher und ein Tempel im Dschungel",
+    text: `In den 1150er Jahren traten in Europa zwei der mächtigsten Herrscher des Mittelalters auf, während in Südostasien einer der größten Tempel der Welt entstand.
+
+Im Heiligen Römischen Reich wurde im Jahr 1155 Friedrich I. zum Kaiser gekrönt. Wegen seines roten Bartes nannte man ihn „Barbarossa", was auf Italienisch „Rotbart" bedeutet. Friedrich Barbarossa war ein starker und ehrgeiziger Herrscher. Er wollte die kaiserliche Macht in Italien wiederherstellen. Doch die reichen Städte Norditaliens, wie Mailand, wollten ihre Freiheit behalten. So begann ein langer Kampf zwischen dem Kaiser und den italienischen Städten.
+
+In England bestieg im Jahr 1154 Heinrich II. den Thron und beendete damit den langen Bürgerkrieg. Heinrich war ein energischer und kluger König. Durch seine Heirat mit Eleonore von Aquitanien, einer der mächtigsten Frauen ihrer Zeit, beherrschte er nicht nur England, sondern auch große Teile von Frankreich. Dieses riesige Reich nennt man das „Angevinische Reich". Heinrich reformierte die Gesetze Englands und legte den Grundstein für das englische Rechtssystem.
+
+In der islamischen Welt arbeitete Nur ad-Din weiter daran, die Muslime gegen die Kreuzfahrer zu vereinen. Er war ein gerechter Herrscher, der Schulen und Krankenhäuser baute. Langsam wurden die muslimischen Gebiete stärker und einiger.
+
+Das vielleicht erstaunlichste Bauwerk dieser Zeit entstand weit weg in Südostasien. Im Reich der Khmer, im heutigen Kambodscha, ließ der König Suryavarman II. einen gewaltigen Tempel bauen: Angkor Wat. Dieser Tempel war riesig und wunderschön, mit hohen Türmen und kunstvollen Steinbildern. Er war zuerst dem Hindu-Gott Vishnu geweiht. Angkor Wat ist bis heute eines der größten religiösen Bauwerke der Welt und ein Wahrzeichen Kambodschas.
+
+In China blühte die Südliche Song-Dynastie. Ihre Hauptstadt Hangzhou war wahrscheinlich die größte und reichste Stadt der Welt. Über eine Million Menschen lebten dort. Es gab Restaurants, Theater, Märkte und Geschäfte aller Art. Reisende aus fernen Ländern staunten über den Reichtum und die Ordnung der chinesischen Städte.
+
+In Japan begann die Macht der alten Adelsfamilien zu schwinden. Stattdessen wurden die Krieger, die Samurai, immer wichtiger. Im Jahr 1156 kam es zu einem Aufstand in der Hauptstadt, bei dem zwei Kriegerfamilien um die Macht kämpften. Es war ein Zeichen dafür, dass eine neue Zeit der Krieger begann.
+
+In Amerika ging der Niedergang weiter. In Mexiko verfiel ungefähr in dieser Zeit die alte Toltekenstadt Tula. Und in Nordamerika baute man in Cahokia weiter an Mauern zum Schutz – ein Zeichen für unruhige Zeiten.
+
+So zeigt dieses Jahrzehnt die Macht großer Herrscher und die Schönheit großer Bauwerke. Von Barbarossa in Europa über Nur ad-Din im Nahen Osten bis zu den Khmer-Königen in Asien – überall versuchten mächtige Männer, ihre Reiche zu vergrößern und große Spuren zu hinterlassen.`,
+    translations: {
+      "traten auf": "appeared / emerged",
+      "der Bart": "the beard",
+      "der Rotbart": "Redbeard",
+      "ehrgeiziger": "ambitious",
+      "wiederherstellen": "to restore",
+      "behalten": "to keep / retain",
+      "bestieg den Thron": "ascended the throne",
+      "beendete": "ended",
+      "energischer": "energetic",
+      "die Heirat": "the marriage",
+      "beherrschte": "ruled / controlled",
+      "das Angevinische Reich": "the Angevin Empire",
+      "reformierte": "reformed",
+      "legte den Grundstein": "laid the foundation",
+      "das Rechtssystem": "the legal system",
+      "gerechter": "just / fair",
+      "einiger": "more united",
+      "erstaunlichste": "most astonishing",
+      "das Bauwerk": "the structure / edifice",
+      "die Khmer": "the Khmer",
+      "gewaltigen": "enormous / mighty",
+      "kunstvollen": "intricate / artful",
+      "die Steinbilder": "stone carvings",
+      "geweiht": "dedicated / consecrated",
+      "das Wahrzeichen": "the landmark / emblem",
+      "Geschäfte aller Art": "shops of every kind",
+      "die Adelsfamilien": "the noble families",
+      "schwinden": "to fade / dwindle",
+      "der Aufstand": "the uprising / revolt",
+      "verfiel": "decayed / fell into ruin",
+      "zum Schutz": "for protection",
+      "unruhige": "restless / troubled",
+      "Spuren hinterlassen": "to leave traces / a mark",
+    }
+  },
+  {
+    id: 17,
+    unlockDay: 17,
+    period: "1160–1170 n. Chr.",
+    title: "Ein Mord in der Kathedrale und ein neuer Stern in Ägypten",
+    text: `Die 1160er Jahre brachten einen berühmten Mord in England, den Aufstieg eines jungen Mannes in Ägypten, der später die ganze Welt verändern sollte, und den langen Kampf eines Kaisers gegen freie Städte.
+
+In England stritten sich der König und sein wichtigster Kirchenmann heftig. König Heinrich II. wollte mehr Macht über die Kirche haben. Sein früherer Freund Thomas Becket, der Erzbischof von Canterbury, widersetzte sich ihm jedoch und verteidigte die Rechte der Kirche. Der Streit wurde immer bitterer. Im Jahr 1170 sprach der König wütend über Becket. Vier Ritter verstanden seine Worte als Befehl und ritten nach Canterbury. Dort ermordeten sie den Erzbischof in seiner eigenen Kathedrale. Dieser schreckliche Mord erschütterte ganz Europa. Becket wurde bald als Heiliger verehrt, und seine Kathedrale wurde zu einem berühmten Pilgerort.
+
+In der islamischen Welt begann der Aufstieg eines außergewöhnlichen Mannes. Sein Name war Saladin. Er kam mit seinem Onkel nach Ägypten, wo damals noch die schwachen Fatimiden herrschten. Saladin war klug, tapfer und fromm. Im Jahr 1169 wurde er Wesir, der eigentliche Herrscher Ägyptens. Bald sollte er das mächtigste Land der islamischen Welt regieren und zum größten Feind der Kreuzfahrer werden.
+
+In Italien führte Kaiser Friedrich Barbarossa seinen Kampf gegen die freien Städte fort. Er wollte sie unterwerfen, aber die Städte wehrten sich. Sie schlossen sich zu einem Bündnis zusammen, dem Lombardenbund. Gemeinsam waren sie stärker als allein. Der Kampf zwischen dem Kaiser und den Städten dauerte viele Jahre.
+
+In China blühte weiter die Südliche Song-Dynastie. Die Chinesen machten in dieser Zeit viele technische Fortschritte. Sie benutzten den Kompass für die Schifffahrt, druckten Bücher und stellten feines Porzellan her, das in der ganzen Welt begehrt war.
+
+In Kambodscha stand das Reich der Khmer auf seinem Höhepunkt. Die riesige Stadt Angkor mit ihren Tempeln und Wasserkanälen war ein Zentrum von Macht und Religion. Hunderttausende von Menschen lebten in und um die Stadt.
+
+In Europa entwickelte sich an den Höfen der Adligen eine neue Kultur: die höfische Liebe. Dichter und Sänger, die man Troubadoure nannte, sangen Lieder über die Liebe, die Ehre und die Tapferkeit der Ritter. Besonders der Hof von Eleonore von Aquitanien war berühmt für diese feine Kultur. Aus dieser Zeit stammen viele Ideen über Ritterlichkeit, die wir noch heute mit dem Mittelalter verbinden.
+
+In Amerika lebten die Menschen weiter in ihren eigenen Welten. Die großen Veränderungen in Europa, Asien und Afrika blieben ihnen völlig unbekannt.
+
+So zeigt dieses Jahrzehnt, wie einzelne Menschen die Geschichte prägen können. Ein ermordeter Erzbischof wurde zum Heiligen, und ein junger Mann in Ägypten begann einen Aufstieg, der bald die Welt der Kreuzzüge erschüttern sollte.`,
+    translations: {
+      "der Mord": "the murder",
+      "der Aufstieg": "the rise",
+      "ein neuer Stern": "a new star",
+      "der Kirchenmann": "the churchman",
+      "der Erzbischof": "the archbishop",
+      "widersetzte sich": "opposed / resisted",
+      "verteidigte": "defended",
+      "die Rechte": "the rights",
+      "wütend": "angrily",
+      "der Befehl": "the order / command",
+      "ritten": "rode",
+      "ermordeten": "murdered",
+      "erschütterte": "shook / shocked",
+      "der Heilige": "the saint",
+      "verehrt": "venerated / revered",
+      "der Pilgerort": "the place of pilgrimage",
+      "der Onkel": "the uncle",
+      "die Fatimiden": "the Fatimids",
+      "der Wesir": "the vizier",
+      "der eigentliche": "the actual / real",
+      "unterwerfen": "to subjugate",
+      "wehrten sich": "defended themselves / resisted",
+      "der Lombardenbund": "the Lombard League",
+      "die Fortschritte": "the advances / progress",
+      "der Kompass": "the compass",
+      "die Schifffahrt": "navigation / shipping",
+      "das Porzellan": "porcelain",
+      "begehrt": "sought-after / coveted",
+      "die Wasserkanäle": "water canals",
+      "die höfische Liebe": "courtly love",
+      "die Troubadoure": "the troubadours",
+      "die Ehre": "honour",
+      "die Tapferkeit": "bravery",
+      "die Ritterlichkeit": "chivalry",
+      "verbinden": "to associate / connect",
+      "einzelne": "individual / single",
+    }
+  },
+  {
+    id: 18,
+    unlockDay: 18,
+    period: "1170–1180 n. Chr.",
+    title: "Saladins Aufstieg und der Stolz der Städte",
+    text: `In den 1170er Jahren vereinte ein großer Herrscher die islamische Welt, während in Italien die freien Städte einen stolzen Sieg über einen Kaiser errangen.
+
+In der islamischen Welt erreichte Saladin den Höhepunkt seiner Macht. Im Jahr 1174 starb sein früherer Herr Nur ad-Din. Saladin nutzte die Gelegenheit und übernahm die Herrschaft über Ägypten und Syrien. Damit vereinte er die wichtigsten muslimischen Länder um die Kreuzfahrerstaaten herum unter einer einzigen Führung. Saladin war nicht nur ein guter Feldherr, sondern auch bekannt für seine Großzügigkeit und seinen Edelmut. Sogar seine christlichen Feinde respektierten ihn. Mit Saladin hatten die Kreuzfahrer nun einen gefährlichen und einigen Gegner.
+
+In Italien kam der lange Kampf zwischen Kaiser Friedrich Barbarossa und den freien Städten zu einem Höhepunkt. Im Jahr 1176 trafen das Heer des Kaisers und das Heer des Lombardenbundes bei Legnano aufeinander. Zur Überraschung vieler gewannen die Städte. Die Bürger und Handwerker besiegten das Ritterheer des Kaisers. Diese Niederlage zwang Barbarossa, den Städten mehr Freiheit zu geben. Es war ein wichtiger Sieg für die Idee der freien Stadt und der Selbstverwaltung.
+
+In England rebellierten sogar die Söhne des Königs Heinrich II. gegen ihren Vater. Unterstützt von ihrer Mutter Eleonore und von fremden Königen erhoben sie sich gegen ihn. Heinrich konnte den Aufstand niederschlagen, aber die Konflikte in seiner Familie blieben. Im Jahr 1173 wurde der ermordete Thomas Becket offiziell zum Heiligen erklärt, und der König musste sogar öffentlich Buße tun.
+
+In Japan stieg die Familie der Taira zur höchsten Macht auf. Ihr Anführer, Taira no Kiyomori, kontrollierte den kaiserlichen Hof. Doch die rivalisierende Familie der Minamoto wartete nur auf ihre Gelegenheit. Die Spannungen zwischen den beiden Kriegerfamilien wuchsen und sollten bald zu einem großen Krieg führen.
+
+In Kambodscha erlebte das Reich der Khmer einen schweren Schlag. Im Jahr 1177 griff das benachbarte Volk der Cham an und plünderte die große Stadt Angkor. Doch die Khmer erholten sich und sollten unter einem neuen König bald wieder mächtig werden.
+
+In Europa wuchsen die Städte und der Handel immer weiter. Im Norden begannen Kaufleute aus verschiedenen Städten zusammenzuarbeiten, um ihren Handel zu schützen. Aus diesen Anfängen sollte später die mächtige Hanse entstehen. Auch neue Technik half den Menschen: In vielen Teilen Europas baute man jetzt Windmühlen, die mit der Kraft des Windes Getreide mahlten.
+
+In Amerika ging der Niedergang von Cahokia weiter. Die einst große Stadt verlor immer mehr Einwohner. Andere Kulturen in Nord- und Südamerika lebten und entwickelten sich weiter, jede auf ihre eigene Weise.
+
+So zeigt dieses Jahrzehnt den Aufstieg eines großen muslimischen Herrschers und den Stolz freier Bürger. Saladin baute eine Macht auf, die den Kreuzfahrern bald gefährlich werden sollte, und die Städte Italiens bewiesen, dass auch Bürger einen Kaiser besiegen konnten.`,
+    translations: {
+      "der Stolz": "the pride",
+      "errangen": "won / achieved",
+      "nutzte die Gelegenheit": "seized the opportunity",
+      "übernahm": "took over",
+      "die Herrschaft": "the rule",
+      "die Führung": "the leadership",
+      "der Feldherr": "the military commander",
+      "die Großzügigkeit": "generosity",
+      "der Edelmut": "nobility / magnanimity",
+      "respektierten": "respected",
+      "einigen": "united",
+      "der Gegner": "the opponent / adversary",
+      "trafen aufeinander": "clashed / met",
+      "die Überraschung": "the surprise",
+      "die Bürger": "the citizens / townspeople",
+      "die Handwerker": "the craftsmen",
+      "das Ritterheer": "the army of knights",
+      "zwang": "forced",
+      "die Selbstverwaltung": "self-government",
+      "rebellierten": "rebelled",
+      "unterstützt": "supported",
+      "erhoben sich": "rose up",
+      "niederschlagen": "to suppress / put down",
+      "zum Heiligen erklärt": "declared a saint / canonised",
+      "Buße tun": "to do penance",
+      "rivalisierende": "rival",
+      "die Spannungen": "the tensions",
+      "der Schlag": "the blow",
+      "benachbarte": "neighbouring",
+      "die Cham": "the Cham (people)",
+      "erholten sich": "recovered",
+      "zusammenzuarbeiten": "to work together",
+      "die Hanse": "the Hanseatic League",
+      "die Windmühlen": "the windmills",
+      "mahlten": "ground / milled",
+      "bewiesen": "proved",
+    }
+  },
+  {
+    id: 19,
+    unlockDay: 19,
+    period: "1180–1190 n. Chr.",
+    title: "Die Rückeroberung Jerusalems und ein Krieg in Japan",
+    text: `Das letzte Jahrzehnt des 12. Jahrhunderts brachte eine gewaltige Wende im Heiligen Land und einen entscheidenden Krieg in Japan, der eine ganz neue Epoche einleitete.
+
+Im Heiligen Land kam es zum großen Zusammenstoß zwischen Saladin und den Kreuzfahrern. Im Jahr 1187 trafen die beiden Heere bei einem Ort namens Hattin aufeinander. Saladin führte sein Heer klug und besiegte die Kreuzfahrer vollständig. Es war eine vernichtende Niederlage für die Christen. Kurz darauf eroberte Saladin Jerusalem zurück, die heilige Stadt, die die Kreuzfahrer fast neunzig Jahre lang gehalten hatten. Anders als die Kreuzfahrer im Jahr 1099 ließ Saladin kein Massaker zu. Er behandelte die Bewohner der Stadt mit Milde. Diese Großzügigkeit machte ihn auch im Westen berühmt.
+
+Die Nachricht vom Fall Jerusalems erschütterte Europa. Sofort rief der Papst zu einem neuen Kreuzzug auf. Beim dritten Kreuzzug zogen die mächtigsten Herrscher Europas selbst in den Krieg: Kaiser Friedrich Barbarossa aus Deutschland, König Richard Löwenherz aus England und König Philipp II. aus Frankreich. Doch der alte Kaiser Barbarossa erreichte das Heilige Land nie. Im Jahr 1190 ertrank er in einem Fluss in Kleinasien. Sein Tod war ein schwerer Schlag für den Kreuzzug.
+
+In Japan tobte in diesen Jahren ein großer Bürgerkrieg, der Gempei-Krieg. Die beiden mächtigen Kriegerfamilien, die Taira und die Minamoto, kämpften um die Herrschaft über das Land. Nach mehreren Jahren des Krieges siegten die Minamoto. Im Jahr 1185 vernichteten sie die Taira in einer großen Seeschlacht. Der Sieger, Minamoto no Yoritomo, gründete eine neue Form der Regierung. Er wurde der erste „Shogun", der oberste militärische Herrscher. Von nun an regierten in Japan für viele Jahrhunderte die Krieger, während der Kaiser nur noch eine symbolische Rolle spielte. Es war der Beginn der Zeit der Samurai-Herrschaft.
+
+In China blühte die Südliche Song-Dynastie weiter. Im reichen Süden lebten die Menschen in großen Städten, trieben Handel über das Meer und schufen feine Kunst. Im Norden herrschten weiter die Jin.
+
+In Nordafrika und Spanien stand das Reich der Almohaden auf seinem Höhepunkt. Die Almohaden kämpften gegen die christlichen Königreiche im Norden Spaniens und beherrschten ein großes Gebiet auf beiden Seiten des Mittelmeers.
+
+In Amerika verschwand die große Stadt Cahokia fast völlig. Die meisten Menschen hatten sie verlassen. Was einst die größte Stadt nördlich von Mexiko war, wurde still und leer. Die genauen Gründe bleiben ein Rätsel.
+
+So endete das 12. Jahrhundert mit großen Wenden. Saladin gewann Jerusalem zurück, in Japan begann die Herrschaft der Samurai, und in Amerika verschwand eine große Stadt. Überall auf der Welt ging die Geschichte ihren Weg – mal in lauten Schlachten, mal im stillen Verfall einer Stadt.`,
+    translations: {
+      "die Rückeroberung": "the reconquest",
+      "die Wende": "the turning point",
+      "entscheidenden": "decisive",
+      "einleitete": "ushered in / initiated",
+      "der Zusammenstoß": "the clash",
+      "vernichtende": "devastating / crushing",
+      "zurückeroberte": "reconquered",
+      "gehalten hatten": "had held",
+      "ließ kein Massaker zu": "allowed no massacre",
+      "behandelte": "treated",
+      "die Milde": "mildness / mercy",
+      "die Großzügigkeit": "generosity",
+      "der Fall": "the fall",
+      "rief auf": "called for",
+      "Richard Löwenherz": "Richard the Lionheart",
+      "ertrank": "drowned",
+      "der Schlag": "the blow",
+      "tobte": "raged",
+      "der Gempei-Krieg": "the Genpei War",
+      "siegten": "were victorious",
+      "vernichteten": "annihilated / destroyed",
+      "die Seeschlacht": "the naval battle",
+      "der Sieger": "the victor",
+      "der Shogun": "the shogun",
+      "oberste": "supreme / highest",
+      "symbolische": "symbolic",
+      "die Samurai-Herrschaft": "samurai rule",
+      "trieben Handel": "carried on trade",
+      "auf beiden Seiten": "on both sides",
+      "verschwand": "disappeared",
+      "still und leer": "quiet and empty",
+      "das Rätsel": "the mystery / riddle",
+      "der Verfall": "the decay / decline",
+    }
+  },
 ];

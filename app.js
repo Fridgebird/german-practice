@@ -952,8 +952,8 @@ function loadPairsState() {
 }
 
 let pairsState = loadPairsState();
-let pairsFaceUp = [];   // indices currently shown (0–2); transient, not saved
-let pairsLock = false;  // true while a non-match is being shown
+let pairsFaceUp = [];      // indices currently shown (0–2); transient, not saved
+let pairsResolving = null; // {type:'match'|'mismatch', pairId?}: two cards await clearing
 
 function savePairsState() { save('pairsState', pairsState); }
 
@@ -975,6 +975,7 @@ function renderPairs() {
   const matchedSet = new Set(pairsState.matched);
   pairsState.cards.forEach((card, i) => {
     const btn = document.createElement('button');
+    btn.dataset.index = i;
     const isMatched = matchedSet.has(card.pairId);
     const isUp = pairsFaceUp.includes(i);
     if (isMatched) {
@@ -987,65 +988,75 @@ function renderPairs() {
       btn.className = 'pair-card down';
       btn.textContent = '?';
     }
-    if (pairsLock || pairsState.finished) btn.classList.add('locked');
-    btn.addEventListener('click', () => onPairCardClick(i));
+    if (pairsState.finished) btn.classList.add('locked');
     grid.appendChild(btn);
   });
 
-  // Stage: enlarged view of the currently flipped card(s)
+  // Stage: two fixed slots, so the first card sits on the left and stays there
   const stage = document.getElementById('pairs-stage');
   stage.innerHTML = '';
-  pairsFaceUp.forEach(i => {
-    const card = pairsState.cards[i];
-    const big = document.createElement('div');
-    big.className = 'stage-card ' + (card.lang === 'en' ? 'lang-en' : 'lang-de');
-    big.textContent = card.text;
-    stage.appendChild(big);
-  });
+  for (let slot = 0; slot < 2; slot++) {
+    const wrap = document.createElement('div');
+    wrap.className = 'stage-slot';
+    const idx = pairsFaceUp[slot];
+    if (idx !== undefined) {
+      const card = pairsState.cards[idx];
+      const big = document.createElement('div');
+      big.className = 'stage-card ' + (card.lang === 'en' ? 'lang-en' : 'lang-de');
+      big.textContent = card.text;
+      wrap.appendChild(big);
+    }
+    stage.appendChild(wrap);
+  }
 
   // Result + totals
   renderPairsResult();
   renderPairsTotals();
 }
 
-function onPairCardClick(i) {
-  if (pairsLock || pairsState.finished) return;
-  const matchedSet = new Set(pairsState.matched);
+// One delegated handler for the whole grid, so a tap "anywhere on the grid"
+// clears two face-up cards, and a separate tap then starts a new selection.
+function onGridClick(e) {
+  if (pairsState.finished) return;
+
+  // Two cards are sitting face up → this tap clears them (and selects nothing).
+  if (pairsResolving) { resolvePending(); return; }
+
+  const btn = e.target.closest('.pair-card');
+  if (!btn) return;
+  const i = Number(btn.dataset.index);
   const card = pairsState.cards[i];
-  if (matchedSet.has(card.pairId)) return;     // already matched
-  if (pairsFaceUp.includes(i)) return;          // already face up
+  if (pairsState.matched.includes(card.pairId)) return; // already removed
+  if (pairsFaceUp.includes(i)) return;                   // already face up
 
   pairsFaceUp.push(i);
-
   if (pairsFaceUp.length < 2) { renderPairs(); return; }
 
-  // Two cards are up — judge the match
+  // Second card turned — decide, but leave both cards up until the next tap.
   const [a, b] = pairsFaceUp;
   const isMatch = pairsState.cards[a].pairId === pairsState.cards[b].pairId;
-  pairsLock = true;
+  pairsResolving = isMatch
+    ? { type: 'match', pairId: pairsState.cards[a].pairId }
+    : { type: 'mismatch' };
   renderPairs();
+}
 
-  if (isMatch) {
-    setTimeout(() => {
-      pairsState.matched.push(pairsState.cards[a].pairId);
-      pairsState.scores[pairsState.current]++;
-      pairsFaceUp = [];
-      pairsLock = false;
-      if (pairsState.matched.length === pairsState.cards.length / 2) {
-        pairsState.finished = true;
-      }
-      savePairsState();
-      renderPairs();
-    }, 650);
+// Clear the two face-up cards after the player taps the grid.
+function resolvePending() {
+  if (pairsResolving.type === 'match') {
+    pairsState.matched.push(pairsResolving.pairId);
+    pairsState.scores[pairsState.current]++;          // score on clear, so reloads stay consistent
+    if (pairsState.matched.length === pairsState.cards.length / 2) {
+      pairsState.finished = true;
+    }
+    // same player goes again
   } else {
-    setTimeout(() => {
-      pairsState.current = otherPlayer(pairsState.current);
-      pairsFaceUp = [];
-      pairsLock = false;
-      savePairsState();
-      renderPairs();
-    }, 1150);
+    pairsState.current = otherPlayer(pairsState.current); // miss → next player
   }
+  pairsFaceUp = [];
+  pairsResolving = null;
+  savePairsState();
+  renderPairs();
 }
 
 function renderPairsResult() {
@@ -1081,6 +1092,7 @@ function renderPairsTotals() {
     (totals.draws ? `, draws: ${totals.draws}` : '') + `.  ${leader}.`;
 }
 
+document.getElementById('pairs-grid').addEventListener('click', onGridClick);
 renderPairs();
 
 // ============================================================

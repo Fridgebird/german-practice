@@ -478,9 +478,15 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
   min-height: 8.5rem;          /* reserve space so the grid doesn't jump */
   margin-bottom: 1rem;
 }
-.stage-card {
+/* Two fixed slots (left + right): the first card lands on the left and stays */
+.stage-slot {
   flex: 1 1 0;
   max-width: 200px;
+  min-height: 8rem;
+  display: flex;
+}
+.stage-card {
+  width: 100%;
   min-height: 8rem;
   border-radius: 16px;
   background: white;

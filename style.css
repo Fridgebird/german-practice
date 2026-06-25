@@ -479,6 +479,7 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
 }
 .pair-card {
   aspect-ratio: 3 / 4;
+  min-height: 72px;     /* fallback for browsers where aspect-ratio collapses */
   border-radius: 10px;
   border: none;
   cursor: pointer;

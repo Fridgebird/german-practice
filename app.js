@@ -7,7 +7,12 @@ function load(key, def) {
   try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : def; }
   catch { return def; }
 }
-function save(key, val) { localStorage.setItem(key, JSON.stringify(val)); }
+function save(key, val) {
+  // Some browsers (e.g. Firefox mobile with strict storage protection, or
+  // private mode) throw on localStorage writes. Never let that crash the app.
+  try { localStorage.setItem(key, JSON.stringify(val)); }
+  catch (e) { /* storage unavailable — progress just won't persist this session */ }
+}
 
 // ---------- Navigation ----------
 document.querySelectorAll('.nav-btn').forEach(btn => {

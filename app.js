@@ -881,22 +881,28 @@ renderRulesReference();
 //  READER
 // ============================================================
 
-// Track which day the user first opened the app
-function getStartDay() {
-  let d = load('readerStartDate', null);
-  if (!d) { d = new Date().toISOString().split('T')[0]; save('readerStartDate', d); }
-  return d;
-}
+// Hard-coded start date so progress survives a browser-cache clear.
+// Day 1 = READER_START_DATE. (Set so that 2026-06-25 is day 16.)
+const READER_START_DATE = '2026-06-10';
+const READER_CYCLE_DAYS = 100; // after 100 days the cycle restarts
 
+// How many days since the start date (day 1 on the start date itself).
 function daysSinceStart() {
-  const start = new Date(getStartDay());
+  const start = new Date(READER_START_DATE + 'T00:00:00');
   const now = new Date();
   const diff = Math.floor((now - start) / (1000 * 60 * 60 * 24));
-  return diff + 1; // day 1 on first open
+  return diff + 1;
+}
+
+// Current day within the 100-day cycle (1..100), looping forever.
+function currentCycleDay() {
+  const d = daysSinceStart();
+  // ((d - 1) mod 100) + 1, handling any negative values safely
+  return ((d - 1) % READER_CYCLE_DAYS + READER_CYCLE_DAYS) % READER_CYCLE_DAYS + 1;
 }
 
 function isUnlocked(reader) {
-  return daysSinceStart() >= reader.unlockDay;
+  return currentCycleDay() >= reader.unlockDay;
 }
 
 function renderReaderList() {

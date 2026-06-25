@@ -1126,25 +1126,36 @@ function isUnlocked(reader) {
 function renderReaderList() {
   const list = document.getElementById('reader-list');
   list.innerHTML = '';
-  READERS.forEach(r => {
-    const unlocked = isUnlocked(r);
+
+  // Only the unlocked articles (incl. today's), newest at the top.
+  const unlocked = READERS.filter(isUnlocked).sort((a, b) => b.unlockDay - a.unlockDay);
+  const lockedCount = READERS.length - unlocked.length;
+
+  // Helper label: how many written articles are still waiting to unlock.
+  const note = document.createElement('p');
+  note.className = 'reader-count';
+  if (lockedCount > 0) {
+    note.textContent = `${lockedCount} more article${lockedCount === 1 ? '' : 's'} waiting to unlock (one per day).`;
+  } else {
+    note.textContent = `You're up to date — no more articles waiting. Ask for more!`;
+    note.classList.add('reader-count-empty');
+  }
+  list.appendChild(note);
+
+  unlocked.forEach((r, idx) => {
     const card = document.createElement('div');
-    card.className = 'reader-card' + (unlocked ? '' : ' locked');
+    card.className = 'reader-card';
     card.innerHTML = `
       <div class="reader-card-info">
-        ${unlocked
-          ? `<h4 class="reader-title-link" data-id="${r.id}" style="cursor:pointer;color:#1a3a5c;text-decoration:underline">${r.title}</h4>`
-          : `<h4>${r.title}</h4>`
-        }
-        <p>${r.period}</p>
+        <div class="reader-card-period">${r.period}</div>
+        <h4 class="reader-title-link" data-id="${r.id}">${r.title}</h4>
+        ${idx === 0 ? '<span class="reader-today-badge">Today</span>' : ''}
       </div>
-      ${unlocked
-        ? `<button class="btn-primary open-reader" data-id="${r.id}">Read</button>`
-        : `<span class="locked-label">Day ${r.unlockDay}</span>`
-      }
+      <button class="btn-primary open-reader" data-id="${r.id}">Read</button>
     `;
     list.appendChild(card);
   });
+
   list.querySelectorAll('.open-reader, .reader-title-link').forEach(el => {
     el.addEventListener('click', () => openReader(parseInt(el.dataset.id)));
   });

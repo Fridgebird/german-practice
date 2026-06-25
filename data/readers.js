@@ -1208,4 +1208,443 @@ So endete das 12. Jahrhundert mit großen Wenden. Saladin gewann Jerusalem zurü
       "der Verfall": "the decay / decline",
     }
   },
+  {
+    id: 20,
+    unlockDay: 20,
+    period: "1190–1200 n. Chr.",
+    title: "Löwenherz, Saladin und ein neuer Herrscher in Japan",
+    text: `Das letzte Jahrzehnt des 12. Jahrhunderts brachte das Ende eines berühmten Kreuzzugs, den Tod eines großen Herrschers und den Beginn einer neuen Zeit in Japan.
+
+Im Heiligen Land kämpften zwei der berühmtesten Männer des Mittelalters gegeneinander: König Richard Löwenherz aus England und der muslimische Sultan Saladin. Beide waren tapfere Krieger und kluge Anführer, und obwohl sie Feinde waren, respektierten sie einander. Richard gewann mehrere Schlachten und eroberte wichtige Hafenstädte. Doch er schaffte es nicht, Jerusalem selbst zurückzuerobern. Die Stadt war zu gut verteidigt und lag zu weit von der Küste entfernt.
+
+Am Ende schlossen Richard und Saladin im Jahr 1192 einen Vertrag. Jerusalem blieb in muslimischer Hand, aber christliche Pilger durften die Stadt wieder besuchen. Beide Seiten waren erschöpft und brauchten Frieden. Kurz darauf, im Jahr 1193, starb Saladin. Er hinterließ kaum Reichtum, denn er hatte sein Geld für seine Soldaten und für die Armen ausgegeben. Bis heute gilt er als Vorbild für Ehre und Großzügigkeit.
+
+Richard Löwenherz hatte auf der Heimreise Pech. Er wurde von einem feindlichen Herzog gefangen genommen und musste ein riesiges Lösegeld zahlen, bevor er nach England zurückkehren durfte. Seine Abenteuer machten ihn zu einer Legende.
+
+In Mitteleuropa wurde Kaiser Heinrich VI. sehr mächtig. Im Jahr 1194 eroberte er das reiche Königreich Sizilien und vereinte es mit dem Heiligen Römischen Reich. Für kurze Zeit beherrschte er ein großes Gebiet von Deutschland bis nach Süditalien.
+
+In Japan begann eine völlig neue Zeit. Nach dem Sieg im großen Bürgerkrieg gründete der Krieger Minamoto no Yoritomo eine neue Form der Regierung. Im Jahr 1192 nahm er den Titel „Shogun" an, das heißt oberster militärischer Herrscher. Von nun an regierten in Japan die Krieger, die Samurai. Der Kaiser blieb zwar offiziell das Oberhaupt, aber die wahre Macht lag beim Shogun in der Stadt Kamakura. Diese Zeit der Samurai-Herrschaft sollte fast siebenhundert Jahre dauern.
+
+In Kambodscha herrschte ein außergewöhnlicher König namens Jayavarman VII. Anders als die früheren Könige war er Buddhist. Er baute die zerstörte Hauptstadt Angkor wieder auf und errichtete viele neue Tempel, Straßen und sogar Krankenhäuser für sein Volk. Sein berühmtester Bau ist der Tempel Bayon mit seinen vielen riesigen Steingesichtern. Unter ihm erreichte das Reich der Khmer seine größte Ausdehnung.
+
+In China blühte weiter die Südliche Song-Dynastie im reichen Süden, während die Jin den Norden beherrschten. Die Menschen in den südchinesischen Städten lebten in einer hoch entwickelten Welt mit Druckereien, Schulen und einem regen Handel über das Meer.
+
+In Westafrika und Nordafrika herrschten weiter die Almohaden. Doch ihr großes Reich begann langsam, Risse zu zeigen. In Spanien kämpften sie weiter gegen die christlichen Königreiche im Norden.
+
+In Amerika war die einst große Stadt Cahokia fast völlig verlassen. Andere Völker lebten weiter in kleineren Gemeinschaften und entwickelten ihre eigenen Kulturen, ohne Kontakt zur übrigen Welt.
+
+So endete das 12. Jahrhundert mit dem Tod großer Männer und dem Aufstieg neuer Mächte. Saladin und Richard Löwenherz wurden zu Legenden, in Japan begann die Herrschaft der Samurai, und in Kambodscha baute ein buddhistischer König eines der größten Reiche Südostasiens.`,
+    translations: {
+      "berühmtesten": "most famous",
+      "tapfere": "brave",
+      "respektierten": "respected",
+      "einander": "each other",
+      "die Hafenstädte": "the port cities",
+      "zurückzuerobern": "to reconquer",
+      "verteidigt": "defended",
+      "entfernt": "away / distant",
+      "schlossen einen Vertrag": "made a treaty",
+      "die Pilger": "the pilgrims",
+      "erschöpft": "exhausted",
+      "hinterließ": "left behind",
+      "der Reichtum": "wealth",
+      "ausgegeben": "spent",
+      "die Ehre": "honour",
+      "die Großzügigkeit": "generosity",
+      "die Heimreise": "the journey home",
+      "das Pech": "bad luck",
+      "gefangen genommen": "taken prisoner",
+      "das Lösegeld": "the ransom",
+      "die Abenteuer": "the adventures",
+      "vereinte": "united",
+      "der Sieg": "the victory",
+      "oberster": "supreme / highest",
+      "das Oberhaupt": "the head / leader",
+      "die Samurai-Herrschaft": "samurai rule",
+      "außergewöhnlicher": "exceptional",
+      "der Buddhist": "the Buddhist",
+      "errichtete": "erected / built",
+      "die Steingesichter": "stone faces",
+      "die Ausdehnung": "the extent / expanse",
+      "hoch entwickelten": "highly developed",
+      "Druckereien": "printing workshops",
+      "regen Handel": "lively trade",
+      "Risse zu zeigen": "to show cracks",
+      "verlassen": "abandoned",
+      "die Gemeinschaften": "the communities",
+      "die übrige Welt": "the rest of the world",
+      "der Aufstieg": "the rise",
+    }
+  },
+  {
+    id: 21,
+    unlockDay: 21,
+    period: "1200–1210 n. Chr.",
+    title: "Ein verratener Kreuzzug und ein neuer Khan",
+    text: `Das erste Jahrzehnt des 13. Jahrhunderts brachte einen Kreuzzug, der furchtbar schiefging, und den Aufstieg eines Mannes in der fernen Steppe, der bald die halbe Welt erobern sollte.
+
+In Europa rief der Papst zu einem neuen, vierten Kreuzzug auf. Das Ziel war wieder das Heilige Land. Doch dieser Kreuzzug nahm eine schreckliche Wende. Die Kreuzfahrer hatten kein Geld, um die Schiffe der reichen Stadt Venedig zu bezahlen. Also machten die Venezianer ihnen ein Angebot: Wenn die Kreuzfahrer ihnen halfen, bestimmte Städte zu erobern, würden sie weniger zahlen müssen. So griffen die Kreuzfahrer zuerst christliche Städte an. Schließlich zogen sie sogar gegen Konstantinopel, die Hauptstadt des christlichen Byzantinischen Reiches.
+
+Im Jahr 1204 eroberten und plünderten die Kreuzfahrer Konstantinopel. Es war eine schreckliche Tat: Christen plünderten die größte christliche Stadt der Welt. Sie stahlen unermessliche Schätze und zerstörten viele Kunstwerke. Die Kreuzfahrer gründeten ein eigenes „Lateinisches Reich" in Konstantinopel. Das Byzantinische Reich war zwar nicht ganz am Ende, aber es erholte sich nie wieder völlig von diesem Schlag. Statt das Heilige Land zu befreien, hatte der vierte Kreuzzug die christliche Welt tief gespalten.
+
+Weit entfernt, in den Steppen der Mongolei, geschah etwas, das die Welt für immer verändern sollte. Im Jahr 1206 vereinte ein Mann namens Temüdschin alle mongolischen Stämme unter seiner Herrschaft. Die Stammesführer gaben ihm den Titel „Dschingis Khan", was „universeller Herrscher" bedeutet. Zum ersten Mal waren die wilden Reitervölker der Steppe geeint. Dschingis Khan schuf eine außergewöhnlich disziplinierte Armee. Bald sollte er Feldzüge führen, die ganze Reiche vernichteten.
+
+In Indien entstand in dieser Zeit ein neuer mächtiger Staat. Muslimische Herrscher aus Zentralasien hatten Nordindien erobert. Im Jahr 1206 gründeten sie das Sultanat von Delhi. Von nun an herrschten muslimische Sultane über große Teile Nordindiens, während im Süden weiter hinduistische Königreiche bestanden.
+
+In Europa wuchs eine neue religiöse Bewegung. Ein junger Mann aus der italienischen Stadt Assisi gab seinen Reichtum auf und lebte in Armut. Sein Name war Franz von Assisi. Er predigte Liebe, Demut und Frieden und kümmerte sich um die Armen und Kranken. Viele Menschen folgten ihm, und so entstand ein neuer Orden, die Franziskaner. Franz von Assisi wurde zu einem der beliebtesten Heiligen des Mittelalters.
+
+In Europa wuchsen auch die Universitäten weiter. In Städten wie Paris, Bologna und dem neuen Cambridge trafen sich Studenten und Gelehrte, um zu lernen und zu diskutieren. Das Wissen verbreitete sich, und immer mehr junge Männer wollten studieren.
+
+In China, Afrika und Amerika ging das Leben weiter wie zuvor. Die meisten Menschen wussten nichts von den großen Ereignissen in fernen Ländern. Sie arbeiteten auf ihren Feldern, kümmerten sich um ihre Familien und folgten den Bräuchen ihrer Vorfahren.
+
+So zeigt dieses Jahrzehnt zwei Gesichter der Geschichte: die Zerstörung durch einen verratenen Kreuzzug und den stillen Beginn eines Mannes in der Steppe, der bald das größte Reich der Weltgeschichte aufbauen sollte.`,
+    translations: {
+      "verraten": "betrayed",
+      "schiefging": "went wrong",
+      "die Steppe": "the steppe",
+      "rief auf": "called for",
+      "das Ziel": "the goal",
+      "die Wende": "the turn / twist",
+      "das Angebot": "the offer",
+      "griffen an": "attacked",
+      "zogen gegen": "marched against",
+      "plünderten": "plundered / looted",
+      "die Tat": "the deed / act",
+      "stahlen": "stole",
+      "unermessliche": "immeasurable",
+      "Schätze": "treasures",
+      "die Kunstwerke": "the works of art",
+      "das Lateinische Reich": "the Latin Empire",
+      "erholte sich": "recovered",
+      "der Schlag": "the blow",
+      "befreien": "to liberate",
+      "gespalten": "divided / split",
+      "vereinte": "united",
+      "die Stämme": "the tribes",
+      "die Stammesführer": "the tribal leaders",
+      "geeint": "united",
+      "diszipliniert": "disciplined",
+      "Feldzüge": "military campaigns",
+      "vernichteten": "destroyed / annihilated",
+      "das Sultanat": "the sultanate",
+      "die Sultane": "the sultans",
+      "hinduistische": "Hindu",
+      "gab auf": "gave up",
+      "die Armut": "poverty",
+      "predigte": "preached",
+      "die Demut": "humility",
+      "kümmerte sich um": "took care of",
+      "der Orden": "the (religious) order",
+      "die Franziskaner": "the Franciscans",
+      "beliebtesten": "most popular",
+      "verbreitete sich": "spread",
+      "die Bräuche": "the customs",
+      "die Vorfahren": "the ancestors",
+      "zwei Gesichter": "two faces",
+    }
+  },
+  {
+    id: 22,
+    unlockDay: 22,
+    period: "1210–1220 n. Chr.",
+    title: "Die Mongolen kommen und ein Vertrag in England",
+    text: `In den 1210er Jahren begann der gewaltige Sturm der mongolischen Eroberungen, und in England zwangen die Adligen ihren König zu einem berühmten Vertrag.
+
+Dschingis Khan, der Herrscher der Mongolen, richtete seinen Blick nun nach außen. Im Jahr 1211 begann er den Krieg gegen das Reich der Jin in Nordchina. Die mongolische Armee war schnell, diszipliniert und gnadenlos. Die Chinesische Mauer konnte die Mongolen nicht aufhalten. Im Jahr 1215 eroberten sie die große Jin-Hauptstadt Zhongdu, das heutige Peking. Die Stadt wurde geplündert und zum Teil niedergebrannt. Die Mongolen lernten von den Chinesen, wie man Mauern und Festungen erobert. Damit wurden sie noch gefährlicher.
+
+In Spanien gab es ein wichtiges Ereignis für die christlichen Königreiche. Im Jahr 1212 besiegten die vereinten christlichen Heere die muslimischen Almohaden in der großen Schlacht von Las Navas de Tolosa. Dieser Sieg war ein Wendepunkt in der langen Reconquista, der Rückeroberung Spaniens durch die Christen. Von nun an wurden die muslimischen Reiche in Spanien immer schwächer.
+
+In England herrschte ein unbeliebter König namens Johann, den man auch „Johann ohne Land" nannte. Er führte teure Kriege, verlor viel Land in Frankreich und verlangte hohe Steuern. Die mächtigen Adligen waren wütend. Im Jahr 1215 zwangen sie den König, einen wichtigen Vertrag zu unterschreiben: die Magna Carta, die „Große Urkunde". Darin musste der König versprechen, die Rechte der Adligen zu achten und nicht über dem Gesetz zu stehen. Die Magna Carta wurde später zu einem berühmten Symbol für die Idee, dass auch ein Herrscher Gesetze befolgen muss.
+
+In der katholischen Kirche fand im Jahr 1215 ein großes Konzil statt, das Vierte Laterankonzil. Dort trafen sich viele Bischöfe und beschlossen neue Regeln für das Leben der Christen. Die Kirche war zu dieser Zeit auf dem Höhepunkt ihrer Macht.
+
+Eine traurige Geschichte aus dieser Zeit ist der sogenannte Kinderkreuzzug von 1212. Tausende junger Menschen aus Europa wollten angeblich friedlich ins Heilige Land ziehen. Doch die meisten erreichten ihr Ziel nie. Viele starben unterwegs oder wurden in die Sklaverei verkauft. Diese Geschichte zeigt, wie stark der religiöse Eifer der Zeit war und wie gefährlich er sein konnte.
+
+In Kambodscha, China und Afrika ging das Leben weiter. Im reichen China der Song blühten Handel und Kunst. In Westafrika kontrollierten verschiedene Reiche weiter den Goldhandel durch die Sahara.
+
+In Amerika lebten die Menschen weiter in ihren eigenen Welten. Sie wussten nichts von Dschingis Khan oder der Magna Carta. Doch auch ihre Gesellschaften veränderten sich langsam, jede auf ihre eigene Weise.
+
+So begann in diesem Jahrzehnt der Aufstieg der Mongolen, die bald zur größten Bedrohung der bekannten Welt werden sollten. Und in England entstand mit der Magna Carta eine Idee, die viele Jahrhunderte später noch wichtig sein würde: dass niemand, nicht einmal ein König, über dem Gesetz steht.`,
+    translations: {
+      "gewaltige": "enormous / mighty",
+      "der Sturm": "the storm",
+      "die Eroberungen": "the conquests",
+      "zwangen": "forced",
+      "richtete den Blick": "turned his gaze",
+      "nach außen": "outward",
+      "gnadenlos": "merciless",
+      "aufhalten": "to stop / halt",
+      "geplündert": "plundered",
+      "niedergebrannt": "burned down",
+      "die Festungen": "the fortresses",
+      "die vereinten Heere": "the united armies",
+      "besiegten": "defeated",
+      "der Wendepunkt": "the turning point",
+      "die Rückeroberung": "the reconquest",
+      "unbeliebter": "unpopular",
+      "ohne Land": "without land / Lackland",
+      "verlangte": "demanded",
+      "die Steuern": "the taxes",
+      "wütend": "furious",
+      "unterschreiben": "to sign",
+      "die Urkunde": "the charter / document",
+      "versprechen": "to promise",
+      "die Rechte": "the rights",
+      "achten": "to respect",
+      "das Gesetz": "the law",
+      "befolgen": "to obey / follow",
+      "das Konzil": "the council (church)",
+      "beschlossen": "decided",
+      "der Kinderkreuzzug": "the Children's Crusade",
+      "angeblich": "supposedly",
+      "die Sklaverei": "slavery",
+      "der Eifer": "the zeal",
+      "der Goldhandel": "the gold trade",
+      "die Bedrohung": "the threat",
+      "über dem Gesetz": "above the law",
+    }
+  },
+  {
+    id: 23,
+    unlockDay: 23,
+    period: "1220–1230 n. Chr.",
+    title: "Der Sturm aus dem Osten und ein Kaiser ohne Schwert",
+    text: `Die 1220er Jahre standen im Zeichen der gewaltigen mongolischen Eroberungen. Gleichzeitig gewann ein außergewöhnlicher Kaiser in Europa Jerusalem zurück – nicht durch Krieg, sondern durch Verhandlung.
+
+Dschingis Khan führte seine Armeen nun nach Westen. Das mächtige Reich von Khwarezm, das große Teile des heutigen Iran und Zentralasiens umfasste, hatte einen schweren Fehler gemacht: Es hatte mongolische Händler und Gesandte getötet. Dschingis Khan sah das als schwere Beleidigung. Seine Rache war furchtbar. Zwischen 1219 und 1221 zerstörten die Mongolen die reichen Städte Zentralasiens. Blühende Zentren wie Samarkand und Buchara wurden geplündert, und Hunderttausende von Menschen starben. Es war eine der größten Katastrophen der Geschichte.
+
+Mongolische Reiterheere zogen sogar bis nach Russland. Im Jahr 1223 besiegten sie die russischen Fürsten in einer großen Schlacht am Fluss Kalka. Dann zogen sie sich wieder zurück, denn sie wollten nur erkunden, nicht erobern. Doch ganz Europa hörte mit Angst von diesem unbekannten, schrecklichen Feind aus dem Osten. Im Jahr 1227 starb Dschingis Khan. Sein riesiges Reich teilte er unter seinen Söhnen auf, die seine Eroberungen fortsetzten.
+
+In Europa lebte ein außergewöhnlicher Mann: Kaiser Friedrich II. Man nannte ihn „das Staunen der Welt", weil er so gebildet und ungewöhnlich war. Er sprach viele Sprachen, interessierte sich für Wissenschaft und hatte sogar muslimische Gelehrte an seinem Hof. Der Papst hatte ihn lange gedrängt, einen Kreuzzug zu führen. Schließlich zog Friedrich im Jahr 1228 ins Heilige Land. Doch statt zu kämpfen, verhandelte er mit dem muslimischen Sultan. Durch kluge Diplomatie erreichte er im Jahr 1229, dass Jerusalem wieder den Christen übergeben wurde. So gewann ein Kaiser die heilige Stadt zurück, fast ohne einen einzigen Kampf. Viele in der Kirche waren trotzdem unzufrieden, weil er mit den Muslimen verhandelt hatte.
+
+Im Norden Europas zogen die Deutschritter, ein militärischer Orden, in das Land der heidnischen Preußen. Sie wollten die Menschen dort mit dem Schwert zum Christentum bekehren und gründeten ihren eigenen Staat an der Ostsee.
+
+In Italien starb im Jahr 1226 Franz von Assisi, der beliebte Heilige, der in Armut gelebt und die Natur geliebt hatte. Sein Orden, die Franziskaner, wuchs weiter und verbreitete sich in ganz Europa.
+
+In China herrschten weiter die Song im Süden und die Jin im Norden – doch die Mongolen bedrohten nun auch sie. In Westafrika und in Amerika ging das Leben der einfachen Menschen seinen gewohnten Gang.
+
+So zeigt dieses Jahrzehnt die ganze Bandbreite menschlichen Handelns: die furchtbare Zerstörung durch die Mongolen und die kluge Diplomatie eines gebildeten Kaisers, der zeigte, dass man manchmal mehr mit Worten als mit dem Schwert erreichen kann.`,
+    translations: {
+      "im Zeichen": "marked by / under the sign of",
+      "die Verhandlung": "the negotiation",
+      "umfasste": "comprised / included",
+      "der Fehler": "the mistake",
+      "Gesandte": "envoys",
+      "die Beleidigung": "the insult",
+      "die Rache": "the revenge",
+      "zerstörten": "destroyed",
+      "blühende": "flourishing",
+      "geplündert": "plundered",
+      "die Katastrophen": "the catastrophes",
+      "Reiterheere": "cavalry armies",
+      "besiegten": "defeated",
+      "zogen sich zurück": "withdrew",
+      "erkunden": "to scout / explore",
+      "teilte auf": "divided up",
+      "fortsetzten": "continued",
+      "das Staunen der Welt": "the wonder of the world",
+      "gebildet": "educated",
+      "ungewöhnlich": "unusual",
+      "die Gelehrten": "the scholars",
+      "gedrängt": "urged / pressed",
+      "verhandelte": "negotiated",
+      "die Diplomatie": "diplomacy",
+      "übergeben": "handed over",
+      "unzufrieden": "dissatisfied",
+      "die Deutschritter": "the Teutonic Knights",
+      "heidnischen": "pagan",
+      "die Preußen": "the Prussians",
+      "bekehren": "to convert",
+      "das Schwert": "the sword",
+      "die Ostsee": "the Baltic Sea",
+      "verbreitete sich": "spread",
+      "bedrohten": "threatened",
+      "gewohnten Gang": "usual course",
+      "die Bandbreite": "the range / spectrum",
+      "das Handeln": "action / conduct",
+    }
+  },
+  {
+    id: 24,
+    unlockDay: 24,
+    period: "1230–1240 n. Chr.",
+    title: "Neue Reiche in Afrika und der Schatten der Mongolen",
+    text: `In den 1230er Jahren entstand in Westafrika ein mächtiges neues Reich, während der Schatten der Mongolen immer weiter nach Westen reichte.
+
+In Afrika gründete ein Held namens Sundiata Keita das Reich Mali. Nach einer berühmten Schlacht um das Jahr 1235 vereinte er mehrere kleine Königreiche zu einem großen Reich. Mali lag an den wichtigen Handelswegen der Sahara und wurde sehr reich durch den Handel mit Gold und Salz. Die Geschichte von Sundiata wurde über viele Generationen mündlich weitererzählt und ist bis heute in Westafrika berühmt. Das Reich Mali sollte in den folgenden Jahrhunderten zu einem der reichsten Reiche der Welt werden.
+
+Im Osten setzten die Mongolen ihre Eroberungen fort. Nach dem Tod von Dschingis Khan führte sein Sohn Ögödei das Reich weiter. Die Mongolen schickten eine große Armee nach Westen, um Europa anzugreifen. Sie eroberten zuerst die russischen Fürstentümer. Eine Stadt nach der anderen fiel. Im Jahr 1240 eroberten und zerstörten die Mongolen die große Stadt Kiew, das Zentrum der russischen Welt. Die russischen Länder gerieten für lange Zeit unter mongolische Herrschaft.
+
+In Spanien ging die christliche Rückeroberung weiter. Im Jahr 1236 eroberte der christliche König von Kastilien die alte muslimische Stadt Córdoba. Einst war Córdoba eine der größten und gebildetsten Städte der Welt gewesen, ein Zentrum der Wissenschaft und Kunst. Nun fiel sie an die Christen. Die muslimische Macht in Spanien schrumpfte immer weiter zusammen.
+
+In der katholischen Kirche entstand in dieser Zeit eine strenge neue Einrichtung: die Inquisition. Ihre Aufgabe war es, Menschen zu finden und zu bestrafen, die nicht an die offiziellen Lehren der Kirche glaubten. Wer als Ketzer galt, konnte hart bestraft werden. Die Inquisition zeigt, wie mächtig und auch wie streng die Kirche zu dieser Zeit war.
+
+In China lebten die Menschen der Südlichen Song weiter in ihrer reichen, hoch entwickelten Welt. Doch im Norden rückten die Mongolen näher. Schon bald sollten sie auch das letzte große chinesische Reich bedrohen.
+
+In Europa wuchsen die Städte und der Handel weiter. Immer mehr Menschen lebten nicht mehr nur als Bauern, sondern als Handwerker und Kaufleute in den Städten. In diesen Städten entstanden Zünfte, das waren Vereinigungen von Handwerkern, die ihre Arbeit und ihre Preise gemeinsam regelten.
+
+In Amerika lebten die Menschen weiter ohne Kontakt zur übrigen Welt. In Mexiko und in den Anden entwickelten sich Kulturen, die später zu großen Reichen werden sollten.
+
+So zeigt dieses Jahrzehnt, wie überall auf der Welt neue Mächte aufstiegen und alte verschwanden. In Afrika entstand das reiche Reich Mali, in Europa fiel das alte Córdoba, und aus dem Osten kam der furchtbare Schatten der Mongolen immer näher.`,
+    translations: {
+      "der Schatten": "the shadow",
+      "der Held": "the hero",
+      "vereinte": "united",
+      "die Handelswege": "the trade routes",
+      "mündlich": "orally",
+      "weitererzählt": "passed on / retold",
+      "setzten fort": "continued",
+      "anzugreifen": "to attack",
+      "die Fürstentümer": "the principalities",
+      "fiel": "fell",
+      "gerieten unter": "came under",
+      "die Herrschaft": "the rule",
+      "die Rückeroberung": "the reconquest",
+      "einst": "once",
+      "gebildetsten": "most educated",
+      "schrumpfte zusammen": "shrank",
+      "strenge": "strict",
+      "die Einrichtung": "the institution",
+      "die Inquisition": "the Inquisition",
+      "die Aufgabe": "the task",
+      "bestrafen": "to punish",
+      "die Lehren": "the teachings / doctrines",
+      "der Ketzer": "the heretic",
+      "galt": "was considered",
+      "rückten näher": "drew closer",
+      "bedrohen": "to threaten",
+      "die Handwerker": "the craftsmen",
+      "die Kaufleute": "the merchants",
+      "die Zünfte": "the guilds",
+      "die Vereinigungen": "the associations",
+      "regelten": "regulated",
+      "aufstiegen": "rose",
+      "verschwanden": "disappeared",
+    }
+  },
+  {
+    id: 25,
+    unlockDay: 25,
+    period: "1240–1250 n. Chr.",
+    title: "Die Mongolen in Europa und ein König in Gefangenschaft",
+    text: `Die 1240er Jahre brachten Europa an den Rand einer Katastrophe, als die Mongolen tief in den Kontinent eindrangen. Gleichzeitig scheiterte ein frommer König mit einem Kreuzzug in Ägypten.
+
+Im Jahr 1241 erreichten die mongolischen Armeen Mitteleuropa. Sie besiegten ein Ritterheer in Polen und ein ungarisches Heer in zwei großen Schlachten. Die europäischen Ritter, die als die besten Krieger galten, waren gegen die schnellen mongolischen Reiter machtlos. In Europa herrschte große Angst. Viele glaubten, das Ende der Welt sei gekommen. Doch dann geschah etwas Unerwartetes: Der mongolische Großkhan Ögödei starb in der fernen Mongolei. Die mongolischen Anführer zogen sich zurück, um an der Wahl eines neuen Herrschers teilzunehmen. So wurde Europa, fast durch Zufall, vor einer weiteren Verwüstung gerettet.
+
+Im Norden besiegte der russische Fürst Alexander Newski im Jahr 1242 die Deutschritter in einer berühmten Schlacht auf dem zugefrorenen Eis eines Sees. Dieser Sieg machte ihn zu einem Helden für das russische Volk, auch wenn Russland gleichzeitig unter mongolischer Herrschaft stand.
+
+In Frankreich lebte ein sehr frommer König namens Ludwig IX. Er wollte das Heilige Land befreien und führte einen neuen Kreuzzug, den siebten. Im Jahr 1248 zog er mit einem großen Heer nach Ägypten. Doch der Kreuzzug wurde ein Misserfolg. Die Christen litten unter Krankheiten, und im Jahr 1250 wurde König Ludwig selbst gefangen genommen. Er musste ein riesiges Lösegeld zahlen, um wieder freizukommen. Trotz dieses Scheiterns blieb Ludwig ein hoch angesehener und frommer Herrscher.
+
+In Ägypten geschah in dieser Zeit eine wichtige Veränderung. Die Mamluken, ein Heer aus ehemaligen Sklavensoldaten, ergriffen die Macht. Sie waren ausgezeichnete Krieger und sollten bald eine wichtige Rolle in der Geschichte des Nahen Ostens spielen.
+
+In Europa blühte das geistige Leben an den Universitäten. In Paris lehrten berühmte Gelehrte, die das Wissen der griechischen und arabischen Philosophen mit dem christlichen Glauben verbinden wollten. Es war der Beginn einer großen Zeit der Philosophie und der Wissenschaft im Mittelalter.
+
+In Westafrika wuchs das Reich Mali weiter. In China bereiteten sich die Mongolen darauf vor, auch das reiche Reich der Südlichen Song anzugreifen. Und in Amerika lebten die Menschen weiter in ihren eigenen Welten, ohne zu ahnen, welche großen Veränderungen anderswo geschahen.
+
+So zeigt dieses Jahrzehnt, wie nahe Europa der mongolischen Eroberung kam und wie ein frommer König trotz aller Mühe in Gefangenschaft geriet. Die Geschichte hängt manchmal von Zufällen ab – wie dem Tod eines fernen Khans, der einen ganzen Kontinent rettete.`,
+    translations: {
+      "an den Rand": "to the brink / edge",
+      "eindrangen": "penetrated / invaded",
+      "scheiterte": "failed",
+      "fromm": "pious / devout",
+      "das Ritterheer": "the army of knights",
+      "ungarisches": "Hungarian",
+      "machtlos": "powerless",
+      "das Ende der Welt": "the end of the world",
+      "Unerwartetes": "something unexpected",
+      "der Großkhan": "the Great Khan",
+      "zogen sich zurück": "withdrew",
+      "die Wahl": "the election",
+      "teilzunehmen": "to take part",
+      "durch Zufall": "by chance",
+      "die Verwüstung": "the devastation",
+      "gerettet": "saved",
+      "zugefrorenen": "frozen over",
+      "das Eis": "the ice",
+      "befreien": "to liberate",
+      "der Misserfolg": "the failure",
+      "litten": "suffered",
+      "gefangen genommen": "taken prisoner",
+      "das Lösegeld": "the ransom",
+      "freizukommen": "to get free",
+      "das Scheitern": "the failure",
+      "angesehener": "respected",
+      "die Mamluken": "the Mamluks",
+      "ehemaligen": "former",
+      "Sklavensoldaten": "slave soldiers",
+      "ergriffen die Macht": "seized power",
+      "ausgezeichnete": "excellent",
+      "geistige Leben": "intellectual life",
+      "lehrten": "taught",
+      "verbinden": "to connect / combine",
+      "bereiteten sich vor": "prepared themselves",
+      "anzugreifen": "to attack",
+      "zu ahnen": "to suspect / sense",
+      "hängt ab von": "depends on",
+      "Zufällen": "chance events",
+    }
+  },
+  {
+    id: 26,
+    unlockDay: 26,
+    period: "1250–1260 n. Chr.",
+    title: "Der Fall von Bagdad und der Sieg bei Ain Dschalut",
+    text: `Die 1250er Jahre brachten eine der größten Katastrophen der islamischen Welt, aber auch die erste große Niederlage der scheinbar unbesiegbaren Mongolen.
+
+Die Mongolen setzten ihre Eroberungen im Nahen Osten fort. Ein Enkel von Dschingis Khan namens Hülegü führte eine gewaltige Armee nach Westen. Sein Ziel war Bagdad, die prächtige Hauptstadt des Kalifen und seit fünfhundert Jahren das geistige Zentrum der islamischen Welt. Im Jahr 1258 belagerten und eroberten die Mongolen die Stadt. Was dann geschah, war schrecklich: Die Mongolen plünderten Bagdad, töteten unzählige Menschen und zerstörten die berühmten Bibliotheken. Man erzählt, dass der Fluss Tigris von der Tinte der zerstörten Bücher schwarz wurde. Der letzte Kalif wurde getötet, und damit endete das jahrhundertealte Kalifat. Es war ein gewaltiger Schock für die ganze islamische Welt.
+
+Die Mongolen zogen weiter nach Syrien und schienen unaufhaltsam. Doch dann trafen sie auf einen Gegner, der ihnen gewachsen war: die Mamluken aus Ägypten. Im Jahr 1260 kam es in der Schlacht von Ain Dschalut im heutigen Israel zum entscheidenden Kampf. Die Mamluken besiegten die Mongolen vollständig. Es war die erste große Niederlage der Mongolen seit Beginn ihrer Eroberungen. Dieser Sieg rettete Ägypten und stoppte den weiteren Vormarsch der Mongolen nach Westen. Die Mamluken wurden zu den neuen Beschützern der islamischen Welt.
+
+Im Osten wurde unterdessen ein anderer Enkel von Dschingis Khan immer mächtiger: Kublai Khan. Er richtete seinen Blick auf China und wollte das reiche Reich der Südlichen Song erobern. Damit begann der letzte große Feldzug der Mongolen in Ostasien.
+
+In England gab es Streit zwischen dem König und den Adligen. Die Adligen wollten mehr Mitspracherecht in der Regierung. Im Jahr 1258 zwangen sie den König, neue Regeln zu akzeptieren, die seine Macht einschränkten. Es war ein weiterer Schritt auf dem langen Weg zu einer Regierung, in der nicht nur der König allein entscheidet.
+
+In Westafrika blühte das Reich Mali weiter und wurde immer reicher durch den Goldhandel. In Europa wuchsen die Universitäten und die Städte, und große steinerne Kathedralen im gotischen Stil erhoben sich in den Himmel.
+
+In Amerika lebten die Menschen weiter in ihren eigenen Welten. In Mexiko und in den Anden bereiteten sich Kulturen vor, die in den folgenden Jahrhunderten zu mächtigen Reichen werden sollten.
+
+So endeten die 1250er Jahre mit dem Fall des alten Bagdad und dem überraschenden Sieg der Mamluken. Zum ersten Mal hatten die Mongolen eine große Niederlage erlitten. Die Welt lernte, dass auch das mächtigste Heer nicht für immer unbesiegbar bleibt.`,
+    translations: {
+      "scheinbar": "seemingly",
+      "unbesiegbaren": "invincible",
+      "setzten fort": "continued",
+      "der Enkel": "the grandson",
+      "gewaltige": "enormous / mighty",
+      "das Ziel": "the goal",
+      "prächtige": "magnificent",
+      "der Kalif": "the caliph",
+      "geistige Zentrum": "intellectual centre",
+      "belagerten": "besieged",
+      "plünderten": "plundered",
+      "unzählige": "countless",
+      "die Bibliotheken": "the libraries",
+      "die Tinte": "the ink",
+      "das Kalifat": "the caliphate",
+      "jahrhundertealte": "centuries-old",
+      "der Schock": "the shock",
+      "unaufhaltsam": "unstoppable",
+      "der Gegner": "the opponent",
+      "gewachsen war": "was a match for",
+      "die Mamluken": "the Mamluks",
+      "entscheidenden": "decisive",
+      "besiegten": "defeated",
+      "die Niederlage": "the defeat",
+      "rettete": "saved",
+      "der Vormarsch": "the advance",
+      "die Beschützer": "the protectors",
+      "unterdessen": "meanwhile",
+      "richtete den Blick": "turned his gaze",
+      "der Feldzug": "the military campaign",
+      "das Mitspracherecht": "a say / right to participate",
+      "einschränkten": "restricted / limited",
+      "entscheidet": "decides",
+      "der Goldhandel": "the gold trade",
+      "steinerne": "stone (adj.)",
+      "erhoben sich": "rose up",
+      "bereiteten sich vor": "prepared themselves",
+      "überraschenden": "surprising",
+      "erlitten": "suffered",
+      "unbesiegbar": "invincible",
+    }
+  },
 ];

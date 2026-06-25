@@ -878,6 +878,196 @@ nextRuleQuiz();
 renderRulesReference();
 
 // ============================================================
+//  PAIRS GAME (daily two-player memory game)
+// ============================================================
+
+const PAIRS_PLAYERS = ['Dan', 'Kirsten'];   // [0] = Dan, [1] = Kirsten
+const PAIRS_COUNT = 12;                       // number of word pairs → 24 cards
+
+// Local calendar date as YYYY-MM-DD (one game per day).
+function todayKey() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+// Deterministic RNG so the same day always produces the same board.
+function hashString(s) {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return h >>> 0;
+}
+function mulberry32(a) {
+  return function () {
+    a |= 0; a = a + 0x6D2B79F5 | 0;
+    let t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+function seededShuffle(arr, rng) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Build a fresh game for the given date from the current vocabulary.
+function createDailyGame(dateKey) {
+  const rng = mulberry32(hashString('pairs-' + dateKey));
+  const pool = getFullVocab().filter(w => w.german && w.english);
+  const chosen = seededShuffle(pool, rng).slice(0, Math.min(PAIRS_COUNT, Math.floor(pool.length)));
+
+  // Two cards per pair: the German word and its English meaning.
+  let cards = [];
+  chosen.forEach((w, pairId) => {
+    cards.push({ pairId, lang: 'de', text: w.german });
+    cards.push({ pairId, lang: 'en', text: w.english });
+  });
+  cards = seededShuffle(cards, rng);
+
+  return {
+    date: dateKey,
+    cards,                       // fixed layout for the day
+    matched: [],                 // matched pairIds
+    scores: { Dan: 0, Kirsten: 0 },
+    current: 'Dan',
+    finished: false,
+    recorded: false,
+  };
+}
+
+function loadPairsState() {
+  const saved = load('pairsState', null);
+  if (saved && saved.date === todayKey()) return saved;
+  const fresh = createDailyGame(todayKey());
+  save('pairsState', fresh);
+  return fresh;
+}
+
+let pairsState = loadPairsState();
+let pairsFaceUp = [];   // indices currently shown (0–2); transient, not saved
+let pairsLock = false;  // true while a non-match is being shown
+
+function savePairsState() { save('pairsState', pairsState); }
+
+function otherPlayer(p) { return p === 'Dan' ? 'Kirsten' : 'Dan'; }
+
+function renderPairs() {
+  // Scoreboard
+  document.querySelector('#score-dan .player-points').textContent = pairsState.scores.Dan;
+  document.querySelector('#score-kirsten .player-points').textContent = pairsState.scores.Kirsten;
+  document.getElementById('score-dan').classList.toggle('active', !pairsState.finished && pairsState.current === 'Dan');
+  document.getElementById('score-kirsten').classList.toggle('active', !pairsState.finished && pairsState.current === 'Kirsten');
+
+  const turnEl = document.getElementById('pairs-turn');
+  turnEl.textContent = pairsState.finished ? 'Game over' : `${pairsState.current}'s turn`;
+
+  // Grid
+  const grid = document.getElementById('pairs-grid');
+  grid.innerHTML = '';
+  const matchedSet = new Set(pairsState.matched);
+  pairsState.cards.forEach((card, i) => {
+    const btn = document.createElement('button');
+    const isMatched = matchedSet.has(card.pairId);
+    const isUp = pairsFaceUp.includes(i);
+    if (isMatched) {
+      btn.className = 'pair-card matched';
+      btn.textContent = card.text;
+    } else if (isUp) {
+      btn.className = 'pair-card up ' + (card.lang === 'en' ? 'lang-en' : 'lang-de');
+      btn.textContent = card.text;
+    } else {
+      btn.className = 'pair-card down';
+      btn.textContent = '?';
+    }
+    if (pairsLock || pairsState.finished) btn.classList.add('locked');
+    btn.addEventListener('click', () => onPairCardClick(i));
+    grid.appendChild(btn);
+  });
+
+  // Result + totals
+  renderPairsResult();
+  renderPairsTotals();
+}
+
+function onPairCardClick(i) {
+  if (pairsLock || pairsState.finished) return;
+  const matchedSet = new Set(pairsState.matched);
+  const card = pairsState.cards[i];
+  if (matchedSet.has(card.pairId)) return;     // already matched
+  if (pairsFaceUp.includes(i)) return;          // already face up
+
+  pairsFaceUp.push(i);
+
+  if (pairsFaceUp.length < 2) { renderPairs(); return; }
+
+  // Two cards are up — judge the match
+  const [a, b] = pairsFaceUp;
+  const isMatch = pairsState.cards[a].pairId === pairsState.cards[b].pairId;
+  pairsLock = true;
+  renderPairs();
+
+  if (isMatch) {
+    setTimeout(() => {
+      pairsState.matched.push(pairsState.cards[a].pairId);
+      pairsState.scores[pairsState.current]++;
+      pairsFaceUp = [];
+      pairsLock = false;
+      if (pairsState.matched.length === pairsState.cards.length / 2) {
+        pairsState.finished = true;
+      }
+      savePairsState();
+      renderPairs();
+    }, 650);
+  } else {
+    setTimeout(() => {
+      pairsState.current = otherPlayer(pairsState.current);
+      pairsFaceUp = [];
+      pairsLock = false;
+      savePairsState();
+      renderPairs();
+    }, 1150);
+  }
+}
+
+function renderPairsResult() {
+  const el = document.getElementById('pairs-result');
+  el.className = '';
+  if (!pairsState.finished) { el.textContent = ''; return; }
+
+  const { Dan, Kirsten } = pairsState.scores;
+  // Record the day's result once into the running totals.
+  if (!pairsState.recorded) {
+    const totals = load('pairsTotals', { Dan: 0, Kirsten: 0, draws: 0 });
+    if (Dan > Kirsten) totals.Dan++;
+    else if (Kirsten > Dan) totals.Kirsten++;
+    else totals.draws++;
+    save('pairsTotals', totals);
+    pairsState.recorded = true;
+    savePairsState();
+  }
+
+  if (Dan > Kirsten) { el.textContent = `🏆 Dan wins today, ${Dan}–${Kirsten}!`; el.className = 'win-dan'; }
+  else if (Kirsten > Dan) { el.textContent = `🏆 Kirsten wins today, ${Kirsten}–${Dan}!`; el.className = 'win-kirsten'; }
+  else { el.textContent = `It's a draw, ${Dan}–${Kirsten}. Come back tomorrow!`; el.className = 'win-draw'; }
+}
+
+function renderPairsTotals() {
+  const totals = load('pairsTotals', { Dan: 0, Kirsten: 0, draws: 0 });
+  let leader;
+  if (totals.Dan > totals.Kirsten) leader = `Dan leads overall`;
+  else if (totals.Kirsten > totals.Dan) leader = `Kirsten leads overall`;
+  else leader = `All square overall`;
+  document.getElementById('pairs-totals').textContent =
+    `Total wins — Dan: ${totals.Dan}, Kirsten: ${totals.Kirsten}` +
+    (totals.draws ? `, draws: ${totals.draws}` : '') + `.  ${leader}.`;
+}
+
+renderPairs();
+
+// ============================================================
 //  READER
 // ============================================================
 

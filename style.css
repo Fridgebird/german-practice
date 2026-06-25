@@ -437,6 +437,101 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
 .gender-fonts .gfont-fem  { font-family: 'Caveat', cursive; font-size: 1.35em; }
 /* neuter and non-nouns keep the normal font */
 
+/* ---- Pairs game ---- */
+#pairs-scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+.player-score {
+  background: white;
+  border-radius: 12px;
+  padding: 0.6rem 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 90px;
+  border: 3px solid transparent;
+}
+.player-score .player-name { font-size: 0.85rem; color: #555; }
+.player-score .player-points { font-size: 1.6rem; font-weight: 700; color: #1a3a5c; }
+.player-score.active { border-color: #f0a500; background: #fff9ec; }
+#pairs-turn {
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: #1a3a5c;
+  font-size: 0.95rem;
+  min-width: 120px;
+}
+
+#pairs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+@media (min-width: 560px) {
+  #pairs-grid { grid-template-columns: repeat(6, 1fr); }
+}
+.pair-card {
+  aspect-ratio: 3 / 4;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  line-height: 1.15;
+  word-break: break-word;
+  transition: transform 0.12s, background 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.pair-card.down {
+  background: #1a3a5c;
+  color: rgba(255,255,255,0.5);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.pair-card.down:hover { background: #254f7a; }
+.pair-card.up {
+  background: white;
+  color: #1a3a5c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  cursor: default;
+}
+.pair-card.up.lang-en { color: #2c7a2c; }
+.pair-card.matched {
+  background: transparent;
+  box-shadow: none;
+  cursor: default;
+  opacity: 0;
+  pointer-events: none;
+}
+.pair-card.locked { pointer-events: none; }
+
+#pairs-result {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 1.2rem 0 0.5rem;
+  min-height: 1.5rem;
+}
+#pairs-result.win-dan { color: #2980b9; }
+#pairs-result.win-kirsten { color: #c0396b; }
+#pairs-result.win-draw { color: #555; }
+#pairs-totals {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
 /* ---- Reader ---- */
 .reader-card {
   background: white;

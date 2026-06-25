@@ -18,7 +18,9 @@
       <button class="nav-btn" data-section="pasttense">Past Tense</button>
       <button class="nav-btn" data-section="seinhaaben">Sein &amp; Haben</button>
       <button class="nav-btn" data-section="gender">Gender</button>
+      <button class="nav-btn" data-section="pairs">Pairs</button>
       <button class="nav-btn" data-section="reader">Reader</button>
+      <button class="nav-btn" data-section="vocab">Vocab</button>
     </nav>
   </header>
 
@@ -81,30 +83,6 @@
         </div>
         <div id="card-progress"></div>
       </div>
-
-      <details class="vocab-manager">
-        <summary>Manage vocabulary</summary>
-        <div class="vocab-form">
-          <input id="new-german" placeholder="German (e.g. der Hund)">
-          <input id="new-english" placeholder="English (e.g. the dog)">
-          <select id="new-category">
-            <option value="masculine-noun">Masculine noun</option>
-            <option value="feminine-noun">Feminine noun</option>
-            <option value="neuter-noun">Neuter noun</option>
-            <option value="verb">Verb</option>
-            <option value="adjective">Adjective</option>
-            <option value="conjunction">Conjunction</option>
-            <option value="adverb">Adverb</option>
-            <option value="preposition">Preposition</option>
-            <option value="reader">From reader / other</option>
-          </select>
-          <button id="btn-add-word" class="btn-primary">Add word</button>
-        </div>
-        <div id="vocab-list-container">
-          <button id="btn-show-list">Show full vocab list</button>
-          <div id="vocab-table-wrap" class="hidden"></div>
-        </div>
-      </details>
     </section>
 
     <!-- ===== WORD ORDER ===== -->
@@ -186,6 +164,22 @@
       </div>
     </section>
 
+    <!-- ===== PAIRS GAME ===== -->
+    <section id="pairs" class="section">
+      <h2>Pairs</h2>
+      <p class="section-intro">Match each German word with its English meaning. Two players take turns: find a pair to score and go again; miss and it's the other player's turn. One fresh game each day.</p>
+
+      <div id="pairs-scoreboard">
+        <div class="player-score" id="score-dan"><span class="player-name">Dan</span><span class="player-points">0</span></div>
+        <div id="pairs-turn">Dan to start</div>
+        <div class="player-score" id="score-kirsten"><span class="player-name">Kirsten</span><span class="player-points">0</span></div>
+      </div>
+
+      <div id="pairs-grid"></div>
+      <div id="pairs-result"></div>
+      <div id="pairs-totals"></div>
+    </section>
+
     <!-- ===== READER ===== -->
     <section id="reader" class="section">
       <h2>Reader</h2>
@@ -205,6 +199,32 @@
           <span id="popup-english"></span>
           <button id="popup-add" title="Add to flashcards">＋ flashcard</button>
         </div>
+      </div>
+    </section>
+
+    <!-- ===== VOCAB MANAGER ===== -->
+    <section id="vocab" class="section">
+      <h2>Vocabulary</h2>
+      <p class="section-intro">Add, re-classify and review your word list. These words feed the flashcards, the gender practice and the daily Pairs game.</p>
+      <div class="vocab-form">
+        <input id="new-german" placeholder="German (e.g. der Hund)">
+        <input id="new-english" placeholder="English (e.g. the dog)">
+        <select id="new-category">
+          <option value="masculine-noun">Masculine noun</option>
+          <option value="feminine-noun">Feminine noun</option>
+          <option value="neuter-noun">Neuter noun</option>
+          <option value="verb">Verb</option>
+          <option value="adjective">Adjective</option>
+          <option value="conjunction">Conjunction</option>
+          <option value="adverb">Adverb</option>
+          <option value="preposition">Preposition</option>
+          <option value="reader">From reader / other</option>
+        </select>
+        <button id="btn-add-word" class="btn-primary">Add word</button>
+      </div>
+      <div id="vocab-list-container">
+        <button id="btn-show-list">Show full vocab list</button>
+        <div id="vocab-table-wrap" class="hidden"></div>
       </div>
     </section>
   </main>

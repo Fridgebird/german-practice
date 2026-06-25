@@ -469,48 +469,89 @@ main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
   min-width: 120px;
 }
 
+/* The "stage": flipped cards pop up here, large and easy to read */
+#pairs-stage {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  min-height: 8.5rem;          /* reserve space so the grid doesn't jump */
+  margin-bottom: 1rem;
+}
+.stage-card {
+  flex: 1 1 0;
+  max-width: 200px;
+  min-height: 8rem;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  word-break: break-word;
+  border: 5px solid #ccc;
+  animation: stage-pop 0.22s ease-out;
+}
+/* German = light blue border, English = yellow border */
+.stage-card.lang-de { border-color: #5b9bd5; color: #1a3a5c; }
+.stage-card.lang-en { border-color: #f1c40f; color: #2c7a2c; }
+@keyframes stage-pop {
+  0%   { transform: scale(0.55); opacity: 0; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
 #pairs-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.5rem;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.4rem;
 }
 @media (min-width: 560px) {
-  #pairs-grid { grid-template-columns: repeat(6, 1fr); }
+  #pairs-grid { grid-template-columns: repeat(8, 1fr); }
 }
 .pair-card {
   aspect-ratio: 3 / 4;
-  min-height: 72px;     /* fallback for browsers where aspect-ratio collapses */
-  border-radius: 10px;
-  border: none;
+  min-height: 46px;     /* fallback for browsers where aspect-ratio collapses */
+  border-radius: 8px;
+  border: 3px solid transparent;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0.3rem;
-  font-size: 0.8rem;
-  line-height: 1.15;
+  padding: 0.2rem;
+  font-size: 0.62rem;
+  line-height: 1.1;
   word-break: break-word;
-  transition: transform 0.12s, background 0.15s;
+  overflow: hidden;
+  transition: background 0.15s;
   -webkit-tap-highlight-color: transparent;
 }
+/* All face-down cards share one colour */
 .pair-card.down {
   background: #1a3a5c;
   color: rgba(255,255,255,0.5);
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 .pair-card.down:hover { background: #254f7a; }
+/* Face-up cards in the grid: white with the gender-of-language coloured border */
 .pair-card.up {
   background: white;
   color: #1a3a5c;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
   cursor: default;
 }
-.pair-card.up.lang-en { color: #2c7a2c; }
+.pair-card.up.lang-de { border-color: #5b9bd5; }
+.pair-card.up.lang-en { border-color: #f1c40f; color: #2c7a2c; }
 .pair-card.matched {
   background: transparent;
   box-shadow: none;
+  border-color: transparent;
   cursor: default;
   opacity: 0;
   pointer-events: none;

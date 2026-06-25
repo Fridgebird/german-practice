@@ -992,6 +992,17 @@ function renderPairs() {
     grid.appendChild(btn);
   });
 
+  // Stage: enlarged view of the currently flipped card(s)
+  const stage = document.getElementById('pairs-stage');
+  stage.innerHTML = '';
+  pairsFaceUp.forEach(i => {
+    const card = pairsState.cards[i];
+    const big = document.createElement('div');
+    big.className = 'stage-card ' + (card.lang === 'en' ? 'lang-en' : 'lang-de');
+    big.textContent = card.text;
+    stage.appendChild(big);
+  });
+
   // Result + totals
   renderPairsResult();
   renderPairsTotals();

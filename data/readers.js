@@ -1647,4 +1647,601 @@ So endeten die 1250er Jahre mit dem Fall des alten Bagdad und dem überraschende
       "unbesiegbar": "invincible",
     }
   },
+  {
+    id: 27,
+    unlockDay: 27,
+    period: "1260–1270 n. Chr.",
+    title: "Ein neuer Großkhan und die Anfänge des Parlaments",
+    text: `In den 1260er Jahren richtete der mächtigste Mongolenherrscher seinen Blick auf China, während in England eine Idee geboren wurde, die viele Jahrhunderte später die ganze Welt verändern sollte.
+
+Im Osten wurde Kublai Khan, ein Enkel von Dschingis Khan, im Jahr 1260 zum Großkhan der Mongolen. Anders als seine Vorfahren interessierte er sich sehr für die chinesische Kultur. Er verlegte seine Hauptstadt an den Ort des heutigen Peking. Sein großes Ziel war es, das reiche Reich der Südlichen Song im Süden Chinas zu erobern. Der Krieg dauerte viele Jahre, denn die Song wehrten sich tapfer.
+
+In der islamischen Welt waren die Mamluken aus Ägypten nun die stärkste Macht. Ihr Sultan Baibars war ein harter und fähiger Herrscher. Er kämpfte gegen die Mongolen und auch gegen die letzten Kreuzfahrer. Schritt für Schritt eroberte er die Städte und Burgen der Christen im Heiligen Land zurück.
+
+In Europa geschah in England etwas sehr Wichtiges. Der König Heinrich III. war schwach und unbeliebt. Ein Adliger namens Simon de Montfort führte einen Aufstand gegen ihn. Im Jahr 1265 berief Simon de Montfort eine Versammlung ein, zu der nicht nur Adlige und Bischöfe kamen, sondern auch Vertreter der Städte und der einfachen Ritter. Das war ein früher Vorläufer des englischen Parlaments. Zum ersten Mal sollten auch gewöhnliche Bürger ein Mitspracherecht in der Regierung haben. Simon de Montfort wurde zwar noch im selben Jahr in einer Schlacht getötet, aber die Idee eines Parlaments blieb bestehen.
+
+In Italien und Frankreich gab es ebenfalls große Veränderungen. Karl von Anjou, ein Bruder des französischen Königs, eroberte das Königreich Sizilien und Süditalien. Damit endete die Herrschaft der alten Kaiserfamilie der Staufer in Italien. Der letzte junge Staufer wurde im Jahr 1268 öffentlich hingerichtet.
+
+Der fromme französische König Ludwig IX. wollte unbedingt noch einen Kreuzzug führen. Im Jahr 1270 zog er nach Tunis in Nordafrika. Doch der Kreuzzug endete in einer Katastrophe: Eine Krankheit brach im Lager aus, und Ludwig selbst starb daran. Es war einer der letzten großen Kreuzzüge der Geschichte.
+
+In dieser Zeit lebte auch einer der größten Denker des Mittelalters: Thomas von Aquin. Er war ein Gelehrter und Mönch, der die Philosophie des alten Griechen Aristoteles mit dem christlichen Glauben verbinden wollte. Seine Bücher wurden zu den wichtigsten Werken der mittelalterlichen Philosophie und werden bis heute studiert.
+
+In China, unter der Herrschaft der Mongolen, verband die sogenannte „Mongolische Friedenszeit" den Osten und den Westen. Händler, Reisende und Ideen konnten wieder sicher über die Seidenstraße reisen. Bald sollte auch ein junger Kaufmann aus Venedig diesen Weg gehen.
+
+In Westafrika wuchs das Reich Mali weiter, reich durch Gold und Salz. In Amerika lebten die Menschen weiter in ihren eigenen Welten, ohne Kontakt zur übrigen Welt.
+
+So zeigt dieses Jahrzehnt, wie unterschiedlich die Geschichte verlaufen kann. Im Osten baute ein Großkhan sein Reich weiter aus, während im fernen England eine bescheidene Versammlung von Bürgern den ersten Schritt zu einer ganz neuen Art der Regierung machte.`,
+    translations: {
+      "richtete den Blick": "turned his gaze",
+      "der Enkel": "the grandson",
+      "die Vorfahren": "the ancestors",
+      "verlegte": "moved / relocated",
+      "das Ziel": "the goal",
+      "wehrten sich": "defended themselves",
+      "tapfer": "bravely",
+      "fähiger": "capable",
+      "die Burgen": "the castles",
+      "unbeliebt": "unpopular",
+      "der Aufstand": "the uprising",
+      "berief ein": "convened / called",
+      "die Versammlung": "the assembly",
+      "die Vertreter": "the representatives",
+      "der Vorläufer": "the precursor",
+      "das Mitspracherecht": "a say / right to participate",
+      "getötet": "killed",
+      "blieb bestehen": "endured / remained",
+      "die Herrschaft": "the rule",
+      "die Staufer": "the Hohenstaufen (dynasty)",
+      "hingerichtet": "executed",
+      "unbedingt": "absolutely / at all costs",
+      "brach aus": "broke out",
+      "das Lager": "the camp",
+      "der Denker": "the thinker",
+      "verbinden": "to connect / combine",
+      "studiert": "studied",
+      "die Friedenszeit": "period of peace",
+      "die Seidenstraße": "the Silk Road",
+      "der Kaufmann": "the merchant",
+      "bescheidene": "modest",
+      "der Schritt": "the step",
+    }
+  },
+  {
+    id: 28,
+    unlockDay: 28,
+    period: "1270–1280 n. Chr.",
+    title: "Ganz China unter den Mongolen und ein Reisender aus Venedig",
+    text: `In den 1270er Jahren gelang den Mongolen etwas, das noch keinem Volk zuvor gelungen war: Sie eroberten ganz China. Und ein junger Mann aus Europa machte sich auf eine der berühmtesten Reisen der Geschichte.
+
+Kublai Khan setzte seinen langen Krieg gegen die Südliche Song-Dynastie fort. Im Jahr 1276 fiel die reiche Song-Hauptstadt Hangzhou. Drei Jahre später, im Jahr 1279, kam es zur letzten großen Schlacht. In einer Seeschlacht besiegten die Mongolen die letzten Truppen der Song. Damit war zum ersten Mal in der Geschichte ganz China unter der Herrschaft eines fremden Volkes vereint. Kublai Khan gründete eine neue Dynastie, die Yuan-Dynastie. Er regierte nun ein gewaltiges Reich, das größte, das die Welt bis dahin gesehen hatte.
+
+In dieser Zeit reiste ein junger Kaufmann aus Venedig namens Marco Polo mit seinem Vater und seinem Onkel den langen Weg über die Seidenstraße nach China. Die Reise dauerte mehrere Jahre. Am Ende erreichten sie den prächtigen Hof von Kublai Khan. Marco Polo blieb viele Jahre in China und diente dem Großkhan. Später schrieb er ein berühmtes Buch über seine Reisen. Die Europäer staunten über seine Berichte vom Reichtum, von den großen Städten und von den Wundern des fernen Ostens. Viele glaubten ihm damals nicht.
+
+In Mitteleuropa begann der Aufstieg einer Familie, die später sehr mächtig werden sollte. Im Jahr 1273 wählten die deutschen Fürsten Rudolf von Habsburg zum König. Es war der Beginn des langen Aufstiegs des Hauses Habsburg, das viele Jahrhunderte lang die Geschichte Europas prägen würde.
+
+In der islamischen Welt herrschten die Mamluken weiter in Ägypten und Syrien. Sie waren die stärkste Macht im Nahen Osten und drängten die letzten Kreuzfahrer immer weiter zurück.
+
+In Kleinasien, im heutigen Gebiet der Türkei, zerfiel das alte Reich der Seldschuken langsam in viele kleine Fürstentümer. Diese kleinen türkischen Staaten stritten sich untereinander. Noch ahnte niemand, dass aus einem dieser winzigen Staaten einmal ein riesiges Reich werden würde.
+
+Die „Mongolische Friedenszeit" brachte einen regen Handel und Austausch zwischen Ost und West. Über die Seidenstraße reisten nicht nur Waren wie Seide, Gewürze und Porzellan, sondern auch Ideen, Techniken und Erfindungen. So gelangten zum Beispiel wichtige chinesische Erfindungen langsam nach Westen.
+
+In Westafrika blühte das Reich Mali. In Ostafrika entstand in Äthiopien eine neue Königsdynastie, die sich auf den alten König Salomon aus der Bibel berief. In Amerika lebten die Menschen weiter in ihren eigenen Welten.
+
+So zeigt dieses Jahrzehnt die Größe des Mongolenreiches und die Neugier eines jungen Europäers. Während die Mongolen ganz China eroberten, öffnete Marco Polo den Europäern die Augen für die Wunder einer Welt, die sie kaum kannten.`,
+    translations: {
+      "gelang": "succeeded / managed",
+      "zuvor": "before / previously",
+      "setzte fort": "continued",
+      "fiel": "fell",
+      "die Seeschlacht": "the naval battle",
+      "besiegten": "defeated",
+      "die Truppen": "the troops",
+      "fremden Volkes": "of a foreign people",
+      "vereint": "united",
+      "gewaltiges": "enormous / mighty",
+      "der Kaufmann": "the merchant",
+      "der Onkel": "the uncle",
+      "prächtigen": "magnificent",
+      "diente": "served",
+      "staunten": "marvelled",
+      "die Berichte": "the reports / accounts",
+      "der Reichtum": "the wealth",
+      "die Wunder": "the wonders",
+      "der Aufstieg": "the rise",
+      "wählten": "elected",
+      "das Haus": "the house (dynasty)",
+      "prägen": "to shape",
+      "drängten zurück": "pushed back",
+      "zerfiel": "fell apart / disintegrated",
+      "die Fürstentümer": "the principalities",
+      "stritten sich": "quarrelled",
+      "ahnte": "suspected / sensed",
+      "winzigen": "tiny",
+      "regen": "lively / brisk",
+      "der Austausch": "the exchange",
+      "gelangten": "reached / made their way",
+      "berief sich auf": "invoked / claimed descent from",
+      "die Neugier": "curiosity",
+    }
+  },
+  {
+    id: 29,
+    unlockDay: 29,
+    period: "1280–1290 n. Chr.",
+    title: "Der göttliche Wind und die Eroberung von Wales",
+    text: `In den 1280er Jahren rettete ein gewaltiger Sturm Japan vor den Mongolen, während in Großbritannien ein König ein ganzes Land eroberte.
+
+Kublai Khan, der Herrscher des riesigen Mongolenreiches, wollte auch Japan erobern. Schon einige Jahre zuvor hatte er einen ersten Angriff versucht. Im Jahr 1281 schickte er eine gewaltige Flotte mit einem riesigen Heer nach Japan. Es war eine der größten Invasionsflotten der Geschichte. Die japanischen Krieger, die Samurai, kämpften tapfer, aber sie waren in großer Gefahr. Dann geschah etwas Unerwartetes: Ein gewaltiger Taifun, ein tropischer Sturm, zerstörte fast die ganze mongolische Flotte. Tausende Schiffe sanken, und das Heer ertrank im Meer. Die Japaner glaubten, die Götter hätten sie gerettet. Sie nannten diesen Sturm „Kamikaze", was „göttlicher Wind" bedeutet. Japan war gerettet und blieb frei.
+
+In Großbritannien führte der englische König Eduard I. Krieg gegen das Land Wales im Westen. Zwischen 1282 und 1283 eroberte er ganz Wales und machte es zu einem Teil seines Reiches. Um seine Herrschaft zu sichern, ließ Eduard viele gewaltige Steinburgen bauen. Einige dieser Burgen stehen noch heute und gehören zu den beeindruckendsten des Mittelalters.
+
+In Italien kam es im Jahr 1282 zu einem berühmten Aufstand. Die Bewohner der Insel Sizilien waren wütend über ihren französischen Herrscher Karl von Anjou. An einem Osterabend erhoben sie sich und töteten viele der französischen Soldaten. Dieser Aufstand heißt die „Sizilianische Vesper". Danach kam die Insel unter die Herrschaft des Königreichs Aragón aus Spanien.
+
+In der islamischen Welt setzten die Mamluken ihren Kampf gegen die Kreuzfahrer fort. Die christlichen Gebiete im Heiligen Land wurden immer kleiner. Es war klar, dass das Ende der Kreuzfahrerstaaten nahe war.
+
+In Ostafrika wuchs das christliche Reich Äthiopien. In Westafrika blieb Mali reich und mächtig. In Europa wuchsen die Städte weiter, und in Italien, besonders in Florenz, entwickelte sich das Bankwesen. Reiche Kaufleute liehen Königen und Fürsten Geld und wurden dadurch sehr mächtig.
+
+In China regierte die mongolische Yuan-Dynastie. Kublai Khan versuchte, nicht nur Japan, sondern auch andere Länder wie Vietnam und die Insel Java zu erobern. Doch diese Feldzüge waren meist erfolglos. Das riesige Mongolenreich hatte seine Grenzen erreicht.
+
+In Amerika lebten die Menschen weiter in ihren eigenen Welten. In Mexiko und in den Anden bereiteten sich Völker vor, die später große Reiche gründen sollten.
+
+So zeigt dieses Jahrzehnt, wie das Wetter und die Natur die Geschichte verändern können. Ein einziger Sturm rettete Japan vor der mächtigsten Armee der Welt. Und in Großbritannien begann ein König, die verschiedenen Länder der Insel unter seiner Herrschaft zu vereinen.`,
+    translations: {
+      "göttliche": "divine",
+      "rettete": "saved",
+      "der Sturm": "the storm",
+      "der Angriff": "the attack",
+      "die Flotte": "the fleet",
+      "das Heer": "the army",
+      "die Invasionsflotten": "invasion fleets",
+      "in großer Gefahr": "in great danger",
+      "Unerwartetes": "something unexpected",
+      "der Taifun": "the typhoon",
+      "sanken": "sank",
+      "ertrank": "drowned",
+      "die Götter": "the gods",
+      "gerettet": "saved",
+      "göttlicher Wind": "divine wind",
+      "sichern": "to secure",
+      "Steinburgen": "stone castles",
+      "beeindruckendsten": "most impressive",
+      "der Aufstand": "the uprising",
+      "wütend": "furious",
+      "erhoben sich": "rose up",
+      "die Sizilianische Vesper": "the Sicilian Vespers",
+      "setzten fort": "continued",
+      "nahe war": "was near",
+      "das Bankwesen": "banking",
+      "liehen": "lent",
+      "die Feldzüge": "the military campaigns",
+      "erfolglos": "unsuccessful",
+      "die Grenzen": "the limits / borders",
+      "bereiteten sich vor": "prepared themselves",
+      "ein einziger": "a single",
+    }
+  },
+  {
+    id: 30,
+    unlockDay: 30,
+    period: "1290–1300 n. Chr.",
+    title: "Das Ende der Kreuzzüge und ein kleiner Staat in Anatolien",
+    text: `Das letzte Jahrzehnt des 13. Jahrhunderts brachte das endgültige Ende der Kreuzfahrerstaaten im Heiligen Land und den unscheinbaren Anfang eines Reiches, das eines Tages Europa bedrohen sollte.
+
+Im Jahr 1291 eroberten die Mamluken die Stadt Akkon, die letzte große Festung der Kreuzfahrer im Heiligen Land. Nach fast zweihundert Jahren war damit die Zeit der Kreuzfahrerstaaten zu Ende. Die Christen hatten das Heilige Land verloren. Der Traum, Jerusalem dauerhaft zu erobern, war endgültig gescheitert. Viele Ritterorden, wie die Tempelritter, zogen sich nach Europa oder auf die Insel Zypern zurück.
+
+In Kleinasien, im Westen des heutigen Anatolien, gab es viele kleine türkische Fürstentümer. Um das Jahr 1299 gründete ein Anführer namens Osman einen dieser kleinen Staaten. Er war zunächst unbedeutend und klein. Doch aus diesem winzigen Staat sollte über die Jahrhunderte das gewaltige Osmanische Reich entstehen, das später große Teile Europas, Asiens und Afrikas beherrschen würde. Nach Osman nannte man dieses Reich das „Osmanische Reich".
+
+In England regierte der starke König Eduard I. Im Jahr 1290 vertrieb er alle Juden aus England. Es war ein grausamer Akt und Teil einer langen Geschichte der Verfolgung der Juden im mittelalterlichen Europa. Eduard führte auch Krieg gegen Schottland im Norden. Die Schotten aber wehrten sich. Ein Anführer namens William Wallace erhob sich gegen die Engländer und besiegte sie im Jahr 1297 in einer berühmten Schlacht an einer Brücke. So begann ein langer Kampf um die Freiheit Schottlands.
+
+In Italien erlebte die Stadt Florenz eine Blütezeit. Die Stadt wurde reich durch Handel und Bankwesen. In dieser Zeit lebte dort auch der große Dichter Dante Alighieri, der später eines der berühmtesten Werke der Weltliteratur schreiben sollte.
+
+Im Jahr 1295 kehrte Marco Polo nach vielen Jahren aus China nach Venedig zurück. Seine Geschichten über den fernen Osten faszinierten die Menschen. Sein Buch wurde in ganz Europa gelesen und weckte die Neugier auf die reichen Länder Asiens.
+
+In der Welt der Mongolen veränderte sich etwas Wichtiges. In Persien nahmen die mongolischen Herrscher, die dort regierten, den islamischen Glauben an. Die Eroberer wurden also langsam ein Teil der Kultur, die sie erobert hatten.
+
+In Westafrika blieb Mali reich und mächtig. In Amerika lebten die Menschen weiter in ihren eigenen Welten.
+
+So endete das 13. Jahrhundert mit dem endgültigen Ende der Kreuzzüge im Heiligen Land. Zur gleichen Zeit gründete ein kleiner türkischer Anführer fast unbemerkt einen Staat, aus dem später eines der größten Reiche der Weltgeschichte werden sollte.`,
+    translations: {
+      "endgültige": "final / definitive",
+      "unscheinbaren": "inconspicuous",
+      "eines Tages": "one day",
+      "bedrohen": "to threaten",
+      "die Festung": "the fortress",
+      "der Traum": "the dream",
+      "dauerhaft": "permanently",
+      "gescheitert": "failed",
+      "die Ritterorden": "the knightly orders",
+      "die Tempelritter": "the Knights Templar",
+      "zogen sich zurück": "withdrew",
+      "das Fürstentum": "the principality",
+      "der Anführer": "the leader",
+      "unbedeutend": "insignificant",
+      "winzigen": "tiny",
+      "das Osmanische Reich": "the Ottoman Empire",
+      "beherrschen": "to rule / dominate",
+      "vertrieb": "expelled / drove out",
+      "grausamer": "cruel",
+      "die Verfolgung": "the persecution",
+      "wehrten sich": "resisted / defended themselves",
+      "erhob sich": "rose up",
+      "besiegte": "defeated",
+      "die Brücke": "the bridge",
+      "die Blütezeit": "the golden age",
+      "das Bankwesen": "banking",
+      "der Dichter": "the poet",
+      "die Weltliteratur": "world literature",
+      "kehrte zurück": "returned",
+      "faszinierten": "fascinated",
+      "weckte": "awakened / stirred",
+      "die Neugier": "curiosity",
+      "nahmen an": "adopted",
+      "die Eroberer": "the conquerors",
+      "unbemerkt": "unnoticed",
+    }
+  },
+  {
+    id: 31,
+    unlockDay: 31,
+    period: "1300–1310 n. Chr.",
+    title: "Ein Papst in Gefangenschaft und das Ende der Tempelritter",
+    text: `Das erste Jahrzehnt des 14. Jahrhunderts zeigte, wie sehr sich die Macht in Europa verschoben hatte. Nun waren es die Könige, nicht mehr der Papst, die am mächtigsten waren.
+
+Lange Zeit hatte der Papst als das geistliche Oberhaupt der Christenheit große Macht besessen. Doch der französische König Philipp IV. wollte sich nicht mehr vom Papst befehlen lassen. Es kam zu einem heftigen Streit. Im Jahr 1303 ließ der König den alten Papst sogar für kurze Zeit gefangen nehmen. Der Papst starb bald darauf. Wenige Jahre später, im Jahr 1309, verlegte der neue Papst seinen Sitz von Rom in die französische Stadt Avignon. Dort stand er stark unter dem Einfluss des französischen Königs. Fast siebzig Jahre lang blieben die Päpste in Avignon. Diese Zeit nennt man oft die „babylonische Gefangenschaft" der Kirche.
+
+Der französische König Philipp IV. brauchte viel Geld für seine Kriege. Sein Blick fiel auf die Tempelritter, einen alten Ritterorden, der durch das Bankwesen sehr reich geworden war. Im Jahr 1307 ließ der König plötzlich alle Tempelritter in Frankreich verhaften. Man beschuldigte sie schrecklicher Verbrechen, die sie wahrscheinlich nie begangen hatten. Unter der Folter gestanden viele. Der König nahm ihren Reichtum an sich. Es war das Ende eines der mächtigsten Orden des Mittelalters.
+
+In Schottland ging der Kampf um die Freiheit weiter. Ein neuer Anführer, Robert the Bruce, wurde im Jahr 1306 zum König der Schotten gekrönt. Er führte den Kampf gegen die mächtigen Engländer fort, oft in aussichtslosen Situationen. Doch er gab nie auf.
+
+In Italien schrieb der Dichter Dante Alighieri in diesen Jahren an seinem großen Werk, der „Göttlichen Komödie". Darin beschreibt er eine Reise durch die Hölle, das Fegefeuer und das Paradies. Dieses Werk gilt bis heute als eines der größten Meisterwerke der Weltliteratur und war eines der ersten großen Bücher, die nicht auf Latein, sondern auf Italienisch geschrieben wurden.
+
+In der islamischen Welt herrschten in Ägypten weiter die mächtigen Mamluken. In Persien regierten die mongolischen Herrscher, die inzwischen den Islam angenommen hatten. In China regierte weiter die mongolische Yuan-Dynastie, doch das riesige Reich hatte begonnen, an vielen Stellen zu wanken.
+
+In Westafrika blieb Mali reich und mächtig, und bald sollte ein König dort so berühmt werden, dass man in ganz Europa von ihm sprach. In Amerika lebten die Menschen weiter in ihren eigenen Welten.
+
+So zeigt dieses Jahrzehnt eine wichtige Wende in der Geschichte Europas. Die weltliche Macht der Könige war nun größer als die Macht des Papstes. Ein Papst wurde zum Gefangenen der Politik, und ein mächtiger Orden wurde von einem König zerstört, der sein Gold begehrte.`,
+    translations: {
+      "die Gefangenschaft": "captivity",
+      "verschoben": "shifted",
+      "geistliche Oberhaupt": "spiritual head",
+      "besessen": "possessed",
+      "befehlen lassen": "to let oneself be ordered around",
+      "heftigen Streit": "fierce dispute",
+      "gefangen nehmen": "to take prisoner",
+      "verlegte": "moved / relocated",
+      "der Sitz": "the seat",
+      "der Einfluss": "the influence",
+      "die babylonische Gefangenschaft": "the Babylonian Captivity",
+      "der Blick fiel auf": "his gaze fell on",
+      "der Ritterorden": "the knightly order",
+      "das Bankwesen": "banking",
+      "verhaften": "to arrest",
+      "beschuldigte": "accused",
+      "Verbrechen": "crimes",
+      "begangen": "committed",
+      "die Folter": "torture",
+      "gestanden": "confessed",
+      "der Reichtum": "the wealth",
+      "gekrönt": "crowned",
+      "aussichtslosen": "hopeless",
+      "gab nie auf": "never gave up",
+      "die Göttliche Komödie": "the Divine Comedy",
+      "die Hölle": "hell",
+      "das Fegefeuer": "purgatory",
+      "das Paradies": "paradise",
+      "die Meisterwerke": "the masterpieces",
+      "angenommen": "adopted",
+      "wanken": "to totter / waver",
+      "die Wende": "the turning point",
+      "weltliche": "secular / worldly",
+      "der Gefangene": "the prisoner",
+      "begehrte": "coveted / desired",
+    }
+  },
+  {
+    id: 32,
+    unlockDay: 32,
+    period: "1310–1320 n. Chr.",
+    title: "Ein Sieg für Schottland und eine große Hungersnot",
+    text: `Die 1310er Jahre brachten einen berühmten Sieg für die Freiheit Schottlands, aber auch eine schreckliche Hungersnot, die zeigte, wie verwundbar die Menschen gegenüber der Natur waren.
+
+In Schottland kämpfte König Robert the Bruce weiter für die Unabhängigkeit seines Landes. Im Jahr 1314 kam es zur entscheidenden Schlacht bei Bannockburn. Das schottische Heer war viel kleiner als das englische, aber Robert the Bruce führte seine Männer klug und tapfer. Die Schotten besiegten die große englische Armee vollständig. Dieser Sieg sicherte die Freiheit Schottlands für viele Jahre. Robert the Bruce wurde zu einem Nationalhelden, an den sich die Schotten bis heute erinnern.
+
+In Frankreich fand das traurige Ende der Tempelritter statt. Im Jahr 1312 wurde der Orden offiziell aufgelöst. Zwei Jahre später, im Jahr 1314, wurde der letzte Großmeister der Tempelritter in Paris auf einem Scheiterhaufen verbrannt. Nach einer berühmten Legende verfluchte er vor seinem Tod den König und den Papst.
+
+Doch das schlimmste Ereignis dieses Jahrzehnts war kein Krieg, sondern eine Naturkatastrophe. Zwischen 1315 und 1317 kam es in weiten Teilen Nordeuropas zu einer großen Hungersnot. Das Wetter war das Problem: Es regnete unaufhörlich, die Sommer waren kalt und nass, und die Ernten verfaulten auf den Feldern. Das Getreide wurde knapp und teuer. Die Menschen hatten nicht genug zu essen. Millionen von Menschen litten unter Hunger, und viele starben. Diese große Hungersnot war ein Zeichen dafür, dass das Klima kälter wurde. Die warme Zeit, die den Menschen in den Jahrhunderten zuvor gute Ernten gebracht hatte, ging zu Ende.
+
+Für die einfachen Bauern war diese Zeit besonders hart. Sie waren völlig abhängig von der Ernte. Wenn das Wetter schlecht war, gab es keine Vorräte und keine Hilfe. Ganze Familien verhungerten. Die Hungersnot schwächte die Menschen auch für Krankheiten. Ein geschwächter Körper konnte sich schlechter gegen Seuchen wehren.
+
+In Westafrika kam in dieser Zeit ein neuer König an die Macht im Reich Mali. Sein Name war Mansa Musa. Er sollte bald einer der berühmtesten und reichsten Herrscher der ganzen Weltgeschichte werden.
+
+In China regierte weiter die mongolische Yuan-Dynastie, aber das Reich hatte immer mehr Probleme. Auch dort gab es Überschwemmungen, Hungersnöte und wachsende Unzufriedenheit unter dem Volk.
+
+In Amerika lebten die Menschen weiter in ihren eigenen Welten, ohne Kontakt zur übrigen Welt.
+
+So zeigt dieses Jahrzehnt zwei Seiten des menschlichen Lebens. Auf der einen Seite der stolze Sieg eines kleinen Volkes im Kampf um seine Freiheit. Auf der anderen Seite die schreckliche Erfahrung, wie hilflos die Menschen waren, wenn das Wetter und die Ernten sie im Stich ließen.`,
+    translations: {
+      "die Hungersnot": "the famine",
+      "verwundbar": "vulnerable",
+      "gegenüber": "towards / in the face of",
+      "die Unabhängigkeit": "independence",
+      "entscheidenden": "decisive",
+      "das Heer": "the army",
+      "tapfer": "bravely",
+      "besiegten": "defeated",
+      "sicherte": "secured",
+      "der Nationalheld": "the national hero",
+      "aufgelöst": "dissolved",
+      "der Großmeister": "the Grand Master",
+      "der Scheiterhaufen": "the stake / pyre",
+      "verbrannt": "burned",
+      "verfluchte": "cursed",
+      "die Naturkatastrophe": "the natural disaster",
+      "unaufhörlich": "incessantly",
+      "die Ernten": "the harvests",
+      "verfaulten": "rotted",
+      "das Getreide": "the grain",
+      "knapp": "scarce",
+      "litten": "suffered",
+      "das Klima": "the climate",
+      "abhängig": "dependent",
+      "die Vorräte": "the supplies / stores",
+      "verhungerten": "starved to death",
+      "schwächte": "weakened",
+      "geschwächter": "weakened",
+      "die Seuchen": "the epidemics / plagues",
+      "sich wehren": "to defend oneself",
+      "die Überschwemmungen": "the floods",
+      "die Unzufriedenheit": "the discontent",
+      "stolze": "proud",
+      "hilflos": "helpless",
+      "im Stich ließen": "let (them) down / abandoned",
+    }
+  },
+  {
+    id: 33,
+    unlockDay: 33,
+    period: "1320–1330 n. Chr.",
+    title: "Mansa Musa und das Gold von Mali",
+    text: `Die 1320er Jahre machten ein afrikanisches Reich in der ganzen bekannten Welt berühmt. Sein Herrscher war so reich, dass die Menschen noch Jahrhunderte später von ihm sprachen.
+
+Im Reich Mali in Westafrika herrschte der mächtige König Mansa Musa. „Mansa" bedeutet „König der Könige". Mali war eines der reichsten Reiche der Welt, denn es kontrollierte den Handel mit Gold und Salz durch die Sahara. Mansa Musa war ein frommer Muslim. Im Jahr 1324 unternahm er eine berühmte Pilgerreise nach Mekka, der heiligen Stadt des Islam. Diese Reise wurde legendär.
+
+Mansa Musa reiste mit einer riesigen Karawane. Tausende von Menschen und Kamele begleiteten ihn, und er brachte unglaublich viel Gold mit. Auf seinem Weg durch Ägypten gab er so großzügig Gold aus und schenkte es den Armen, dass der Wert des Goldes in der Region für Jahre fiel. So groß war sein Reichtum. Die Nachricht von diesem sagenhaft reichen afrikanischen König verbreitete sich bis nach Europa. Auf europäischen Landkarten wurde Mali nun als Land des Goldes eingezeichnet, mit dem Bild von Mansa Musa.
+
+Nach seiner Rückkehr förderte Mansa Musa die Bildung und die Kunst in seinem Reich. Die Stadt Timbuktu wurde zu einem berühmten Zentrum des Lernens, mit Universitäten und großen Bibliotheken. Gelehrte aus vielen Ländern kamen dorthin, um zu studieren.
+
+In Indien erreichte das Sultanat von Delhi unter dem Herrscher Muhammad bin Tughluq seine größte Ausdehnung. Der Sultan war klug, aber auch für seine merkwürdigen Entscheidungen bekannt. Einmal verlegte er sogar die ganze Hauptstadt in eine andere Stadt, was zu großem Leid für sein Volk führte. Später musste er diese Entscheidung wieder rückgängig machen.
+
+In Europa gab es Streit zwischen dem Kaiser des Heiligen Römischen Reiches und dem Papst in Avignon. Der Papst und der Kaiser stritten darüber, wer die höchste Macht in der Christenheit hatte. Solche Konflikte zwischen weltlicher und geistlicher Macht zogen sich durch das ganze Mittelalter.
+
+In China wurde die Herrschaft der mongolischen Yuan-Dynastie immer schwächer. Es gab Naturkatastrophen, Hungersnöte und Aufstände. Viele Chinesen waren unzufrieden mit ihren fremden Herrschern. Langsam wuchs der Widerstand gegen die Mongolen.
+
+In Amerika lebten die Menschen weiter in ihren eigenen Welten. In Mexiko begann ein Volk, das später als die Azteken bekannt werden sollte, eine Stadt in einem See zu bauen: Tenochtitlan.
+
+So zeigt dieses Jahrzehnt den Reichtum und die Größe eines afrikanischen Reiches, das viele Europäer damals kaum kannten. Mansa Musa bewies, dass es auch weit weg von Europa mächtige, reiche und gebildete Reiche gab.`,
+    translations: {
+      "der Herrscher": "the ruler",
+      "König der Könige": "king of kings",
+      "kontrollierte": "controlled",
+      "fromm": "pious",
+      "unternahm": "undertook",
+      "die Pilgerreise": "the pilgrimage",
+      "legendär": "legendary",
+      "die Karawane": "the caravan",
+      "Kamele": "camels",
+      "begleiteten": "accompanied",
+      "unglaublich": "incredibly",
+      "großzügig": "generously",
+      "schenkte": "gave (as a gift)",
+      "der Wert": "the value",
+      "fiel": "fell",
+      "sagenhaft": "fabulously / legendarily",
+      "verbreitete sich": "spread",
+      "die Landkarten": "the maps",
+      "eingezeichnet": "marked / drawn in",
+      "die Rückkehr": "the return",
+      "förderte": "promoted / fostered",
+      "die Bildung": "education",
+      "das Zentrum des Lernens": "centre of learning",
+      "die Bibliotheken": "the libraries",
+      "die Ausdehnung": "the extent",
+      "merkwürdigen": "strange / odd",
+      "verlegte": "moved / relocated",
+      "das Leid": "suffering",
+      "rückgängig machen": "to reverse / undo",
+      "weltlicher": "secular",
+      "geistlicher": "spiritual / clerical",
+      "die Aufstände": "the uprisings",
+      "unzufrieden": "dissatisfied",
+      "der Widerstand": "the resistance",
+      "bewies": "proved",
+    }
+  },
+  {
+    id: 34,
+    unlockDay: 34,
+    period: "1330–1340 n. Chr.",
+    title: "Der Beginn eines langen Krieges",
+    text: `In den 1330er Jahren begann ein Krieg zwischen England und Frankreich, der so lange dauern sollte, dass man ihn später den „Hundertjährigen Krieg" nannte.
+
+Der Streit begann mit einer Frage um die Krone. Der englische König Eduard III. behauptete, dass er ein Recht auf den französischen Thron habe, weil seine Mutter eine französische Prinzessin war. Der französische König sah das natürlich anders. Es ging aber auch um Land und um reiche Gebiete in Frankreich, die der englische König besaß. Im Jahr 1337 begann der Krieg. Niemand ahnte damals, dass dieser Krieg mit Unterbrechungen mehr als hundert Jahre dauern würde.
+
+Zu Beginn hatten die Engländer Erfolg. Im Jahr 1340 gewannen sie eine große Seeschlacht bei Sluys vor der Küste der heutigen Niederlande. Damit kontrollierten sie das Meer zwischen England und Frankreich. Der lange Krieg brachte den einfachen Menschen in Frankreich viel Leid, denn die Soldaten plünderten und zerstörten die Dörfer und Felder.
+
+In Japan endete in dieser Zeit eine lange Herrschaft. Im Jahr 1333 fiel die Regierung der Shogune in der Stadt Kamakura. Für kurze Zeit versuchte der Kaiser, wieder selbst die Macht zu übernehmen. Doch schon bald ergriff eine neue Kriegerfamilie, die Ashikaga, die Herrschaft und gründete ein neues Shogunat. Die Krieger, die Samurai, blieben also weiter an der Macht.
+
+Weit im Osten, in China und Zentralasien, geschah in dieser Zeit etwas, das die ganze Welt bald erschüttern sollte, auch wenn es damals noch niemand bemerkte. Eine schreckliche Krankheit, die Pest, begann sich auszubreiten. In den folgenden Jahren sollte sie langsam über die Handelswege nach Westen wandern.
+
+In China wurde die mongolische Yuan-Dynastie immer schwächer. Überschwemmungen des großen Gelben Flusses, Hungersnöte und Krankheiten machten dem Volk das Leben schwer. Die Unzufriedenheit wuchs, und es kam zu Aufständen gegen die fremden Herrscher.
+
+In Afrika reiste in dieser Zeit ein berühmter Gelehrter namens Ibn Battuta durch viele Länder. Er kam aus Marokko und bereiste die ganze islamische Welt, von Afrika über Arabien und Indien bis nach China. Später schrieb er ein berühmtes Buch über seine Reisen, ähnlich wie Marco Polo.
+
+In Amerika wuchs die Stadt der Azteken, Tenochtitlan, langsam heran. In den Anden bereitete sich ein anderes Volk, die Inka, darauf vor, ein großes Reich zu gründen.
+
+So begann in diesem Jahrzehnt ein Krieg, der Generationen von Menschen prägen sollte. Und im fernen Osten regte sich unbemerkt eine Krankheit, die bald zur größten Katastrophe des Mittelalters werden würde.`,
+    translations: {
+      "der Hundertjährige Krieg": "the Hundred Years' War",
+      "die Krone": "the crown",
+      "behauptete": "claimed",
+      "ein Recht auf": "a right to",
+      "der Thron": "the throne",
+      "besaß": "possessed / owned",
+      "ahnte": "suspected / sensed",
+      "die Unterbrechungen": "the interruptions",
+      "die Seeschlacht": "the naval battle",
+      "die Küste": "the coast",
+      "das Leid": "suffering",
+      "plünderten": "plundered",
+      "fiel": "fell",
+      "übernehmen": "to take over",
+      "ergriff": "seized",
+      "das Shogunat": "the shogunate",
+      "erschüttern": "to shake / shock",
+      "bemerkte": "noticed",
+      "die Pest": "the plague",
+      "sich auszubreiten": "to spread",
+      "die Handelswege": "the trade routes",
+      "wandern": "to travel / migrate",
+      "die Überschwemmungen": "the floods",
+      "der Gelbe Fluss": "the Yellow River",
+      "die Unzufriedenheit": "the discontent",
+      "die Aufstände": "the uprisings",
+      "der Gelehrte": "the scholar",
+      "bereiste": "travelled through",
+      "wuchs heran": "grew up",
+      "bereitete sich vor": "prepared itself",
+      "prägen": "to shape",
+      "regte sich": "stirred",
+      "unbemerkt": "unnoticed",
+    }
+  },
+  {
+    id: 35,
+    unlockDay: 35,
+    period: "1340–1350 n. Chr.",
+    title: "Der Schwarze Tod",
+    text: `Die 1340er Jahre brachten die größte Katastrophe des Mittelalters: die Pest, die man auch den „Schwarzen Tod" nannte. In wenigen Jahren starb ein großer Teil der Menschen in Europa.
+
+Die Pest kam aus Asien und wanderte langsam über die Handelswege nach Westen. Auf Schiffen, in den Waren und durch Ratten und Flöhe gelangte die Krankheit von Hafen zu Hafen. Im Jahr 1347 erreichte sie über italienische Handelsschiffe Europa. Von dort breitete sie sich mit erschreckender Geschwindigkeit über den ganzen Kontinent aus.
+
+Die Krankheit war furchtbar. Die Kranken bekamen hohes Fieber und schwarze Beulen am Körper. Die meisten starben innerhalb weniger Tage. Niemand wusste, woher die Krankheit kam oder wie man sie heilen konnte. Die Ärzte waren hilflos. Zwischen 1347 und 1351 starb etwa ein Drittel der gesamten Bevölkerung Europas an der Pest. In manchen Städten und Dörfern starben noch viel mehr Menschen. Es war eine Katastrophe, wie sie Europa nie zuvor erlebt hatte.
+
+Die Pest veränderte das Leben der Menschen völlig. Ganze Dörfer starben aus. Es gab nicht genug Menschen, um die Toten zu begraben oder die Felder zu bestellen. Viele Menschen bekamen große Angst. Manche flohen aufs Land, andere beteten in den Kirchen, wieder andere gaben sich der Verzweiflung hin. Manche suchten nach Schuldigen und beschuldigten unschuldige Menschen, besonders die Juden, für die Krankheit verantwortlich zu sein. Es kam zu schrecklichen Verfolgungen.
+
+Doch die Pest hatte auch langfristige Folgen, die nicht nur schlecht waren. Weil so viele Menschen gestorben waren, gab es plötzlich weniger Arbeiter. Die Bauern und Handwerker, die überlebten, konnten nun höhere Löhne verlangen. Die alte Ordnung, in der die Bauern fast wie Sklaven für ihre Herren arbeiten mussten, begann langsam zu zerbrechen.
+
+Während die Pest in Europa wütete, ging der Hundertjährige Krieg zwischen England und Frankreich weiter. Im Jahr 1346 gewannen die Engländer eine berühmte Schlacht bei Crécy. Ihre Bogenschützen mit den langen Bögen besiegten die stolzen französischen Ritter. Es war ein Zeichen dafür, dass sich die Art der Kriegsführung veränderte.
+
+Auch in China und im Nahen Osten wütete die Pest und tötete unzählige Menschen. Die Krankheit machte keinen Unterschied zwischen Arm und Reich, zwischen Christen, Muslimen und Menschen anderer Religionen.
+
+In Amerika, das von der übrigen Welt getrennt war, blieben die Menschen von der Pest verschont. Dort wuchsen die Reiche der Azteken und der Inka langsam heran.
+
+So brachten die 1340er Jahre eine der größten Katastrophen der Menschheitsgeschichte. Der Schwarze Tod veränderte Europa für immer und ließ eine Welt zurück, die nie wieder ganz so war wie zuvor.`,
+    translations: {
+      "der Schwarze Tod": "the Black Death",
+      "die Pest": "the plague",
+      "wanderte": "travelled / migrated",
+      "die Handelswege": "the trade routes",
+      "die Waren": "the goods",
+      "Ratten": "rats",
+      "Flöhe": "fleas",
+      "gelangte": "reached / made its way",
+      "der Hafen": "the harbour / port",
+      "breitete sich aus": "spread",
+      "erschreckender": "frightening",
+      "die Geschwindigkeit": "the speed",
+      "der Kontinent": "the continent",
+      "das Fieber": "the fever",
+      "die Beulen": "the buboes / lumps",
+      "innerhalb": "within",
+      "heilen": "to cure",
+      "hilflos": "helpless",
+      "ein Drittel": "one third",
+      "die Bevölkerung": "the population",
+      "erlebt": "experienced",
+      "starben aus": "died out",
+      "begraben": "to bury",
+      "bestellen": "to cultivate / till",
+      "flohen": "fled",
+      "beteten": "prayed",
+      "die Verzweiflung": "despair",
+      "die Schuldigen": "the guilty ones",
+      "beschuldigten": "accused",
+      "unschuldige": "innocent",
+      "verantwortlich": "responsible",
+      "die Verfolgungen": "the persecutions",
+      "langfristige Folgen": "long-term consequences",
+      "die Löhne": "the wages",
+      "verlangen": "to demand",
+      "zerbrechen": "to break apart",
+      "wütete": "raged",
+      "die Bogenschützen": "the archers",
+      "die Kriegsführung": "warfare",
+      "unzählige": "countless",
+      "verschont": "spared",
+      "heran": "onward (wuchsen heran = grew up)",
+    }
+  },
+  {
+    id: 36,
+    unlockDay: 36,
+    period: "1350–1360 n. Chr.",
+    title: "Eine Welt nach der Pest",
+    text: `Die 1350er Jahre zeigten eine Welt, die sich langsam von der großen Pest erholte. Doch die Katastrophe hatte die Gesellschaft tief verändert, und überall kam es zu Unruhen und Krieg.
+
+Nach der schrecklichen Pest war Europa ein anderer Ort. So viele Menschen waren gestorben, dass sich das ganze Leben veränderte. Weil es weniger Arbeiter gab, waren diese nun wertvoller. Die einfachen Bauern und Handwerker verlangten mehr Rechte und höhere Löhne. Die reichen Herren aber wollten die alte Ordnung behalten. Dieser Streit führte zu großen Spannungen. In Frankreich erhoben sich im Jahr 1358 die verzweifelten Bauern in einem großen Aufstand gegen die Adligen. Dieser Aufstand wurde blutig niedergeschlagen, aber er zeigte, dass die einfachen Menschen sich nicht mehr alles gefallen lassen wollten.
+
+Der Hundertjährige Krieg zwischen England und Frankreich ging weiter. Im Jahr 1356 gewannen die Engländer eine weitere große Schlacht bei Poitiers. Dabei nahmen sie sogar den französischen König gefangen. Frankreich musste ein riesiges Lösegeld zahlen, und das Land war geschwächt und in Unordnung.
+
+Im Osten geschah etwas sehr Wichtiges. Die kleinen türkischen Staaten in Anatolien, besonders das junge Reich der Osmanen, wuchsen weiter. Im Jahr 1354 überquerten die Osmanen zum ersten Mal die Meerenge nach Europa und fassten Fuß auf dem europäischen Festland. Es war der Beginn der langen Ausbreitung der Osmanen in Südosteuropa.
+
+In China wurde die Herrschaft der mongolischen Yuan-Dynastie immer schwächer. Überall im Land erhoben sich die Menschen gegen die fremden Herrscher. Eine große Rebellion, die man nach den roten Tüchern ihrer Kämpfer die „Rebellion der Roten Turbane" nannte, breitete sich aus. Aus diesen Aufständen stieg ein einfacher Mann namens Zhu Yuanzhang auf, der einmal Bettler und Mönch gewesen war. Er sollte bald die Mongolen aus China vertreiben und eine neue Dynastie gründen.
+
+In Westafrika blieb das Reich Mali reich und mächtig. In Amerika wuchsen die Reiche der Azteken und der Inka langsam heran. Sie wussten nichts von der Pest oder den Kriegen in Europa und Asien.
+
+Für die einfachen Menschen brachte diese Zeit sowohl Leid als auch Hoffnung. Der Verlust so vieler Menschen war furchtbar. Doch für die Überlebenden gab es auch neue Möglichkeiten. Die alte, starre Ordnung der mittelalterlichen Gesellschaft begann sich zu lockern.
+
+So endet unsere Reise durch das Mittelalter vorläufig in einer Welt im Umbruch. Die große Pest hatte alles verändert. Neue Mächte wie die Osmanen stiegen auf, alte Reiche wie das der Mongolen in China zerfielen, und überall begannen die einfachen Menschen, nach mehr Rechten und einem besseren Leben zu streben.`,
+    translations: {
+      "erholte sich": "recovered",
+      "die Gesellschaft": "society",
+      "die Unruhen": "the unrest / disturbances",
+      "wertvoller": "more valuable",
+      "verlangten": "demanded",
+      "die Rechte": "the rights",
+      "die Löhne": "the wages",
+      "behalten": "to keep",
+      "die Spannungen": "the tensions",
+      "erhoben sich": "rose up",
+      "verzweifelten": "desperate",
+      "der Aufstand": "the uprising",
+      "niedergeschlagen": "put down / suppressed",
+      "sich gefallen lassen": "to put up with",
+      "nahmen gefangen": "took prisoner",
+      "das Lösegeld": "the ransom",
+      "geschwächt": "weakened",
+      "die Unordnung": "the disorder",
+      "die Osmanen": "the Ottomans",
+      "überquerten": "crossed",
+      "die Meerenge": "the strait",
+      "fassten Fuß": "gained a foothold",
+      "das Festland": "the mainland",
+      "die Ausbreitung": "the spread / expansion",
+      "erhoben sich": "rose up",
+      "die Rebellion": "the rebellion",
+      "die Tücher": "the cloths",
+      "die Roten Turbane": "the Red Turbans",
+      "der Bettler": "the beggar",
+      "vertreiben": "to drive out",
+      "der Verlust": "the loss",
+      "die Überlebenden": "the survivors",
+      "starre": "rigid",
+      "sich lockern": "to loosen",
+      "vorläufig": "for now / provisionally",
+      "im Umbruch": "in upheaval / transition",
+      "zerfielen": "fell apart",
+      "streben": "to strive",
+    }
+  },
 ];

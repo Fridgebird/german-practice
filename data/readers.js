@@ -2244,4 +2244,1363 @@ So endet unsere Reise durch das Mittelalter vorläufig in einer Welt im Umbruch.
       "streben": "to strive",
     }
   },
+  {
+    id: 37,
+    unlockDay: 37,
+    period: "1360–1370 n. Chr.",
+    title: "Eine neue Dynastie in China",
+    text: `In den 1360er Jahren verloren die Mongolen ihre Macht über China, und ein einfacher Mann aus dem Volk gründete eine der größten Dynastien der chinesischen Geschichte.
+
+In China war die Herrschaft der mongolischen Yuan-Dynastie am Ende. Überall im Land erhoben sich die Menschen gegen die fremden Herrscher. Ein Mann namens Zhu Yuanzhang führte die Rebellen an. Er war als armer Bauer geboren worden und hatte als Kind sogar als Bettler und Mönch gelebt. Doch er war klug und ein guter Anführer. Schritt für Schritt vertrieb er die Mongolen aus China. Im Jahr 1368 gründete er eine neue Dynastie, die Ming-Dynastie. Er wurde der erste Ming-Kaiser und nannte sich Hongwu. Unter der Ming-Dynastie sollte China wieder aufblühen und für lange Zeit ein mächtiges und reiches Reich sein.
+
+In Europa ging der lange Hundertjährige Krieg zwischen England und Frankreich weiter. Im Jahr 1360 schlossen die beiden Seiten einen Frieden, den Vertrag von Brétigny. England bekam große Gebiete in Frankreich. Doch dieser Frieden hielt nicht lange, und schon bald begann der Krieg von Neuem.
+
+Im Südosten Europas breiteten sich die Osmanen immer weiter aus. Sie hatten Kleinasien schon fast ganz erobert und drangen nun nach Europa vor. In dieser Zeit eroberten sie die wichtige Stadt Adrianopel und machten sie zu ihrer neuen Hauptstadt in Europa. Die christlichen Reiche auf dem Balkan waren in großer Gefahr.
+
+In Zentralasien stieg ein neuer Eroberer auf. Sein Name war Timur, und man nannte ihn auch Tamerlan. Er machte die Stadt Samarkand zu seiner prächtigen Hauptstadt. Timur war ein ehrgeiziger und grausamer Herrscher, der davon träumte, ein Reich so groß wie das von Dschingis Khan aufzubauen. Bald sollte er zum Schrecken großer Teile Asiens werden.
+
+In Westafrika blieb das Reich Mali reich und mächtig, auch wenn es nach dem großen Mansa Musa langsam schwächer wurde. Die Stadt Timbuktu blieb ein Zentrum des Handels und der Bildung.
+
+In Amerika wuchsen die großen Reiche weiter. Im Tal von Mexiko wurde die Stadt der Azteken, Tenochtitlan, immer größer und mächtiger. In den Anden bereiteten sich die Inka darauf vor, ein riesiges Reich zu gründen.
+
+Für die einfachen Menschen brachte diese Zeit weiter viel Mühe. In Europa hatte die große Pest tiefe Wunden hinterlassen. Ganze Dörfer waren leer, und die Menschen mussten die Welt nach der Katastrophe neu aufbauen. Doch es gab auch Hoffnung: Wer überlebt hatte, fand oft bessere Arbeit und mehr Freiheit als zuvor.
+
+So zeigt dieses Jahrzehnt, wie ein einfacher Mann aus dem Volk zum Kaiser eines der größten Reiche der Welt aufsteigen konnte. Während in Europa der Krieg weiterging und die Osmanen vordrangen, begann in China mit der Ming-Dynastie eine neue, glanzvolle Zeit.`,
+    translations: {
+      "die Dynastie": "the dynasty",
+      "erhoben sich": "rose up",
+      "die Rebellen": "the rebels",
+      "der Bettler": "the beggar",
+      "der Anführer": "the leader",
+      "vertrieb": "drove out",
+      "aufblühen": "to flourish",
+      "schlossen einen Frieden": "made peace",
+      "der Vertrag": "the treaty",
+      "die Gebiete": "the territories",
+      "von Neuem": "anew / again",
+      "breiteten sich aus": "spread out",
+      "die Osmanen": "the Ottomans",
+      "drangen vor": "advanced / pushed forward",
+      "der Balkan": "the Balkans",
+      "in großer Gefahr": "in great danger",
+      "der Eroberer": "the conqueror",
+      "prächtige": "magnificent",
+      "ehrgeiziger": "ambitious",
+      "grausamer": "cruel",
+      "träumte davon": "dreamed of",
+      "der Schrecken": "the terror",
+      "die Bildung": "education",
+      "das Tal": "the valley",
+      "bereiteten sich vor": "prepared themselves",
+      "die Mühe": "hardship / effort",
+      "die Wunden": "the wounds",
+      "hinterlassen": "left behind",
+      "aufbauen": "to rebuild",
+      "die Hoffnung": "hope",
+      "aufsteigen": "to rise",
+      "glanzvolle": "glorious / splendid",
+    }
+  },
+  {
+    id: 38,
+    unlockDay: 38,
+    period: "1370–1380 n. Chr.",
+    title: "Die Kirche gespalten",
+    text: `In den 1370er Jahren geriet die katholische Kirche in eine tiefe Krise, während im Osten Europas die Osmanen weiter vordrangen und in Asien Timur ein Reich aufbaute.
+
+Lange Zeit hatten die Päpste in der französischen Stadt Avignon gelebt, unter dem Einfluss des französischen Königs. Im Jahr 1377 kehrte der Papst endlich nach Rom zurück. Doch als er kurz darauf starb, kam es zu einem großen Streit. Ein Teil der Kirche wählte einen Papst in Rom, ein anderer Teil wählte einen zweiten Papst in Avignon. Nun gab es zwei Päpste gleichzeitig, die sich gegenseitig bekämpften. Diese Spaltung nennt man das „Große Abendländische Schisma". Für die einfachen Gläubigen war das sehr verwirrend. Wem sollten sie folgen? Die Kirche verlor an Ansehen und Macht.
+
+In England begann ein Gelehrter namens John Wyclif, die Kirche zu kritisieren. Er meinte, die Kirche sei zu reich und zu mächtig geworden. Er wollte, dass die Menschen die Bibel in ihrer eigenen Sprache lesen konnten, nicht nur auf Latein. Seine Ideen waren für die damalige Zeit sehr gefährlich, aber sie fanden viele Anhänger. Wyclif war ein früher Vorläufer der späteren Reformation.
+
+Im Südosten Europas gewannen die Osmanen eine wichtige Schlacht gegen die christlichen Reiche des Balkans. Ihre Macht wuchs immer weiter. Die kleinen christlichen Königreiche in dieser Region konnten sich kaum gegen das mächtige osmanische Heer wehren.
+
+In Zentralasien baute der Eroberer Timur sein Reich immer weiter aus. Von seiner Hauptstadt Samarkand aus führte er einen Feldzug nach dem anderen. Er eroberte viele Länder und war für seine Grausamkeit gefürchtet. Doch Samarkand selbst schmückte er mit prächtigen Gebäuden, Moscheen und Gärten. Timur wollte die schönste Stadt der Welt schaffen.
+
+In China festigte der erste Ming-Kaiser Hongwu seine Herrschaft. Er war ein strenger Herrscher, der das Land nach den Jahren der Unruhe wieder ordnete. Er baute die Landwirtschaft wieder auf, ließ Kanäle und Straßen reparieren und sorgte für Ordnung. Unter seiner harten, aber gerechten Hand erholte sich China von der Herrschaft der Mongolen.
+
+In Westafrika, in Amerika und in anderen Teilen der Welt ging das Leben seinen gewohnten Gang. Die Menschen arbeiteten, handelten und kümmerten sich um ihre Familien, meistens ohne zu wissen, was in fernen Ländern geschah.
+
+So zeigt dieses Jahrzehnt, wie selbst die mächtige Kirche in eine tiefe Krise geraten konnte. Zwei Päpste stritten um die Macht, ein englischer Gelehrter forderte Reformen, und im Osten wuchsen neue Mächte heran, die Europa bald bedrohen sollten.`,
+    translations: {
+      "gespalten": "divided / split",
+      "geriet in": "fell into",
+      "der Einfluss": "the influence",
+      "kehrte zurück": "returned",
+      "wählte": "elected / chose",
+      "gleichzeitig": "at the same time",
+      "gegenseitig": "each other",
+      "bekämpften": "fought",
+      "die Spaltung": "the split",
+      "das Abendländische Schisma": "the Western Schism",
+      "die Gläubigen": "the believers",
+      "verwirrend": "confusing",
+      "das Ansehen": "reputation / prestige",
+      "der Gelehrte": "the scholar",
+      "kritisieren": "to criticise",
+      "die Anhänger": "the followers",
+      "der Vorläufer": "the precursor",
+      "die Reformation": "the Reformation",
+      "sich wehren": "to defend oneself",
+      "das Heer": "the army",
+      "der Feldzug": "the military campaign",
+      "die Grausamkeit": "cruelty",
+      "gefürchtet": "feared",
+      "schmückte": "adorned / decorated",
+      "die Moscheen": "the mosques",
+      "schaffen": "to create",
+      "festigte": "consolidated",
+      "streng": "strict",
+      "die Unruhe": "the unrest",
+      "ordnete": "put in order",
+      "gerechten": "just / fair",
+      "erholte sich": "recovered",
+      "gewohnten Gang": "usual course",
+      "forderte": "demanded / called for",
+      "heranwachsen": "to grow up",
+      "bedrohen": "to threaten",
+    }
+  },
+  {
+    id: 39,
+    unlockDay: 39,
+    period: "1380–1390 n. Chr.",
+    title: "Aufstände und die Schlacht auf dem Amselfeld",
+    text: `In den 1380er Jahren erhoben sich die einfachen Menschen gegen ihre Herren, und im Südosten Europas kam es zu einer Schlacht, die noch heute berühmt ist.
+
+In England kam es im Jahr 1381 zu einem großen Aufstand der Bauern. Nach der großen Pest wollten die einfachen Menschen mehr Rechte und weniger Steuern. Als der König eine neue, harte Steuer verlangte, war das Maß voll. Unter ihrem Anführer Wat Tyler zogen Tausende von Bauern nach London. Sie forderten Freiheit und Gerechtigkeit. Für kurze Zeit hatten sie sogar die Hauptstadt in ihrer Hand. Doch am Ende wurde der Aufstand niedergeschlagen und Wat Tyler getötet. Trotzdem zeigte der Aufstand, dass die einfachen Menschen nicht mehr bereit waren, alles hinzunehmen.
+
+Im Südosten Europas kam es im Jahr 1389 zu einer der berühmtesten Schlachten der Geschichte: der Schlacht auf dem Amselfeld, auch Schlacht im Kosovo genannt. Dort kämpfte ein christliches Heer aus Serbien gegen das mächtige Heer der Osmanen. Die Schlacht war blutig, und viele Anführer beider Seiten starben. Am Ende gewannen die Osmanen. Nach dieser Schlacht gerieten die Länder des Balkans immer mehr unter osmanische Herrschaft. Für die Serben aber wurde diese Schlacht zu einem wichtigen Teil ihrer Geschichte und Identität, an den sie sich bis heute erinnern.
+
+Weit im Osten, in Russland, geschah etwas Wichtiges. Seit langer Zeit standen die russischen Fürstentümer unter der Herrschaft der Mongolen, der sogenannten Goldenen Horde. Im Jahr 1380 aber besiegte der Fürst von Moskau, Dmitri Donskoi, ein Mongolenheer in einer großen Schlacht. Auch wenn die Mongolen danach noch einmal zurückkamen, war dies ein wichtiges Zeichen: Moskau wurde immer stärker und begann, sich von der mongolischen Herrschaft zu befreien.
+
+In Zentralasien führte Timur weiter seine Feldzüge. Sein Reich wuchs immer weiter, und immer mehr Länder fielen unter seine Herrschaft. In China regierte weiter die Ming-Dynastie und baute das Land nach den Jahren der Unruhe wieder auf.
+
+In Westafrika, in Amerika und in anderen Teilen der Welt lebten die Menschen weiter ihr Leben. In Amerika wuchsen die Reiche der Azteken und der Inka immer weiter.
+
+So zeigt dieses Jahrzehnt, wie sich überall die Verhältnisse veränderten. In England erhoben sich die Bauern, auf dem Balkan siegten die Osmanen, und in Russland begann Moskau, sich gegen die Mongolen zu wehren.`,
+    translations: {
+      "die Aufstände": "the uprisings",
+      "das Amselfeld": "the Field of Blackbirds (Kosovo)",
+      "erhoben sich": "rose up",
+      "die Rechte": "the rights",
+      "die Steuern": "the taxes",
+      "verlangte": "demanded",
+      "das Maß war voll": "enough was enough",
+      "forderten": "demanded",
+      "die Gerechtigkeit": "justice",
+      "niedergeschlagen": "put down / suppressed",
+      "getötet": "killed",
+      "bereit": "ready / willing",
+      "hinzunehmen": "to accept / put up with",
+      "das Heer": "the army",
+      "blutig": "bloody",
+      "die Anführer": "the leaders",
+      "gerieten unter": "came under",
+      "die Herrschaft": "the rule",
+      "die Identität": "identity",
+      "die Fürstentümer": "the principalities",
+      "die Goldene Horde": "the Golden Horde",
+      "besiegte": "defeated",
+      "sich befreien": "to free oneself",
+      "die Feldzüge": "the military campaigns",
+      "die Unruhe": "the unrest",
+      "aufbauen": "to rebuild",
+      "die Verhältnisse": "the conditions / circumstances",
+      "siegten": "were victorious",
+      "sich wehren": "to resist",
+    }
+  },
+  {
+    id: 40,
+    unlockDay: 40,
+    period: "1390–1400 n. Chr.",
+    title: "Timur, der Schrecken Asiens",
+    text: `Das letzte Jahrzehnt des 14. Jahrhunderts stand im Zeichen eines gewaltigen Eroberers, der große Teile Asiens in Angst und Schrecken versetzte.
+
+Der Herrscher Timur, von seiner Hauptstadt Samarkand aus, führte in diesen Jahren einen Feldzug nach dem anderen. Seine Armee war schnell, gut organisiert und gefürchtet. Timur eroberte Persien, Teile des Nahen Ostens und griff viele Städte an. Wo er auf Widerstand traf, war seine Rache furchtbar. Er ließ ganze Städte zerstören und Türme aus den Schädeln der Getöteten bauen, um seine Feinde zu erschrecken.
+
+Im Jahr 1398 führte Timur einen Feldzug nach Indien. Er griff die reiche Stadt Delhi an, die Hauptstadt des Sultanats von Delhi. Timur eroberte und plünderte die Stadt. Es war eine schreckliche Katastrophe für Delhi, von der sich die Stadt lange nicht erholte. Timur kehrte mit riesigen Schätzen und vielen Gefangenen nach Samarkand zurück.
+
+Timur war ein widersprüchlicher Mann. Auf der einen Seite war er unglaublich grausam. Auf der anderen Seite liebte er Kunst und Wissenschaft. Er holte Gelehrte, Künstler und Handwerker aus den eroberten Ländern nach Samarkand und machte seine Hauptstadt zu einer der schönsten Städte der Welt.
+
+Im Südosten Europas wuchs die Macht der Osmanen weiter. Ihr Sultan Bayezid war ein energischer Herrscher, der seine Feinde schnell besiegte. Man nannte ihn „den Blitz". Die Osmanen beherrschten nun große Teile des Balkans und bedrohten sogar das schwache Byzantinische Reich mit seiner Hauptstadt Konstantinopel.
+
+In England kam es zu einem Umsturz. Der unbeliebte König Richard II. wurde im Jahr 1399 abgesetzt. An seine Stelle trat sein Vetter Heinrich IV. Dieser Wechsel auf dem Thron sollte später zu langen Kämpfen zwischen verschiedenen Familien um die englische Krone führen.
+
+In der katholischen Kirche dauerte das Schisma mit zwei Päpsten weiter an. Die Christenheit war gespalten, und viele Menschen sehnten sich nach einer Lösung und nach Frieden in der Kirche.
+
+In China regierte weiter die Ming-Dynastie, und das Land wurde immer reicher und stärker. In Amerika wuchsen die Reiche der Azteken und der Inka. In Westafrika bestand weiter das Reich Mali.
+
+So endete das 14. Jahrhundert im Zeichen eines der letzten großen Steppeneroberer. Timur zeigte noch einmal, wie ein einzelner mächtiger Krieger ganze Reiche erschüttern konnte. Doch die Zeit solcher Eroberer aus der Steppe ging langsam zu Ende.`,
+    translations: {
+      "der Schrecken": "the terror",
+      "im Zeichen": "marked by / under the sign of",
+      "der Eroberer": "the conqueror",
+      "in Angst und Schrecken versetzte": "terrified / struck with terror",
+      "der Feldzug": "the military campaign",
+      "gefürchtet": "feared",
+      "der Widerstand": "resistance",
+      "die Rache": "revenge",
+      "die Schädel": "the skulls",
+      "die Getöteten": "those killed",
+      "erschrecken": "to frighten",
+      "plünderte": "plundered",
+      "erholte sich": "recovered",
+      "die Schätze": "the treasures",
+      "die Gefangenen": "the prisoners",
+      "widersprüchlicher": "contradictory",
+      "grausam": "cruel",
+      "die Gelehrten": "the scholars",
+      "die Handwerker": "the craftsmen",
+      "energischer": "energetic",
+      "der Blitz": "the lightning / thunderbolt",
+      "beherrschten": "ruled / dominated",
+      "bedrohten": "threatened",
+      "der Umsturz": "the overthrow",
+      "unbeliebte": "unpopular",
+      "abgesetzt": "deposed",
+      "der Vetter": "the cousin",
+      "der Thron": "the throne",
+      "die Krone": "the crown",
+      "dauerte an": "continued",
+      "sehnten sich nach": "longed for",
+      "die Lösung": "the solution",
+      "erschüttern": "to shake",
+      "der Steppeneroberer": "steppe conqueror",
+    }
+  },
+  {
+    id: 41,
+    unlockDay: 41,
+    period: "1400–1410 n. Chr.",
+    title: "Eine Schlacht bei Ankara und die Schatzflotte Chinas",
+    text: `Das erste Jahrzehnt des 15. Jahrhunderts brachte eine überraschende Wende im Osten und den Beginn der größten Seereisen, die die Welt bis dahin gesehen hatte.
+
+Zwei mächtige Herrscher trafen im Jahr 1402 aufeinander: der Eroberer Timur und der osmanische Sultan Bayezid. In der großen Schlacht bei Ankara besiegte Timur die Osmanen vollständig. Sultan Bayezid selbst wurde gefangen genommen und starb bald darauf in Gefangenschaft. Diese Niederlage war ein schwerer Schlag für das Osmanische Reich. Für einige Jahre versank es in einem Bürgerkrieg zwischen den Söhnen des Sultans. Das schwache Byzantinische Reich in Konstantinopel bekam dadurch noch eine kurze Zeit des Aufschubs.
+
+Timur plante nach seinem Sieg einen noch größeren Feldzug: Er wollte China erobern. Doch im Jahr 1405, auf dem Weg dorthin, starb der alte Eroberer. Mit seinem Tod zerfiel sein riesiges Reich schnell wieder. Es war das Ende der großen Steppeneroberer.
+
+In China begann unter dem Ming-Kaiser Yongle eine glanzvolle Zeit. Yongle verlegte die Hauptstadt nach Peking und ließ dort einen gewaltigen Palast bauen, die berühmte „Verbotene Stadt". Doch am erstaunlichsten waren seine Seereisen. Der Kaiser schickte eine gewaltige Flotte auf große Fahrten über den Indischen Ozean. Der Anführer dieser Flotte war ein Admiral namens Zheng He. Seine Schiffe waren riesig, viel größer als alles, was die Europäer damals bauen konnten. Zheng He segelte bis nach Indien, Arabien und sogar bis an die Küste Ostafrikas. Er brachte Geschenke, trieb Handel und zeigte der Welt die Macht und den Reichtum Chinas. Diese Reisen begannen im Jahr 1405.
+
+In Europa ging der Hundertjährige Krieg zwischen England und Frankreich weiter, unterbrochen von Zeiten des Friedens. In Wales erhob sich ein Anführer namens Owain Glyndwr gegen die englische Herrschaft, konnte aber am Ende nicht siegen.
+
+In der Kirche dauerte das Schisma mit zwei, ja sogar zeitweise drei Päpsten an. Immer mehr Menschen forderten, dass dieser Streit endlich ein Ende finden müsse.
+
+In Amerika wuchsen die Reiche der Azteken und der Inka weiter. In Westafrika begann das Reich Mali langsam zu schwächeln, während neue Mächte aufstiegen.
+
+So zeigt dieses Jahrzehnt zwei ganz verschiedene Welten. Im Westen kämpften kleine Reiche in langen Kriegen. Im Osten aber schickte das mächtige China riesige Flotten über die Meere – ein Zeichen für den Reichtum und die Größe des Ming-Reiches.`,
+    translations: {
+      "die Schatzflotte": "the treasure fleet",
+      "die Wende": "the turn / twist",
+      "die Seereisen": "the sea voyages",
+      "trafen aufeinander": "clashed / met",
+      "besiegte": "defeated",
+      "gefangen genommen": "taken prisoner",
+      "die Gefangenschaft": "captivity",
+      "die Niederlage": "the defeat",
+      "der Schlag": "the blow",
+      "versank": "sank / descended",
+      "der Bürgerkrieg": "the civil war",
+      "der Aufschub": "the reprieve / delay",
+      "plante": "planned",
+      "zerfiel": "fell apart",
+      "der Steppeneroberer": "the steppe conqueror",
+      "glanzvolle": "glorious / splendid",
+      "verlegte": "moved / relocated",
+      "die Verbotene Stadt": "the Forbidden City",
+      "erstaunlichsten": "most astonishing",
+      "die Flotte": "the fleet",
+      "der Indische Ozean": "the Indian Ocean",
+      "der Admiral": "the admiral",
+      "segelte": "sailed",
+      "die Küste": "the coast",
+      "die Geschenke": "the gifts",
+      "trieb Handel": "carried on trade",
+      "der Reichtum": "the wealth",
+      "unterbrochen": "interrupted",
+      "erhob sich": "rose up",
+      "siegen": "to win",
+      "dauerte an": "continued",
+      "zeitweise": "at times",
+      "forderten": "demanded",
+      "schwächeln": "to weaken",
+      "aufstiegen": "rose",
+    }
+  },
+  {
+    id: 42,
+    unlockDay: 42,
+    period: "1410–1420 n. Chr.",
+    title: "Ein Konzil, ein Ketzer und ein englischer Sieg",
+    text: `In den 1410er Jahren fand die Kirche endlich einen Weg aus ihrer tiefen Krise, während in Frankreich ein englischer König einen berühmten Sieg errang.
+
+Das große Schisma mit mehreren Päpsten musste endlich ein Ende finden. Deshalb trafen sich die Führer der Kirche zu einem großen Konzil in der Stadt Konstanz. Dieses Konzil dauerte von 1414 bis 1418. Nach langen Verhandlungen setzten die Bischöfe die verschiedenen Päpste ab und wählten einen einzigen neuen Papst. Damit war das Schisma endlich beendet, und die Kirche hatte wieder ein Oberhaupt.
+
+Doch das Konzil von Konstanz hat auch eine dunkle Seite. Ein tschechischer Gelehrter namens Jan Hus hatte die Kirche stark kritisiert, ähnlich wie John Wyclif in England. Er kam zum Konzil, weil man ihm sicheres Geleit versprochen hatte. Doch die Kirche brach ihr Versprechen. Jan Hus wurde als Ketzer verurteilt und im Jahr 1415 verbrannt. Sein Tod machte seine Anhänger in Böhmen wütend. Es kam zu langen und blutigen Kriegen, den Hussitenkriegen.
+
+In Frankreich errang der junge englische König Heinrich V. einen seiner berühmtesten Siege. Im Jahr 1415, in der Schlacht bei Azincourt, besiegte sein kleines, müdes Heer eine viel größere französische Armee. Wie schon früher waren es die englischen Bogenschützen mit ihren langen Bögen, die den Sieg brachten. Die stolzen französischen Ritter in ihren schweren Rüstungen konnten gegen den Pfeilhagel nichts ausrichten. Dieser Sieg gab England wieder die Oberhand im Hundertjährigen Krieg.
+
+Im Norden Europas hatten schon einige Jahre zuvor die vereinten Heere von Polen und Litauen die mächtigen Deutschritter in einer großen Schlacht besiegt. Diese Niederlage schwächte den Ritterorden, der lange Zeit an der Ostsee geherrscht hatte.
+
+In China setzte der Admiral Zheng He seine großen Seereisen fort. Seine gewaltige Flotte segelte weiter über den Indischen Ozean und zeigte der Welt die Macht des Ming-Reiches.
+
+In Amerika wuchsen die Reiche der Azteken und der Inka. In Afrika bestanden weiter die alten Handelsreiche. Überall auf der Welt ging das Leben der einfachen Menschen seinen gewohnten Gang.
+
+So zeigt dieses Jahrzehnt, wie die Kirche ihre Einheit wiederfand, aber auch, wie hart sie mit ihren Kritikern umging. Und in Frankreich bewies ein englischer König einmal mehr, dass Mut und kluge Taktik über eine größere Armee siegen können.`,
+    translations: {
+      "das Konzil": "the council (church)",
+      "der Ketzer": "the heretic",
+      "errang": "won / achieved",
+      "die Führer": "the leaders",
+      "die Verhandlungen": "the negotiations",
+      "setzten ab": "deposed",
+      "wählten": "elected",
+      "das Oberhaupt": "the head / leader",
+      "die dunkle Seite": "the dark side",
+      "tschechischer": "Czech",
+      "kritisiert": "criticised",
+      "sicheres Geleit": "safe conduct",
+      "versprochen": "promised",
+      "brach ihr Versprechen": "broke its promise",
+      "verurteilt": "condemned",
+      "verbrannt": "burned",
+      "die Anhänger": "the followers",
+      "Böhmen": "Bohemia",
+      "wütend": "furious",
+      "blutigen": "bloody",
+      "die Hussitenkriege": "the Hussite Wars",
+      "der Sieg": "the victory",
+      "müdes Heer": "tired army",
+      "die Bogenschützen": "the archers",
+      "die Ritter": "the knights",
+      "die Rüstungen": "the armour",
+      "der Pfeilhagel": "the hail of arrows",
+      "nichts ausrichten": "to achieve nothing",
+      "die Oberhand": "the upper hand",
+      "die vereinten Heere": "the united armies",
+      "die Deutschritter": "the Teutonic Knights",
+      "schwächte": "weakened",
+      "die Ostsee": "the Baltic Sea",
+      "setzte fort": "continued",
+      "die Einheit": "the unity",
+      "umging": "dealt with / treated",
+      "der Mut": "courage",
+    }
+  },
+  {
+    id: 43,
+    unlockDay: 43,
+    period: "1420–1430 n. Chr.",
+    title: "Das Mädchen von Orléans",
+    text: `Die 1420er Jahre brachten eine der erstaunlichsten Geschichten des ganzen Mittelalters: Ein junges Bauernmädchen führte ein Heer und rettete Frankreich.
+
+Der Hundertjährige Krieg zwischen England und Frankreich stand für die Franzosen sehr schlecht. Die Engländer und ihre Verbündeten kontrollierten große Teile Frankreichs, auch die Hauptstadt Paris. Der französische Thronfolger, ein schwacher junger Mann, war noch nicht einmal zum König gekrönt. Frankreich schien verloren.
+
+In dieser dunklen Zeit trat ein einfaches Bauernmädchen auf: Jeanne d'Arc, auf Deutsch Johanna von Orléans. Sie war tief religiös und glaubte, dass Gott und die Heiligen zu ihr sprachen und ihr befahlen, Frankreich zu retten. Trotz ihrer Jugend und obwohl sie ein Mädchen war, gelang es ihr, den Thronfolger und die Heerführer zu überzeugen. Man gab ihr ein Heer und eine Rüstung.
+
+Im Jahr 1429 führte Jeanne d'Arc das französische Heer zur belagerten Stadt Orléans. Zur Überraschung aller befreite sie die Stadt von den Engländern. Dieser Sieg gab den Franzosen wieder Mut und Hoffnung. Kurz darauf sorgte Jeanne dafür, dass der Thronfolger endlich zum König Karl VII. gekrönt wurde. Ein einfaches Mädchen hatte die Wende im langen Krieg gebracht.
+
+Weit im Osten setzte in China der Admiral Zheng He seine großen Seereisen über den Indischen Ozean fort. Seine Flotte war ein Wunder der Technik, und kein anderes Land der Welt konnte damals solche Schiffe bauen.
+
+In Böhmen tobten weiter die Hussitenkriege. Die Anhänger des verbrannten Jan Hus kämpften gegen die katholische Kirche und den Kaiser. Sie waren erstaunlich erfolgreich und wehrten viele Angriffe ab. Es war einer der ersten großen religiösen Kriege in Europa, ein Vorzeichen der späteren Reformation.
+
+In Amerika wuchsen die großen Reiche weiter. Im Tal von Mexiko schlossen sich die Azteken mit zwei anderen Städten zu einem mächtigen Bündnis zusammen und begannen, ein großes Reich aufzubauen. In den Anden bereiteten sich die Inka darauf vor, ihr Reich gewaltig zu vergrößern.
+
+So zeigt dieses Jahrzehnt, wie eine einzelne Person die Geschichte verändern kann. Ein einfaches Bauernmädchen, das an seine Aufgabe glaubte, gab einem ganzen Volk neuen Mut und rettete Frankreich in seiner dunkelsten Stunde.`,
+    translations: {
+      "das Mädchen": "the girl",
+      "erstaunlichsten": "most astonishing",
+      "das Bauernmädchen": "the peasant girl",
+      "das Heer": "the army",
+      "rettete": "saved",
+      "die Verbündeten": "the allies",
+      "der Thronfolger": "the heir to the throne",
+      "gekrönt": "crowned",
+      "schien verloren": "seemed lost",
+      "trat auf": "appeared / stepped forward",
+      "tief religiös": "deeply religious",
+      "die Heiligen": "the saints",
+      "befahlen": "commanded",
+      "die Jugend": "youth",
+      "gelang es ihr": "she succeeded",
+      "die Heerführer": "the army commanders",
+      "überzeugen": "to convince",
+      "die Rüstung": "the armour",
+      "belagerten": "besieged",
+      "die Überraschung": "the surprise",
+      "befreite": "liberated",
+      "der Mut": "courage",
+      "die Hoffnung": "hope",
+      "sorgte dafür": "made sure",
+      "die Wende": "the turning point",
+      "die Seereisen": "the sea voyages",
+      "das Wunder": "the marvel",
+      "tobten": "raged",
+      "die Anhänger": "the followers",
+      "verbrannten": "burned",
+      "wehrten ab": "fended off",
+      "die Angriffe": "the attacks",
+      "das Vorzeichen": "the omen / foreshadowing",
+      "das Bündnis": "the alliance",
+      "vergrößern": "to enlarge",
+      "die Aufgabe": "the task / mission",
+    }
+  },
+  {
+    id: 44,
+    unlockDay: 44,
+    period: "1430–1440 n. Chr.",
+    title: "Entdecker und das Ende einer großen Seefahrt",
+    text: `Die 1430er Jahre zeigten zwei sehr unterschiedliche Wege in die Zukunft: China schloss sich langsam von der Welt ab, während ein kleines Land am Rand Europas begann, die Ozeane zu erforschen.
+
+In Frankreich ging der Hundertjährige Krieg weiter. Doch die Heldin Jeanne d'Arc erlebte das Ende nicht mehr. Sie war in die Hände der Engländer gefallen. Im Jahr 1431 wurde sie als Ketzerin verurteilt und verbrannt. Sie war erst etwa neunzehn Jahre alt. Doch ihr Mut hatte die Wende gebracht, und Frankreich gewann langsam die Oberhand im Krieg. Viele Jahre später wurde Jeanne d'Arc zur Heiligen erklärt.
+
+In China endete unter der Ming-Dynastie eine große Zeit. Nach dem Tod des Admirals Zheng He und des Kaisers Yongle beschloss der Hof, die großen Seereisen zu beenden. Um das Jahr 1433 fuhr die gewaltige Schatzflotte zum letzten Mal aus. Danach ließ die Regierung die riesigen Schiffe verfallen. China wandte sich nach innen und schloss sich langsam von der Welt ab. Es ist eine der großen offenen Fragen der Geschichte: Was wäre geschehen, wenn China die Meere weiter beherrscht hätte?
+
+Genau in dieser Zeit begann ein kleines Land am westlichen Rand Europas, die Ozeane zu erforschen: Portugal. Ein Prinz, den man später „Heinrich den Seefahrer" nannte, förderte die Erforschung der Meere. Er schickte Schiffe immer weiter an der Küste Afrikas entlang nach Süden. Die portugiesischen Seefahrer entdeckten Inseln wie Madeira und die Azoren und segelten in Gewässer, die für die Europäer bis dahin unbekannt waren. Diese Fahrten waren der Beginn des großen Zeitalters der Entdeckungen.
+
+In Amerika wuchsen die großen Reiche weiter. In den Anden begann der Inka-Herrscher Pachacuti, sein Reich gewaltig zu vergrößern. Aus einem kleinen Königreich wurde in kurzer Zeit ein riesiges Reich, das sich über weite Teile Südamerikas erstreckte. Die Inka bauten großartige Städte, Straßen und Tempel hoch in den Bergen.
+
+In Böhmen gingen die Hussitenkriege weiter. In der katholischen Kirche versuchte man auf neuen Konzilen, die vielen Probleme zu lösen.
+
+So zeigt dieses Jahrzehnt einen wichtigen Wendepunkt der Weltgeschichte. Während sich das mächtige China von den Meeren zurückzog, begann das kleine Portugal, die Weltmeere zu erobern. Niemand ahnte damals, dass diese ersten Fahrten der Portugiesen die Welt für immer verändern würden.`,
+    translations: {
+      "die Entdecker": "the explorers",
+      "die Seefahrt": "the sea voyage / seafaring",
+      "unterschiedliche": "different",
+      "sich abschloss": "cut itself off",
+      "erforschen": "to explore",
+      "die Heldin": "the heroine",
+      "gefallen": "fallen",
+      "die Ketzerin": "the (female) heretic",
+      "verurteilt": "condemned",
+      "verbrannt": "burned",
+      "der Mut": "courage",
+      "die Wende": "the turning point",
+      "die Oberhand": "the upper hand",
+      "zur Heiligen erklärt": "declared a saint",
+      "beschloss": "decided",
+      "die Seereisen": "the sea voyages",
+      "beenden": "to end",
+      "die Schatzflotte": "the treasure fleet",
+      "verfallen": "to fall into ruin",
+      "wandte sich nach innen": "turned inward",
+      "beherrscht": "controlled / dominated",
+      "der Rand": "the edge",
+      "der Seefahrer": "the seafarer",
+      "förderte": "promoted / fostered",
+      "die Erforschung": "the exploration",
+      "die Küste": "the coast",
+      "entdeckten": "discovered",
+      "die Inseln": "the islands",
+      "die Gewässer": "the waters",
+      "unbekannt": "unknown",
+      "das Zeitalter der Entdeckungen": "the Age of Discovery",
+      "vergrößern": "to enlarge",
+      "erstreckte sich": "extended / stretched",
+      "großartige": "magnificent",
+      "der Wendepunkt": "the turning point",
+      "sich zurückzog": "withdrew",
+      "ahnte": "suspected / sensed",
+    }
+  },
+  {
+    id: 45,
+    unlockDay: 45,
+    period: "1440–1450 n. Chr.",
+    title: "Eine Erfindung, die die Welt veränderte",
+    text: `In den 1440er Jahren machte ein Mann in Deutschland eine Erfindung, die die Welt so stark verändern sollte wie kaum eine andere: den Buchdruck mit beweglichen Lettern.
+
+In der Stadt Mainz arbeitete ein Handwerker namens Johannes Gutenberg an einer neuen Idee. Bisher musste man jedes Buch mühsam mit der Hand abschreiben. Das dauerte sehr lange, und Bücher waren deshalb selten und teuer. Gutenberg aber entwickelte eine Druckmaschine mit einzelnen Buchstaben aus Metall. Diese Buchstaben konnte man immer wieder neu zusammensetzen und viele Seiten schnell drucken. Zum ersten Mal in Europa konnte man Bücher in großer Zahl herstellen.
+
+Diese Erfindung hatte gewaltige Folgen. Bücher wurden billiger, und immer mehr Menschen konnten lesen lernen. Wissen und Ideen verbreiteten sich schneller als je zuvor. Ohne den Buchdruck wären viele spätere Ereignisse, wie die Reformation und die Wissenschaft der Neuzeit, kaum möglich gewesen. Chinesische Erfinder hatten den Druck zwar schon viel früher erfunden, aber in Europa löste Gutenbergs Maschine eine wahre Revolution des Wissens aus.
+
+In Portugal gingen die großen Entdeckungsfahrten weiter. Die portugiesischen Seefahrer segelten immer weiter an der Küste Afrikas entlang nach Süden. Leider begann in dieser Zeit auch etwas Dunkles: Die Portugiesen brachten die ersten afrikanischen Sklaven nach Europa. Es war der Beginn eines grausamen Handels mit Menschen, der über Jahrhunderte großes Leid bringen sollte.
+
+Im Südosten Europas sammelten die Osmanen wieder ihre Kräfte. Nach dem schweren Schlag durch Timur hatten sie sich erholt und waren nun stärker als je zuvor. Bald sollten sie das alte Byzantinische Reich endgültig bedrohen.
+
+In Amerika erreichte das Reich der Inka unter seinem großen Herrscher Pachacuti eine gewaltige Größe. Die Inka bauten ein riesiges Reich mit einer klugen Verwaltung, langen Straßen und großen Vorratslagern. In Mexiko wurde das Reich der Azteken immer mächtiger.
+
+In China regierte weiter die Ming-Dynastie, die sich nun mehr auf ihr eigenes Land als auf die Meere konzentrierte. In Westafrika stieg langsam ein neues Reich auf: das Songhai-Reich, das die alte Macht von Mali ablösen sollte.
+
+So zeigt dieses Jahrzehnt, wie eine einzige technische Erfindung die ganze Welt verändern kann. Gutenbergs Buchdruck brachte das Wissen zu immer mehr Menschen und legte den Grundstein für eine neue Zeit in der Geschichte der Menschheit.`,
+    translations: {
+      "die Erfindung": "the invention",
+      "der Buchdruck": "printing / letterpress",
+      "beweglichen Lettern": "movable type",
+      "der Handwerker": "the craftsman",
+      "mühsam": "laboriously",
+      "abschreiben": "to copy out",
+      "selten": "rare",
+      "die Druckmaschine": "the printing press",
+      "einzelnen Buchstaben": "individual letters",
+      "zusammensetzen": "to assemble",
+      "herstellen": "to produce / make",
+      "die Folgen": "the consequences",
+      "verbreiteten sich": "spread",
+      "je zuvor": "ever before",
+      "die Neuzeit": "the modern age",
+      "löste aus": "triggered",
+      "die Revolution": "the revolution",
+      "die Entdeckungsfahrten": "the voyages of discovery",
+      "die Küste": "the coast",
+      "die Sklaven": "the slaves",
+      "grausamen": "cruel",
+      "das Leid": "suffering",
+      "sammelten ihre Kräfte": "gathered their strength",
+      "der Schlag": "the blow",
+      "sich erholt": "recovered",
+      "bedrohen": "to threaten",
+      "die Verwaltung": "the administration",
+      "die Vorratslager": "the storehouses",
+      "sich konzentrierte": "focused",
+      "ablösen": "to replace / succeed",
+      "der Grundstein": "the foundation stone",
+      "die Menschheit": "humanity",
+    }
+  },
+  {
+    id: 46,
+    unlockDay: 46,
+    period: "1450–1460 n. Chr.",
+    title: "Der Fall von Konstantinopel",
+    text: `Die 1450er Jahre brachten das Ende eines Reiches, das über tausend Jahre bestanden hatte, und damit das Ende einer ganzen Epoche der Geschichte.
+
+Die Stadt Konstantinopel, die Hauptstadt des Byzantinischen Reiches, war einst eine der größten und reichsten Städte der Welt gewesen. Doch nun war das Reich nur noch ein Schatten seiner selbst. Es bestand fast nur noch aus der Stadt selbst, umgeben von den mächtigen Osmanen. Der junge osmanische Sultan Mehmed II. beschloss, die Stadt zu erobern.
+
+Im Frühjahr 1453 begann die Belagerung. Mehmed hatte ein riesiges Heer und gewaltige Kanonen, die die alten Mauern der Stadt zerstören konnten. Die Verteidiger von Konstantinopel waren zwar tapfer, aber sie waren viel zu wenige. Nach wochenlangen Kämpfen brachen die Osmanen am 29. Mai 1453 in die Stadt ein. Der letzte byzantinische Kaiser fiel im Kampf. Damit endete das Byzantinische Reich, das direkte Erbe des alten Römischen Reiches, nach über tausend Jahren. Für viele Menschen war der Fall von Konstantinopel ein Ereignis, das das Ende des Mittelalters markierte.
+
+Mehmed II. machte Konstantinopel zur neuen Hauptstadt seines wachsenden Reiches. Die große Kirche Hagia Sophia wurde in eine Moschee umgewandelt. Das Osmanische Reich war nun eine der größten Mächte der Welt und beherrschte den Übergang zwischen Europa und Asien.
+
+In Westeuropa endete im Jahr 1453 auch der lange Hundertjährige Krieg zwischen England und Frankreich. Am Ende gewann Frankreich. Die Engländer verloren fast alle ihre Gebiete auf dem Festland. Doch kaum war dieser Krieg zu Ende, begann in England ein neuer Streit. Zwei mächtige Familien kämpften um die Krone. Diese langen Kämpfe nennt man die „Rosenkriege".
+
+In dieser Zeit verbreitete sich Gutenbergs Buchdruck immer weiter. Um das Jahr 1455 druckte Gutenberg seine berühmte Bibel, eines der ersten großen gedruckten Bücher Europas.
+
+In Amerika blühten weiter die Reiche der Azteken und der Inka. In Afrika wuchs das Songhai-Reich. In China regierte die Ming-Dynastie.
+
+So zeigt dieses Jahrzehnt das Ende einer alten Welt. Mit dem Fall von Konstantinopel verschwand das letzte Überbleibsel des Römischen Reiches. Eine neue Zeit begann – die Zeit der großen Reiche, der Entdeckungen und der neuen Ideen.`,
+    translations: {
+      "der Fall": "the fall",
+      "bestanden hatte": "had existed",
+      "die Epoche": "the epoch / era",
+      "einst": "once",
+      "ein Schatten seiner selbst": "a shadow of its former self",
+      "umgeben": "surrounded",
+      "beschloss": "decided",
+      "das Frühjahr": "spring",
+      "die Belagerung": "the siege",
+      "das Heer": "the army",
+      "die Kanonen": "the cannons",
+      "die Mauern": "the walls",
+      "die Verteidiger": "the defenders",
+      "tapfer": "brave",
+      "brachen ein": "broke in",
+      "fiel im Kampf": "fell in battle",
+      "das Erbe": "the heritage / legacy",
+      "markierte": "marked",
+      "wachsenden": "growing",
+      "die Moschee": "the mosque",
+      "umgewandelt": "converted",
+      "der Übergang": "the crossing / transition",
+      "die Gebiete": "the territories",
+      "das Festland": "the mainland",
+      "die Krone": "the crown",
+      "die Rosenkriege": "the Wars of the Roses",
+      "verbreitete sich": "spread",
+      "druckte": "printed",
+      "gedruckten": "printed",
+      "blühten": "flourished",
+      "das Überbleibsel": "the remnant",
+      "verschwand": "disappeared",
+      "die Entdeckungen": "the discoveries",
+    }
+  },
+  {
+    id: 47,
+    unlockDay: 47,
+    period: "1460–1470 n. Chr.",
+    title: "Neue Mächte in Ost und West",
+    text: `In den 1460er Jahren stiegen in vielen Teilen der Welt neue Mächte auf, während die Renaissance in Italien die Kunst und das Denken erneuerte.
+
+Das Osmanische Reich wuchs unter Sultan Mehmed II. immer weiter. Nach der Eroberung von Konstantinopel griff er weitere Länder auf dem Balkan an. Ein Anführer aus Albanien namens Skanderbeg wehrte sich jahrelang tapfer gegen die Osmanen, aber am Ende war die osmanische Macht zu stark. Auch Griechenland und andere Gebiete fielen unter die Herrschaft der Osmanen.
+
+In Italien blühte in dieser Zeit die Renaissance, was „Wiedergeburt" bedeutet. Reiche Städte wie Florenz, Venedig und Rom wurden zu Zentren der Kunst, der Wissenschaft und des Denkens. Reiche Familien wie die Medici in Florenz förderten Künstler und Gelehrte. Die Menschen entdeckten das Wissen der alten Griechen und Römer neu und schufen wunderbare Kunstwerke. Es war der Beginn einer der größten kulturellen Blütezeiten der Geschichte.
+
+In Russland wuchs die Macht von Moskau immer weiter. Der Großfürst Iwan III. vereinte immer mehr russische Länder unter seiner Herrschaft und wurde zu einem mächtigen Herrscher. Langsam befreite sich Russland von der alten Herrschaft der Mongolen.
+
+In Westafrika stieg das Songhai-Reich zur größten Macht der Region auf. Sein Herrscher Sonni Ali eroberte die reichen Handelsstädte am Fluss Niger, darunter das berühmte Timbuktu. Songhai wurde zu einem der größten Reiche in der Geschichte Afrikas.
+
+In Amerika standen die Reiche der Azteken und der Inka auf dem Höhepunkt ihrer Macht. Die Azteken beherrschten weite Teile Mexikos, und ihre Hauptstadt Tenochtitlan war eine gewaltige Stadt in einem See. Die Inka regierten ein riesiges Reich in den Anden, mit einem klugen System von Straßen und Verwaltung.
+
+In England gingen die Rosenkriege weiter. Die beiden mächtigen Familien kämpften mit wechselndem Glück um die Krone. Für das einfache Volk brachten diese Kriege viel Unruhe.
+
+So zeigt dieses Jahrzehnt, wie überall auf der Welt neue Mächte aufstiegen: die Osmanen im Südosten Europas, Moskau in Russland, Songhai in Afrika. Und in Italien begann mit der Renaissance eine neue Zeit der Kunst und des Wissens, die Europa für immer verändern sollte.`,
+    translations: {
+      "stiegen auf": "rose",
+      "die Renaissance": "the Renaissance",
+      "erneuerte": "renewed",
+      "die Eroberung": "the conquest",
+      "griff an": "attacked",
+      "der Anführer": "the leader",
+      "wehrte sich": "resisted",
+      "tapfer": "bravely",
+      "die Herrschaft": "the rule",
+      "die Wiedergeburt": "rebirth",
+      "die Zentren": "the centres",
+      "förderten": "promoted / fostered",
+      "die Gelehrten": "the scholars",
+      "entdeckten neu": "rediscovered",
+      "die Kunstwerke": "the works of art",
+      "die Blütezeiten": "the golden ages",
+      "der Großfürst": "the Grand Prince",
+      "vereinte": "united",
+      "sich befreite": "freed itself",
+      "die Handelsstädte": "the trading cities",
+      "der Höhepunkt": "the peak",
+      "beherrschten": "ruled / dominated",
+      "gewaltige": "enormous",
+      "die Verwaltung": "the administration",
+      "die Rosenkriege": "the Wars of the Roses",
+      "wechselndem Glück": "changing fortunes",
+      "die Krone": "the crown",
+      "die Unruhe": "the unrest",
+    }
+  },
+  {
+    id: 48,
+    unlockDay: 48,
+    period: "1470–1480 n. Chr.",
+    title: "Die Vereinigung Spaniens und das Ende der Mongolenherrschaft",
+    text: `In den 1470er Jahren entstand durch eine Heirat ein mächtiges neues Königreich in Spanien, und in Russland endete endgültig die lange Herrschaft der Mongolen.
+
+Auf der iberischen Halbinsel gab es mehrere christliche Königreiche. Die zwei wichtigsten waren Kastilien und Aragón. Im Jahr 1469 heirateten Königin Isabella von Kastilien und König Ferdinand von Aragón. Durch diese Heirat wurden ihre beiden Reiche verbunden. So entstand ein starkes, vereintes Spanien. Isabella und Ferdinand, die man die „Katholischen Könige" nannte, wollten ein mächtiges und rein katholisches Reich schaffen.
+
+Leider hatte das auch eine dunkle Seite. Im Jahr 1478 gründeten sie die spanische Inquisition. Ihre Aufgabe war es, alle zu verfolgen, die nicht dem katholischen Glauben folgten. Besonders Juden und Muslime, die zum Christentum übergetreten waren, gerieten unter Verdacht. Viele Menschen wurden verfolgt, gefoltert oder getötet. Die spanische Inquisition wurde zu einem Symbol für religiöse Verfolgung.
+
+In Russland vollendete der Großfürst Iwan III. die Befreiung seines Landes. Seit über zweihundert Jahren hatten die Russen den Mongolen der Goldenen Horde Tribut zahlen müssen. Um das Jahr 1480 weigerte sich Iwan endgültig, weiter zu zahlen. Die Mongolen konnten ihn nicht mehr zwingen. Damit endete die lange Herrschaft der Mongolen über Russland. Moskau wurde nun zum Zentrum eines wachsenden russischen Reiches.
+
+In Italien blühte die Renaissance weiter. In Florenz und anderen Städten schufen Künstler wunderbare Gemälde und Bauwerke. Junge Künstler wie Leonardo da Vinci begannen in dieser Zeit ihre Ausbildung und sollten später zu den größten Meistern der Weltgeschichte werden.
+
+Das Osmanische Reich blieb eine gewaltige Macht und bedrohte weiter die christlichen Länder in Südosteuropa und im Mittelmeer.
+
+In Amerika standen die Reiche der Azteken und der Inka auf dem Höhepunkt ihrer Macht. In Afrika war das Songhai-Reich eine der größten Mächte des Kontinents. In China regierte weiter die Ming-Dynastie.
+
+So zeigt dieses Jahrzehnt, wie durch eine kluge Heirat ein mächtiges neues Spanien entstand und wie Russland sich endgültig von den Mongolen befreite. Beide Reiche sollten in den folgenden Jahrhunderten zu Großmächten aufsteigen.`,
+    translations: {
+      "die Vereinigung": "the unification",
+      "die Mongolenherrschaft": "Mongol rule",
+      "die Heirat": "the marriage",
+      "die iberische Halbinsel": "the Iberian Peninsula",
+      "heirateten": "married",
+      "verbunden": "joined / connected",
+      "vereintes": "united",
+      "die Katholischen Könige": "the Catholic Monarchs",
+      "rein": "pure",
+      "schaffen": "to create",
+      "die dunkle Seite": "the dark side",
+      "die Inquisition": "the Inquisition",
+      "die Aufgabe": "the task",
+      "verfolgen": "to persecute",
+      "der Glaube": "the faith",
+      "übergetreten": "converted",
+      "unter Verdacht": "under suspicion",
+      "gefoltert": "tortured",
+      "die Verfolgung": "the persecution",
+      "vollendete": "completed",
+      "die Befreiung": "the liberation",
+      "der Tribut": "tribute",
+      "weigerte sich": "refused",
+      "zwingen": "to force",
+      "wachsenden": "growing",
+      "die Gemälde": "the paintings",
+      "die Bauwerke": "the buildings",
+      "die Ausbildung": "the training / education",
+      "die Meister": "the masters",
+      "bedrohte": "threatened",
+      "der Kontinent": "the continent",
+      "die Großmächte": "the great powers",
+    }
+  },
+  {
+    id: 49,
+    unlockDay: 49,
+    period: "1480–1490 n. Chr.",
+    title: "Um das Kap der Guten Hoffnung",
+    text: `In den 1480er Jahren gelang den Portugiesen eine große Entdeckung: Zum ersten Mal segelte ein europäisches Schiff um die Südspitze Afrikas. Damit öffnete sich der Seeweg nach Asien.
+
+Seit vielen Jahrzehnten hatten die portugiesischen Seefahrer die Küste Afrikas erforscht und waren immer weiter nach Süden gesegelt. Ihr großes Ziel war es, einen Seeweg nach Indien zu finden. Dort lockten die reichen Gewürze, die in Europa sehr teuer waren, weil sie über viele Hände gehandelt wurden. Wer einen direkten Seeweg fand, konnte unermesslich reich werden.
+
+Im Jahr 1488 gelang dem portugiesischen Seefahrer Bartolomeu Dias der Durchbruch. Er segelte um die Südspitze Afrikas herum. Man nannte diese Stelle das „Kap der Guten Hoffnung", denn nun bestand die Hoffnung, endlich Indien zu erreichen. Der Weg war frei. Wenige Jahre später sollte ein anderer Portugiese diesen Weg zu Ende gehen.
+
+In Spanien näherte sich die lange Reconquista ihrem Ende. Die Katholischen Könige Isabella und Ferdinand führten Krieg gegen das letzte muslimische Reich auf der iberischen Halbinsel: das Königreich Granada. Stück für Stück eroberten sie das Land. Bald sollte die letzte muslimische Stadt fallen.
+
+In Russland festigte der Großfürst Iwan III. seine Macht. Er vereinte immer mehr russische Länder und machte Moskau zum Zentrum eines großen Reiches. Iwan nannte sich sogar nach dem Vorbild der alten römischen Kaiser und träumte davon, Moskau zu einem „Dritten Rom" zu machen.
+
+In Italien blühte die Renaissance auf ihrem Höhepunkt. Große Künstler wie Leonardo da Vinci und Sandro Botticelli schufen Meisterwerke. Die reichen Familien der italienischen Städte förderten die Kunst und den Handel.
+
+In Amerika standen die Reiche der Azteken und der Inka noch auf dem Höhepunkt ihrer Macht. Doch niemand dort ahnte, dass die europäischen Schiffe, die nun die Ozeane erforschten, ihre Welt bald für immer verändern würden.
+
+So zeigt dieses Jahrzehnt, wie die Europäer Schritt für Schritt die Weltmeere eroberten. Mit der Fahrt um das Kap der Guten Hoffnung öffnete sich der Seeweg nach Asien – ein weiterer Schritt in ein neues Zeitalter der Entdeckungen.`,
+    translations: {
+      "das Kap der Guten Hoffnung": "the Cape of Good Hope",
+      "gelang": "succeeded / managed",
+      "die Entdeckung": "the discovery",
+      "die Südspitze": "the southern tip",
+      "der Seeweg": "the sea route",
+      "die Seefahrer": "the seafarers",
+      "die Küste": "the coast",
+      "erforscht": "explored",
+      "das Ziel": "the goal",
+      "lockten": "beckoned / tempted",
+      "die Gewürze": "the spices",
+      "gehandelt": "traded",
+      "unermesslich": "immeasurably",
+      "der Durchbruch": "the breakthrough",
+      "die Stelle": "the spot / place",
+      "die Hoffnung": "hope",
+      "erreichen": "to reach",
+      "näherte sich": "approached",
+      "die Reconquista": "the Reconquista",
+      "die iberische Halbinsel": "the Iberian Peninsula",
+      "Stück für Stück": "piece by piece",
+      "fallen": "to fall",
+      "festigte": "consolidated",
+      "vereinte": "united",
+      "das Vorbild": "the model / example",
+      "träumte davon": "dreamed of",
+      "das Dritte Rom": "the Third Rome",
+      "die Meisterwerke": "the masterpieces",
+      "förderten": "promoted / fostered",
+      "der Höhepunkt": "the peak",
+      "ahnte": "suspected / sensed",
+      "das Zeitalter": "the age / era",
+    }
+  },
+  {
+    id: 50,
+    unlockDay: 50,
+    period: "1490–1500 n. Chr.",
+    title: "Eine neue Welt",
+    text: `Das letzte Jahrzehnt des 15. Jahrhunderts brachte eine der größten Wenden der ganzen Weltgeschichte: Die Menschen aus Europa erreichten einen Kontinent, von dessen Existenz sie nichts geahnt hatten.
+
+Ein Seefahrer aus Genua namens Christoph Kolumbus hatte eine kühne Idee. Er glaubte, man könne Asien erreichen, wenn man einfach nach Westen über den Atlantik segelte. Viele Gelehrte hielten ihn für einen Träumer. Doch die spanischen Katholischen Könige gaben ihm schließlich Schiffe. Im Jahr 1492 segelte Kolumbus mit drei Schiffen nach Westen. Nach wochenlanger Fahrt erreichte er Land. Er glaubte, er sei in Asien angekommen. In Wirklichkeit aber hatte er eine Insel in der Karibik entdeckt – den Rand eines Kontinents, den die Europäer bis dahin nicht gekannt hatten: Amerika.
+
+Diese Entdeckung veränderte die Welt für immer. Für die Europäer öffnete sich eine „Neue Welt" voller Möglichkeiten. Für die Völker Amerikas aber begann eine Katastrophe. In den folgenden Jahrzehnten sollten Krankheiten, Krieg und Eroberung ihre alten Reiche zerstören.
+
+Im selben Jahr 1492 geschah in Spanien noch etwas Wichtiges. Die Katholischen Könige eroberten Granada, die letzte muslimische Stadt auf der iberischen Halbinsel. Damit endete die lange Reconquista nach fast achthundert Jahren. Doch im selben Jahr vertrieben Isabella und Ferdinand auch alle Juden aus Spanien, die nicht zum Christentum übertreten wollten. Es war ein grausamer Akt, der viele Menschen ins Elend stürzte.
+
+Wenige Jahre später, im Jahr 1498, gelang dem Portugiesen Vasco da Gama etwas, wovon die Portugiesen lange geträumt hatten. Er segelte um Afrika herum und erreichte auf dem Seeweg Indien. Nun konnten die Europäer die reichen Gewürze direkt aus Asien holen. Portugal wurde dadurch schnell reich und mächtig.
+
+In Italien erreichte die Renaissance ihren Höhepunkt. Künstler wie Leonardo da Vinci und der junge Michelangelo schufen einige der größten Kunstwerke der Menschheitsgeschichte.
+
+In Amerika ahnten die Azteken und die Inka noch nichts von der Gefahr, die aus dem Osten kam. Sie lebten in ihren mächtigen Reichen, ohne zu wissen, dass die Ankunft der Europäer alles verändern würde.
+
+So endete das 15. Jahrhundert mit der Entdeckung einer neuen Welt. Zwei getrennte Hälften der Menschheit, die Jahrtausende lang nichts voneinander gewusst hatten, trafen zum ersten Mal aufeinander – mit gewaltigen Folgen für die ganze Welt.`,
+    translations: {
+      "die Wenden": "the turning points",
+      "der Kontinent": "the continent",
+      "die Existenz": "the existence",
+      "geahnt": "suspected / sensed",
+      "der Seefahrer": "the seafarer",
+      "kühne": "bold / daring",
+      "erreichen": "to reach",
+      "der Atlantik": "the Atlantic",
+      "segelte": "sailed",
+      "die Gelehrten": "the scholars",
+      "der Träumer": "the dreamer",
+      "schließlich": "finally",
+      "in Wirklichkeit": "in reality",
+      "die Karibik": "the Caribbean",
+      "der Rand": "the edge",
+      "die Entdeckung": "the discovery",
+      "die Neue Welt": "the New World",
+      "die Möglichkeiten": "the possibilities",
+      "die Eroberung": "the conquest",
+      "die iberische Halbinsel": "the Iberian Peninsula",
+      "die Reconquista": "the Reconquista",
+      "vertrieben": "expelled / drove out",
+      "übertreten": "to convert",
+      "grausamer Akt": "cruel act",
+      "ins Elend stürzte": "plunged into misery",
+      "gelang": "succeeded",
+      "geträumt": "dreamed",
+      "die Gewürze": "the spices",
+      "der Höhepunkt": "the peak",
+      "die Kunstwerke": "the works of art",
+      "die Gefahr": "the danger",
+      "die Ankunft": "the arrival",
+      "getrennte": "separate",
+      "die Hälften": "the halves",
+      "trafen aufeinander": "met one another",
+      "gewaltigen Folgen": "enormous consequences",
+    }
+  },
+  {
+    id: 51,
+    unlockDay: 51,
+    period: "1500–1510 n. Chr.",
+    title: "Das Zeitalter der Entdeckungen und die Hochrenaissance",
+    text: `Das erste Jahrzehnt des 16. Jahrhunderts war eine Zeit großer Entdeckungen und großartiger Kunst. Die Europäer segelten über die Ozeane, und in Italien schufen Künstler unsterbliche Meisterwerke.
+
+Nach den ersten Fahrten von Kolumbus und Vasco da Gama begann ein wahres Wettrennen um die neuen Seewege und Länder. Die Portugiesen bauten ein Handelsreich in Asien auf. Im Jahr 1500 erreichte der Portugiese Cabral die Küste Brasiliens in Südamerika. Die Spanier begannen, die Inseln der Karibik zu besiedeln. Immer mehr Europäer segelten in die Neue Welt, angelockt von Gold, Land und Abenteuer. Für die Ureinwohner Amerikas aber brachten die Europäer Krieg, Sklaverei und tödliche Krankheiten mit.
+
+In Italien erreichte die Renaissance ihren höchsten Punkt, die sogenannte Hochrenaissance. In Rom und Florenz arbeiteten drei der größten Künstler aller Zeiten. Leonardo da Vinci malte die geheimnisvolle „Mona Lisa". Michelangelo schuf die berühmte Statue des David und begann, die Decke der Sixtinischen Kapelle zu bemalen. Der junge Raffael malte wunderschöne Bilder. Nie zuvor und selten danach gab es so viele große Künstler zur gleichen Zeit.
+
+In Persien entstand in dieser Zeit ein neues mächtiges Reich. Ein junger Herrscher namens Schah Ismail gründete im Jahr 1501 das Reich der Safawiden. Er machte die schiitische Form des Islam zur Religion seines Reiches. Dadurch entstand ein großer Unterschied zu den sunnitischen Osmanen im Westen. Diese religiöse Grenze zwischen den beiden Reichen sollte über Jahrhunderte zu Kriegen führen.
+
+Im Osmanischen Reich bereitete sich ein neuer, kriegerischer Sultan auf große Eroberungen vor. Bald sollten die Osmanen ihre Macht gewaltig vergrößern.
+
+In Amerika lebten die Azteken und die Inka noch in ihren mächtigen Reichen, während die Europäer sich langsam näherten. In China regierte weiter die Ming-Dynastie, und in Afrika blühte das Songhai-Reich.
+
+So zeigt dieses Jahrzehnt zwei Seiten einer neuen Zeit. Auf der einen Seite die Schönheit der Kunst und die Neugier der Entdecker. Auf der anderen Seite das Leid, das die Europäer über die Völker Amerikas und Afrikas brachten. Beide Seiten gehörten zu dem großen Wandel, der die Welt am Beginn der Neuzeit erfasste.`,
+    translations: {
+      "das Zeitalter der Entdeckungen": "the Age of Discovery",
+      "die Hochrenaissance": "the High Renaissance",
+      "großartiger": "magnificent",
+      "unsterbliche": "immortal",
+      "die Meisterwerke": "the masterpieces",
+      "das Wettrennen": "the race",
+      "die Seewege": "the sea routes",
+      "das Handelsreich": "the trading empire",
+      "die Küste": "the coast",
+      "besiedeln": "to settle / colonise",
+      "angelockt": "attracted / lured",
+      "das Abenteuer": "the adventure",
+      "die Ureinwohner": "the natives / indigenous people",
+      "die Sklaverei": "slavery",
+      "tödliche": "deadly",
+      "der höchste Punkt": "the highest point",
+      "geheimnisvolle": "mysterious",
+      "die Statue": "the statue",
+      "die Decke": "the ceiling",
+      "die Sixtinische Kapelle": "the Sistine Chapel",
+      "bemalen": "to paint",
+      "schiitische": "Shia",
+      "der Unterschied": "the difference",
+      "sunnitischen": "Sunni",
+      "die Grenze": "the border / boundary",
+      "kriegerischer": "warlike",
+      "sich vorbereiten": "to prepare",
+      "die Eroberungen": "the conquests",
+      "vergrößern": "to enlarge",
+      "sich näherten": "approached",
+      "die Neugier": "curiosity",
+      "das Leid": "suffering",
+      "der Wandel": "the change",
+      "die Neuzeit": "the modern age",
+      "erfasste": "seized / gripped",
+    }
+  },
+  {
+    id: 52,
+    unlockDay: 52,
+    period: "1510–1520 n. Chr.",
+    title: "Ein Mönch verändert die Kirche",
+    text: `In den 1510er Jahren begann in Deutschland eine Bewegung, die die christliche Kirche für immer spalten sollte: die Reformation. Gleichzeitig eroberten die Osmanen große Teile des Nahen Ostens.
+
+In Deutschland lebte ein Mönch und Gelehrter namens Martin Luther. Er war unzufrieden mit vielen Dingen in der katholischen Kirche. Besonders ärgerte ihn der sogenannte Ablasshandel. Die Kirche verkaufte den Menschen Zettel, die ihnen angeblich die Vergebung ihrer Sünden versprachen. Luther fand das falsch. Er meinte, die Vergebung Gottes könne man nicht kaufen. Im Jahr 1517 schrieb er seine berühmten fünfundneunzig Thesen, in denen er die Kirche kritisierte. Angeblich schlug er sie an die Tür einer Kirche in Wittenberg.
+
+Dank des neuen Buchdrucks verbreiteten sich Luthers Ideen mit erstaunlicher Geschwindigkeit in ganz Deutschland und darüber hinaus. Viele Menschen waren begeistert und stimmten ihm zu. Die Kirche und der Papst aber waren empört. Luther weigerte sich, seine Ideen zurückzunehmen. So begann die Reformation, eine Bewegung, die die westliche Christenheit in Katholiken und Protestanten spaltete.
+
+Im Osmanischen Reich herrschte nun der kriegerische Sultan Selim I. Im Jahr 1517 besiegte er die Mamluken und eroberte Ägypten und Syrien. Damit kamen auch die heiligen Städte des Islam, Mekka und Medina, unter osmanische Herrschaft. Das Osmanische Reich war nun die führende Macht in der islamischen Welt.
+
+In Amerika bereiteten sich die Spanier auf große Eroberungen vor. Im Jahr 1519 landete ein spanischer Anführer namens Hernán Cortés an der Küste Mexikos. Er hatte gehört von einem reichen und mächtigen Reich im Landesinneren: dem Reich der Azteken. Cortés zog mit einer kleinen Truppe ins Innere des Landes, entschlossen, dieses Reich zu erobern.
+
+Im selben Jahr begann eine andere große Reise. Der Seefahrer Ferdinand Magellan brach mit einer spanischen Flotte auf, um einen westlichen Seeweg um die ganze Welt zu finden. Es sollte die erste Reise um den ganzen Erdball werden.
+
+In Italien blühte weiter die Kunst der Renaissance. In China regierte die Ming-Dynastie, und in Afrika war das Songhai-Reich mächtig.
+
+So zeigt dieses Jahrzehnt den Beginn einer neuen Zeit. Ein einzelner Mönch stellte die mächtige Kirche in Frage und löste damit eine Bewegung aus, die Europa für immer verändern sollte.`,
+    translations: {
+      "der Mönch": "the monk",
+      "die Bewegung": "the movement",
+      "die Reformation": "the Reformation",
+      "spalten": "to split",
+      "der Gelehrte": "the scholar",
+      "unzufrieden": "dissatisfied",
+      "ärgerte ihn": "annoyed him",
+      "der Ablasshandel": "the sale of indulgences",
+      "die Zettel": "the slips / notes",
+      "angeblich": "supposedly",
+      "die Vergebung": "forgiveness",
+      "die Sünden": "the sins",
+      "versprachen": "promised",
+      "die Thesen": "the theses",
+      "kritisierte": "criticised",
+      "schlug an": "nailed / posted",
+      "der Buchdruck": "printing",
+      "verbreiteten sich": "spread",
+      "die Geschwindigkeit": "the speed",
+      "begeistert": "enthusiastic",
+      "stimmten zu": "agreed",
+      "empört": "outraged",
+      "weigerte sich": "refused",
+      "zurückzunehmen": "to take back",
+      "die Protestanten": "the Protestants",
+      "kriegerische": "warlike",
+      "besiegte": "defeated",
+      "die Mamluken": "the Mamluks",
+      "die heiligen Städte": "the holy cities",
+      "die führende Macht": "the leading power",
+      "landete": "landed",
+      "die Küste": "the coast",
+      "das Landesinnere": "the interior",
+      "entschlossen": "determined",
+      "brach auf": "set off",
+      "die Flotte": "the fleet",
+      "der Erdball": "the globe",
+      "in Frage stellen": "to question / challenge",
+      "löste aus": "triggered",
+    }
+  },
+  {
+    id: 53,
+    unlockDay: 53,
+    period: "1520–1530 n. Chr.",
+    title: "Der Fall eines Reiches und eine Reise um die Welt",
+    text: `Die 1520er Jahre brachten den Untergang eines der größten Reiche Amerikas und die erste Reise von Menschen um die ganze Erde.
+
+In Mexiko zog der spanische Anführer Hernán Cortés mit einer kleinen Truppe gegen das mächtige Reich der Azteken. Wie war es möglich, dass so wenige Spanier ein so großes Reich besiegen konnten? Cortés hatte mehrere Vorteile. Er hatte Pferde, Kanonen und Gewehre, die die Azteken nicht kannten. Vor allem aber fand er Verbündete unter den Völkern, die von den Azteken unterdrückt wurden und sie hassten. Und schließlich brachten die Spanier tödliche Krankheiten wie die Pocken mit, gegen die die Menschen Amerikas keine Abwehrkräfte hatten. Diese Krankheiten töteten unzählige Menschen. Im Jahr 1521 fiel die aztekische Hauptstadt Tenochtitlan. Das große Reich der Azteken war am Ende, und die Spanier begannen, Mexiko zu beherrschen.
+
+Im Jahr 1522 kehrte ein einziges Schiff nach Spanien zurück. Es war der Rest der Flotte, mit der Ferdinand Magellan drei Jahre zuvor aufgebrochen war. Magellan selbst war unterwegs gestorben, aber seine Männer hatten das Unmögliche geschafft: Sie waren zum ersten Mal um die ganze Erde gesegelt. Damit war endgültig bewiesen, dass die Erde eine Kugel ist und dass alle Ozeane miteinander verbunden sind.
+
+In Europa breitete sich die Reformation Martin Luthers immer weiter aus. Viele Fürsten und Städte in Deutschland wurden protestantisch. Es kam auch zu Unruhen. Im Jahr 1525 erhoben sich die deutschen Bauern in einem großen Aufstand und forderten mehr Rechte. Doch dieser Bauernkrieg wurde blutig niedergeschlagen.
+
+Im Osten bedrohte das Osmanische Reich unter Sultan Süleyman dem Prächtigen das christliche Europa. Im Jahr 1526 besiegten die Osmanen das Königreich Ungarn in einer großen Schlacht. Drei Jahre später, im Jahr 1529, standen die Osmanen sogar vor Wien und belagerten die Stadt. Zwar konnten sie Wien nicht erobern, aber ganz Europa erschrak vor der osmanischen Macht.
+
+In Indien gründete in dieser Zeit ein Herrscher namens Babur ein neues Reich. Nach einer großen Schlacht im Jahr 1526 legte er den Grundstein für das mächtige Mogulreich, das Indien über Jahrhunderte beherrschen sollte.
+
+So zeigt dieses Jahrzehnt gewaltige Veränderungen auf der ganzen Welt. Ein altes Reich in Amerika fiel, Menschen umsegelten zum ersten Mal die Erde, und in Europa und Asien entstanden neue Mächte und neue Ideen.`,
+    translations: {
+      "der Untergang": "the downfall",
+      "besiegen": "to defeat",
+      "die Vorteile": "the advantages",
+      "die Kanonen": "the cannons",
+      "die Gewehre": "the guns / rifles",
+      "die Verbündeten": "the allies",
+      "unterdrückt": "oppressed",
+      "hassten": "hated",
+      "tödliche": "deadly",
+      "die Pocken": "smallpox",
+      "die Abwehrkräfte": "defences / immunity",
+      "unzählige": "countless",
+      "fiel": "fell",
+      "beherrschen": "to rule / dominate",
+      "kehrte zurück": "returned",
+      "der Rest": "the remainder",
+      "die Flotte": "the fleet",
+      "aufgebrochen": "set off",
+      "unterwegs": "on the way",
+      "das Unmögliche": "the impossible",
+      "gesegelt": "sailed",
+      "bewiesen": "proven",
+      "die Kugel": "the sphere / ball",
+      "verbunden": "connected",
+      "breitete sich aus": "spread",
+      "die Fürsten": "the princes",
+      "protestantisch": "Protestant",
+      "die Unruhen": "the unrest",
+      "erhoben sich": "rose up",
+      "der Aufstand": "the uprising",
+      "forderten": "demanded",
+      "niedergeschlagen": "put down / suppressed",
+      "der Prächtige": "the Magnificent",
+      "belagerten": "besieged",
+      "erschrak": "was frightened",
+      "legte den Grundstein": "laid the foundation",
+      "das Mogulreich": "the Mughal Empire",
+      "umsegelten": "circumnavigated",
+    }
+  },
+  {
+    id: 54,
+    unlockDay: 54,
+    period: "1530–1540 n. Chr.",
+    title: "Das Ende der Inka und ein König gegen den Papst",
+    text: `Die 1530er Jahre brachten den Untergang eines weiteren großen Reiches in Amerika und einen dramatischen Bruch zwischen einem englischen König und der katholischen Kirche.
+
+In Südamerika wiederholte sich, was in Mexiko geschehen war. Ein spanischer Anführer namens Francisco Pizarro zog mit einer kleinen Truppe gegen das riesige Reich der Inka. Das Inkareich war gerade durch einen Bürgerkrieg zwischen zwei Brüdern geschwächt. Auch hatten tödliche Krankheiten aus Europa schon viele Menschen getötet, noch bevor die Spanier selbst ankamen. Pizarro nutzte diese Schwäche aus. Im Jahr 1532 nahm er den Inka-Herrscher Atahualpa mit einer List gefangen. Obwohl die Inka ein riesiges Lösegeld aus Gold zahlten, töteten die Spanier ihren Herrscher. Danach eroberten sie das ganze Reich. So fiel auch das große Reich der Inka in die Hände der Spanier.
+
+Die Spanier fanden in Amerika unglaubliche Mengen an Gold und Silber. Diese Schätze machten Spanien zur reichsten und mächtigsten Nation Europas. Doch für die Ureinwohner Amerikas bedeutete die Ankunft der Europäer eine der größten Katastrophen der Geschichte. Durch Krieg, Sklaverei und vor allem durch Krankheiten starb ein großer Teil der Bevölkerung.
+
+In England kam es zu einem großen Bruch mit der Kirche. König Heinrich VIII. wollte sich von seiner Frau scheiden lassen, aber der Papst erlaubte es nicht. Aus Zorn darüber trennte Heinrich im Jahr 1534 die englische Kirche von Rom. Er erklärte sich selbst zum Oberhaupt der Kirche in England. So entstand die anglikanische Kirche. Heinrich schloss viele Klöster und nahm ihren Reichtum an sich. Damit wurde England ein protestantisches Land, wenn auch aus ganz anderen Gründen als in Deutschland.
+
+Die Reformation breitete sich weiter in Europa aus. In der Schweiz und in Frankreich lehrte ein Reformator namens Johannes Calvin eine strenge Form des protestantischen Glaubens, die viele Anhänger fand.
+
+Im Osten blieb das Osmanische Reich unter Süleyman dem Prächtigen eine gewaltige Macht. In Indien wuchs das junge Mogulreich, auch wenn es zunächst noch schwach war.
+
+So zeigt dieses Jahrzehnt, wie die europäischen Mächte immer weiter in die Welt hinausgriffen. In Amerika zerstörten die Spanier ein weiteres großes Reich, und in Europa spaltete sich die Kirche immer weiter, während Könige und Reformatoren um Glauben und Macht rangen.`,
+    translations: {
+      "der Untergang": "the downfall",
+      "der Bruch": "the break / rupture",
+      "wiederholte sich": "repeated itself",
+      "der Bürgerkrieg": "the civil war",
+      "geschwächt": "weakened",
+      "tödliche": "deadly",
+      "nutzte aus": "exploited",
+      "die Schwäche": "the weakness",
+      "mit einer List": "by a trick / ruse",
+      "gefangen": "captured",
+      "das Lösegeld": "the ransom",
+      "die Schätze": "the treasures",
+      "die Ureinwohner": "the natives",
+      "die Ankunft": "the arrival",
+      "die Sklaverei": "slavery",
+      "die Bevölkerung": "the population",
+      "sich scheiden lassen": "to get divorced",
+      "erlaubte": "allowed",
+      "der Zorn": "anger / wrath",
+      "trennte": "separated",
+      "das Oberhaupt": "the head",
+      "die anglikanische Kirche": "the Anglican Church",
+      "die Klöster": "the monasteries",
+      "der Reichtum": "the wealth",
+      "protestantisches": "Protestant",
+      "die Gründe": "the reasons",
+      "breitete sich aus": "spread",
+      "lehrte": "taught",
+      "der Reformator": "the reformer",
+      "strenge": "strict",
+      "die Anhänger": "the followers",
+      "gewaltige": "enormous",
+      "hinausgriffen": "reached out",
+      "rangen": "wrestled / struggled",
+    }
+  },
+  {
+    id: 55,
+    unlockDay: 55,
+    period: "1540–1550 n. Chr.",
+    title: "Silber, Sterne und ein Berg voller Reichtum",
+    text: `Die 1540er Jahre waren eine Zeit neuer Ideen und großer Reichtümer. Ein Gelehrter stellte die alte Sicht auf das Weltall in Frage, und in Amerika fanden die Spanier einen Berg voller Silber.
+
+In Polen lebte ein Gelehrter namens Nikolaus Kopernikus. Seit alter Zeit glaubten die Menschen, dass die Erde der Mittelpunkt des Weltalls sei und dass die Sonne und die Sterne sich um die Erde drehten. Kopernikus aber kam zu einer anderen Erkenntnis. Er meinte, dass sich in Wirklichkeit die Erde um die Sonne dreht. Im Jahr 1543 veröffentlichte er dieses Werk. Seine Idee war für die damalige Zeit revolutionär und widersprach der Lehre der Kirche. Es sollte lange dauern, bis die Menschen diese neue Sicht auf die Welt akzeptierten. Doch Kopernikus hatte den Grundstein für die moderne Wissenschaft gelegt.
+
+In Amerika entdeckten die Spanier im Jahr 1545 einen ganzen Berg voller Silber. Dieser Berg lag in der Stadt Potosí im heutigen Bolivien. Aus diesem Berg holten die Spanier über Jahrhunderte unglaubliche Mengen an Silber. Dieses Silber machte Spanien noch reicher. Doch die Arbeit in den Minen war furchtbar. Unzählige Ureinwohner und afrikanische Sklaven mussten dort unter grausamen Bedingungen arbeiten und starben.
+
+In der katholischen Kirche begann man, sich gegen die Reformation zu wehren. Im Jahr 1545 trafen sich die Führer der Kirche zu einem großen Konzil in der Stadt Trient. Dort beschlossen sie Reformen und bekräftigten die katholische Lehre. Diese Bewegung nennt man die Gegenreformation. Die katholische Kirche wollte verlorenes Vertrauen zurückgewinnen und die Ausbreitung des Protestantismus stoppen.
+
+Weit im Osten erreichten in dieser Zeit zum ersten Mal Europäer Japan. Im Jahr 1543 landeten portugiesische Seefahrer auf einer japanischen Insel. Sie brachten Feuerwaffen mit, die die Japaner sehr interessierten. Wenig später kamen auch christliche Missionare nach Japan.
+
+In Russland wurde im Jahr 1547 der junge Iwan IV. zum ersten „Zaren" gekrönt. Später nannte man ihn Iwan den Schrecklichen. In Indien wuchs das Mogulreich, auch wenn es gerade eine schwere Zeit durchmachte.
+
+So zeigt dieses Jahrzehnt, wie die Welt am Beginn der Neuzeit immer enger zusammenrückte. Neue Ideen über das Weltall entstanden, europäische Schiffe erreichten selbst das ferne Japan, und der Reichtum Amerikas floss nach Europa – oft auf Kosten unzähliger Menschen.`,
+    translations: {
+      "das Silber": "silver",
+      "die Sterne": "the stars",
+      "der Reichtum": "wealth",
+      "das Weltall": "the universe / cosmos",
+      "in Frage stellen": "to question",
+      "der Mittelpunkt": "the centre",
+      "sich drehten": "revolved / turned",
+      "die Erkenntnis": "the insight / realisation",
+      "in Wirklichkeit": "in reality",
+      "veröffentlichte": "published",
+      "revolutionär": "revolutionary",
+      "widersprach": "contradicted",
+      "die Lehre": "the teaching / doctrine",
+      "akzeptierten": "accepted",
+      "der Grundstein": "the foundation stone",
+      "entdeckten": "discovered",
+      "die Minen": "the mines",
+      "die Ureinwohner": "the natives",
+      "die Sklaven": "the slaves",
+      "grausamen Bedingungen": "cruel conditions",
+      "sich wehren": "to defend oneself",
+      "das Konzil": "the council",
+      "beschlossen": "decided",
+      "bekräftigten": "affirmed",
+      "die Gegenreformation": "the Counter-Reformation",
+      "das Vertrauen": "trust / confidence",
+      "zurückgewinnen": "to win back",
+      "die Ausbreitung": "the spread",
+      "die Feuerwaffen": "firearms",
+      "die Missionare": "the missionaries",
+      "der Zar": "the tsar",
+      "gekrönt": "crowned",
+      "der Schreckliche": "the Terrible",
+      "durchmachte": "went through",
+      "zusammenrückte": "moved closer together",
+      "floss": "flowed",
+      "auf Kosten": "at the expense of",
+    }
+  },
+  {
+    id: 56,
+    unlockDay: 56,
+    period: "1550–1560 n. Chr.",
+    title: "Ein geteilter Glaube und mächtige Herrscher",
+    text: `Die 1550er Jahre brachten einen wichtigen Frieden im Streit der Religionen und den Beginn der Herrschaft mehrerer großer Könige und Kaiser.
+
+In Deutschland tobte seit Jahren der Streit zwischen Katholiken und Protestanten. Weder die eine noch die andere Seite konnte gewinnen. Im Jahr 1555 schlossen sie deshalb einen wichtigen Frieden, den Augsburger Religionsfrieden. Die Regel dieses Friedens war einfach: Jeder Fürst durfte selbst bestimmen, welche Religion in seinem Land gelten sollte, ob katholisch oder protestantisch. Die einfachen Menschen mussten dem Glauben ihres Herrschers folgen. Dieser Frieden brachte für einige Zeit Ruhe, löste aber das Problem der geteilten Christenheit nicht wirklich.
+
+Der mächtige Kaiser Karl V. hatte über ein riesiges Reich geherrscht, das Spanien, Teile Italiens, die Niederlande, Österreich und die neuen Kolonien in Amerika umfasste. Doch die vielen Kriege und Probleme hatten ihn müde gemacht. Im Jahr 1556 legte er seine Ämter nieder. Sein Reich wurde geteilt: Sein Sohn Philipp II. bekam Spanien und die Kolonien, sein Bruder bekam Österreich und die deutsche Kaiserkrone. Philipp II. wurde zum mächtigsten Herrscher Europas, mit dem Reichtum aus dem amerikanischen Silber.
+
+In Indien bestieg im Jahr 1556 ein junger Herrscher namens Akbar den Thron des Mogulreiches. Akbar sollte einer der größten Herrscher der indischen Geschichte werden. Er vergrößerte das Reich gewaltig und regierte klug und tolerant. Obwohl er selbst Muslim war, behandelte er die Hindus und andere Religionen mit Respekt.
+
+In England wurde im Jahr 1558 Elisabeth I. Königin. Sie war eine kluge und starke Herrscherin. Unter ihrer langen Regierung sollte England zu einer bedeutenden Macht aufsteigen und eine große Zeit der Kunst und Entdeckungen erleben.
+
+Im Osmanischen Reich herrschte weiter der große Sultan Süleyman der Prächtige, unter dem das Reich seinen Höhepunkt erreichte. In China regierte die Ming-Dynastie, und in Amerika bauten die Spanier ihre Kolonien immer weiter aus.
+
+So zeigt dieses Jahrzehnt eine Welt, in der mächtige Herrscher große Reiche regierten. In Europa versuchte man, mit dem geteilten Glauben zu leben, während in Indien, im Osmanischen Reich und in England kluge Herrscher den Grundstein für große Zeiten legten.`,
+    translations: {
+      "geteilter": "divided",
+      "der Glaube": "faith",
+      "tobte": "raged",
+      "weder... noch": "neither... nor",
+      "schlossen einen Frieden": "made peace",
+      "der Religionsfrieden": "religious peace",
+      "die Regel": "the rule",
+      "der Fürst": "the prince",
+      "bestimmen": "to determine / decide",
+      "gelten": "to be valid / apply",
+      "die Ruhe": "calm / quiet",
+      "die geteilte Christenheit": "divided Christendom",
+      "umfasste": "comprised / included",
+      "die Kolonien": "the colonies",
+      "müde": "tired",
+      "legte nieder": "laid down / resigned",
+      "die Ämter": "the offices",
+      "geteilt": "divided",
+      "die Kaiserkrone": "the imperial crown",
+      "der Reichtum": "the wealth",
+      "bestieg den Thron": "ascended the throne",
+      "vergrößerte": "enlarged",
+      "tolerant": "tolerant",
+      "behandelte": "treated",
+      "der Respekt": "respect",
+      "bedeutende": "significant",
+      "aufsteigen": "to rise",
+      "der Höhepunkt": "the peak",
+      "ausbauen": "to expand",
+      "der Grundstein": "the foundation stone",
+    }
+  },
+  {
+    id: 57,
+    unlockDay: 57,
+    period: "1560–1570 n. Chr.",
+    title: "Religionskriege und ein Aufstand gegen Spanien",
+    text: `Die 1560er Jahre waren eine Zeit blutiger Religionskriege in Europa. Der Streit zwischen Katholiken und Protestanten führte zu Gewalt und Aufständen.
+
+In Frankreich brach im Jahr 1562 ein langer Bürgerkrieg aus. Auf der einen Seite standen die Katholiken, auf der anderen Seite die französischen Protestanten, die man Hugenotten nannte. Beide Seiten kämpften erbittert um Macht und Glauben. Diese Religionskriege sollten Frankreich viele Jahrzehnte lang zerreißen und unzählige Menschen das Leben kosten.
+
+In den Niederlanden, die damals zu Spanien gehörten, wuchs der Widerstand gegen den katholischen König Philipp II. von Spanien. Viele Niederländer waren protestantisch geworden, und sie litten unter der harten Herrschaft und der Verfolgung durch die Spanier. Im Jahr 1568 erhoben sie sich in einem großen Aufstand. Dieser Aufstand wurde zum Beginn eines langen Krieges um die Freiheit der Niederlande, der viele Jahrzehnte dauern sollte. Am Ende sollte daraus ein neuer, unabhängiger Staat entstehen: die Republik der Niederlande.
+
+In Indien regierte der große Mogul-Kaiser Akbar. Er vergrößerte sein Reich immer weiter und regierte mit Weisheit. Akbar interessierte sich für viele Religionen und lud Gelehrte verschiedener Glaubensrichtungen an seinen Hof ein, um mit ihnen zu sprechen. Unter seiner Herrschaft blühten die Kunst, die Kultur und der Handel.
+
+Im Osmanischen Reich starb im Jahr 1566 der große Sultan Süleyman der Prächtige. Unter ihm hatte das Reich seinen Höhepunkt erreicht. Nach seinem Tod blieb das Osmanische Reich zwar noch lange mächtig, aber die Zeit seiner größten Eroberungen ging langsam zu Ende.
+
+In Amerika bauten die Spanier ihre Herrschaft immer weiter aus. Silber aus den Minen Amerikas floss weiter nach Spanien. In dieser Zeit begannen die Spanier auch, die Philippinen in Asien zu erobern.
+
+In England regierte Königin Elisabeth I. klug und vorsichtig. Sie hielt ihr Land aus den großen Religionskriegen des Kontinents heraus und stärkte die Macht Englands.
+
+So zeigt dieses Jahrzehnt, wie der Streit um den Glauben Europa in blutige Kriege stürzte. In Frankreich und in den Niederlanden kämpften Menschen und starben für ihre Religion und für ihre Freiheit.`,
+    translations: {
+      "die Religionskriege": "the wars of religion",
+      "der Aufstand": "the uprising",
+      "blutiger": "bloody",
+      "die Gewalt": "violence",
+      "brach aus": "broke out",
+      "der Bürgerkrieg": "the civil war",
+      "die Hugenotten": "the Huguenots",
+      "erbittert": "fiercely",
+      "der Glaube": "faith",
+      "zerreißen": "to tear apart",
+      "der Widerstand": "the resistance",
+      "litten unter": "suffered under",
+      "die Verfolgung": "the persecution",
+      "erhoben sich": "rose up",
+      "unabhängiger": "independent",
+      "die Republik": "the republic",
+      "vergrößerte": "enlarged",
+      "die Weisheit": "wisdom",
+      "lud ein": "invited",
+      "die Glaubensrichtungen": "the faiths / denominations",
+      "der Hof": "the court",
+      "blühten": "flourished",
+      "der Höhepunkt": "the peak",
+      "die Eroberungen": "the conquests",
+      "ausbauen": "to expand",
+      "die Minen": "the mines",
+      "floss": "flowed",
+      "die Philippinen": "the Philippines",
+      "vorsichtig": "cautiously",
+      "heraushalten": "to keep out of",
+      "stärkte": "strengthened",
+      "stürzte": "plunged",
+    }
+  },
+  {
+    id: 58,
+    unlockDay: 58,
+    period: "1570–1580 n. Chr.",
+    title: "Eine Seeschlacht und eine Bluthochzeit",
+    text: `Die 1570er Jahre brachten einen großen Seesieg der christlichen Mächte über die Osmanen, aber auch eine der schrecklichsten Bluttaten der Religionskriege.
+
+Im Mittelmeer wuchs die Sorge vor der Macht der osmanischen Flotte. Um die osmanische Bedrohung zu stoppen, schlossen sich mehrere christliche Mächte zu einem Bündnis zusammen, vor allem Spanien, Venedig und der Papst. Im Jahr 1571 kam es bei Lepanto zu einer gewaltigen Seeschlacht. Hunderte von Schiffen und Zehntausende von Männern kämpften. Am Ende siegten die christlichen Mächte. Es war das erste Mal seit langer Zeit, dass die Osmanen eine große Niederlage zur See erlitten. Der Sieg gab den Christen neuen Mut, auch wenn die Osmanen bald eine neue Flotte bauten.
+
+In Frankreich geschah im Jahr 1572 eine schreckliche Bluttat. In Paris feierte man eine Hochzeit, zu der viele protestantische Hugenotten gekommen waren. Doch in der Nacht des heiligen Bartholomäus befahlen die katholischen Führer, die Hugenotten zu töten. Tausende von Protestanten wurden in Paris und in anderen Städten Frankreichs ermordet. Diese „Bartholomäusnacht" wurde zu einem Symbol für die Grausamkeit der Religionskriege.
+
+In den Niederlanden ging der Aufstand gegen Spanien weiter. Die Niederländer kämpften tapfer für ihre Freiheit und ihren Glauben, obwohl die spanische Armee sehr mächtig war.
+
+In Indien blühte das Mogulreich unter dem großen Kaiser Akbar. Er baute prächtige Städte, förderte die Kunst und regierte weiter mit Toleranz gegenüber den verschiedenen Religionen seines riesigen Reiches.
+
+In England erlebte das Land unter Königin Elisabeth I. eine große Zeit. Der englische Seefahrer Francis Drake segelte in diesen Jahren um die ganze Welt. Er war erst der zweite Anführer, dem nach Magellan eine solche Reise gelang. Unterwegs griff er spanische Schiffe an und brachte reiche Schätze nach England.
+
+Im Osmanischen Reich, in China und in Amerika ging das Leben seinen Gang. Überall wuchsen die großen Reiche oder kämpften um ihre Macht.
+
+So zeigt dieses Jahrzehnt die zwei Gesichter der Zeit. Auf der einen Seite der stolze Sieg bei Lepanto und die kühnen Fahrten der Seefahrer. Auf der anderen Seite die furchtbare Gewalt der Religionskriege, die Europa zerrissen.`,
+    translations: {
+      "die Seeschlacht": "the naval battle",
+      "die Bluthochzeit": "the blood wedding",
+      "der Seesieg": "the victory at sea",
+      "die Bluttaten": "the bloody deeds",
+      "die Sorge": "the worry",
+      "die Flotte": "the fleet",
+      "die Bedrohung": "the threat",
+      "das Bündnis": "the alliance",
+      "siegten": "were victorious",
+      "die Niederlage": "the defeat",
+      "zur See": "at sea",
+      "erlitten": "suffered",
+      "der Mut": "courage",
+      "die Bluttat": "the atrocity",
+      "die Hochzeit": "the wedding",
+      "befahlen": "ordered",
+      "ermordet": "murdered",
+      "die Bartholomäusnacht": "St. Bartholomew's Night",
+      "die Grausamkeit": "cruelty",
+      "der Aufstand": "the uprising",
+      "tapfer": "bravely",
+      "der Glaube": "faith",
+      "blühte": "flourished",
+      "prächtige": "magnificent",
+      "förderte": "promoted",
+      "die Toleranz": "tolerance",
+      "gegenüber": "towards",
+      "der Seefahrer": "the seafarer",
+      "gelang": "succeeded",
+      "griff an": "attacked",
+      "die Schätze": "the treasures",
+      "kühnen": "bold / daring",
+      "zerrissen": "tore apart",
+    }
+  },
+  {
+    id: 59,
+    unlockDay: 59,
+    period: "1580–1590 n. Chr.",
+    title: "Die spanische Armada",
+    text: `Die 1580er Jahre brachten einen der berühmtesten Konflikte der Geschichte: den Kampf zwischen dem mächtigen Spanien und dem kleineren England, der in einer gewaltigen Seeschlacht endete.
+
+Der spanische König Philipp II. war der mächtigste Herrscher Europas. Sein Reich umfasste Spanien, Portugal (das er im Jahr 1580 dazugewonnen hatte), Teile Italiens und riesige Kolonien in Amerika und Asien. Man sagte, in seinem Reich gehe die Sonne nie unter. Philipp war ein strenger Katholik und wollte den Protestantismus in Europa bekämpfen.
+
+Sein größter Feind war die protestantische Königin Elisabeth I. von England. England unterstützte die aufständischen Niederländer gegen Spanien, und englische Seefahrer wie Francis Drake überfielen spanische Schiffe. Philipp beschloss, England zu erobern. Im Jahr 1588 schickte er eine gewaltige Flotte, die „spanische Armada", mit über hundert Schiffen gegen England.
+
+Doch der Plan scheiterte. Die kleineren, schnelleren englischen Schiffe kämpften geschickt gegen die großen, schwerfälligen spanischen Schiffe. Dann kam auch noch ein schwerer Sturm auf. Ein großer Teil der spanischen Armada wurde zerstört oder sank im Meer. Nur ein Teil der Flotte kehrte nach Spanien zurück. Es war eine große Niederlage für Spanien und ein gewaltiger Sieg für das kleine England. Von nun an stieg England zu einer bedeutenden Seemacht auf.
+
+In den Niederlanden ging der lange Kampf um die Freiheit weiter. Die nördlichen Provinzen bildeten langsam einen eigenen, unabhängigen Staat.
+
+In Japan gelang es einem mächtigen Kriegsherrn namens Toyotomi Hideyoshi, das lange zerrissene Land fast vollständig zu einen. Nach vielen Jahren des Bürgerkriegs brachte er Frieden und Ordnung nach Japan.
+
+In Indien stand das Mogulreich unter Akbar auf dem Höhepunkt seiner Macht und seines Reichtums. In China regierte weiter die Ming-Dynastie, die aber langsam schwächer wurde. Im Osmanischen Reich und in Amerika ging das Leben seinen Gang.
+
+So zeigt dieses Jahrzehnt, wie ein kleines Land eine große Macht besiegen konnte. Der Untergang der spanischen Armada zeigte, dass Spaniens Macht nicht unbesiegbar war, und öffnete England den Weg zu einer großen Zukunft auf den Weltmeeren.`,
+    translations: {
+      "die Armada": "the armada / fleet",
+      "der Konflikt": "the conflict",
+      "die Seeschlacht": "the naval battle",
+      "umfasste": "comprised",
+      "dazugewonnen": "gained / added",
+      "die Kolonien": "the colonies",
+      "die Sonne geht nie unter": "the sun never sets",
+      "strenger": "strict",
+      "bekämpfen": "to fight against",
+      "unterstützte": "supported",
+      "aufständischen": "rebellious",
+      "die Seefahrer": "the seafarers",
+      "überfielen": "raided / attacked",
+      "beschloss": "decided",
+      "die Flotte": "the fleet",
+      "scheiterte": "failed",
+      "geschickt": "skilfully",
+      "schwerfälligen": "clumsy / cumbersome",
+      "der Sturm": "the storm",
+      "sank": "sank",
+      "kehrte zurück": "returned",
+      "die Niederlage": "the defeat",
+      "die Seemacht": "the sea power",
+      "die Provinzen": "the provinces",
+      "unabhängigen": "independent",
+      "der Kriegsherr": "the warlord",
+      "zerrissene": "torn",
+      "einen": "to unite",
+      "der Bürgerkrieg": "the civil war",
+      "der Höhepunkt": "the peak",
+      "der Reichtum": "the wealth",
+      "der Untergang": "the downfall",
+      "unbesiegbar": "invincible",
+      "die Zukunft": "the future",
+    }
+  },
+  {
+    id: 60,
+    unlockDay: 60,
+    period: "1590–1600 n. Chr.",
+    title: "Am Ende eines Jahrhunderts",
+    text: `Das letzte Jahrzehnt des 16. Jahrhunderts brachte das Ende langer Kriege, den Aufstieg neuer Mächte und die ersten Zeichen einer Welt, die immer enger zusammenwuchs.
+
+In Frankreich endeten endlich die langen und blutigen Religionskriege. Ein neuer König, Heinrich IV., der selbst als Protestant geboren war, trat zum katholischen Glauben über, um Frieden für sein Land zu schaffen. Im Jahr 1598 erließ er ein wichtiges Gesetz, das Edikt von Nantes. Darin gewährte er den protestantischen Hugenotten das Recht, ihren Glauben auszuüben. Nach Jahrzehnten des Krieges brachte dieses Edikt endlich Frieden und eine gewisse religiöse Toleranz nach Frankreich.
+
+In Japan versuchte der mächtige Herrscher Toyotomi Hideyoshi, seine Macht noch weiter auszudehnen. Zwischen 1592 und 1598 führte er zwei große Feldzüge gegen Korea. Diese Kriege waren blutig und brachten viel Leid, endeten aber ohne dauerhaften Erfolg. Nach Hideyoshis Tod im Jahr 1598 begann in Japan ein neuer Machtkampf, aus dem bald eine neue Herrscherfamilie hervorgehen sollte.
+
+In Indien stand das Mogulreich unter dem großen Kaiser Akbar auf dem Höhepunkt seiner Blüte. Akbar hatte ein riesiges, reiches und gut verwaltetes Reich geschaffen, in dem verschiedene Religionen einigermaßen friedlich zusammenlebten.
+
+In England neigte sich die lange Regierung der Königin Elisabeth I. langsam ihrem Ende zu. Es war eine goldene Zeit für England gewesen, mit großen Seefahrern, wachsendem Reichtum und berühmten Dichtern wie William Shakespeare, der in diesen Jahren seine großen Theaterstücke schrieb.
+
+Am Ende des Jahrhunderts geschah in England noch etwas, das für die Zukunft sehr wichtig werden sollte. Im Jahr 1600 gründeten englische Kaufleute die Englische Ostindien-Kompanie, eine Handelsgesellschaft, die mit Asien Handel treiben sollte. Aus solchen Handelsgesellschaften sollten später gewaltige Kolonialreiche entstehen.
+
+Im Osmanischen Reich, in China und in Amerika ging das Leben weiter. Überall auf der Welt waren große Reiche und Mächte in Bewegung. Die Welt am Ende des 16. Jahrhunderts war schon viel enger verbunden als je zuvor. Schiffe, Handel und Ideen reisten nun über alle Ozeane.
+
+So endet unsere Reise durch das 16. Jahrhundert in einer Welt im Wandel. Alte Kriege gingen zu Ende, neue Mächte stiegen auf, und Europa begann, seine Fühler in alle Teile der Welt auszustrecken. Es war der Beginn einer neuen, modernen Zeit, in der die Geschichte der einzelnen Länder immer mehr zu einer gemeinsamen Weltgeschichte zusammenwuchs.`,
+    translations: {
+      "der Aufstieg": "the rise",
+      "zusammenwuchs": "grew together",
+      "blutigen": "bloody",
+      "die Religionskriege": "the wars of religion",
+      "trat über": "converted",
+      "der Glaube": "faith",
+      "schaffen": "to create",
+      "erließ": "issued / enacted",
+      "das Gesetz": "the law",
+      "das Edikt": "the edict",
+      "gewährte": "granted",
+      "das Recht": "the right",
+      "ausüben": "to practise",
+      "eine gewisse": "a certain",
+      "die Toleranz": "tolerance",
+      "ausdehnen": "to extend / expand",
+      "die Feldzüge": "the military campaigns",
+      "das Leid": "suffering",
+      "dauerhaften": "lasting",
+      "der Machtkampf": "the power struggle",
+      "hervorgehen": "to emerge",
+      "der Höhepunkt": "the peak",
+      "die Blüte": "the bloom / flowering",
+      "verwaltetes": "administered",
+      "einigermaßen": "reasonably",
+      "neigte sich zu": "was drawing towards",
+      "die Dichter": "the poets",
+      "die Theaterstücke": "the plays",
+      "die Kaufleute": "the merchants",
+      "die Ostindien-Kompanie": "the East India Company",
+      "die Handelsgesellschaft": "the trading company",
+      "die Kolonialreiche": "the colonial empires",
+      "in Bewegung": "in motion",
+      "verbunden": "connected",
+      "im Wandel": "in transition",
+      "die Fühler ausstrecken": "to reach out / extend feelers",
+    }
+  },
 ];
